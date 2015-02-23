@@ -1,0 +1,1289 @@
+
+*****************************************************************************
+Feb 20,2015 00:50:19 [info]   Execution Started of Test Class com.iCM.scripts.AddEditMedicationSchedule and Test method testAddEditMedicationSchedule
+*****************************************************************************
+Feb 20,2015 00:50:19 [info]  Open application url
+Feb 20,2015 00:52:17 [info]  Pass
+Feb 20,2015 00:52:17 [info]  Verify Page title
+Feb 20,2015 00:52:22 [info]  Pass
+Feb 20,2015 00:52:22 [info]  Enter User name at login page.
+Feb 20,2015 00:52:23 [info]  Pass
+Feb 20,2015 00:52:23 [info]  Enter password at login page.
+Feb 20,2015 00:52:23 [info]  Pass
+Feb 20,2015 00:52:23 [info]  Click on Sign In button
+Feb 20,2015 00:54:42 [info]  Pass
+Feb 20,2015 00:54:42 [info]  Verify home page title
+Feb 20,2015 00:54:47 [info]  Pass
+Feb 20,2015 00:54:47 [info]  Open Add resident form via deep link
+Feb 20,2015 00:55:03 [info]  Feb 20,2015 00:55:03 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '2.41.0', revision: '3192d8a', time: '2014-03-27 17:17:32'
+System info: host: 'user-PC', ip: '192.168.21.1', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_20'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:589)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:300)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.to(RemoteWebDriver.java:842)
+	at com.iCM.util.DriverTestCase.visit(DriverTestCase.java:148)
+	at com.iCM.scripts.AddEditMedicationSchedule.testAddEditMedicationSchedule(AddEditMedicationSchedule.java:64)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:117)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:178)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:131)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:863)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:72)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:57)
+	at org.openqa.selenium.remote.HttpCommandExecutor.fallBackExecute(HttpCommandExecutor.java:340)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:301)
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.execute(NewProfileExtensionConnection.java:165)
+	at org.openqa.selenium.firefox.FirefoxDriver$LazyCommandExecutor.execute(FirefoxDriver.java:362)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:568)
+	... 28 more
+Feb 20,2015 00:55:03 [info]  End Execution of Test Class com.iCM.scripts.AddEditMedicationSchedule
+*****************************************************************************
+
+*****************************************************************************
+Feb 20,2015 21:15:56 [info]   Execution Started of Test Class com.iCM.scripts.AddEditMedicationSchedule and Test method testAddEditMedicationSchedule
+*****************************************************************************
+Feb 20,2015 21:15:56 [info]  Open application url
+Feb 20,2015 21:16:14 [info]  Pass
+Feb 20,2015 21:16:14 [info]  Verify Page title
+Feb 20,2015 21:16:19 [info]  Pass
+Feb 20,2015 21:16:19 [info]  Enter User name at login page.
+Feb 20,2015 21:16:21 [info]  Pass
+Feb 20,2015 21:16:21 [info]  Enter password at login page.
+Feb 20,2015 21:16:22 [info]  Pass
+Feb 20,2015 21:16:22 [info]  Click on Sign In button
+Feb 20,2015 21:16:40 [info]  Pass
+Feb 20,2015 21:16:40 [info]  Verify home page title
+Feb 20,2015 21:16:45 [info]  Pass
+Feb 20,2015 21:16:45 [info]  Open Add resident form via deep link
+Feb 20,2015 21:16:59 [info]  Pass
+Feb 20,2015 21:16:59 [info]  Enter Resident First Name
+Feb 20,2015 21:17:03 [info]  Pass
+Feb 20,2015 21:17:03 [info]  Enter Middle name
+Feb 20,2015 21:17:06 [info]  Pass
+Feb 20,2015 21:17:06 [info]  Enter last name
+Feb 20,2015 21:17:09 [info]  Pass
+Feb 20,2015 21:17:09 [info]  Open 'Calender'
+Feb 20,2015 21:17:11 [info]  Pass
+Feb 20,2015 21:17:16 [info]  Select Year
+Feb 20,2015 21:17:23 [info]  Pass
+Feb 20,2015 21:17:26 [info]  Select date
+Feb 20,2015 21:17:28 [info]  Pass
+Feb 20,2015 21:17:28 [info]  Select gender
+Feb 20,2015 21:17:30 [info]  Pass
+Feb 20,2015 21:17:30 [info]  Select Marital Status
+Feb 20,2015 21:17:31 [info]  Pass
+Feb 20,2015 21:17:31 [info]  Open 'Calender' for admit date
+Feb 20,2015 21:17:33 [info]  Pass
+Feb 20,2015 21:17:36 [info]  Select Year
+Feb 20,2015 21:17:43 [info]  Pass
+Feb 20,2015 21:17:43 [info]  Select Month
+Feb 20,2015 21:17:44 [info]  Pass
+Feb 20,2015 21:17:44 [info]  Select date
+Feb 20,2015 21:17:47 [info]  Pass
+Feb 20,2015 21:17:47 [info]  Select Facality
+Feb 20,2015 21:17:48 [info]  Pass
+Feb 20,2015 21:17:51 [info]  Select Nurse
+Feb 20,2015 21:17:53 [info]  Pass
+Feb 20,2015 21:17:53 [info]  Enter level of care
+Feb 20,2015 21:17:57 [info]  Pass
+Feb 20,2015 21:17:57 [info]  Click on 'Save' button
+Feb 20,2015 21:18:00 [info]  Pass
+Feb 20,2015 21:18:00 [info]  Search Added resident
+Feb 20,2015 21:18:06 [info]  Pass
+Feb 20,2015 21:18:06 [info]  Verify added resident
+Feb 20,2015 21:18:09 [info]  Pass
+Feb 20,2015 21:18:09 [info]  Open resident Profile
+Feb 20,2015 21:18:12 [info]  Pass
+Feb 20,2015 21:18:16 [info]  Click on Medication button
+Feb 20,2015 21:18:19 [info]  Pass
+Feb 20,2015 21:18:19 [info]  Click on Add Medication button
+Feb 20,2015 21:18:35 [info]  Pass
+Feb 20,2015 21:18:35 [info]  Enter Medicine Name
+Feb 20,2015 21:18:47 [info]  Pass
+Feb 20,2015 21:18:48 [info]  Enter Dosage
+Feb 20,2015 21:18:51 [info]  Pass
+Feb 20,2015 21:18:51 [info]  Enter instruction
+Feb 20,2015 21:18:55 [info]  Pass
+Feb 20,2015 21:18:55 [info]  Open 'Calender'
+Feb 20,2015 21:18:59 [info]  Pass
+Feb 20,2015 21:19:02 [info]  Select date
+Feb 20,2015 21:19:05 [info]  Pass
+Feb 20,2015 21:19:05 [info]  Select time
+Feb 20,2015 21:19:07 [info]  Pass
+Feb 20,2015 21:19:07 [info]  Select AM/PM
+Feb 20,2015 21:19:08 [info]  Pass
+Feb 20,2015 21:19:08 [info]  Click on Add Schedule button
+Feb 20,2015 21:19:11 [info]  Pass
+Feb 20,2015 21:19:11 [info]  Verify Added Schedule
+Feb 20,2015 21:19:12 [info]  Pass
+Feb 20,2015 21:19:12 [info]  Select time
+Feb 20,2015 21:19:13 [info]  Pass
+Feb 20,2015 21:19:13 [info]  Select AM/PM
+Feb 20,2015 21:19:14 [info]  Pass
+Feb 20,2015 21:19:14 [info]  Click on Add Schedule button
+Feb 20,2015 21:19:18 [info]  Pass
+Feb 20,2015 21:19:18 [info]  Verify Added Schedule
+Feb 20,2015 21:19:18 [info]  Pass
+Feb 20,2015 21:19:18 [info]  Select time
+Feb 20,2015 21:19:20 [info]  Pass
+Feb 20,2015 21:19:20 [info]  Select AM/PM
+Feb 20,2015 21:19:21 [info]  Pass
+Feb 20,2015 21:19:21 [info]  Click on Add Schedule button
+Feb 20,2015 21:19:24 [info]  Pass
+Feb 20,2015 21:19:24 [info]  Verify Added Schedule
+Feb 20,2015 21:19:24 [info]  Pass
+Feb 20,2015 21:19:24 [info]  Click on Save button
+Feb 20,2015 21:19:43 [info]  Pass
+Feb 20,2015 21:19:58 [info]  Open Medication page
+Feb 20,2015 21:20:10 [info]  Pass
+Feb 20,2015 21:20:10 [info]  Click on EMR Tab
+Feb 20,2015 21:20:14 [info]  Pass
+Feb 20,2015 21:20:14 [info]  Click on 'Morning' tab
+Feb 20,2015 21:20:38 [info]  Pass
+Feb 20,2015 21:20:38 [info]  Click on 'Expend' button
+Feb 20,2015 21:20:41 [info]  Pass
+Feb 20,2015 21:20:41 [info]  Verify Added Schedule
+Feb 20,2015 21:20:42 [info]  Pass
+Feb 20,2015 21:20:42 [info]  Click on Expend button
+Feb 20,2015 21:20:46 [info]  Pass
+Feb 20,2015 21:20:46 [info]  Verify Starting Blackout
+Feb 20,2015 21:20:52 [info]  Pass
+Feb 20,2015 21:20:52 [info]  Click on 'Noon' tab
+Feb 20,2015 21:20:56 [info]  Pass
+Feb 20,2015 21:20:56 [info]  Verify Added Schedule
+Feb 20,2015 21:20:58 [info]  Pass
+Feb 20,2015 21:20:58 [info]  Click on Expend button
+Feb 20,2015 21:21:02 [info]  Pass
+Feb 20,2015 21:21:02 [info]  Verify Starting Blackout
+Feb 20,2015 21:21:08 [info]  Pass
+Feb 20,2015 21:21:08 [info]  Click on 'Evening' tab
+Feb 20,2015 21:21:12 [info]  Pass
+Feb 20,2015 21:21:12 [info]  Verify Added Schedule
+Feb 20,2015 21:21:14 [info]  Pass
+Feb 20,2015 21:21:14 [info]  Click on Expend button
+Feb 20,2015 21:21:18 [info]  Pass
+Feb 20,2015 21:21:18 [info]  Verify Starting Blackout
+Feb 20,2015 21:21:25 [info]  Pass
+Feb 20,2015 21:21:25 [info]  Open Medication page
+Feb 20,2015 21:21:37 [info]  Pass
+Feb 20,2015 21:21:37 [info]  Click on View button
+Feb 20,2015 21:21:41 [info]  Pass
+Feb 20,2015 21:21:41 [info]  Click on Edit button
+Feb 20,2015 21:21:54 [info]  Pass
+Feb 20,2015 21:21:59 [info]  Remove scheduled time
+Feb 20,2015 21:22:04 [info]  Pass
+Feb 20,2015 21:22:04 [info]  Uncheck Sunday
+Feb 20,2015 21:22:06 [info]  Pass
+Feb 20,2015 21:22:06 [info]  Uncheck Wednesday
+Feb 20,2015 21:22:06 [info]  Pass
+Feb 20,2015 21:22:06 [info]  Click on 'Scheduled Calender'
+Feb 20,2015 21:22:10 [info]  Pass
+Feb 20,2015 21:22:15 [info]  Select Date'
+Feb 20,2015 21:22:21 [info]  Pass
+Feb 20,2015 21:22:21 [info]  Select time
+Feb 20,2015 21:22:23 [info]  Pass
+Feb 20,2015 21:22:23 [info]  Select AM/PM
+Feb 20,2015 21:22:24 [info]  Pass
+Feb 20,2015 21:22:24 [info]  Click on Add Schedule button
+Feb 20,2015 21:22:27 [info]  Pass
+Feb 20,2015 21:22:27 [info]  Select time
+Feb 20,2015 21:22:29 [info]  Pass
+Feb 20,2015 21:22:29 [info]  Select AM/PM
+Feb 20,2015 21:22:30 [info]  Pass
+Feb 20,2015 21:22:30 [info]  Click on Add Schedule button
+Feb 20,2015 21:22:34 [info]  Pass
+Feb 20,2015 21:22:34 [info]  Select time
+Feb 20,2015 21:22:36 [info]  Pass
+Feb 20,2015 21:22:36 [info]  Select AM/PM
+Feb 20,2015 21:22:37 [info]  Pass
+Feb 20,2015 21:22:37 [info]  Click on Add Schedule button
+Feb 20,2015 21:22:40 [info]  Pass
+Feb 20,2015 21:22:40 [info]  Click on Save button
+Feb 20,2015 21:22:57 [info]  Pass
+Feb 20,2015 21:22:57 [info]  Open Medication page
+Feb 20,2015 21:23:09 [info]  Pass
+Feb 20,2015 21:23:09 [info]  Click on EMR Tab
+Feb 20,2015 21:23:13 [info]  Pass
+Feb 20,2015 21:23:13 [info]  Click on 'Morning' tab
+Feb 20,2015 21:23:28 [info]  Pass
+Feb 20,2015 21:23:28 [info]  Verify Added Schedule
+Feb 20,2015 21:23:28 [info]  Pass
+Feb 20,2015 21:23:28 [info]  Click on Expend button
+Feb 20,2015 21:23:32 [info]  Pass
+Feb 20,2015 21:23:32 [info]  Verify New Scheduled Blackout
+Feb 20,2015 21:23:34 [info]  Feb 20,2015 21:23:34 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at com.iCM.pagehelper.EChartHelper.verifyBlackBlocks(EChartHelper.java:176)
+	at com.iCM.scripts.AddEditMedicationSchedule.testAddEditMedicationSchedule(AddEditMedicationSchedule.java:485)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Feb 20,2015 21:23:34 [info]  End Execution of Test Class com.iCM.scripts.AddEditMedicationSchedule
+*****************************************************************************
+
+*****************************************************************************
+Feb 20,2015 21:25:56 [info]   Execution Started of Test Class com.iCM.scripts.AddEditMedicationSchedule and Test method testAddEditMedicationSchedule
+*****************************************************************************
+Feb 20,2015 21:25:56 [info]  Open application url
+Feb 20,2015 21:26:10 [info]  Pass
+Feb 20,2015 21:26:10 [info]  Verify Page title
+Feb 20,2015 21:26:15 [info]  Pass
+Feb 20,2015 21:26:15 [info]  Enter User name at login page.
+Feb 20,2015 21:26:16 [info]  Pass
+Feb 20,2015 21:26:16 [info]  Enter password at login page.
+Feb 20,2015 21:26:17 [info]  Pass
+Feb 20,2015 21:26:17 [info]  Click on Sign In button
+Feb 20,2015 21:26:34 [info]  Pass
+Feb 20,2015 21:26:34 [info]  Verify home page title
+Feb 20,2015 21:26:40 [info]  Pass
+Feb 20,2015 21:26:40 [info]  Open Add resident form via deep link
+Feb 20,2015 21:26:50 [info]  Pass
+Feb 20,2015 21:26:50 [info]  Enter Resident First Name
+Feb 20,2015 21:26:53 [info]  Pass
+Feb 20,2015 21:26:53 [info]  Enter Middle name
+Feb 20,2015 21:26:57 [info]  Pass
+Feb 20,2015 21:26:57 [info]  Enter last name
+Feb 20,2015 21:27:00 [info]  Pass
+Feb 20,2015 21:27:00 [info]  Open 'Calender'
+Feb 20,2015 21:27:02 [info]  Pass
+Feb 20,2015 21:27:07 [info]  Select Year
+Feb 20,2015 21:27:13 [info]  Pass
+Feb 20,2015 21:27:16 [info]  Select date
+Feb 20,2015 21:27:19 [info]  Pass
+Feb 20,2015 21:27:19 [info]  Select gender
+Feb 20,2015 21:27:20 [info]  Pass
+Feb 20,2015 21:27:20 [info]  Select Marital Status
+Feb 20,2015 21:27:22 [info]  Pass
+Feb 20,2015 21:27:22 [info]  Open 'Calender' for admit date
+Feb 20,2015 21:27:23 [info]  Pass
+Feb 20,2015 21:27:26 [info]  Select Year
+Feb 20,2015 21:27:33 [info]  Pass
+Feb 20,2015 21:27:33 [info]  Select Month
+Feb 20,2015 21:27:34 [info]  Pass
+Feb 20,2015 21:27:34 [info]  Select date
+Feb 20,2015 21:27:37 [info]  Pass
+Feb 20,2015 21:27:37 [info]  Select Facality
+Feb 20,2015 21:27:38 [info]  Pass
+Feb 20,2015 21:27:41 [info]  Select Nurse
+Feb 20,2015 21:27:43 [info]  Pass
+Feb 20,2015 21:27:43 [info]  Enter level of care
+Feb 20,2015 21:27:46 [info]  Pass
+Feb 20,2015 21:27:46 [info]  Click on 'Save' button
+Feb 20,2015 21:27:50 [info]  Pass
+Feb 20,2015 21:27:50 [info]  Search Added resident
+Feb 20,2015 21:27:56 [info]  Pass
+Feb 20,2015 21:27:56 [info]  Verify added resident
+Feb 20,2015 21:27:59 [info]  Pass
+Feb 20,2015 21:27:59 [info]  Open resident Profile
+Feb 20,2015 21:28:03 [info]  Pass
+Feb 20,2015 21:28:07 [info]  Click on Medication button
+Feb 20,2015 21:28:10 [info]  Pass
+Feb 20,2015 21:28:10 [info]  Click on Add Medication button
+Feb 20,2015 21:28:23 [info]  Pass
+Feb 20,2015 21:28:23 [info]  Enter Medicine Name
+Feb 20,2015 21:28:33 [info]  Pass
+Feb 20,2015 21:28:33 [info]  Enter Dosage
+Feb 20,2015 21:28:36 [info]  Pass
+Feb 20,2015 21:28:36 [info]  Enter instruction
+Feb 20,2015 21:28:40 [info]  Pass
+Feb 20,2015 21:28:40 [info]  Open 'Calender'
+Feb 20,2015 21:28:44 [info]  Pass
+Feb 20,2015 21:28:47 [info]  Select date
+Feb 20,2015 21:28:51 [info]  Pass
+Feb 20,2015 21:28:51 [info]  Select time
+Feb 20,2015 21:28:52 [info]  Pass
+Feb 20,2015 21:28:52 [info]  Select AM/PM
+Feb 20,2015 21:28:53 [info]  Pass
+Feb 20,2015 21:28:53 [info]  Click on Add Schedule button
+Feb 20,2015 21:28:57 [info]  Pass
+Feb 20,2015 21:28:57 [info]  Verify Added Schedule
+Feb 20,2015 21:28:57 [info]  Pass
+Feb 20,2015 21:28:57 [info]  Select time
+Feb 20,2015 21:28:58 [info]  Pass
+Feb 20,2015 21:28:58 [info]  Select AM/PM
+Feb 20,2015 21:28:59 [info]  Pass
+Feb 20,2015 21:28:59 [info]  Click on Add Schedule button
+Feb 20,2015 21:29:03 [info]  Pass
+Feb 20,2015 21:29:03 [info]  Verify Added Schedule
+Feb 20,2015 21:29:03 [info]  Pass
+Feb 20,2015 21:29:03 [info]  Select time
+Feb 20,2015 21:29:04 [info]  Pass
+Feb 20,2015 21:29:04 [info]  Select AM/PM
+Feb 20,2015 21:29:05 [info]  Pass
+Feb 20,2015 21:29:05 [info]  Click on Add Schedule button
+Feb 20,2015 21:29:09 [info]  Pass
+Feb 20,2015 21:29:09 [info]  Verify Added Schedule
+Feb 20,2015 21:29:09 [info]  Pass
+Feb 20,2015 21:29:09 [info]  Click on Save button
+Feb 20,2015 21:29:27 [info]  Pass
+Feb 20,2015 21:29:42 [info]  Open Medication page
+Feb 20,2015 21:29:55 [info]  Pass
+Feb 20,2015 21:29:55 [info]  Click on EMR Tab
+Feb 20,2015 21:29:59 [info]  Pass
+Feb 20,2015 21:29:59 [info]  Click on 'Morning' tab
+Feb 20,2015 21:30:27 [info]  Pass
+Feb 20,2015 21:30:27 [info]  Click on 'Expend' button
+Feb 20,2015 21:30:30 [info]  Pass
+Feb 20,2015 21:30:30 [info]  Verify Added Schedule
+Feb 20,2015 21:30:31 [info]  Pass
+Feb 20,2015 21:30:31 [info]  Click on Expend button
+Feb 20,2015 21:30:35 [info]  Pass
+Feb 20,2015 21:30:35 [info]  Verify Starting Blackout
+Feb 20,2015 21:30:41 [info]  Pass
+Feb 20,2015 21:30:41 [info]  Click on 'Noon' tab
+Feb 20,2015 21:30:45 [info]  Pass
+Feb 20,2015 21:30:45 [info]  Verify Added Schedule
+Feb 20,2015 21:30:47 [info]  Pass
+Feb 20,2015 21:30:47 [info]  Click on Expend button
+Feb 20,2015 21:30:51 [info]  Pass
+Feb 20,2015 21:30:51 [info]  Verify Starting Blackout
+Feb 20,2015 21:30:57 [info]  Pass
+Feb 20,2015 21:30:57 [info]  Click on 'Evening' tab
+Feb 20,2015 21:31:01 [info]  Pass
+Feb 20,2015 21:31:01 [info]  Verify Added Schedule
+Feb 20,2015 21:31:03 [info]  Pass
+Feb 20,2015 21:31:03 [info]  Click on Expend button
+Feb 20,2015 21:31:07 [info]  Pass
+Feb 20,2015 21:31:07 [info]  Verify Starting Blackout
+Feb 20,2015 21:31:13 [info]  Pass
+Feb 20,2015 21:31:13 [info]  Open Medication page
+Feb 20,2015 21:31:26 [info]  Pass
+Feb 20,2015 21:31:26 [info]  Click on View button
+Feb 20,2015 21:31:30 [info]  Pass
+Feb 20,2015 21:31:30 [info]  Click on Edit button
+Feb 20,2015 21:31:42 [info]  Pass
+Feb 20,2015 21:31:47 [info]  Remove scheduled time
+Feb 20,2015 21:31:57 [info]  Pass
+Feb 20,2015 21:31:57 [info]  Uncheck Sunday
+Feb 20,2015 21:31:58 [info]  Pass
+Feb 20,2015 21:31:58 [info]  Uncheck Wednesday
+Feb 20,2015 21:31:59 [info]  Pass
+Feb 20,2015 21:31:59 [info]  Click on 'Scheduled Calender'
+Feb 20,2015 21:32:03 [info]  Pass
+Feb 20,2015 21:32:08 [info]  Select Date'
+Feb 20,2015 21:32:14 [info]  Pass
+Feb 20,2015 21:32:14 [info]  Select time
+Feb 20,2015 21:32:16 [info]  Pass
+Feb 20,2015 21:32:16 [info]  Select AM/PM
+Feb 20,2015 21:32:16 [info]  Pass
+Feb 20,2015 21:32:17 [info]  Click on Add Schedule button
+Feb 20,2015 21:32:20 [info]  Pass
+Feb 20,2015 21:32:20 [info]  Select time
+Feb 20,2015 21:32:22 [info]  Pass
+Feb 20,2015 21:32:22 [info]  Select AM/PM
+Feb 20,2015 21:32:23 [info]  Pass
+Feb 20,2015 21:32:23 [info]  Click on Add Schedule button
+Feb 20,2015 21:32:27 [info]  Pass
+Feb 20,2015 21:32:27 [info]  Select time
+Feb 20,2015 21:32:28 [info]  Pass
+Feb 20,2015 21:32:28 [info]  Select AM/PM
+Feb 20,2015 21:32:29 [info]  Pass
+Feb 20,2015 21:32:29 [info]  Click on Add Schedule button
+Feb 20,2015 21:32:33 [info]  Pass
+Feb 20,2015 21:32:33 [info]  Click on Save button
+Feb 20,2015 21:32:49 [info]  Pass
+Feb 20,2015 21:32:49 [info]  Open Medication page
+Feb 20,2015 21:33:02 [info]  Pass
+Feb 20,2015 21:33:02 [info]  Click on EMR Tab
+Feb 20,2015 21:33:05 [info]  Pass
+Feb 20,2015 21:33:05 [info]  Click on 'Morning' tab
+Feb 20,2015 21:33:24 [info]  Pass
+Feb 20,2015 21:33:24 [info]  Verify Added Schedule
+Feb 20,2015 21:33:24 [info]  Pass
+Feb 20,2015 21:33:24 [info]  Click on Expend button
+Feb 20,2015 21:33:27 [info]  Pass
+Feb 20,2015 21:33:27 [info]  Verify New Scheduled Blackout
+Feb 20,2015 21:33:31 [info]  Feb 20,2015 21:33:31 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at com.iCM.pagehelper.EChartHelper.verifyBlackBlocks(EChartHelper.java:176)
+	at com.iCM.scripts.AddEditMedicationSchedule.testAddEditMedicationSchedule(AddEditMedicationSchedule.java:485)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Feb 20,2015 21:33:31 [info]  End Execution of Test Class com.iCM.scripts.AddEditMedicationSchedule
+*****************************************************************************
+
+*****************************************************************************
+Feb 20,2015 21:38:02 [info]   Execution Started of Test Class com.iCM.scripts.AAAA and Test method testAddEditMedicationSchedule
+*****************************************************************************
+Feb 20,2015 21:38:02 [info]  Open application url
+Feb 20,2015 21:38:16 [info]  Pass
+Feb 20,2015 21:38:16 [info]  Verify Page title
+Feb 20,2015 21:38:21 [info]  Pass
+Feb 20,2015 21:38:21 [info]  Enter User name at login page.
+Feb 20,2015 21:38:21 [info]  Pass
+Feb 20,2015 21:38:21 [info]  Enter password at login page.
+Feb 20,2015 21:38:22 [info]  Pass
+Feb 20,2015 21:38:22 [info]  Click on Sign In button
+Feb 20,2015 21:38:42 [info]  Pass
+Feb 20,2015 21:38:42 [info]  Verify home page title
+Feb 20,2015 21:38:47 [info]  Pass
+Feb 20,2015 21:38:47 [info]  Open Medication page
+Feb 20,2015 21:39:00 [info]  Pass
+Feb 20,2015 21:39:00 [info]  Click on View button
+Feb 20,2015 21:39:04 [info]  Pass
+Feb 20,2015 21:39:04 [info]  Click on Edit button
+Feb 20,2015 21:39:18 [info]  Pass
+Feb 20,2015 21:39:23 [info]  Remove scheduled time
+Feb 20,2015 21:39:29 [info]  Pass
+Feb 20,2015 21:39:29 [info]  End Execution of Test Class com.iCM.scripts.AAAA
+*****************************************************************************
+
+*****************************************************************************
+Feb 20,2015 21:42:52 [info]   Execution Started of Test Class com.iCM.scripts.AAAA and Test method testAddEditMedicationSchedule
+*****************************************************************************
+Feb 20,2015 21:42:52 [info]  Open application url
+Feb 20,2015 21:43:06 [info]  Pass
+Feb 20,2015 21:43:06 [info]  Verify Page title
+Feb 20,2015 21:43:11 [info]  Pass
+Feb 20,2015 21:43:11 [info]  Enter User name at login page.
+Feb 20,2015 21:43:12 [info]  Pass
+Feb 20,2015 21:43:12 [info]  Enter password at login page.
+Feb 20,2015 21:43:13 [info]  Pass
+Feb 20,2015 21:43:13 [info]  Click on Sign In button
+Feb 20,2015 21:43:29 [info]  Pass
+Feb 20,2015 21:43:29 [info]  Verify home page title
+Feb 20,2015 21:43:34 [info]  Pass
+Feb 20,2015 21:43:34 [info]  Open Medication page
+Feb 20,2015 21:43:49 [info]  Pass
+Feb 20,2015 21:43:49 [info]  Click on View button
+Feb 20,2015 21:43:53 [info]  Pass
+Feb 20,2015 21:43:53 [info]  Click on Edit button
+Feb 20,2015 21:44:06 [info]  Pass
+Feb 20,2015 21:44:11 [info]  Remove scheduled time
+Feb 20,2015 21:44:27 [info]  Pass
+Feb 20,2015 21:44:27 [info]  Select Date'
+
+*****************************************************************************
+Feb 20,2015 21:45:07 [info]   Execution Started of Test Class com.iCM.scripts.AddEditMedicationSchedule and Test method testAddEditMedicationSchedule
+*****************************************************************************
+Feb 20,2015 21:45:07 [info]  Open application url
+Feb 20,2015 21:45:21 [info]  Pass
+Feb 20,2015 21:45:21 [info]  Verify Page title
+Feb 20,2015 21:45:26 [info]  Pass
+Feb 20,2015 21:45:26 [info]  Enter User name at login page.
+Feb 20,2015 21:45:27 [info]  Feb 20,2015 21:45:27 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: Element Locator :link=20 Not found expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.iCM.util.DriverHelper.clickOn(DriverHelper.java:251)
+	at com.iCM.pagehelper.EChartHelper.selectDate(EChartHelper.java:77)
+	at com.iCM.scripts.AAAA.testAddEditMedicationSchedule(AAAA.java:85)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Feb 20,2015 21:45:27 [info]  End Execution of Test Class com.iCM.scripts.AAAA
+*****************************************************************************
+Feb 20,2015 21:45:27 [info]  Pass
+Feb 20,2015 21:45:27 [info]  Enter password at login page.
+Feb 20,2015 21:45:29 [info]  Pass
+Feb 20,2015 21:45:29 [info]  Click on Sign In button
+Feb 20,2015 21:45:45 [info]  Pass
+Feb 20,2015 21:45:45 [info]  Verify home page title
+Feb 20,2015 21:45:50 [info]  Pass
+Feb 20,2015 21:45:50 [info]  Open Add resident form via deep link
+Feb 20,2015 21:46:03 [info]  Pass
+Feb 20,2015 21:46:03 [info]  Enter Resident First Name
+Feb 20,2015 21:46:06 [info]  Pass
+Feb 20,2015 21:46:06 [info]  Enter Middle name
+Feb 20,2015 21:46:10 [info]  Pass
+Feb 20,2015 21:46:10 [info]  Enter last name
+Feb 20,2015 21:46:13 [info]  Pass
+Feb 20,2015 21:46:13 [info]  Open 'Calender'
+Feb 20,2015 21:46:15 [info]  Pass
+Feb 20,2015 21:46:20 [info]  Select Year
+Feb 20,2015 21:46:26 [info]  Pass
+Feb 20,2015 21:46:29 [info]  Select date
+Feb 20,2015 21:46:32 [info]  Pass
+Feb 20,2015 21:46:32 [info]  Select gender
+Feb 20,2015 21:46:33 [info]  Pass
+Feb 20,2015 21:46:33 [info]  Select Marital Status
+Feb 20,2015 21:46:35 [info]  Pass
+Feb 20,2015 21:46:35 [info]  Open 'Calender' for admit date
+Feb 20,2015 21:46:37 [info]  Pass
+Feb 20,2015 21:46:40 [info]  Select Year
+Feb 20,2015 21:46:53 [info]  Pass
+Feb 20,2015 21:46:53 [info]  Select Month
+Feb 20,2015 21:46:55 [info]  Pass
+Feb 20,2015 21:46:55 [info]  Select date
+Feb 20,2015 21:46:57 [info]  Pass
+Feb 20,2015 21:46:57 [info]  Select Facality
+Feb 20,2015 21:46:59 [info]  Pass
+Feb 20,2015 21:47:02 [info]  Select Nurse
+Feb 20,2015 21:47:03 [info]  Pass
+Feb 20,2015 21:47:03 [info]  Enter level of care
+Feb 20,2015 21:47:07 [info]  Pass
+Feb 20,2015 21:47:07 [info]  Click on 'Save' button
+Feb 20,2015 21:47:10 [info]  Pass
+Feb 20,2015 21:47:10 [info]  Search Added resident
+Feb 20,2015 21:47:16 [info]  Pass
+Feb 20,2015 21:47:16 [info]  Verify added resident
+Feb 20,2015 21:47:19 [info]  Pass
+Feb 20,2015 21:47:19 [info]  Open resident Profile
+Feb 20,2015 21:47:22 [info]  Pass
+Feb 20,2015 21:47:25 [info]  Click on Medication button
+Feb 20,2015 21:47:29 [info]  Pass
+Feb 20,2015 21:47:29 [info]  Click on Add Medication button
+Feb 20,2015 21:47:44 [info]  Pass
+Feb 20,2015 21:47:44 [info]  Enter Medicine Name
+Feb 20,2015 21:47:54 [info]  Pass
+Feb 20,2015 21:47:54 [info]  Enter Dosage
+Feb 20,2015 21:47:58 [info]  Pass
+Feb 20,2015 21:47:58 [info]  Enter instruction
+Feb 20,2015 21:48:01 [info]  Pass
+Feb 20,2015 21:48:01 [info]  Open 'Calender'
+Feb 20,2015 21:48:05 [info]  Pass
+Feb 20,2015 21:48:08 [info]  Select date
+Feb 20,2015 21:48:11 [info]  Pass
+Feb 20,2015 21:48:11 [info]  Select time
+Feb 20,2015 21:48:13 [info]  Pass
+Feb 20,2015 21:48:13 [info]  Select AM/PM
+Feb 20,2015 21:48:14 [info]  Pass
+Feb 20,2015 21:48:14 [info]  Click on Add Schedule button
+Feb 20,2015 21:48:17 [info]  Pass
+Feb 20,2015 21:48:17 [info]  Verify Added Schedule
+Feb 20,2015 21:48:18 [info]  Pass
+Feb 20,2015 21:48:18 [info]  Select time
+Feb 20,2015 21:48:19 [info]  Pass
+Feb 20,2015 21:48:19 [info]  Select AM/PM
+Feb 20,2015 21:48:20 [info]  Pass
+Feb 20,2015 21:48:20 [info]  Click on Add Schedule button
+Feb 20,2015 21:48:24 [info]  Pass
+Feb 20,2015 21:48:24 [info]  Verify Added Schedule
+Feb 20,2015 21:48:24 [info]  Pass
+Feb 20,2015 21:48:24 [info]  Select time
+Feb 20,2015 21:48:25 [info]  Pass
+Feb 20,2015 21:48:25 [info]  Select AM/PM
+Feb 20,2015 21:48:26 [info]  Pass
+Feb 20,2015 21:48:26 [info]  Click on Add Schedule button
+Feb 20,2015 21:48:30 [info]  Pass
+Feb 20,2015 21:48:30 [info]  Verify Added Schedule
+Feb 20,2015 21:48:30 [info]  Pass
+Feb 20,2015 21:48:30 [info]  Click on Save button
+Feb 20,2015 21:48:47 [info]  Pass
+Feb 20,2015 21:49:03 [info]  Open Medication page
+Feb 20,2015 21:49:15 [info]  Pass
+Feb 20,2015 21:49:15 [info]  Click on EMR Tab
+Feb 20,2015 21:49:18 [info]  Pass
+Feb 20,2015 21:49:18 [info]  Click on 'Morning' tab
+Feb 20,2015 21:49:34 [info]  Pass
+Feb 20,2015 21:49:34 [info]  Click on 'Expend' button
+Feb 20,2015 21:49:38 [info]  Pass
+Feb 20,2015 21:49:38 [info]  Verify Added Schedule
+Feb 20,2015 21:49:38 [info]  Pass
+Feb 20,2015 21:49:38 [info]  Click on Expend button
+Feb 20,2015 21:49:42 [info]  Pass
+Feb 20,2015 21:49:42 [info]  Verify Starting Blackout
+Feb 20,2015 21:49:48 [info]  Pass
+Feb 20,2015 21:49:48 [info]  Click on 'Noon' tab
+Feb 20,2015 21:49:52 [info]  Pass
+Feb 20,2015 21:49:52 [info]  Verify Added Schedule
+Feb 20,2015 21:49:54 [info]  Pass
+Feb 20,2015 21:49:54 [info]  Click on Expend button
+Feb 20,2015 21:49:58 [info]  Pass
+Feb 20,2015 21:49:58 [info]  Verify Starting Blackout
+Feb 20,2015 21:50:04 [info]  Pass
+Feb 20,2015 21:50:04 [info]  Click on 'Evening' tab
+Feb 20,2015 21:50:08 [info]  Pass
+Feb 20,2015 21:50:08 [info]  Verify Added Schedule
+Feb 20,2015 21:50:10 [info]  Pass
+Feb 20,2015 21:50:10 [info]  Click on Expend button
+Feb 20,2015 21:50:14 [info]  Pass
+Feb 20,2015 21:50:14 [info]  Verify Starting Blackout
+Feb 20,2015 21:50:20 [info]  Pass
+Feb 20,2015 21:50:20 [info]  Open Medication page
+Feb 20,2015 21:50:33 [info]  Pass
+Feb 20,2015 21:50:33 [info]  Click on View button
+Feb 20,2015 21:50:36 [info]  Pass
+Feb 20,2015 21:50:36 [info]  Click on Edit button
+Feb 20,2015 21:50:51 [info]  Pass
+Feb 20,2015 21:50:56 [info]  Remove scheduled time
+Feb 20,2015 21:51:02 [info]  Pass
+Feb 20,2015 21:51:02 [info]  Uncheck Sunday
+Feb 20,2015 21:51:03 [info]  Pass
+Feb 20,2015 21:51:03 [info]  Uncheck Wednesday
+Feb 20,2015 21:51:03 [info]  Pass
+Feb 20,2015 21:51:03 [info]  Click on 'Scheduled Calender'
+Feb 20,2015 21:51:08 [info]  Pass
+Feb 20,2015 21:51:13 [info]  Select Date'
+Feb 20,2015 21:51:19 [info]  Pass
+Feb 20,2015 21:51:19 [info]  Select time
+Feb 20,2015 21:51:21 [info]  Pass
+Feb 20,2015 21:51:21 [info]  Select AM/PM
+Feb 20,2015 21:51:22 [info]  Pass
+Feb 20,2015 21:51:22 [info]  Click on Add Schedule button
+Feb 20,2015 21:51:25 [info]  Pass
+Feb 20,2015 21:51:25 [info]  Select time
+Feb 20,2015 21:51:27 [info]  Pass
+Feb 20,2015 21:51:27 [info]  Select AM/PM
+
+*****************************************************************************
+Feb 20,2015 21:52:08 [info]   Execution Started of Test Class com.iCM.scripts.AAAA and Test method testAddEditMedicationSchedule
+*****************************************************************************
+Feb 20,2015 21:52:08 [info]  Open application url
+Feb 20,2015 21:52:23 [info]  Pass
+Feb 20,2015 21:52:23 [info]  Verify Page title
+Feb 20,2015 21:52:28 [info]  Pass
+Feb 20,2015 21:52:28 [info]  Enter User name at login page.
+Feb 20,2015 21:52:29 [info]  Pass
+Feb 20,2015 21:52:29 [info]  Enter password at login page.
+Feb 20,2015 21:52:30 [info]  Pass
+Feb 20,2015 21:52:30 [info]  Click on Sign In button
+Feb 20,2015 21:52:46 [info]  Pass
+Feb 20,2015 21:52:46 [info]  Verify home page title
+Feb 20,2015 21:52:51 [info]  Pass
+Feb 20,2015 21:52:51 [info]  Open Medication page
+Feb 20,2015 21:53:02 [info]  Pass
+Feb 20,2015 21:53:02 [info]  Click on View button
+Feb 20,2015 21:53:06 [info]  Pass
+Feb 20,2015 21:53:06 [info]  Click on Edit button
+Feb 20,2015 21:53:19 [info]  Pass
+Feb 20,2015 21:53:24 [info]  Remove scheduled time
+Feb 20,2015 21:53:38 [info]  Pass
+Feb 20,2015 21:53:38 [info]  Select Date'
+Feb 20,2015 21:54:39 [info]  Feb 20,2015 21:54:39 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: Element Locator :link=20 Not found expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.iCM.util.DriverHelper.clickOn(DriverHelper.java:251)
+	at com.iCM.pagehelper.EChartHelper.selectDate(EChartHelper.java:77)
+	at com.iCM.scripts.AAAA.testAddEditMedicationSchedule(AAAA.java:85)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Feb 20,2015 21:54:39 [info]  End Execution of Test Class com.iCM.scripts.AAAA
+*****************************************************************************
+
+*****************************************************************************
+Feb 20,2015 22:00:06 [info]   Execution Started of Test Class com.iCM.scripts.AAAA and Test method testAddEditMedicationSchedule
+*****************************************************************************
+Feb 20,2015 22:00:06 [info]  Open application url
+Feb 20,2015 22:00:20 [info]  Pass
+Feb 20,2015 22:00:20 [info]  Verify Page title
+Feb 20,2015 22:00:25 [info]  Pass
+Feb 20,2015 22:00:25 [info]  Enter User name at login page.
+Feb 20,2015 22:00:26 [info]  Pass
+Feb 20,2015 22:00:26 [info]  Enter password at login page.
+Feb 20,2015 22:00:27 [info]  Pass
+Feb 20,2015 22:00:27 [info]  Click on Sign In button
+Feb 20,2015 22:00:48 [info]  Pass
+Feb 20,2015 22:00:48 [info]  Verify home page title
+Feb 20,2015 22:00:53 [info]  Pass
+Feb 20,2015 22:00:53 [info]  Open Medication page
+Feb 20,2015 22:01:07 [info]  Pass
+Feb 20,2015 22:01:07 [info]  Click on View button
+Feb 20,2015 22:01:11 [info]  Pass
+Feb 20,2015 22:01:11 [info]  Click on Edit button
+Feb 20,2015 22:01:24 [info]  Pass
+Feb 20,2015 22:01:29 [info]  Remove scheduled time
+Feb 20,2015 22:01:45 [info]  Pass
+Feb 20,2015 22:01:45 [info]  Select Date'
+Feb 20,2015 22:02:45 [info]  Feb 20,2015 22:02:45 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: Element Locator :link=20 Not found expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.iCM.util.DriverHelper.clickOn(DriverHelper.java:251)
+	at com.iCM.pagehelper.EChartHelper.selectDate(EChartHelper.java:77)
+	at com.iCM.scripts.AAAA.testAddEditMedicationSchedule(AAAA.java:85)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Feb 20,2015 22:02:45 [info]  End Execution of Test Class com.iCM.scripts.AAAA
+*****************************************************************************
+
+*****************************************************************************
+Feb 20,2015 22:08:30 [info]   Execution Started of Test Class com.iCM.scripts.AAAA and Test method testAddEditMedicationSchedule
+*****************************************************************************
+Feb 20,2015 22:08:30 [info]  Open application url
+Feb 20,2015 22:08:47 [info]  Pass
+Feb 20,2015 22:08:47 [info]  Verify Page title
+Feb 20,2015 22:08:52 [info]  Pass
+Feb 20,2015 22:08:52 [info]  Enter User name at login page.
+Feb 20,2015 22:08:53 [info]  Pass
+Feb 20,2015 22:08:53 [info]  Enter password at login page.
+Feb 20,2015 22:08:54 [info]  Pass
+Feb 20,2015 22:08:54 [info]  Click on Sign In button
+Feb 20,2015 22:09:11 [info]  Pass
+Feb 20,2015 22:09:11 [info]  Verify home page title
+Feb 20,2015 22:09:16 [info]  Pass
+Feb 20,2015 22:09:16 [info]  Open Medication page
+Feb 20,2015 22:09:30 [info]  Pass
+Feb 20,2015 22:09:30 [info]  Click on View button
+Feb 20,2015 22:09:33 [info]  Pass
+Feb 20,2015 22:09:33 [info]  Click on Edit button
+Feb 20,2015 22:09:46 [info]  Pass
+Feb 20,2015 22:09:51 [info]  Remove scheduled time
+Feb 20,2015 22:09:58 [info]  Pass
+Feb 20,2015 22:09:58 [info]  Select Date'
+Feb 20,2015 22:10:59 [info]  Feb 20,2015 22:10:59 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: Element Locator :link=20 Not found expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.iCM.util.DriverHelper.clickOn(DriverHelper.java:251)
+	at com.iCM.pagehelper.EChartHelper.selectDate(EChartHelper.java:77)
+	at com.iCM.scripts.AAAA.testAddEditMedicationSchedule(AAAA.java:85)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Feb 20,2015 22:10:59 [info]  End Execution of Test Class com.iCM.scripts.AAAA
+*****************************************************************************
+
+*****************************************************************************
+Feb 20,2015 22:11:54 [info]   Execution Started of Test Class com.iCM.scripts.AddEditMedicationSchedule and Test method testAddEditMedicationSchedule
+*****************************************************************************
+Feb 20,2015 22:11:54 [info]  Open application url
+Feb 20,2015 22:12:10 [info]  Pass
+Feb 20,2015 22:12:10 [info]  Verify Page title
+Feb 20,2015 22:12:16 [info]  Pass
+Feb 20,2015 22:12:16 [info]  Enter User name at login page.
+Feb 20,2015 22:12:16 [info]  Pass
+Feb 20,2015 22:12:16 [info]  Enter password at login page.
+Feb 20,2015 22:12:17 [info]  Pass
+Feb 20,2015 22:12:17 [info]  Click on Sign In button
+Feb 20,2015 22:12:35 [info]  Pass
+Feb 20,2015 22:12:35 [info]  Verify home page title
+Feb 20,2015 22:12:41 [info]  Pass
+Feb 20,2015 22:12:41 [info]  Open Add resident form via deep link
+Feb 20,2015 22:12:53 [info]  Pass
+Feb 20,2015 22:12:53 [info]  Enter Resident First Name
+Feb 20,2015 22:12:57 [info]  Pass
+Feb 20,2015 22:12:57 [info]  Enter Middle name
+Feb 20,2015 22:13:00 [info]  Pass
+Feb 20,2015 22:13:00 [info]  Enter last name
+Feb 20,2015 22:13:04 [info]  Pass
+Feb 20,2015 22:13:04 [info]  Open 'Calender'
+Feb 20,2015 22:13:05 [info]  Pass
+Feb 20,2015 22:13:10 [info]  Select Year
+Feb 20,2015 22:13:16 [info]  Pass
+Feb 20,2015 22:13:19 [info]  Select date
+Feb 20,2015 22:13:22 [info]  Pass
+Feb 20,2015 22:13:22 [info]  Select gender
+Feb 20,2015 22:13:23 [info]  Pass
+Feb 20,2015 22:13:23 [info]  Select Marital Status
+Feb 20,2015 22:13:25 [info]  Pass
+Feb 20,2015 22:13:25 [info]  Open 'Calender' for admit date
+Feb 20,2015 22:13:26 [info]  Pass
+Feb 20,2015 22:13:29 [info]  Select Year
+Feb 20,2015 22:13:36 [info]  Pass
+Feb 20,2015 22:13:36 [info]  Select Month
+Feb 20,2015 22:13:37 [info]  Pass
+Feb 20,2015 22:13:37 [info]  Select date
+Feb 20,2015 22:13:40 [info]  Pass
+Feb 20,2015 22:13:40 [info]  Select Facality
+Feb 20,2015 22:13:41 [info]  Pass
+Feb 20,2015 22:13:44 [info]  Select Nurse
+Feb 20,2015 22:13:46 [info]  Pass
+Feb 20,2015 22:13:46 [info]  Enter level of care
+Feb 20,2015 22:13:49 [info]  Pass
+Feb 20,2015 22:13:49 [info]  Click on 'Save' button
+Feb 20,2015 22:13:53 [info]  Pass
+Feb 20,2015 22:13:53 [info]  Search Added resident
+Feb 20,2015 22:13:57 [info]  Pass
+Feb 20,2015 22:13:57 [info]  Verify added resident
+Feb 20,2015 22:14:00 [info]  Pass
+Feb 20,2015 22:14:00 [info]  Open resident Profile
+Feb 20,2015 22:14:04 [info]  Pass
+Feb 20,2015 22:14:07 [info]  Click on Medication button
+Feb 20,2015 22:14:10 [info]  Pass
+Feb 20,2015 22:14:10 [info]  Click on Add Medication button
+Feb 20,2015 22:14:25 [info]  Pass
+Feb 20,2015 22:14:25 [info]  Enter Medicine Name
+Feb 20,2015 22:14:37 [info]  Pass
+Feb 20,2015 22:14:37 [info]  Enter Dosage
+Feb 20,2015 22:14:40 [info]  Pass
+Feb 20,2015 22:14:40 [info]  Enter instruction
+Feb 20,2015 22:14:44 [info]  Pass
+Feb 20,2015 22:14:44 [info]  Open 'Calender'
+Feb 20,2015 22:14:48 [info]  Pass
+Feb 20,2015 22:14:51 [info]  Select date
+Feb 20,2015 22:14:54 [info]  Pass
+Feb 20,2015 22:14:54 [info]  Select time
+Feb 20,2015 22:14:56 [info]  Pass
+Feb 20,2015 22:14:56 [info]  Select AM/PM
+Feb 20,2015 22:14:56 [info]  Pass
+Feb 20,2015 22:14:56 [info]  Click on Add Schedule button
+Feb 20,2015 22:15:00 [info]  Pass
+Feb 20,2015 22:15:00 [info]  Verify Added Schedule
+Feb 20,2015 22:15:00 [info]  Pass
+Feb 20,2015 22:15:00 [info]  Select time
+Feb 20,2015 22:15:01 [info]  Pass
+Feb 20,2015 22:15:01 [info]  Select AM/PM
+Feb 20,2015 22:15:03 [info]  Pass
+Feb 20,2015 22:15:03 [info]  Click on Add Schedule button
+Feb 20,2015 22:15:06 [info]  Pass
+Feb 20,2015 22:15:06 [info]  Verify Added Schedule
+Feb 20,2015 22:15:06 [info]  Pass
+Feb 20,2015 22:15:06 [info]  Select time
+Feb 20,2015 22:15:08 [info]  Pass
+Feb 20,2015 22:15:08 [info]  Select AM/PM
+Feb 20,2015 22:15:08 [info]  Pass
+Feb 20,2015 22:15:08 [info]  Click on Add Schedule button
+Feb 20,2015 22:15:12 [info]  Pass
+Feb 20,2015 22:15:12 [info]  Verify Added Schedule
+Feb 20,2015 22:15:12 [info]  Pass
+Feb 20,2015 22:15:12 [info]  Click on Save button
+Feb 20,2015 22:15:29 [info]  Pass
+Feb 20,2015 22:15:44 [info]  Open Medication page
+Feb 20,2015 22:15:55 [info]  Pass
+Feb 20,2015 22:15:55 [info]  Click on EMR Tab
+Feb 20,2015 22:15:59 [info]  Pass
+Feb 20,2015 22:15:59 [info]  Click on 'Morning' tab
+Feb 20,2015 22:16:19 [info]  Pass
+Feb 20,2015 22:16:19 [info]  Click on 'Expend' button
+Feb 20,2015 22:16:22 [info]  Pass
+Feb 20,2015 22:16:22 [info]  Verify Added Schedule
+Feb 20,2015 22:16:23 [info]  Pass
+Feb 20,2015 22:16:23 [info]  Click on Expend button
+Feb 20,2015 22:16:27 [info]  Pass
+Feb 20,2015 22:16:27 [info]  Verify Starting Blackout
+Feb 20,2015 22:16:33 [info]  Pass
+Feb 20,2015 22:16:33 [info]  Click on 'Noon' tab
+Feb 20,2015 22:16:36 [info]  Pass
+Feb 20,2015 22:16:36 [info]  Verify Added Schedule
+Feb 20,2015 22:16:39 [info]  Pass
+Feb 20,2015 22:16:39 [info]  Click on Expend button
+Feb 20,2015 22:16:42 [info]  Pass
+Feb 20,2015 22:16:42 [info]  Verify Starting Blackout
+Feb 20,2015 22:16:49 [info]  Pass
+Feb 20,2015 22:16:49 [info]  Click on 'Evening' tab
+Feb 20,2015 22:16:52 [info]  Pass
+Feb 20,2015 22:16:52 [info]  Verify Added Schedule
+Feb 20,2015 22:16:54 [info]  Pass
+Feb 20,2015 22:16:54 [info]  Click on Expend button
+Feb 20,2015 22:16:58 [info]  Pass
+Feb 20,2015 22:16:58 [info]  Verify Starting Blackout
+Feb 20,2015 22:17:04 [info]  Pass
+Feb 20,2015 22:17:04 [info]  Open Medication page
+Feb 20,2015 22:17:16 [info]  Pass
+Feb 20,2015 22:17:16 [info]  Click on View button
+Feb 20,2015 22:17:20 [info]  Pass
+Feb 20,2015 22:17:20 [info]  Click on Edit button
+Feb 20,2015 22:17:33 [info]  Pass
+Feb 20,2015 22:17:38 [info]  Remove scheduled time
+Feb 20,2015 22:17:50 [info]  Pass
+Feb 20,2015 22:17:50 [info]  Uncheck Sunday
+Feb 20,2015 22:17:51 [info]  Pass
+Feb 20,2015 22:17:51 [info]  Uncheck Wednesday
+Feb 20,2015 22:17:52 [info]  Pass
+Feb 20,2015 22:17:52 [info]  Click on 'Scheduled Calender'
+Feb 20,2015 22:17:55 [info]  Pass
+Feb 20,2015 22:18:00 [info]  Select Date'
+Feb 20,2015 22:18:07 [info]  Pass
+Feb 20,2015 22:18:07 [info]  Select time
+Feb 20,2015 22:18:08 [info]  Pass
+Feb 20,2015 22:18:08 [info]  Select AM/PM
+Feb 20,2015 22:18:09 [info]  Pass
+Feb 20,2015 22:18:09 [info]  Click on Add Schedule button
+Feb 20,2015 22:18:12 [info]  Pass
+Feb 20,2015 22:18:12 [info]  Select time
+Feb 20,2015 22:18:14 [info]  Pass
+Feb 20,2015 22:18:14 [info]  Select AM/PM
+Feb 20,2015 22:18:15 [info]  Pass
+Feb 20,2015 22:18:15 [info]  Click on Add Schedule button
+Feb 20,2015 22:18:19 [info]  Pass
+Feb 20,2015 22:18:19 [info]  Select time
+Feb 20,2015 22:18:20 [info]  Pass
+Feb 20,2015 22:18:20 [info]  Select AM/PM
+Feb 20,2015 22:18:21 [info]  Pass
+Feb 20,2015 22:18:21 [info]  Click on Add Schedule button
+Feb 20,2015 22:18:24 [info]  Pass
+Feb 20,2015 22:18:24 [info]  Click on Save button
+Feb 20,2015 22:18:41 [info]  Pass
+Feb 20,2015 22:18:41 [info]  Open Medication page
+Feb 20,2015 22:18:54 [info]  Pass
+Feb 20,2015 22:18:54 [info]  Click on EMR Tab
+Feb 20,2015 22:18:58 [info]  Pass
+Feb 20,2015 22:18:58 [info]  Click on 'Morning' tab
+Feb 20,2015 22:19:14 [info]  Pass
+Feb 20,2015 22:19:14 [info]  Verify Added Schedule
+Feb 20,2015 22:19:14 [info]  Pass
+Feb 20,2015 22:19:14 [info]  Click on Expend button
+Feb 20,2015 22:19:18 [info]  Pass
+Feb 20,2015 22:19:18 [info]  Verify New Scheduled Blackout
+Feb 20,2015 22:19:22 [info]  Pass
+Feb 20,2015 22:19:32 [info]  Open resident profile
+Feb 20,2015 22:19:49 [info]  Pass
+Feb 20,2015 22:19:49 [info]  End Execution of Test Class com.iCM.scripts.AddEditMedicationSchedule
+*****************************************************************************
+
+*****************************************************************************
+Feb 20,2015 22:28:19 [info]   Execution Started of Test Class com.iCM.scripts.AddEditMedicationSchedule and Test method testAddEditMedicationSchedule
+*****************************************************************************
+Feb 20,2015 22:28:19 [info]  Open application url
+Feb 20,2015 22:28:37 [info]  Pass
+Feb 20,2015 22:28:37 [info]  Verify Page title
+Feb 20,2015 22:28:42 [info]  Pass
+Feb 20,2015 22:28:42 [info]  Enter User name at login page.
+Feb 20,2015 22:28:44 [info]  Pass
+Feb 20,2015 22:28:44 [info]  Enter password at login page.
+Feb 20,2015 22:28:46 [info]  Pass
+Feb 20,2015 22:28:46 [info]  Click on Sign In button
+Feb 20,2015 22:29:06 [info]  Pass
+Feb 20,2015 22:29:06 [info]  Verify home page title
+Feb 20,2015 22:29:11 [info]  Pass
+Feb 20,2015 22:29:11 [info]  Open Add resident form via deep link
+Feb 20,2015 22:29:28 [info]  Pass
+Feb 20,2015 22:29:28 [info]  Enter Resident First Name
+Feb 20,2015 22:29:32 [info]  Pass
+Feb 20,2015 22:29:32 [info]  Enter Middle name
+Feb 20,2015 22:29:36 [info]  Pass
+Feb 20,2015 22:29:36 [info]  Enter last name
+Feb 20,2015 22:29:40 [info]  Pass
+Feb 20,2015 22:29:40 [info]  Open 'Calender'
+Feb 20,2015 22:29:42 [info]  Pass
+Feb 20,2015 22:29:47 [info]  Select Year
+Feb 20,2015 22:29:53 [info]  Pass
+Feb 20,2015 22:29:56 [info]  Select date
+Feb 20,2015 22:30:00 [info]  Pass
+Feb 20,2015 22:30:00 [info]  Select gender
+Feb 20,2015 22:30:02 [info]  Pass
+Feb 20,2015 22:30:02 [info]  Select Marital Status
+Feb 20,2015 22:30:04 [info]  Pass
+Feb 20,2015 22:30:04 [info]  Open 'Calender' for admit date
+Feb 20,2015 22:30:06 [info]  Pass
+Feb 20,2015 22:30:09 [info]  Select Year
+Feb 20,2015 22:30:15 [info]  Pass
+Feb 20,2015 22:30:15 [info]  Select Month
+Feb 20,2015 22:30:17 [info]  Pass
+Feb 20,2015 22:30:17 [info]  Select date
+Feb 20,2015 22:30:20 [info]  Pass
+Feb 20,2015 22:30:20 [info]  Select Facality
+Feb 20,2015 22:30:23 [info]  Pass
+Feb 20,2015 22:30:26 [info]  Select Nurse
+Feb 20,2015 22:30:28 [info]  Pass
+Feb 20,2015 22:30:28 [info]  Enter level of care
+Feb 20,2015 22:30:32 [info]  Pass
+Feb 20,2015 22:30:32 [info]  Click on 'Save' button
+Feb 20,2015 22:30:36 [info]  Pass
+Feb 20,2015 22:30:36 [info]  Search Added resident
+Feb 20,2015 22:30:41 [info]  Pass
+Feb 20,2015 22:30:41 [info]  Verify added resident
+Feb 20,2015 22:30:44 [info]  Pass
+Feb 20,2015 22:30:44 [info]  Open resident Profile
+Feb 20,2015 22:30:48 [info]  Pass
+Feb 20,2015 22:30:51 [info]  Click on Medication button
+Feb 20,2015 22:30:56 [info]  Pass
+Feb 20,2015 22:30:56 [info]  Click on Add Medication button
+Feb 20,2015 22:31:13 [info]  Pass
+Feb 20,2015 22:31:13 [info]  Enter Medicine Name
+Feb 20,2015 22:31:29 [info]  Pass
+Feb 20,2015 22:31:29 [info]  Enter Dosage
+Feb 20,2015 22:31:34 [info]  Pass
+Feb 20,2015 22:31:34 [info]  Enter instruction
+Feb 20,2015 22:31:38 [info]  Pass
+Feb 20,2015 22:31:38 [info]  Open 'Calender'
+Feb 20,2015 22:31:43 [info]  Pass
+Feb 20,2015 22:31:46 [info]  Select date
+Feb 20,2015 22:31:50 [info]  Pass
+Feb 20,2015 22:31:50 [info]  Select time
+Feb 20,2015 22:31:52 [info]  Pass
+Feb 20,2015 22:31:52 [info]  Select AM/PM
+Feb 20,2015 22:31:53 [info]  Pass
+Feb 20,2015 22:31:53 [info]  Click on Add Schedule button
+Feb 20,2015 22:31:57 [info]  Pass
+Feb 20,2015 22:31:57 [info]  Verify Added Schedule
+Feb 20,2015 22:31:58 [info]  Pass
+Feb 20,2015 22:31:58 [info]  Select time
+Feb 20,2015 22:31:59 [info]  Pass
+Feb 20,2015 22:31:59 [info]  Select AM/PM
+Feb 20,2015 22:32:01 [info]  Pass
+Feb 20,2015 22:32:01 [info]  Click on Add Schedule button
+Feb 20,2015 22:32:05 [info]  Pass
+Feb 20,2015 22:32:05 [info]  Verify Added Schedule
+Feb 20,2015 22:32:05 [info]  Pass
+Feb 20,2015 22:32:05 [info]  Select time
+Feb 20,2015 22:32:07 [info]  Pass
+Feb 20,2015 22:32:07 [info]  Select AM/PM
+Feb 20,2015 22:32:08 [info]  Pass
+Feb 20,2015 22:32:08 [info]  Click on Add Schedule button
+Feb 20,2015 22:32:12 [info]  Pass
+Feb 20,2015 22:32:12 [info]  Verify Added Schedule
+Feb 20,2015 22:32:12 [info]  Pass
+Feb 20,2015 22:32:12 [info]  Click on Save button
+Feb 20,2015 22:32:33 [info]  Pass
+Feb 20,2015 22:32:48 [info]  Open Medication page
+Feb 20,2015 22:33:04 [info]  Pass
+Feb 20,2015 22:33:04 [info]  Click on EMR Tab
+Feb 20,2015 22:33:08 [info]  Pass
+Feb 20,2015 22:33:08 [info]  Click on 'Morning' tab
+Feb 20,2015 22:33:31 [info]  Pass
+Feb 20,2015 22:33:31 [info]  Click on 'Expend' button
+Feb 20,2015 22:33:35 [info]  Pass
+Feb 20,2015 22:33:35 [info]  Verify Added Schedule
+Feb 20,2015 22:33:36 [info]  Pass
+Feb 20,2015 22:33:36 [info]  Click on Expend button
+Feb 20,2015 22:33:40 [info]  Pass
+Feb 20,2015 22:33:40 [info]  Verify Starting Blackout
+Feb 20,2015 22:33:47 [info]  Pass
+Feb 20,2015 22:33:47 [info]  Click on 'Noon' tab
+Feb 20,2015 22:33:51 [info]  Pass
+Feb 20,2015 22:33:51 [info]  Verify Added Schedule
+Feb 20,2015 22:33:51 [info]  Pass
+Feb 20,2015 22:33:51 [info]  Click on Expend button
+Feb 20,2015 22:33:55 [info]  Pass
+Feb 20,2015 22:33:55 [info]  Verify Starting Blackout
+Feb 20,2015 22:34:02 [info]  Pass
+Feb 20,2015 22:34:02 [info]  Click on 'Evening' tab
+Feb 20,2015 22:34:06 [info]  Pass
+Feb 20,2015 22:34:06 [info]  Verify Added Schedule
+Feb 20,2015 22:34:08 [info]  Pass
+Feb 20,2015 22:34:08 [info]  Click on Expend button
+Feb 20,2015 22:34:12 [info]  Pass
+Feb 20,2015 22:34:12 [info]  Verify Starting Blackout
+Feb 20,2015 22:34:19 [info]  Pass
+Feb 20,2015 22:34:19 [info]  Open Medication page
+Feb 20,2015 22:34:36 [info]  Pass
+Feb 20,2015 22:34:36 [info]  Click on View button
+Feb 20,2015 22:34:40 [info]  Pass
+Feb 20,2015 22:34:40 [info]  Click on Edit button
+Feb 20,2015 22:34:57 [info]  Pass
+Feb 20,2015 22:35:02 [info]  Remove scheduled time
+Feb 20,2015 22:35:11 [info]  Pass
+Feb 20,2015 22:35:11 [info]  Uncheck Sunday
+Feb 20,2015 22:35:15 [info]  Pass
+Feb 20,2015 22:35:15 [info]  Uncheck Wednesday
+Feb 20,2015 22:35:16 [info]  Pass
+Feb 20,2015 22:35:16 [info]  Click on 'Scheduled Calender'
+Feb 20,2015 22:35:20 [info]  Pass
+Feb 20,2015 22:35:25 [info]  Select Date'
+Feb 20,2015 22:35:32 [info]  Pass
+Feb 20,2015 22:35:32 [info]  Select time
+Feb 20,2015 22:35:34 [info]  Pass
+Feb 20,2015 22:35:34 [info]  Select AM/PM
+Feb 20,2015 22:35:35 [info]  Pass
+Feb 20,2015 22:35:35 [info]  Click on Add Schedule button
+Feb 20,2015 22:35:39 [info]  Pass
+Feb 20,2015 22:35:39 [info]  Select time
+Feb 20,2015 22:35:42 [info]  Pass
+Feb 20,2015 22:35:42 [info]  Select AM/PM
+Feb 20,2015 22:35:43 [info]  Pass
+Feb 20,2015 22:35:43 [info]  Click on Add Schedule button
+Feb 20,2015 22:35:47 [info]  Pass
+Feb 20,2015 22:35:47 [info]  Select time
+Feb 20,2015 22:35:50 [info]  Pass
+Feb 20,2015 22:35:50 [info]  Select AM/PM
+Feb 20,2015 22:35:51 [info]  Pass
+Feb 20,2015 22:35:51 [info]  Click on Add Schedule button
+Feb 20,2015 22:35:55 [info]  Pass
+Feb 20,2015 22:35:55 [info]  Click on Save button
+Feb 20,2015 22:36:15 [info]  Pass
+Feb 20,2015 22:36:15 [info]  Open Medication page
+Feb 20,2015 22:36:32 [info]  Pass
+Feb 20,2015 22:36:32 [info]  Click on EMR Tab
+Feb 20,2015 22:36:35 [info]  Pass
+Feb 20,2015 22:36:35 [info]  Click on 'Morning' tab
+Feb 20,2015 22:36:55 [info]  Pass
+Feb 20,2015 22:36:55 [info]  Verify Added Schedule
+Feb 20,2015 22:36:58 [info]  Pass
+Feb 20,2015 22:36:58 [info]  Click on Expend button
+Feb 20,2015 22:37:02 [info]  Pass
+Feb 20,2015 22:37:02 [info]  Verify New Scheduled Blackout
+Feb 20,2015 22:37:06 [info]  Feb 20,2015 22:37:06 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at com.iCM.pagehelper.EChartHelper.verifyBlackBlocks(EChartHelper.java:176)
+	at com.iCM.scripts.AddEditMedicationSchedule.testAddEditMedicationSchedule(AddEditMedicationSchedule.java:485)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Feb 20,2015 22:37:06 [info]  End Execution of Test Class com.iCM.scripts.AddEditMedicationSchedule
+*****************************************************************************

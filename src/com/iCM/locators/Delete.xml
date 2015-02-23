@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Locators>
+<AddResident>
+  <ResidentName><![CDATA[//*[@class='Title']/strong]]></ResidentName>
+ <Discharge><![CDATA[//*[contains(@href, '/Resident/Discharge?ResidentId')]]]></Discharge>
+  	<SelectOther><![CDATA[//*[@id='rbreason5']]]></SelectOther>
+  	<Note><![CDATA[//*[@id='Note']]]></Note>
+  	<DischargeButton><![CDATA[//*[@id='Div6']]]></DischargeButton>
+  </AddResident>
+</Locators>

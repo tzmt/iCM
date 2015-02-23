@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Locators>
+  <AddResident>
+  	<FName><![CDATA[id=txt_FirstName]]></FName>
+  	<LName><![CDATA[id=txt_LastName]]></LName>
+  	<MName><![CDATA[id=txt_MiddleName]]></MName>
+  	<CalPrev><![CDATA[//span[contains(@class, 'ui-icon ui-icon-circle-triangle-w' and contains(text(), 'Prev'))]]]></CalPrev>
+  	<datepickeryear><![CDATA[//select[contains(@class,'ui-datepicker-year')]]]></datepickeryear>
+  	<!-- -New -->
+  	<Calender><![CDATA[//*[@id='txt_DateOfBirth']]]></Calender>
+  	<YearDropdown><![CDATA[//*[@class='ui-datepicker-year']]]></YearDropdown>
+  	<Date><![CDATA[link=]]></Date>
+  	<GenderDropdown><![CDATA[//*[@id='ddl_Gender_chzn']/a/div/b]]></GenderDropdown>
+  	<SelectMale><![CDATA[//*[@id='ddl_Gender_chzn_o_1']]]></SelectMale>
+  	<Status><![CDATA[//*[@id='ddl_Status_chzn']/a/div/b]]></Status>
+  	<Signle><![CDATA[//*[@id='ddl_Status_chzn_o_1']]]></Signle>
+  	<AdmitDate><![CDATA[//*[@id='txt_AdmitDate']]]></AdmitDate>
+  	<MonthDropdown><![CDATA[//*[@class='ui-datepicker-month']]]></MonthDropdown>
+  	<Facality><![CDATA[//*[@id='ddl_Location_chzn']/a/div/b]]></Facality>
+  	<Facality_Value><![CDATA[//*[@id='ddl_Location_chzn_o_1']]]></Facality_Value>
+  	<Nurse><![CDATA[//*[@id='ddl_Nurse_chzn']/a/div/b]]></Nurse>
+  	<Nurse_Value><![CDATA[//*[@id='ddl_Nurse_chzn_o_2']]]></Nurse_Value>
+  	<LevelOfCare><![CDATA[//*[@id='txt_LevelOfCare']]]></LevelOfCare>
+  	<Save><![CDATA[//*[@id='btn_SaveResidentAndGoToList']]]></Save>
+  	<SearchResident><![CDATA[//*[@id='DataTables_Table_0_filter']/label/input]]></SearchResident>
+  	<ResidentName><![CDATA[//*[@class='Title']/strong]]></ResidentName>
+  	<!-- Deleting resident -->
+  	<Discharge><![CDATA[//*[contains(@href, '/Resident/Discharge?ResidentId')]]]></Discharge>
+  	<SelectOther><![CDATA[//*[@id='rbreason5']]]></SelectOther>
+  	<Note><![CDATA[//*[@id='Note']]]></Note>
+  	<DischargeButton><![CDATA[//*[@id='Div6']]]></DischargeButton>
+  </AddResident>
+</Locators>

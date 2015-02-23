@@ -1,0 +1,145 @@
+
+*****************************************************************************
+Feb 18,2015 07:30:43 [info]   Execution Started of Test Class com.iCM.scripts.AdministrationSchedule and Test method testAdministrationSchedule
+*****************************************************************************
+Feb 18,2015 07:30:43 [info]  Open application url
+Feb 18,2015 07:31:00 [info]  Pass
+Feb 18,2015 07:31:00 [info]  Verify Page title
+Feb 18,2015 07:31:05 [info]  Pass
+Feb 18,2015 07:31:05 [info]  Enter User name at login page.
+Feb 18,2015 07:31:05 [info]  Pass
+Feb 18,2015 07:31:05 [info]  Enter password at login page.
+Feb 18,2015 07:31:07 [info]  Pass
+Feb 18,2015 07:31:07 [info]  Click on Sign In button
+Feb 18,2015 07:31:21 [info]  Pass
+Feb 18,2015 07:31:21 [info]  Verify home page title
+Feb 18,2015 07:31:26 [info]  Pass
+Feb 18,2015 07:31:26 [info]  Open Add resident form via deep link
+Feb 18,2015 07:31:40 [info]  Pass
+Feb 18,2015 07:31:40 [info]  Enter Resident First Name
+Feb 18,2015 07:31:43 [info]  Pass
+Feb 18,2015 07:31:43 [info]  Enter Middle name
+Feb 18,2015 07:31:46 [info]  Pass
+Feb 18,2015 07:31:46 [info]  Enter last name
+Feb 18,2015 07:31:50 [info]  Pass
+Feb 18,2015 07:31:50 [info]  Open 'Calender'
+Feb 18,2015 07:31:51 [info]  Pass
+Feb 18,2015 07:31:56 [info]  Select Year
+Feb 18,2015 07:32:01 [info]  Feb 18,2015 07:32:01 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: Element Locator ://*[@class='ui-datepicker-year'] Not found expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.iCM.util.DriverHelper.selectDropDown(DriverHelper.java:276)
+	at com.iCM.pagehelper.ResidentHelper.selectYear(ResidentHelper.java:49)
+	at com.iCM.scripts.AdministrationSchedule.testAdministrationSchedule(AdministrationSchedule.java:91)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Feb 18,2015 07:32:01 [info]  End Execution of Test Class com.iCM.scripts.AdministrationSchedule
+*****************************************************************************
+
+*****************************************************************************
+Feb 18,2015 07:32:59 [info]   Execution Started of Test Class com.iCM.scripts.AdministrationSchedule and Test method testAdministrationSchedule
+*****************************************************************************
+Feb 18,2015 07:32:59 [info]  Open application url
+Feb 18,2015 07:33:13 [info]  Pass
+Feb 18,2015 07:33:13 [info]  Verify Page title
+Feb 18,2015 07:33:19 [info]  Pass
+Feb 18,2015 07:33:19 [info]  Enter User name at login page.
+Feb 18,2015 07:33:19 [info]  Pass
+Feb 18,2015 07:33:19 [info]  Enter password at login page.
+Feb 18,2015 07:33:20 [info]  Pass
+Feb 18,2015 07:33:20 [info]  Click on Sign In button
+Feb 18,2015 07:33:37 [info]  Pass
+Feb 18,2015 07:33:37 [info]  Verify home page title
+Feb 18,2015 07:33:42 [info]  Pass
+Feb 18,2015 07:33:42 [info]  Open Add resident form via deep link
+Feb 18,2015 07:33:53 [info]  Pass
+Feb 18,2015 07:33:53 [info]  Enter Resident First Name
+Feb 18,2015 07:33:57 [info]  Pass
+Feb 18,2015 07:33:57 [info]  Enter Middle name
+Feb 18,2015 07:34:00 [info]  Pass
+Feb 18,2015 07:34:00 [info]  Enter last name
+Feb 18,2015 07:34:04 [info]  Pass
+Feb 18,2015 07:34:04 [info]  Open 'Calender'
+Feb 18,2015 07:34:05 [info]  Pass
+Feb 18,2015 07:34:10 [info]  Select Year
+Feb 18,2015 07:34:17 [info]  Pass
+Feb 18,2015 07:34:20 [info]  Select date
+Feb 18,2015 07:34:22 [info]  Pass
+Feb 18,2015 07:34:22 [info]  Select gender
+Feb 18,2015 07:34:24 [info]  Pass
+Feb 18,2015 07:34:24 [info]  Select Marital Status
+Feb 18,2015 07:34:25 [info]  Pass
+Feb 18,2015 07:34:25 [info]  Open 'Calender' for admit date
+Feb 18,2015 07:34:27 [info]  Pass
+Feb 18,2015 07:34:30 [info]  Select Year
+Feb 18,2015 07:34:36 [info]  Pass
+Feb 18,2015 07:34:36 [info]  Select Month
+Feb 18,2015 07:34:37 [info]  Pass
+Feb 18,2015 07:34:37 [info]  Select date
+Feb 18,2015 07:34:40 [info]  Pass
+Feb 18,2015 07:34:40 [info]  Select Facality
+Feb 18,2015 07:34:42 [info]  Pass
+Feb 18,2015 07:34:45 [info]  Select Nurse
+Feb 18,2015 07:34:46 [info]  Pass
+Feb 18,2015 07:34:46 [info]  Enter level of care
+Feb 18,2015 07:34:49 [info]  Pass
+Feb 18,2015 07:34:49 [info]  Click on 'Save' button
+Feb 18,2015 07:34:53 [info]  Pass
+Feb 18,2015 07:34:53 [info]  Search Added resident
+Feb 18,2015 07:34:57 [info]  Pass
+Feb 18,2015 07:34:57 [info]  Verify added resident
+Feb 18,2015 07:35:00 [info]  Pass
+Feb 18,2015 07:35:00 [info]  Open resident Profile
+Feb 18,2015 07:35:04 [info]  Pass
+Feb 18,2015 07:35:07 [info]  Click on Medication button
+Feb 18,2015 07:35:11 [info]  Pass
+Feb 18,2015 07:35:11 [info]  Click on Add Medication button
+Feb 18,2015 07:35:30 [info]  Pass
+Feb 18,2015 07:35:30 [info]  Enter Medicine Name
+Feb 18,2015 07:35:41 [info]  Pass
+Feb 18,2015 07:35:41 [info]  Enter Dosage
+Feb 18,2015 07:35:44 [info]  Pass
+Feb 18,2015 07:35:44 [info]  Enter instruction
+Feb 18,2015 07:35:48 [info]  Pass
+Feb 18,2015 07:35:48 [info]  Open 'Calender'
+Feb 18,2015 07:35:52 [info]  Pass
+Feb 18,2015 07:35:55 [info]  Select date
+Feb 18,2015 07:35:58 [info]  Pass
+Feb 18,2015 07:35:58 [info]  Select time
+Feb 18,2015 07:36:00 [info]  Pass
+Feb 18,2015 07:36:00 [info]  Select AM/PM
+Feb 18,2015 07:36:01 [info]  Pass
+Feb 18,2015 07:36:01 [info]  Click on Add Schedule button
+Feb 18,2015 07:36:05 [info]  Pass
+Feb 18,2015 07:36:05 [info]  Verify Added Schedule
+Feb 18,2015 07:36:05 [info]  Pass
+Feb 18,2015 07:36:05 [info]  Click on Save button
+Feb 18,2015 07:36:23 [info]  Pass
+Feb 18,2015 07:36:23 [info]  Verify Title
+Feb 18,2015 19:36:23 [info]  Pass
+Feb 18,2015 19:36:23 [info]  End Execution of Test Class com.iCM.scripts.AdministrationSchedule
+*****************************************************************************

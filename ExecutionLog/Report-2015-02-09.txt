@@ -1,0 +1,1125 @@
+
+*****************************************************************************
+Feb 09,2015 20:04:39 [info]   Execution Started of Test Class com.iCM.scripts.AddResident and Test method testAddResident
+*****************************************************************************
+Feb 09,2015 20:04:39 [info]  Open application url
+Feb 09,2015 20:04:49 [info]  Pass
+Feb 09,2015 20:04:49 [info]  Verify Page title
+Feb 09,2015 20:04:54 [info]  Pass
+Feb 09,2015 20:04:54 [info]  Enter User name at login page.
+Feb 09,2015 20:04:56 [info]  Pass
+Feb 09,2015 20:04:56 [info]  Enter password at login page.
+Feb 09,2015 20:04:57 [info]  Pass
+Feb 09,2015 20:04:57 [info]  Click on Sign In button
+Feb 09,2015 20:04:57 [info]  Pass
+Feb 09,2015 20:04:57 [info]  Verify home page title
+Feb 09,2015 20:05:13 [info]  Pass
+Feb 09,2015 20:05:13 [info]  Open Add resident form via deep link
+Feb 09,2015 20:05:17 [info]  Pass
+Feb 09,2015 20:05:17 [info]  Enter Resident First Name
+Feb 09,2015 20:05:18 [info]  Pass
+Feb 09,2015 20:05:18 [info]  Enter Middle name
+Feb 09,2015 20:05:19 [info]  Pass
+Feb 09,2015 20:05:19 [info]  End Execution of Test Class com.iCM.scripts.AddResident
+*****************************************************************************
+
+*****************************************************************************
+Feb 09,2015 21:23:33 [info]   Execution Started of Test Class com.iCM.scripts.AddResident and Test method testAddResident
+*****************************************************************************
+Feb 09,2015 21:23:33 [info]  Open application url
+Feb 09,2015 21:23:49 [info]  Pass
+Feb 09,2015 21:23:49 [info]  Verify Page title
+Feb 09,2015 21:23:54 [info]  Pass
+Feb 09,2015 21:23:54 [info]  Enter User name at login page.
+Feb 09,2015 21:23:55 [info]  Pass
+Feb 09,2015 21:23:55 [info]  Enter password at login page.
+Feb 09,2015 21:23:56 [info]  Pass
+Feb 09,2015 21:23:56 [info]  Click on Sign In button
+Feb 09,2015 21:24:16 [info]  Pass
+Feb 09,2015 21:24:16 [info]  Verify home page title
+Feb 09,2015 21:24:21 [info]  Pass
+Feb 09,2015 21:24:21 [info]  Open Add resident form via deep link
+Feb 09,2015 21:24:36 [info]  Pass
+Feb 09,2015 21:24:36 [info]  Enter Resident First Name
+Feb 09,2015 21:24:36 [info]  Pass
+Feb 09,2015 21:24:36 [info]  Enter Middle name
+Feb 09,2015 21:24:37 [info]  Pass
+Feb 09,2015 21:24:37 [info]  Enter last name
+Feb 09,2015 21:24:37 [info]  Pass
+Feb 09,2015 21:24:37 [info]  Enter Date of birth
+Feb 09,2015 21:24:39 [info]  Pass
+Feb 09,2015 21:24:39 [info]  End Execution of Test Class com.iCM.scripts.AddResident
+*****************************************************************************
+
+*****************************************************************************
+Feb 09,2015 21:25:32 [info]   Execution Started of Test Class com.iCM.scripts.AddResident and Test method testAddResident
+*****************************************************************************
+Feb 09,2015 21:25:32 [info]  Open application url
+Feb 09,2015 21:25:48 [info]  Pass
+Feb 09,2015 21:25:48 [info]  Verify Page title
+Feb 09,2015 21:25:53 [info]  Pass
+Feb 09,2015 21:25:53 [info]  Enter User name at login page.
+Feb 09,2015 21:25:54 [info]  Pass
+Feb 09,2015 21:25:54 [info]  Enter password at login page.
+Feb 09,2015 21:25:55 [info]  Pass
+Feb 09,2015 21:25:55 [info]  Click on Sign In button
+Feb 09,2015 21:26:15 [info]  Pass
+Feb 09,2015 21:26:15 [info]  Verify home page title
+Feb 09,2015 21:26:20 [info]  Pass
+Feb 09,2015 21:26:20 [info]  Open Add resident form via deep link
+Feb 09,2015 21:26:34 [info]  Pass
+Feb 09,2015 21:26:34 [info]  Enter Resident First Name
+Feb 09,2015 21:26:35 [info]  Pass
+Feb 09,2015 21:26:35 [info]  Enter Middle name
+Feb 09,2015 21:26:35 [info]  Pass
+Feb 09,2015 21:26:35 [info]  Enter last name
+Feb 09,2015 21:26:35 [info]  Pass
+Feb 09,2015 21:26:35 [info]  Enter Date of birth
+Feb 09,2015 21:26:37 [info]  Pass
+Feb 09,2015 21:26:37 [info]  End Execution of Test Class com.iCM.scripts.AddResident
+*****************************************************************************
+
+*****************************************************************************
+Feb 09,2015 21:27:04 [info]   Execution Started of Test Class com.iCM.scripts.AddResident and Test method testAddResident
+*****************************************************************************
+Feb 09,2015 21:27:04 [info]  Open application url
+Feb 09,2015 21:27:22 [info]  Pass
+Feb 09,2015 21:27:22 [info]  Verify Page title
+Feb 09,2015 21:27:27 [info]  Pass
+Feb 09,2015 21:27:27 [info]  Enter User name at login page.
+Feb 09,2015 21:27:28 [info]  Pass
+Feb 09,2015 21:27:28 [info]  Enter password at login page.
+Feb 09,2015 21:27:30 [info]  Pass
+Feb 09,2015 21:27:30 [info]  Click on Sign In button
+Feb 09,2015 21:27:47 [info]  Pass
+Feb 09,2015 21:27:47 [info]  Verify home page title
+Feb 09,2015 21:27:52 [info]  Pass
+Feb 09,2015 21:27:52 [info]  Open Add resident form via deep link
+Feb 09,2015 21:28:07 [info]  Pass
+Feb 09,2015 21:28:07 [info]  Enter Resident First Name
+Feb 09,2015 21:28:08 [info]  Pass
+Feb 09,2015 21:28:08 [info]  Enter Middle name
+Feb 09,2015 21:28:09 [info]  Pass
+Feb 09,2015 21:28:09 [info]  Enter last name
+Feb 09,2015 21:28:09 [info]  Pass
+Feb 09,2015 21:28:09 [info]  Enter Date of birth
+Feb 09,2015 21:28:11 [info]  Pass
+Feb 09,2015 21:28:11 [info]  End Execution of Test Class com.iCM.scripts.AddResident
+*****************************************************************************
+
+*****************************************************************************
+Feb 09,2015 21:44:11 [info]   Execution Started of Test Class com.iCM.scripts.AddResident and Test method testAddResident
+*****************************************************************************
+Feb 09,2015 21:44:11 [info]  Open application url
+Feb 09,2015 21:44:28 [info]  Pass
+Feb 09,2015 21:44:28 [info]  Verify Page title
+Feb 09,2015 21:44:33 [info]  Pass
+Feb 09,2015 21:44:33 [info]  Enter User name at login page.
+Feb 09,2015 21:44:34 [info]  Pass
+Feb 09,2015 21:44:34 [info]  Enter password at login page.
+Feb 09,2015 21:44:35 [info]  Pass
+Feb 09,2015 21:44:35 [info]  Click on Sign In button
+Feb 09,2015 21:44:55 [info]  Pass
+Feb 09,2015 21:44:55 [info]  Verify home page title
+Feb 09,2015 21:45:00 [info]  Pass
+Feb 09,2015 21:45:00 [info]  Open Add resident form via deep link
+Feb 09,2015 21:45:14 [info]  Pass
+Feb 09,2015 21:45:14 [info]  Enter Resident First Name
+Feb 09,2015 21:45:15 [info]  Pass
+Feb 09,2015 21:45:15 [info]  Enter Middle name
+Feb 09,2015 21:45:15 [info]  Pass
+Feb 09,2015 21:45:15 [info]  Enter last name
+Feb 09,2015 21:45:16 [info]  Pass
+Feb 09,2015 21:45:16 [info]  Enter Date of birth
+Feb 09,2015 21:45:17 [info]  Pass
+Feb 09,2015 21:45:17 [info]  Select date
+Feb 09,2015 21:45:18 [info]  Feb 09,2015 21:45:18 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+org.dom4j.InvalidXPathException: Invalid XPath expression: ////*[@class='ui-datepicker-year']/option[100] Location path cannot end with //
+	at org.dom4j.xpath.DefaultXPath.parse(DefaultXPath.java:360)
+	at org.dom4j.xpath.DefaultXPath.<init>(DefaultXPath.java:59)
+	at org.dom4j.DocumentFactory.createXPath(DocumentFactory.java:230)
+	at org.dom4j.tree.AbstractNode.createXPath(AbstractNode.java:207)
+	at org.dom4j.tree.AbstractNode.selectSingleNode(AbstractNode.java:183)
+	at com.iCM.locators.LocatorReader.getLocator(LocatorReader.java:32)
+	at com.iCM.pagehelper.ResidentHelper.click(ResidentHelper.java:30)
+	at com.iCM.pagehelper.ResidentHelper.selectYear(ResidentHelper.java:48)
+	at com.iCM.scripts.AddResident.testAddResident(AddResident.java:83)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Feb 09,2015 21:45:18 [info]  End Execution of Test Class com.iCM.scripts.AddResident
+*****************************************************************************
+
+*****************************************************************************
+Feb 09,2015 21:46:27 [info]   Execution Started of Test Class com.iCM.scripts.AddResident and Test method testAddResident
+*****************************************************************************
+Feb 09,2015 21:46:27 [info]  Open application url
+Feb 09,2015 21:46:43 [info]  Pass
+Feb 09,2015 21:46:43 [info]  Verify Page title
+Feb 09,2015 21:46:48 [info]  Pass
+Feb 09,2015 21:46:48 [info]  Enter User name at login page.
+Feb 09,2015 21:46:49 [info]  Pass
+Feb 09,2015 21:46:49 [info]  Enter password at login page.
+Feb 09,2015 21:46:50 [info]  Pass
+Feb 09,2015 21:46:50 [info]  Click on Sign In button
+Feb 09,2015 21:47:09 [info]  Pass
+Feb 09,2015 21:47:09 [info]  Verify home page title
+Feb 09,2015 21:47:14 [info]  Pass
+Feb 09,2015 21:47:14 [info]  Open Add resident form via deep link
+Feb 09,2015 21:47:29 [info]  Pass
+Feb 09,2015 21:47:29 [info]  Enter Resident First Name
+Feb 09,2015 21:47:30 [info]  Pass
+Feb 09,2015 21:47:30 [info]  Enter Middle name
+Feb 09,2015 21:47:30 [info]  Pass
+Feb 09,2015 21:47:30 [info]  Enter last name
+Feb 09,2015 21:47:31 [info]  Pass
+Feb 09,2015 21:47:31 [info]  Enter Date of birth
+Feb 09,2015 21:47:32 [info]  Pass
+Feb 09,2015 21:47:32 [info]  Select date
+Feb 09,2015 21:47:34 [info]  Feb 09,2015 21:47:34 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+org.dom4j.InvalidXPathException: Invalid XPath expression: ////*[@class='ui-datepicker-year']/option[100] Location path cannot end with //
+	at org.dom4j.xpath.DefaultXPath.parse(DefaultXPath.java:360)
+	at org.dom4j.xpath.DefaultXPath.<init>(DefaultXPath.java:59)
+	at org.dom4j.DocumentFactory.createXPath(DocumentFactory.java:230)
+	at org.dom4j.tree.AbstractNode.createXPath(AbstractNode.java:207)
+	at org.dom4j.tree.AbstractNode.selectSingleNode(AbstractNode.java:183)
+	at com.iCM.locators.LocatorReader.getLocator(LocatorReader.java:32)
+	at com.iCM.pagehelper.ResidentHelper.click(ResidentHelper.java:30)
+	at com.iCM.pagehelper.ResidentHelper.selectYear(ResidentHelper.java:48)
+	at com.iCM.scripts.AddResident.testAddResident(AddResident.java:83)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Feb 09,2015 21:47:34 [info]  End Execution of Test Class com.iCM.scripts.AddResident
+*****************************************************************************
+
+*****************************************************************************
+Feb 09,2015 21:54:21 [info]   Execution Started of Test Class com.iCM.scripts.AddResident and Test method testAddResident
+*****************************************************************************
+Feb 09,2015 21:54:21 [info]  Open application url
+Feb 09,2015 21:54:41 [info]  Pass
+Feb 09,2015 21:54:41 [info]  Verify Page title
+Feb 09,2015 21:54:47 [info]  Pass
+Feb 09,2015 21:54:47 [info]  Enter User name at login page.
+Feb 09,2015 21:54:47 [info]  Pass
+Feb 09,2015 21:54:47 [info]  Enter password at login page.
+Feb 09,2015 21:54:48 [info]  Pass
+Feb 09,2015 21:54:49 [info]  Click on Sign In button
+Feb 09,2015 21:55:08 [info]  Pass
+Feb 09,2015 21:55:08 [info]  Verify home page title
+Feb 09,2015 21:55:13 [info]  Pass
+Feb 09,2015 21:55:13 [info]  Open Add resident form via deep link
+Feb 09,2015 21:55:28 [info]  Pass
+Feb 09,2015 21:55:28 [info]  Enter Resident First Name
+Feb 09,2015 21:55:29 [info]  Pass
+Feb 09,2015 21:55:29 [info]  Enter Middle name
+Feb 09,2015 21:55:29 [info]  Pass
+Feb 09,2015 21:55:29 [info]  Enter last name
+Feb 09,2015 21:55:30 [info]  Pass
+Feb 09,2015 21:55:30 [info]  Open 'Calender'
+Feb 09,2015 21:56:05 [info]  Pass
+Feb 09,2015 21:56:05 [info]  Select Year
+Feb 09,2015 21:56:08 [info]  Pass
+Feb 09,2015 21:56:08 [info]  Select date
+Feb 09,2015 21:57:15 [info]  Feb 09,2015 21:57:15 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: Element Locator :link=10 Not found expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.iCM.util.DriverHelper.clickOn(DriverHelper.java:252)
+	at com.iCM.pagehelper.ResidentHelper.selectDate(ResidentHelper.java:52)
+	at com.iCM.scripts.AddResident.testAddResident(AddResident.java:88)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Feb 09,2015 21:57:15 [info]  End Execution of Test Class com.iCM.scripts.AddResident
+*****************************************************************************
+
+*****************************************************************************
+Feb 09,2015 21:57:32 [info]   Execution Started of Test Class com.iCM.scripts.AddResident and Test method testAddResident
+*****************************************************************************
+Feb 09,2015 21:57:32 [info]  Open application url
+Feb 09,2015 21:57:54 [info]  Pass
+Feb 09,2015 21:57:54 [info]  Verify Page title
+Feb 09,2015 21:57:59 [info]  Pass
+Feb 09,2015 21:57:59 [info]  Enter User name at login page.
+Feb 09,2015 21:57:59 [info]  Pass
+Feb 09,2015 21:57:59 [info]  Enter password at login page.
+Feb 09,2015 21:58:01 [info]  Pass
+Feb 09,2015 21:58:01 [info]  Click on Sign In button
+Feb 09,2015 21:58:17 [info]  Pass
+Feb 09,2015 21:58:17 [info]  Verify home page title
+Feb 09,2015 21:58:23 [info]  Pass
+Feb 09,2015 21:58:23 [info]  Open Add resident form via deep link
+Feb 09,2015 21:58:38 [info]  Pass
+Feb 09,2015 21:58:38 [info]  Enter Resident First Name
+Feb 09,2015 21:58:38 [info]  Pass
+Feb 09,2015 21:58:38 [info]  Enter Middle name
+Feb 09,2015 21:58:39 [info]  Pass
+Feb 09,2015 21:58:39 [info]  Enter last name
+Feb 09,2015 21:58:39 [info]  Pass
+Feb 09,2015 21:58:39 [info]  Open 'Calender'
+Feb 09,2015 21:58:40 [info]  Pass
+Feb 09,2015 21:58:40 [info]  Select Year
+Feb 09,2015 21:58:41 [info]  Pass
+Feb 09,2015 21:58:41 [info]  Select date
+Feb 09,2015 21:58:45 [info]  Pass
+Feb 09,2015 21:58:45 [info]  End Execution of Test Class com.iCM.scripts.AddResident
+*****************************************************************************
+
+*****************************************************************************
+Feb 09,2015 22:34:06 [info]   Execution Started of Test Class com.iCM.scripts.AddResident and Test method testAddResident
+*****************************************************************************
+Feb 09,2015 22:34:06 [info]  Open application url
+Feb 09,2015 22:34:25 [info]  Pass
+Feb 09,2015 22:34:25 [info]  Verify Page title
+Feb 09,2015 22:34:30 [info]  Pass
+Feb 09,2015 22:34:30 [info]  Enter User name at login page.
+Feb 09,2015 22:34:31 [info]  Pass
+Feb 09,2015 22:34:31 [info]  Enter password at login page.
+Feb 09,2015 22:34:32 [info]  Pass
+Feb 09,2015 22:34:32 [info]  Click on Sign In button
+Feb 09,2015 22:34:51 [info]  Pass
+Feb 09,2015 22:34:51 [info]  Verify home page title
+Feb 09,2015 22:34:57 [info]  Pass
+Feb 09,2015 22:34:57 [info]  Open Add resident form via deep link
+Feb 09,2015 22:35:14 [info]  Pass
+Feb 09,2015 22:35:14 [info]  Enter Resident First Name
+Feb 09,2015 22:35:14 [info]  Pass
+Feb 09,2015 22:35:14 [info]  Enter Middle name
+Feb 09,2015 22:35:15 [info]  Pass
+Feb 09,2015 22:35:15 [info]  Enter last name
+Feb 09,2015 22:35:15 [info]  Pass
+Feb 09,2015 22:35:15 [info]  Open 'Calender'
+Feb 09,2015 22:35:16 [info]  Pass
+Feb 09,2015 22:35:17 [info]  Select Year
+Feb 09,2015 22:35:18 [info]  Pass
+Feb 09,2015 22:35:18 [info]  Select date
+Feb 09,2015 22:35:21 [info]  Pass
+Feb 09,2015 22:35:21 [info]  Select gender
+Feb 09,2015 22:35:23 [info]  Feb 09,2015 22:35:23 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+org.dom4j.InvalidXPathException: Invalid XPath expression: ////*[@id='ddl_Gender_chzn_o_1'] Location path cannot end with //
+	at org.dom4j.xpath.DefaultXPath.parse(DefaultXPath.java:360)
+	at org.dom4j.xpath.DefaultXPath.<init>(DefaultXPath.java:59)
+	at org.dom4j.DocumentFactory.createXPath(DocumentFactory.java:230)
+	at org.dom4j.tree.AbstractNode.createXPath(AbstractNode.java:207)
+	at org.dom4j.tree.AbstractNode.selectSingleNode(AbstractNode.java:183)
+	at com.iCM.locators.LocatorReader.getLocator(LocatorReader.java:32)
+	at com.iCM.pagehelper.ResidentHelper.click(ResidentHelper.java:30)
+	at com.iCM.pagehelper.ResidentHelper.selectGender(ResidentHelper.java:63)
+	at com.iCM.scripts.AddResident.testAddResident(AddResident.java:93)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Feb 09,2015 22:35:23 [info]  End Execution of Test Class com.iCM.scripts.AddResident
+*****************************************************************************
+
+*****************************************************************************
+Feb 09,2015 22:43:50 [info]   Execution Started of Test Class com.iCM.scripts.AddResident and Test method testAddResident
+*****************************************************************************
+Feb 09,2015 22:43:50 [info]  Open application url
+Feb 09,2015 22:44:09 [info]  Pass
+Feb 09,2015 22:44:09 [info]  Verify Page title
+Feb 09,2015 22:44:14 [info]  Pass
+Feb 09,2015 22:44:14 [info]  Enter User name at login page.
+Feb 09,2015 22:44:15 [info]  Pass
+Feb 09,2015 22:44:15 [info]  Enter password at login page.
+Feb 09,2015 22:44:17 [info]  Pass
+Feb 09,2015 22:44:17 [info]  Click on Sign In button
+Feb 09,2015 22:44:37 [info]  Pass
+Feb 09,2015 22:44:37 [info]  Verify home page title
+Feb 09,2015 22:44:42 [info]  Pass
+Feb 09,2015 22:44:42 [info]  Open Add resident form via deep link
+Feb 09,2015 22:45:00 [info]  Pass
+Feb 09,2015 22:45:00 [info]  Enter Resident First Name
+Feb 09,2015 22:45:00 [info]  Pass
+Feb 09,2015 22:45:00 [info]  Enter Middle name
+Feb 09,2015 22:45:01 [info]  Pass
+Feb 09,2015 22:45:01 [info]  Enter last name
+Feb 09,2015 22:45:01 [info]  Pass
+Feb 09,2015 22:45:01 [info]  Open 'Calender'
+Feb 09,2015 22:45:02 [info]  Pass
+Feb 09,2015 22:45:02 [info]  Select Year
+Feb 09,2015 22:45:04 [info]  Pass
+Feb 09,2015 22:45:04 [info]  Select date
+Feb 09,2015 22:45:08 [info]  Pass
+Feb 09,2015 22:45:08 [info]  Select gender
+Feb 09,2015 22:45:09 [info]  Feb 09,2015 22:45:09 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+org.dom4j.InvalidXPathException: Invalid XPath expression: ////*[@id='ddl_Gender_chzn_o_1'] Location path cannot end with //
+	at org.dom4j.xpath.DefaultXPath.parse(DefaultXPath.java:360)
+	at org.dom4j.xpath.DefaultXPath.<init>(DefaultXPath.java:59)
+	at org.dom4j.DocumentFactory.createXPath(DocumentFactory.java:230)
+	at org.dom4j.tree.AbstractNode.createXPath(AbstractNode.java:207)
+	at org.dom4j.tree.AbstractNode.selectSingleNode(AbstractNode.java:183)
+	at com.iCM.locators.LocatorReader.getLocator(LocatorReader.java:32)
+	at com.iCM.pagehelper.ResidentHelper.click(ResidentHelper.java:30)
+	at com.iCM.pagehelper.ResidentHelper.selectGender(ResidentHelper.java:63)
+	at com.iCM.scripts.AddResident.testAddResident(AddResident.java:93)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Feb 09,2015 22:45:09 [info]  End Execution of Test Class com.iCM.scripts.AddResident
+*****************************************************************************
+
+*****************************************************************************
+Feb 09,2015 22:47:29 [info]   Execution Started of Test Class com.iCM.scripts.AddResident and Test method testAddResident
+*****************************************************************************
+Feb 09,2015 22:47:29 [info]  Open application url
+Feb 09,2015 22:47:48 [info]  Pass
+Feb 09,2015 22:47:49 [info]  Verify Page title
+Feb 09,2015 22:47:54 [info]  Pass
+Feb 09,2015 22:47:54 [info]  Enter User name at login page.
+Feb 09,2015 22:47:54 [info]  Pass
+Feb 09,2015 22:47:54 [info]  Enter password at login page.
+Feb 09,2015 22:47:55 [info]  Pass
+Feb 09,2015 22:47:55 [info]  Click on Sign In button
+Feb 09,2015 22:48:15 [info]  Pass
+Feb 09,2015 22:48:15 [info]  Verify home page title
+Feb 09,2015 22:48:20 [info]  Pass
+Feb 09,2015 22:48:20 [info]  Open Add resident form via deep link
+Feb 09,2015 22:48:37 [info]  Pass
+Feb 09,2015 22:48:37 [info]  Enter Resident First Name
+Feb 09,2015 22:48:37 [info]  Pass
+Feb 09,2015 22:48:37 [info]  Enter Middle name
+Feb 09,2015 22:48:38 [info]  Pass
+Feb 09,2015 22:48:38 [info]  Enter last name
+Feb 09,2015 22:48:39 [info]  Pass
+Feb 09,2015 22:48:39 [info]  Open 'Calender'
+Feb 09,2015 22:48:40 [info]  Pass
+Feb 09,2015 22:48:40 [info]  Select Year
+Feb 09,2015 22:48:42 [info]  Pass
+Feb 09,2015 22:48:42 [info]  Select date
+Feb 09,2015 22:48:45 [info]  Pass
+Feb 09,2015 22:48:46 [info]  Select gender
+Feb 09,2015 22:48:47 [info]  Pass
+Feb 09,2015 22:48:47 [info]  Select Marital Status
+Feb 09,2015 22:48:49 [info]  Pass
+Feb 09,2015 22:48:49 [info]  Open 'Calender' for admit date
+Feb 09,2015 22:48:50 [info]  Pass
+Feb 09,2015 22:48:50 [info]  Select Year
+Feb 09,2015 22:48:50 [info]  Feb 09,2015 22:48:50 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+org.openqa.selenium.NoSuchElementException: Cannot locate element with text: Jan
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.41.0', revision: '3192d8a', time: '2014-03-27 17:17:32'
+System info: host: 'user-PC', ip: '192.168.21.1', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_20'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:147)
+	at com.iCM.util.DriverHelper.selectDropDown(DriverHelper.java:281)
+	at com.iCM.pagehelper.ResidentHelper.selectMonth(ResidentHelper.java:78)
+	at com.iCM.scripts.AddResident.testAddResident(AddResident.java:108)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Feb 09,2015 22:48:50 [info]  End Execution of Test Class com.iCM.scripts.AddResident
+*****************************************************************************
+
+*****************************************************************************
+Feb 09,2015 22:50:14 [info]   Execution Started of Test Class com.iCM.scripts.AddResident and Test method testAddResident
+*****************************************************************************
+Feb 09,2015 22:50:14 [info]  Open application url
+Feb 09,2015 22:50:31 [info]  Pass
+Feb 09,2015 22:50:31 [info]  Verify Page title
+Feb 09,2015 22:50:36 [info]  Pass
+Feb 09,2015 22:50:36 [info]  Enter User name at login page.
+Feb 09,2015 22:50:36 [info]  Pass
+Feb 09,2015 22:50:36 [info]  Enter password at login page.
+Feb 09,2015 22:50:37 [info]  Pass
+Feb 09,2015 22:50:37 [info]  Click on Sign In button
+Feb 09,2015 22:50:56 [info]  Pass
+Feb 09,2015 22:50:56 [info]  Verify home page title
+Feb 09,2015 22:51:01 [info]  Pass
+Feb 09,2015 22:51:01 [info]  Open Add resident form via deep link
+Feb 09,2015 22:51:16 [info]  Pass
+Feb 09,2015 22:51:16 [info]  Enter Resident First Name
+Feb 09,2015 22:51:16 [info]  Pass
+Feb 09,2015 22:51:16 [info]  Enter Middle name
+Feb 09,2015 22:51:17 [info]  Pass
+Feb 09,2015 22:51:17 [info]  Enter last name
+Feb 09,2015 22:51:17 [info]  Pass
+Feb 09,2015 22:51:17 [info]  Open 'Calender'
+Feb 09,2015 22:51:19 [info]  Pass
+Feb 09,2015 22:51:19 [info]  Select Year
+Feb 09,2015 22:51:20 [info]  Pass
+Feb 09,2015 22:51:20 [info]  Select date
+Feb 09,2015 22:51:23 [info]  Pass
+Feb 09,2015 22:51:23 [info]  Select gender
+Feb 09,2015 22:51:25 [info]  Pass
+Feb 09,2015 22:51:25 [info]  Select Marital Status
+Feb 09,2015 22:51:26 [info]  Pass
+Feb 09,2015 22:51:26 [info]  Open 'Calender' for admit date
+Feb 09,2015 22:51:28 [info]  Pass
+Feb 09,2015 22:51:28 [info]  Select Year
+Feb 09,2015 22:51:28 [info]  Feb 09,2015 22:51:28 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+org.openqa.selenium.support.ui.UnexpectedTagNameException: Element should have been "select" but was "div"
+Build info: version: '2.41.0', revision: '3192d8a', time: '2014-03-27 17:17:32'
+System info: host: 'user-PC', ip: '192.168.21.1', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_20'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.<init>(Select.java:46)
+	at com.iCM.util.DriverHelper.selectDropDown(DriverHelper.java:280)
+	at com.iCM.pagehelper.ResidentHelper.selectMonth(ResidentHelper.java:78)
+	at com.iCM.scripts.AddResident.testAddResident(AddResident.java:108)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Feb 09,2015 22:51:28 [info]  End Execution of Test Class com.iCM.scripts.AddResident
+*****************************************************************************
+
+*****************************************************************************
+Feb 09,2015 23:10:12 [info]   Execution Started of Test Class com.iCM.scripts.AddResident and Test method testAddResident
+*****************************************************************************
+Feb 09,2015 23:10:12 [info]  Open application url
+Feb 09,2015 23:10:41 [info]  Pass
+Feb 09,2015 23:10:41 [info]  Verify Page title
+Feb 09,2015 23:10:47 [info]  Pass
+Feb 09,2015 23:10:47 [info]  Enter User name at login page.
+Feb 09,2015 23:10:47 [info]  Pass
+Feb 09,2015 23:10:47 [info]  Enter password at login page.
+Feb 09,2015 23:10:47 [info]  Pass
+Feb 09,2015 23:10:47 [info]  Click on Sign In button
+Feb 09,2015 23:11:06 [info]  Pass
+Feb 09,2015 23:11:06 [info]  Verify home page title
+Feb 09,2015 23:11:11 [info]  Pass
+Feb 09,2015 23:11:11 [info]  Open Add resident form via deep link
+Feb 09,2015 23:11:26 [info]  Pass
+Feb 09,2015 23:11:27 [info]  Enter Resident First Name
+Feb 09,2015 23:11:27 [info]  Pass
+Feb 09,2015 23:11:27 [info]  Enter Middle name
+Feb 09,2015 23:11:27 [info]  Pass
+Feb 09,2015 23:11:27 [info]  Enter last name
+Feb 09,2015 23:11:28 [info]  Pass
+Feb 09,2015 23:11:28 [info]  Open 'Calender'
+Feb 09,2015 23:11:29 [info]  Pass
+Feb 09,2015 23:11:29 [info]  Select Year
+Feb 09,2015 23:11:29 [info]  Feb 09,2015 23:11:29 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: Element Locator ://*[@class='ui-datepicker-year'] Not found expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.iCM.util.DriverHelper.selectDropDown(DriverHelper.java:277)
+	at com.iCM.pagehelper.ResidentHelper.selectYear(ResidentHelper.java:45)
+	at com.iCM.scripts.AddResident.testAddResident(AddResident.java:83)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Feb 09,2015 23:11:29 [info]  End Execution of Test Class com.iCM.scripts.AddResident
+*****************************************************************************
+
+*****************************************************************************
+Feb 09,2015 23:13:52 [info]   Execution Started of Test Class com.iCM.scripts.AddResident and Test method testAddResident
+*****************************************************************************
+Feb 09,2015 23:13:52 [info]  Open application url
+Feb 09,2015 23:14:11 [info]  Pass
+Feb 09,2015 23:14:11 [info]  Verify Page title
+Feb 09,2015 23:14:16 [info]  Pass
+Feb 09,2015 23:14:16 [info]  Enter User name at login page.
+Feb 09,2015 23:14:16 [info]  Pass
+Feb 09,2015 23:14:16 [info]  Enter password at login page.
+Feb 09,2015 23:14:17 [info]  Pass
+Feb 09,2015 23:14:17 [info]  Click on Sign In button
+Feb 09,2015 23:14:35 [info]  Pass
+Feb 09,2015 23:14:35 [info]  Verify home page title
+Feb 09,2015 23:14:40 [info]  Pass
+Feb 09,2015 23:14:40 [info]  Open Add resident form via deep link
+Feb 09,2015 23:14:55 [info]  Pass
+Feb 09,2015 23:14:55 [info]  Enter Resident First Name
+Feb 09,2015 23:14:55 [info]  Pass
+Feb 09,2015 23:14:55 [info]  Enter Middle name
+Feb 09,2015 23:14:56 [info]  Pass
+Feb 09,2015 23:14:56 [info]  Enter last name
+Feb 09,2015 23:14:56 [info]  Pass
+Feb 09,2015 23:14:56 [info]  Open 'Calender'
+Feb 09,2015 23:14:57 [info]  Pass
+Feb 09,2015 23:14:58 [info]  Select Year
+Feb 09,2015 23:14:58 [info]  Feb 09,2015 23:14:58 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: Element Locator ://*[@id='ui-datepicker-div']/div/div/select[2]] Not found expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.iCM.util.DriverHelper.selectDropDown(DriverHelper.java:277)
+	at com.iCM.pagehelper.ResidentHelper.selectYear(ResidentHelper.java:45)
+	at com.iCM.scripts.AddResident.testAddResident(AddResident.java:83)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Feb 09,2015 23:14:58 [info]  End Execution of Test Class com.iCM.scripts.AddResident
+*****************************************************************************
+
+*****************************************************************************
+Feb 09,2015 23:16:30 [info]   Execution Started of Test Class com.iCM.scripts.AddResident and Test method testAddResident
+*****************************************************************************
+Feb 09,2015 23:16:30 [info]  Open application url
+Feb 09,2015 23:16:49 [info]  Pass
+Feb 09,2015 23:16:49 [info]  Verify Page title
+Feb 09,2015 23:16:54 [info]  Pass
+Feb 09,2015 23:16:54 [info]  Enter User name at login page.
+Feb 09,2015 23:16:54 [info]  Pass
+Feb 09,2015 23:16:54 [info]  Enter password at login page.
+Feb 09,2015 23:16:57 [info]  Pass
+Feb 09,2015 23:16:57 [info]  Click on Sign In button
+Feb 09,2015 23:17:14 [info]  Pass
+Feb 09,2015 23:17:14 [info]  Verify home page title
+Feb 09,2015 23:17:19 [info]  Pass
+Feb 09,2015 23:17:19 [info]  Open Add resident form via deep link
+Feb 09,2015 23:17:33 [info]  Pass
+Feb 09,2015 23:17:33 [info]  Enter Resident First Name
+Feb 09,2015 23:17:34 [info]  Pass
+Feb 09,2015 23:17:34 [info]  Enter Middle name
+Feb 09,2015 23:17:35 [info]  Pass
+Feb 09,2015 23:17:35 [info]  Enter last name
+Feb 09,2015 23:17:35 [info]  Pass
+Feb 09,2015 23:17:35 [info]  Open 'Calender'
+Feb 09,2015 23:17:37 [info]  Pass
+Feb 09,2015 23:17:37 [info]  Select Year
+Feb 09,2015 23:17:38 [info]  Pass
+Feb 09,2015 23:17:38 [info]  Select date
+Feb 09,2015 23:17:41 [info]  Pass
+Feb 09,2015 23:17:41 [info]  Select gender
+Feb 09,2015 23:17:43 [info]  Pass
+Feb 09,2015 23:17:43 [info]  Select Marital Status
+Feb 09,2015 23:17:44 [info]  Pass
+Feb 09,2015 23:17:44 [info]  Open 'Calender' for admit date
+Feb 09,2015 23:17:46 [info]  Pass
+Feb 09,2015 23:17:46 [info]  Select Month
+Feb 09,2015 23:17:46 [info]  Feb 09,2015 23:17:46 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: Element Locator ://*[@id='ui-datepicker-month'] Not found expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.iCM.util.DriverHelper.selectDropDown(DriverHelper.java:277)
+	at com.iCM.pagehelper.ResidentHelper.selectMonth(ResidentHelper.java:78)
+	at com.iCM.scripts.AddResident.testAddResident(AddResident.java:108)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Feb 09,2015 23:17:46 [info]  End Execution of Test Class com.iCM.scripts.AddResident
+*****************************************************************************
+
+*****************************************************************************
+Feb 09,2015 23:21:01 [info]   Execution Started of Test Class com.iCM.scripts.AddResident and Test method testAddResident
+*****************************************************************************
+Feb 09,2015 23:21:01 [info]  Open application url
+Feb 09,2015 23:21:26 [info]  Pass
+Feb 09,2015 23:21:26 [info]  Verify Page title
+Feb 09,2015 23:21:31 [info]  Pass
+Feb 09,2015 23:21:31 [info]  Enter User name at login page.
+Feb 09,2015 23:21:31 [info]  Pass
+Feb 09,2015 23:21:31 [info]  Enter password at login page.
+Feb 09,2015 23:21:33 [info]  Pass
+Feb 09,2015 23:21:33 [info]  Click on Sign In button
+Feb 09,2015 23:21:52 [info]  Pass
+Feb 09,2015 23:21:52 [info]  Verify home page title
+Feb 09,2015 23:21:58 [info]  Pass
+Feb 09,2015 23:21:58 [info]  Open Add resident form via deep link
+Feb 09,2015 23:22:14 [info]  Pass
+Feb 09,2015 23:22:14 [info]  Enter Resident First Name
+Feb 09,2015 23:22:14 [info]  Pass
+Feb 09,2015 23:22:14 [info]  Enter Middle name
+Feb 09,2015 23:22:15 [info]  Pass
+Feb 09,2015 23:22:15 [info]  Enter last name
+Feb 09,2015 23:22:15 [info]  Pass
+Feb 09,2015 23:22:15 [info]  Open 'Calender'
+Feb 09,2015 23:22:17 [info]  Pass
+Feb 09,2015 23:22:17 [info]  Select Year
+Feb 09,2015 23:22:19 [info]  Pass
+Feb 09,2015 23:22:19 [info]  Select date
+Feb 09,2015 23:22:22 [info]  Pass
+Feb 09,2015 23:22:22 [info]  Select gender
+Feb 09,2015 23:22:24 [info]  Pass
+Feb 09,2015 23:22:24 [info]  Select Marital Status
+Feb 09,2015 23:22:25 [info]  Pass
+Feb 09,2015 23:22:25 [info]  Open 'Calender' for admit date
+Feb 09,2015 23:22:27 [info]  Pass
+Feb 09,2015 23:22:27 [info]  Select Month
+Feb 09,2015 23:22:58 [info]  Feb 09,2015 23:22:58 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: Element Locator ://*[@id='ui-datepicker-month'] Not found expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.iCM.util.DriverHelper.selectDropDown(DriverHelper.java:277)
+	at com.iCM.pagehelper.ResidentHelper.selectMonth(ResidentHelper.java:80)
+	at com.iCM.scripts.AddResident.testAddResident(AddResident.java:108)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Feb 09,2015 23:22:58 [info]  End Execution of Test Class com.iCM.scripts.AddResident
+*****************************************************************************
+
+*****************************************************************************
+Feb 09,2015 23:26:10 [info]   Execution Started of Test Class com.iCM.scripts.AddResident and Test method testAddResident
+*****************************************************************************
+Feb 09,2015 23:26:10 [info]  Open application url
+Feb 09,2015 23:26:33 [info]  Pass
+Feb 09,2015 23:26:33 [info]  Verify Page title
+Feb 09,2015 23:26:38 [info]  Pass
+Feb 09,2015 23:26:38 [info]  Enter User name at login page.
+Feb 09,2015 23:26:39 [info]  Pass
+Feb 09,2015 23:26:39 [info]  Enter password at login page.
+Feb 09,2015 23:26:39 [info]  Pass
+Feb 09,2015 23:26:39 [info]  Click on Sign In button
+Feb 09,2015 23:26:59 [info]  Pass
+Feb 09,2015 23:26:59 [info]  Verify home page title
+Feb 09,2015 23:27:05 [info]  Pass
+Feb 09,2015 23:27:05 [info]  Open Add resident form via deep link
+Feb 09,2015 23:27:20 [info]  Pass
+Feb 09,2015 23:27:20 [info]  Enter Resident First Name
+Feb 09,2015 23:27:21 [info]  Pass
+Feb 09,2015 23:27:21 [info]  Enter Middle name
+Feb 09,2015 23:27:21 [info]  Pass
+Feb 09,2015 23:27:21 [info]  Enter last name
+Feb 09,2015 23:27:22 [info]  Pass
+Feb 09,2015 23:27:22 [info]  Open 'Calender'
+Feb 09,2015 23:27:24 [info]  Pass
+Feb 09,2015 23:27:24 [info]  Select Year
+Feb 09,2015 23:27:25 [info]  Pass
+Feb 09,2015 23:27:25 [info]  Select date
+Feb 09,2015 23:27:28 [info]  Pass
+Feb 09,2015 23:27:28 [info]  Select gender
+Feb 09,2015 23:27:30 [info]  Pass
+Feb 09,2015 23:27:30 [info]  Select Marital Status
+Feb 09,2015 23:27:31 [info]  Pass
+Feb 09,2015 23:27:31 [info]  Open 'Calender' for admit date
+Feb 09,2015 23:27:33 [info]  Pass
+Feb 09,2015 23:27:33 [info]  Select Year
+Feb 09,2015 23:27:34 [info]  Pass
+Feb 09,2015 23:27:35 [info]  Select Month
+Feb 09,2015 23:28:06 [info]  Feb 09,2015 23:28:06 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: Element Locator ://*[@id='ui-datepicker-month'] Not found expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.iCM.util.DriverHelper.selectDropDown(DriverHelper.java:277)
+	at com.iCM.pagehelper.ResidentHelper.selectMonth(ResidentHelper.java:80)
+	at com.iCM.scripts.AddResident.testAddResident(AddResident.java:113)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Feb 09,2015 23:28:06 [info]  End Execution of Test Class com.iCM.scripts.AddResident
+*****************************************************************************
+
+*****************************************************************************
+Feb 09,2015 23:31:02 [info]   Execution Started of Test Class com.iCM.scripts.AddResident and Test method testAddResident
+*****************************************************************************
+Feb 09,2015 23:31:02 [info]  Open application url
+Feb 09,2015 23:31:20 [info]  Pass
+Feb 09,2015 23:31:20 [info]  Verify Page title
+Feb 09,2015 23:31:25 [info]  Pass
+Feb 09,2015 23:31:25 [info]  Enter User name at login page.
+Feb 09,2015 23:31:25 [info]  Pass
+Feb 09,2015 23:31:25 [info]  Enter password at login page.
+Feb 09,2015 23:31:27 [info]  Pass
+Feb 09,2015 23:31:27 [info]  Click on Sign In button
+Feb 09,2015 23:31:44 [info]  Pass
+Feb 09,2015 23:31:44 [info]  Verify home page title
+Feb 09,2015 23:31:49 [info]  Pass
+Feb 09,2015 23:31:49 [info]  Open Add resident form via deep link
+Feb 09,2015 23:32:03 [info]  Pass
+Feb 09,2015 23:32:03 [info]  Enter Resident First Name
+Feb 09,2015 23:32:04 [info]  Pass
+Feb 09,2015 23:32:04 [info]  Enter Middle name
+Feb 09,2015 23:32:04 [info]  Pass
+Feb 09,2015 23:32:04 [info]  Enter last name
+Feb 09,2015 23:32:04 [info]  Pass
+Feb 09,2015 23:32:04 [info]  Open 'Calender'
+Feb 09,2015 23:32:06 [info]  Pass
+Feb 09,2015 23:32:06 [info]  Select Year
+Feb 09,2015 23:32:08 [info]  Pass
+Feb 09,2015 23:32:08 [info]  Select date
+Feb 09,2015 23:32:11 [info]  Pass
+Feb 09,2015 23:32:11 [info]  Select gender
+Feb 09,2015 23:32:13 [info]  Pass
+Feb 09,2015 23:32:13 [info]  Select Marital Status
+Feb 09,2015 23:32:14 [info]  Pass
+Feb 09,2015 23:32:14 [info]  Open 'Calender' for admit date
+Feb 09,2015 23:32:16 [info]  Pass
+Feb 09,2015 23:32:16 [info]  Select Year
+Feb 09,2015 23:32:18 [info]  Pass
+Feb 09,2015 23:32:18 [info]  Select Month
+Feb 09,2015 23:32:19 [info]  Pass
+Feb 09,2015 23:32:19 [info]  Select date
+Feb 09,2015 23:32:22 [info]  Pass
+Feb 09,2015 23:32:22 [info]  Select Facality
+Feb 09,2015 23:32:24 [info]  Pass
+Feb 09,2015 23:32:24 [info]  Select Nurse
+Feb 09,2015 23:32:25 [info]  Pass
+Feb 09,2015 23:32:25 [info]  Enter level of care
+Feb 09,2015 23:32:26 [info]  Pass
+Feb 09,2015 23:32:26 [info]  Click on 'Save' button
+Feb 09,2015 23:32:59 [info]  Pass
+Feb 09,2015 23:32:59 [info]  Search Added resident
+Feb 09,2015 23:33:03 [info]  Pass
+Feb 09,2015 23:33:03 [info]  Verify added resident
+Feb 09,2015 23:33:06 [info]  Pass
+Feb 09,2015 23:33:06 [info]  End Execution of Test Class com.iCM.scripts.AddResident
+*****************************************************************************
+
+*****************************************************************************
+Feb 09,2015 23:36:24 [info]   Execution Started of Test Class com.iCM.scripts.AddResident and Test method testAddResident
+*****************************************************************************
+Feb 09,2015 23:36:24 [info]  Open application url
+Feb 09,2015 23:36:42 [info]  Pass
+Feb 09,2015 23:36:42 [info]  Verify Page title
+Feb 09,2015 23:36:47 [info]  Pass
+Feb 09,2015 23:36:47 [info]  Enter User name at login page.
+Feb 09,2015 23:36:48 [info]  Pass
+Feb 09,2015 23:36:48 [info]  Enter password at login page.
+Feb 09,2015 23:36:49 [info]  Pass
+Feb 09,2015 23:36:49 [info]  Click on Sign In button
+Feb 09,2015 23:37:06 [info]  Pass
+Feb 09,2015 23:37:06 [info]  Verify home page title
+Feb 09,2015 23:37:12 [info]  Pass
+Feb 09,2015 23:37:12 [info]  Open Add resident form via deep link
+Feb 09,2015 23:37:26 [info]  Pass
+Feb 09,2015 23:37:26 [info]  Enter Resident First Name
+Feb 09,2015 23:37:26 [info]  Pass
+Feb 09,2015 23:37:26 [info]  Enter Middle name
+Feb 09,2015 23:37:27 [info]  Pass
+Feb 09,2015 23:37:27 [info]  Enter last name
+Feb 09,2015 23:37:28 [info]  Pass
+Feb 09,2015 23:37:28 [info]  Open 'Calender'
+Feb 09,2015 23:37:29 [info]  Pass
+Feb 09,2015 23:37:29 [info]  Select Year
+Feb 09,2015 23:37:31 [info]  Pass
+Feb 09,2015 23:37:31 [info]  Select date
+Feb 09,2015 23:37:34 [info]  Pass
+Feb 09,2015 23:37:34 [info]  Select gender
+Feb 09,2015 23:37:36 [info]  Pass
+Feb 09,2015 23:37:36 [info]  Select Marital Status
+Feb 09,2015 23:37:37 [info]  Pass
+Feb 09,2015 23:37:37 [info]  Open 'Calender' for admit date
+Feb 09,2015 23:37:39 [info]  Pass
+Feb 09,2015 23:37:39 [info]  Select Year
+Feb 09,2015 23:37:40 [info]  Pass
+Feb 09,2015 23:37:40 [info]  Select Month
+Feb 09,2015 23:37:41 [info]  Pass
+Feb 09,2015 23:37:41 [info]  Select date
+Feb 09,2015 23:37:44 [info]  Pass
+Feb 09,2015 23:37:44 [info]  Select Facality
+Feb 09,2015 23:37:46 [info]  Pass
+Feb 09,2015 23:37:46 [info]  Select Nurse
+Feb 09,2015 23:37:48 [info]  Pass
+Feb 09,2015 23:37:48 [info]  Enter level of care
+Feb 09,2015 23:37:48 [info]  Pass
+Feb 09,2015 23:37:48 [info]  Click on 'Save' button
+Feb 09,2015 23:38:20 [info]  Pass
+Feb 09,2015 23:38:20 [info]  Search Added resident
+Feb 09,2015 23:38:24 [info]  Pass
+Feb 09,2015 23:38:24 [info]  Verify added resident
+Feb 09,2015 23:38:27 [info]  Pass
+Feb 09,2015 23:38:27 [info]  End Execution of Test Class com.iCM.scripts.AddResident
+*****************************************************************************
+
+*****************************************************************************
+Feb 09,2015 23:55:36 [info]   Execution Started of Test Class com.iCM.scripts.AddResident and Test method testAddResident
+*****************************************************************************
+Feb 09,2015 23:55:36 [info]  Open application url
+Feb 09,2015 23:55:54 [info]  Pass
+Feb 09,2015 23:55:54 [info]  Verify Page title
+Feb 09,2015 23:55:59 [info]  Pass
+Feb 09,2015 23:56:00 [info]  Enter User name at login page.
+Feb 09,2015 23:56:00 [info]  Pass
+Feb 09,2015 23:56:00 [info]  Enter password at login page.
+Feb 09,2015 23:56:01 [info]  Pass
+Feb 09,2015 23:56:01 [info]  Click on Sign In button
+Feb 09,2015 23:56:19 [info]  Pass
+Feb 09,2015 23:56:19 [info]  Verify home page title
+Feb 09,2015 23:56:24 [info]  Pass
+Feb 09,2015 23:56:24 [info]  Open Add resident form via deep link
+Feb 09,2015 23:56:39 [info]  Pass
+Feb 09,2015 23:56:39 [info]  Enter Resident First Name
+Feb 09,2015 23:56:40 [info]  Pass
+Feb 09,2015 23:56:40 [info]  Enter Middle name
+Feb 09,2015 23:56:40 [info]  Pass
+Feb 09,2015 23:56:40 [info]  Enter last name
+Feb 09,2015 23:56:41 [info]  Pass
+Feb 09,2015 23:56:41 [info]  Open 'Calender'
+Feb 09,2015 23:56:42 [info]  Pass
+Feb 09,2015 23:56:42 [info]  Select Year
+Feb 09,2015 23:56:44 [info]  Pass
+Feb 09,2015 23:56:44 [info]  Select date
+Feb 09,2015 23:56:47 [info]  Pass
+Feb 09,2015 23:56:47 [info]  Select gender
+Feb 09,2015 23:56:48 [info]  Pass
+Feb 09,2015 23:56:48 [info]  Select Marital Status
+Feb 09,2015 23:56:50 [info]  Pass
+Feb 09,2015 23:56:50 [info]  Open 'Calender' for admit date
+Feb 09,2015 23:56:52 [info]  Pass
+Feb 09,2015 23:56:52 [info]  Select Year
+Feb 09,2015 23:56:53 [info]  Pass
+Feb 09,2015 23:56:53 [info]  Select Month
+Feb 09,2015 23:56:54 [info]  Pass
+Feb 09,2015 23:56:54 [info]  Select date
+Feb 09,2015 23:56:57 [info]  Pass
+Feb 09,2015 23:56:57 [info]  Select Facality
+Feb 09,2015 23:56:59 [info]  Pass
+Feb 09,2015 23:56:59 [info]  Select Nurse
+Feb 09,2015 23:57:00 [info]  Pass
+Feb 09,2015 23:57:00 [info]  Enter level of care
+Feb 09,2015 23:57:01 [info]  Pass
+Feb 09,2015 23:57:01 [info]  Click on 'Save' button
+Feb 09,2015 23:57:33 [info]  Pass
+Feb 09,2015 23:57:33 [info]  Search Added resident
+Feb 09,2015 23:57:36 [info]  Pass
+Feb 09,2015 23:57:36 [info]  Verify added resident
+Feb 09,2015 23:57:39 [info]  Pass
+Feb 09,2015 23:57:39 [info]  Deleting resident
+Feb 09,2015 23:57:39 [info]  Open resident profile
+Feb 09,2015 23:58:12 [info]  Pass
+Feb 09,2015 23:58:12 [info]  Open resident profile
+Feb 09,2015 23:58:46 [info]  Pass
+Feb 09,2015 23:58:46 [info]  Open resident profile
+Feb 09,2015 23:59:28 [info]  Pass
+Feb 09,2015 23:59:28 [info]  Open resident profile
+Feb 09,2015 23:59:29 [info]  Pass
+Feb 09,2015 23:59:29 [info]  Open resident profile

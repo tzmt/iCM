@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Locators>
+  <EChart>
+    <Resident><![CDATA[//*[@class='odd']/td/a]]></Resident>
+    <EchartTitle><![CDATA[//*[@id='content']/h1]]></EchartTitle>
+    <Medication><![CDATA[//*[@class='fa-icon-medkit']]]></Medication>
+    <AddMedication><![CDATA[//*[@id='content']/div[3]/a[1]]]></AddMedication>
+    <VerifyEMAR><![CDATA[//*[@id='content']/div[3]/a[2]]]></VerifyEMAR>
+    <VerifyMedicineName><![CDATA[//*[@for='Medicine_Name']/]]></VerifyMedicineName>
+    <VerifyDosage><![CDATA[//*[@for='Dosage']/]]></VerifyDosage>
+    <VerifyStartDate><![CDATA[//*[@for='Start_Date']/]]></VerifyStartDate>
+    <EMR><![CDATA[//*[@class='fa-icon-barcode']]]></EMR>
+  </EChart>
+  
+  <AddMedication>
+    <AddButton><![CDATA[//*[@class='btn btn-success']]]></AddButton>
+    <MedicineName><![CDATA[//*[@id='MedicineName']]]></MedicineName>
+    <Dosage><![CDATA[//*[@id='Dosage']]]></Dosage>
+    <Instuction><![CDATA[//*[@id='Instructions']]]></Instuction>
+    <StartDate><![CDATA[//*[@id='StartDate']]]></StartDate>
+    <YearDropdown><![CDATA[//*[@class='ui-datepicker-year']]]></YearDropdown>
+  	<Date><![CDATA[link=]]></Date>
+  	<Time><![CDATA[//*[@id='Hours']]]></Time>
+  	<TimeTyep><![CDATA[//*[@id='AMPM']]]></TimeTyep>
+  	<AddSchedule><![CDATA[//*[@id='AddRow']]]></AddSchedule>
+  	
+  	<TimeTable_1><![CDATA[//*[@id='TimeTable']/tbody/tr[1]/td[1]]]></TimeTable_1>
+	<TimeTable_2><![CDATA[//*[@id='TimeTable']/tbody/tr[2]/td[1]]]></TimeTable_2>
+	<TimeTable_3><![CDATA[//*[@id='TimeTable']/tbody/tr[3]/td[1]]]></TimeTable_3>
+  	<RemoveSchedule_1><![CDATA[//*[@id='TimeTable']/tbody/tr[1]/td[6]/a]]></RemoveSchedule_1>
+  	<RemoveSchedule_2><![CDATA[//*[@id='TimeTable']/tbody/tr[2]/td[6]/a]]></RemoveSchedule_2>
+  	<RemoveSchedule_3><![CDATA[//*[@id='TimeTable']/tbody/tr[3]/td[6]/a]]></RemoveSchedule_3>
+  	<ClickEMAR><![CDATA[//*[@id='TimeTable']/tbody/tr[3]/td[6]/a]]></ClickEMAR>
+  	
+    <SaveMedi><![CDATA[//*[@class='form-actions']/button]]></SaveMedi>
+    
+    <ViewMedication><![CDATA[//*[@id='tsc_breadcrumb-3']/li[5]/]]></ViewMedication>]
+    <VerifyEdit><![CDATA[//*[@class='form-actions']/a/]]></VerifyEdit>
+    <ClickMedical><![CDATA[//*[@id='tsc_breadcrumb-3']/li[3]/a]]></ClickMedical>
+    <VerifyMedicine><![CDATA[//*[@class='medicine']/strong]]]></VerifyMedicine>
+    
+    <MorningTab><![CDATA[//ul[@class = 'nav nav-pills bar']/li[2]/a]]></MorningTab>
+    <MorningTime><![CDATA[//td[contains(@class,'Morning')]/div/div/div[1]]]></MorningTime>
+    <ExpendMorn><![CDATA[//td[contains(@class, 'Morning_')]/div/a]]></ExpendMorn>
+    
+	<NoonTab><![CDATA[//ul[@class = 'nav nav-pills bar']/li[3]/a]]></NoonTab>
+	<NoonTime><![CDATA[//td[contains(@class,'AfterNoon')]/div/div/div[1]]]></NoonTime>
+	<ExpendNoon><![CDATA[//td[contains(@class, 'AfterNoon_')]/div/a]]></ExpendNoon>
+	
+	<EvnTab><![CDATA[//ul[@class = 'nav nav-pills bar']/li[4]/a]]></EvnTab>
+	<EvnTime><![CDATA[//td[contains(@class,'Evening')]/div/div/div[1]]]></EvnTime>
+	<ExpendEvn><![CDATA[//td[contains(@class, 'Evening_')]/div/a]]></ExpendEvn>
+	
+	<AllTab><![CDATA[//ul[@class = 'nav nav-pills bar']/li[1]/a]]></AllTab>
+	
+	
+
+    <CancelMedi><![CDATA[//*[@class='form-actions']/a]]></CancelMedi>
+    <MediName><![CDATA[//div[@class='form-horizontal']/div[1]/div[2]/div]]></MediName>
+    <View><![CDATA[//*[@class='table table-hover dataTable']/tbody/tr[1]/td[6]/a[1]]]></View>
+    <EditMed><![CDATA[//*[@id='ViewMed']/div/div[17]/a[1]]]></EditMed>
+    <DC><![CDATA[//*[@class='table table-hover dataTable']/tbody/tr[1]/td[6]/a[3]]]></DC>
+    <EMRTab><![CDATA[//*[@id='content']/div[3]/a[2]]]></EMRTab>
+    <GenMar><![CDATA[link=Generate MAR]]></GenMar>
+  	<MARMonth><![CDATA[//*[@id='ddl_Months']]]></MARMonth>
+  	<PrintMAR><![CDATA[//*[@id='printEMAR']]]></PrintMAR>
+  	<Comment><![CDATA[//*[@id='comments']]]></Comment>
+  	<OkButton><![CDATA[//*[@id='OKFooter']/button[2]]]></OkButton>
+  	<MedicalName><![CDATA[//*[@class='table table-hover dataTable']/tbody/tr[1]/td[1]/strong]]></MedicalName>
+  	<ResiNamePop><![CDATA[//*[@id='pageContainer1']/xhtml:div[2]/xhtml:div[93]]]></ResiNamePop>
+  	<ResiName><![CDATA[//*[@id='ResidentName']/p/strong]]></ResiName>
+  	<Sun><![CDATA[//*[@id='DaysOfWeekCalender']/button[2]/i]]></Sun>
+	<Wed><![CDATA[//*[@id='DaysOfWeekCalender']/button[5]/i]]></Wed>
+	<okb><![CDATA[//div[@class='modal-footer']/a[2]]]></okb>
+	<ScheduleCalender><![CDATA[//*[@id='ScheduleStartDate']]]></ScheduleCalender>
+	<ScheduleDate><![CDATA[//*[@id='date']]]></ScheduleDate>
+	<Jump><![CDATA[//div[@class='pull-left']/button]]></Jump>
+  </AddMedication>
+  
+  <Admin>
+  	<AdminButton><![CDATA[//td[@class='All']/div/div/div[2]/div/button[2]]]></AdminButton>
+  	<AdminReading><![CDATA[//td[@class='All']/div/div/div[2]/div/ul/li[1]/a]]></AdminReading>
+  	<BloodSugar><![CDATA[//*[@id='BloodSugar']]]></BloodSugar>
+  	<AdminNow><![CDATA[//*[@id='sbmBtn']]]></AdminNow>
+  	<AdminSuccess><![CDATA[//*[@id='OKFootr']/div[1]]]></AdminSuccess>
+  	<AdminOk><![CDATA[//*[@id='OKFootr']/div[3]/button]]></AdminOk>
+  	<AdminBy><![CDATA[//td[@class='All']/div/div/div[2]/div/button[1]]]></AdminBy>
+  </Admin>
+  
+  <Omission>
+  	<OmiDropdown><![CDATA[//*[@id='content']/div[3]/div/button]]></OmiDropdown>
+  	<AddOmission><![CDATA[//*[@id='content']/div[3]/div/ul/li[1]/a]]></AddOmission>
+  	<SelectTypeOmission><![CDATA[//*[@id='ErrorOrOmssionTypeId']]]></SelectTypeOmission>
+  	<MedicationDrpdwn><![CDATA[//*[@id='MedId_chzn']/a/span]]></MedicationDrpdwn>
+  	<SearchMedicationOmission><![CDATA[//*[@id='MedId_chzn']/div/div/input]]></SearchMedicationOmission>
+  	<DMedicine><![CDATA[//*[@id='MedId_chzn_o_1']]]></DMedicine>
+  	<ResultOmission><![CDATA[//*[@id='OResults']]]></ResultOmission>
+  	<SaveOmission><![CDATA[//*[@id='EOFootr']/button[2]]]></SaveOmission>
+  	<VerifyOmission><![CDATA[//*[@id='EOOKFootr']/div[1]]]></VerifyOmission>
+  	<OkOmission><![CDATA[//*[@id='EOOKFootr']/div[3]/a]]></OkOmission>
+  	<OmissionVerify><![CDATA[//td[@class='All']/div/div/div[2]/div/button[1]/b]]></OmissionVerify>
+  </Omission>
+</Locators>

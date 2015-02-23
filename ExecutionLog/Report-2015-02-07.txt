@@ -1,0 +1,49 @@
+
+*****************************************************************************
+Feb 07,2015 21:03:50 [info]   Execution Started of Test Class com.iCM.scripts.Login and Test method testLogin
+*****************************************************************************
+Feb 07,2015 21:03:50 [info]  Open application url
+Feb 07,2015 21:04:15 [info]  Pass
+Feb 07,2015 21:04:15 [info]  Verify Page title
+Feb 07,2015 21:04:18 [info]  Pass
+Feb 07,2015 21:04:18 [info]  Enter User name at login page.
+Feb 07,2015 21:04:20 [info]  Pass
+Feb 07,2015 21:04:20 [info]  Enter password at login page.
+Feb 07,2015 21:04:21 [info]  Pass
+Feb 07,2015 21:04:21 [info]  Click on Sign In button
+Feb 07,2015 21:04:21 [info]  Pass
+Feb 07,2015 21:04:21 [info]  End Execution of Test Class com.iCM.scripts.Login
+*****************************************************************************
+*****************************************************************************
+Feb 07,2015 21:07:54 [info]   Execution Started of Test Class com.iCM.scripts.Login and Test method testLogin
+*****************************************************************************
+Feb 07,2015 21:07:54 [info]  Open application url
+Feb 07,2015 21:08:04 [info]  Pass
+Feb 07,2015 21:08:04 [info]  Verify Page title
+Feb 07,2015 21:08:07 [info]  Pass
+Feb 07,2015 21:08:07 [info]  Enter User name at login page.
+Feb 07,2015 21:08:08 [info]  Pass
+Feb 07,2015 21:08:08 [info]  Enter password at login page.
+Feb 07,2015 21:08:09 [info]  Pass
+Feb 07,2015 21:08:09 [info]  Click on Sign In button
+Feb 07,2015 21:08:09 [info]  Pass
+Feb 07,2015 21:08:09 [info]  End Execution of Test Class com.iCM.scripts.Login
+*****************************************************************************
+
+*****************************************************************************
+Feb 07,2015 21:11:34 [info]   Execution Started of Test Class com.iCM.scripts.Login and Test method testLogin
+*****************************************************************************
+Feb 07,2015 21:11:34 [info]  Open application url
+Feb 07,2015 21:11:45 [info]  Pass
+Feb 07,2015 21:11:45 [info]  Verify Page title
+Feb 07,2015 21:11:50 [info]  Pass
+Feb 07,2015 21:11:50 [info]  Enter User name at login page.
+Feb 07,2015 21:11:50 [info]  Pass
+Feb 07,2015 21:11:50 [info]  Enter password at login page.
+Feb 07,2015 21:11:51 [info]  Pass
+Feb 07,2015 21:11:51 [info]  Click on Sign In button
+Feb 07,2015 21:11:52 [info]  Pass
+Feb 07,2015 21:11:52 [info]  Verify home page title
+Feb 07,2015 21:12:06 [info]  Pass
+Feb 07,2015 21:12:06 [info]  End Execution of Test Class com.iCM.scripts.Login
+*****************************************************************************
