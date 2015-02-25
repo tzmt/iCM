@@ -58,7 +58,7 @@ public class AddEditMedicationSchedule extends DriverTestCase
 				ExecutionLog.Log("Verify home page title");
 				loginHelper.verifyTitle("iCM - Home");
 				ExecutionLog.Log("Pass");
-				
+			
 				//Open the add Resident screen
 				ExecutionLog.Log("Open Add resident form via deep link");
 				visit("ALM/addResident");
@@ -374,7 +374,7 @@ public class AddEditMedicationSchedule extends DriverTestCase
 				ExecutionLog.Log("Click on Edit button");
 				echartHelper.click("AddMedication.EditMed");
 				ExecutionLog.Log("Pass");
-						
+			
 				echartHelper.waitForWorkAroundTime(5000);
 				//Remove scheduled time
 				ExecutionLog.Log("Remove scheduled time");
@@ -459,6 +459,8 @@ public class AddEditMedicationSchedule extends DriverTestCase
 				ExecutionLog.Log("Open Medication page");
 				visit("Medication/List/"+id);
 				ExecutionLog.Log("Pass");
+				
+				echartHelper.waitForWorkAroundTime(2000);
 				
 				//Click on 'EMR' Tab
 				ExecutionLog.Log("Click on EMR Tab");

@@ -2,28 +2,28 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="316335" started-at="2015-02-23T18:02:41Z" finished-at="2015-02-23T18:07:58Z">
+  <suite name="Default suite" duration-ms="105374" started-at="2015-02-25T13:37:39Z" finished-at="2015-02-25T13:39:24Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="316335" started-at="2015-02-23T18:02:41Z" finished-at="2015-02-23T18:07:58Z">
-      <class name="com.iCM.scripts.Omission">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.iCM.scripts.Omission@1d4e2ba]" name="setUp" is-config="true" duration-ms="13015" started-at="2015-02-23T23:32:28Z" finished-at="2015-02-23T23:32:41Z">
+    <test name="Default test" duration-ms="105374" started-at="2015-02-25T13:37:39Z" finished-at="2015-02-25T13:39:24Z">
+      <class name="com.iCM.scripts.ViewEChartMedication">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.iCM.scripts.ViewEChartMedication@1d4e2ba]" name="setUp" is-config="true" duration-ms="14440" started-at="2015-02-25T19:07:25Z" finished-at="2015-02-25T19:07:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="testOmission()[pri:0, instance:com.iCM.scripts.Omission@1d4e2ba]" name="testOmission" duration-ms="316300" started-at="2015-02-23T23:32:41Z" finished-at="2015-02-23T23:37:58Z">
+        <test-method status="PASS" signature="testViewEChartMedication()[pri:0, instance:com.iCM.scripts.ViewEChartMedication@1d4e2ba]" name="testViewEChartMedication" duration-ms="105339" started-at="2015-02-25T19:07:39Z" finished-at="2015-02-25T19:09:24Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testOmission -->
-        <test-method status="PASS" signature="endMethods()[pri:0, instance:com.iCM.scripts.Omission@1d4e2ba]" name="endMethods" is-config="true" duration-ms="12" started-at="2015-02-23T23:37:58Z" finished-at="2015-02-23T23:37:58Z">
+        </test-method> <!-- testViewEChartMedication -->
+        <test-method status="PASS" signature="endMethods()[pri:0, instance:com.iCM.scripts.ViewEChartMedication@1d4e2ba]" name="endMethods" is-config="true" duration-ms="14" started-at="2015-02-25T19:09:24Z" finished-at="2015-02-25T19:09:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endMethods -->
-        <test-method status="PASS" signature="afterMainMethod()[pri:0, instance:com.iCM.scripts.Omission@1d4e2ba]" name="afterMainMethod" is-config="true" duration-ms="836" started-at="2015-02-23T23:37:58Z" finished-at="2015-02-23T23:37:59Z">
+        <test-method status="PASS" signature="afterMainMethod()[pri:0, instance:com.iCM.scripts.ViewEChartMedication@1d4e2ba]" name="afterMainMethod" is-config="true" duration-ms="894" started-at="2015-02-25T19:09:24Z" finished-at="2015-02-25T19:09:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMainMethod -->
-      </class> <!-- com.iCM.scripts.Omission -->
+      </class> <!-- com.iCM.scripts.ViewEChartMedication -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -86,13 +86,18 @@ public class DCMedication extends DriverTestCase
 			ExecutionLog.Log("Pass");
 			
 			//Enter Comment
-			ExecutionLog.Log("Enter Coment");
+			ExecutionLog.Log("Enter Comment");
 			echartHelper.type("Discontinued", "AddMedication.Comment");
 			ExecutionLog.Log("Pass");
 			
 			//Click on 'Ok' button
 			ExecutionLog.Log("Click on 'Ok' Button");
 			echartHelper.click("AddMedication.OkButton");
+			ExecutionLog.Log("Pass");
+			
+			//Click on Discontinued button
+			ExecutionLog.Log("Click on 'Discontinued' Button");
+			echartHelper.click("AddMedication.DisTab");
 			ExecutionLog.Log("Pass");
 			
 			//Verify Deleted medicin

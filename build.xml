@@ -47,7 +47,7 @@
 
 	<!-- ====== Run All tests ====== -->
 	<target name="All" depends="compile">
-			<testng classpathref="test.classpath" suitename="iCM Automation" haltonfailure="true">
+			<testng classpathref="test.classpath" suitename="Functional Automation" haltonfailure="true">
 				<xmlfileset dir="config" includes="All.xml" />
 			</testng>
 	</target>

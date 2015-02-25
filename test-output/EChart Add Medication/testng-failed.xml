@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [EChart Add Medication]">
+  <test name="EChartAddMedication(failed)">
+    <classes>
+      <class name="com.iCM.scripts.EChartAddMedication">
+        <methods>
+          <include name="endMethods"/>
+          <include name="afterMainMethod"/>
+          <include name="testEChartAddMedication"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.iCM.scripts.EChartAddMedication -->
+    </classes>
+  </test> <!-- EChartAddMedication(failed) -->
+</suite> <!-- Failed suite [EChart Add Medication] -->

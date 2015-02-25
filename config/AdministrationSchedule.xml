@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="5" verbose="1" name="Administration Schedule"
+	annotations="JDK">
+	<test name="AdministrationSchedule" junit="false"
+		preserve-order="true">
+		<classes>
+			<class name="com.iCM.scripts.AdministrationSchedule" />			
+		</classes>		
+	</test>
+</suite> 

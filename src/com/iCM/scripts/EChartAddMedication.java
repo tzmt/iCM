@@ -147,7 +147,7 @@ public class EChartAddMedication extends DriverTestCase
 			
 			//Click on 'Save' button
 			ExecutionLog.Log("Click on Save button");
-			echartHelper.selectDate("AddMedication.SaveMedi");
+			echartHelper.click("AddMedication.SaveMedi");
 			ExecutionLog.Log("Pass");
 			
 			//Verify 'View Medication' title

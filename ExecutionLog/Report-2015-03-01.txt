@@ -1,0 +1,232 @@
+
+*****************************************************************************
+Mar 01,2015 17:29:28 [info]   Execution Started of Test Class com.iCM.scripts.AddMedicationEvery4thDay and Test method testAddMedicationEvery4thDay
+*****************************************************************************
+Mar 01,2015 17:29:28 [info]  Open application url
+Mar 01,2015 17:29:48 [info]  Pass
+Mar 01,2015 17:29:48 [info]  Verify Page title
+Mar 01,2015 17:29:53 [info]  Pass
+Mar 01,2015 17:29:53 [info]  Enter User name at login page.
+Mar 01,2015 17:29:53 [info]  Pass
+Mar 01,2015 17:29:53 [info]  Enter password at login page.
+Mar 01,2015 17:29:55 [info]  Pass
+Mar 01,2015 17:29:55 [info]  Click on Sign In button
+Mar 01,2015 17:30:14 [info]  Pass
+Mar 01,2015 17:30:14 [info]  Verify home page title
+Mar 01,2015 17:30:19 [info]  Pass
+Mar 01,2015 17:30:19 [info]  Open Add resident form via deep link
+Mar 01,2015 17:30:34 [info]  Pass
+Mar 01,2015 17:30:34 [info]  Enter Resident First Name
+Mar 01,2015 17:30:37 [info]  Pass
+Mar 01,2015 17:30:37 [info]  Enter Middle name
+Mar 01,2015 17:30:41 [info]  Pass
+Mar 01,2015 17:30:41 [info]  Enter last name
+Mar 01,2015 17:30:44 [info]  Pass
+Mar 01,2015 17:30:44 [info]  Open 'Calender'
+Mar 01,2015 17:30:46 [info]  Pass
+Mar 01,2015 17:30:51 [info]  Select Year
+Mar 01,2015 17:30:58 [info]  Pass
+Mar 01,2015 17:31:01 [info]  Select date
+Mar 01,2015 17:31:04 [info]  Pass
+Mar 01,2015 17:31:04 [info]  Select gender
+Mar 01,2015 17:31:05 [info]  Pass
+Mar 01,2015 17:31:05 [info]  Select Marital Status
+Mar 01,2015 17:31:07 [info]  Pass
+Mar 01,2015 17:31:07 [info]  Open 'Calender' for admit date
+Mar 01,2015 17:31:09 [info]  Pass
+Mar 01,2015 17:31:12 [info]  Select Year
+Mar 01,2015 17:31:18 [info]  Pass
+Mar 01,2015 17:31:18 [info]  Select Month
+Mar 01,2015 17:31:19 [info]  Pass
+Mar 01,2015 17:31:20 [info]  Select date
+Mar 01,2015 17:31:26 [info]  Pass
+Mar 01,2015 17:31:26 [info]  Select Facality
+Mar 01,2015 17:31:29 [info]  Pass
+Mar 01,2015 17:31:32 [info]  Select Nurse
+Mar 01,2015 17:31:34 [info]  Pass
+Mar 01,2015 17:31:34 [info]  Enter level of care
+Mar 01,2015 17:31:37 [info]  Pass
+Mar 01,2015 17:31:37 [info]  Click on 'Save' button
+Mar 01,2015 17:31:41 [info]  Pass
+Mar 01,2015 17:31:41 [info]  Search Added resident
+Mar 01,2015 17:31:45 [info]  Pass
+Mar 01,2015 17:31:45 [info]  Verify added resident
+Mar 01,2015 17:31:48 [info]  Pass
+Mar 01,2015 17:31:48 [info]  Open resident Profile
+Mar 01,2015 17:31:52 [info]  Pass
+Mar 01,2015 17:31:55 [info]  Click on Medication button
+Mar 01,2015 17:31:59 [info]  Pass
+Mar 01,2015 17:31:59 [info]  Click on Add Medication button
+Mar 01,2015 17:32:14 [info]  Pass
+Mar 01,2015 17:32:14 [info]  Enter Medicine Name
+Mar 01,2015 17:32:28 [info]  Pass
+Mar 01,2015 17:32:28 [info]  Enter Dosage
+Mar 01,2015 17:32:32 [info]  Pass
+Mar 01,2015 17:32:32 [info]  Enter instruction
+Mar 01,2015 17:32:36 [info]  Pass
+Mar 01,2015 17:32:36 [info]  Open 'Calender'
+Mar 01,2015 17:32:41 [info]  Pass
+Mar 01,2015 17:32:44 [info]  Select date
+Mar 01,2015 17:32:48 [info]  Pass
+Mar 01,2015 17:32:48 [info]  Select Frequency
+Mar 01,2015 17:32:52 [info]  Pass
+Mar 01,2015 17:32:52 [info]  Select Frequency
+Mar 01,2015 17:32:55 [info]  Pass
+Mar 01,2015 17:32:55 [info]  Select Other day option
+Mar 01,2015 17:32:57 [info]  Pass
+Mar 01,2015 17:32:57 [info]  Select time
+Mar 01,2015 17:32:58 [info]  Pass
+Mar 01,2015 17:32:58 [info]  Select AM/PM
+Mar 01,2015 17:32:59 [info]  Pass
+Mar 01,2015 17:32:59 [info]  Click on Add Schedule button
+Mar 01,2015 17:33:03 [info]  Pass
+Mar 01,2015 17:33:03 [info]  Verify Added Schedule
+Mar 01,2015 17:33:04 [info]  Pass
+Mar 01,2015 17:33:04 [info]  Click on Save button
+Mar 01,2015 17:33:24 [info]  Pass
+Mar 01,2015 17:33:39 [info]  Open Medication page
+Mar 01,2015 17:33:54 [info]  Pass
+Mar 01,2015 17:33:54 [info]  Click on EMR Tab
+Mar 01,2015 17:33:57 [info]  Pass
+Mar 01,2015 17:33:57 [info]  Click on 'Morning' tab
+Mar 01,2015 17:34:15 [info]  Pass
+Mar 01,2015 17:34:15 [info]  Verify Added Schedule
+Mar 01,2015 17:34:49 [info]  Pass
+Mar 01,2015 17:34:49 [info]  Click on Expend button
+Mar 01,2015 17:35:10 [info]  Pass
+Mar 01,2015 17:35:10 [info]  Verify Starting Blackout
+Mar 01,2015 17:35:15 [info]  Pass
+Mar 01,2015 17:35:25 [info]  Open resident profile
+Mar 01,2015 17:35:42 [info]  Pass
+Mar 01,2015 17:35:42 [info]  End Execution of Test Class com.iCM.scripts.AddMedicationEvery4thDay
+*****************************************************************************
+
+*****************************************************************************
+Mar 01,2015 17:36:29 [info]   Execution Started of Test Class com.iCM.scripts.AddMedicationEvery5thDay and Test method testAddMedicationEvery5thDay
+*****************************************************************************
+Mar 01,2015 17:36:29 [info]  Open application url
+Mar 01,2015 17:36:48 [info]  Pass
+Mar 01,2015 17:36:49 [info]  Verify Page title
+Mar 01,2015 17:36:54 [info]  Pass
+Mar 01,2015 17:36:54 [info]  Enter User name at login page.
+Mar 01,2015 17:36:54 [info]  Pass
+Mar 01,2015 17:36:54 [info]  Enter password at login page.
+Mar 01,2015 17:36:54 [info]  Pass
+Mar 01,2015 17:36:54 [info]  Click on Sign In button
+Mar 01,2015 17:37:17 [info]  Pass
+Mar 01,2015 17:37:17 [info]  Verify home page title
+Mar 01,2015 17:37:22 [info]  Pass
+Mar 01,2015 17:37:22 [info]  Open Add resident form via deep link
+Mar 01,2015 17:37:36 [info]  Pass
+Mar 01,2015 17:37:36 [info]  Enter Resident First Name
+Mar 01,2015 17:37:40 [info]  Pass
+Mar 01,2015 17:37:40 [info]  Enter Middle name
+Mar 01,2015 17:37:44 [info]  Pass
+Mar 01,2015 17:37:44 [info]  Enter last name
+Mar 01,2015 17:37:47 [info]  Pass
+Mar 01,2015 17:37:47 [info]  Open 'Calender'
+Mar 01,2015 17:37:49 [info]  Pass
+Mar 01,2015 17:37:54 [info]  Select Year
+Mar 01,2015 17:38:00 [info]  Pass
+Mar 01,2015 17:38:03 [info]  Select date
+Mar 01,2015 17:38:09 [info]  Pass
+Mar 01,2015 17:38:09 [info]  Select gender
+Mar 01,2015 17:38:13 [info]  Pass
+Mar 01,2015 17:38:13 [info]  Select Marital Status
+Mar 01,2015 17:38:14 [info]  Pass
+Mar 01,2015 17:38:14 [info]  Open 'Calender' for admit date
+Mar 01,2015 17:38:16 [info]  Pass
+Mar 01,2015 17:38:21 [info]  Select Year
+Mar 01,2015 17:38:30 [info]  Pass
+Mar 01,2015 17:38:30 [info]  Select Month
+Mar 01,2015 17:38:31 [info]  Pass
+Mar 01,2015 17:38:31 [info]  Select date
+Mar 01,2015 17:38:35 [info]  Pass
+Mar 01,2015 17:38:35 [info]  Select Facality
+Mar 01,2015 17:38:37 [info]  Pass
+Mar 01,2015 17:38:40 [info]  Select Nurse
+Mar 01,2015 17:38:42 [info]  Pass
+Mar 01,2015 17:38:42 [info]  Enter level of care
+Mar 01,2015 17:38:45 [info]  Pass
+Mar 01,2015 17:38:45 [info]  Click on 'Save' button
+Mar 01,2015 17:38:53 [info]  Pass
+Mar 01,2015 17:38:53 [info]  Search Added resident
+Mar 01,2015 17:38:57 [info]  Pass
+Mar 01,2015 17:38:57 [info]  Verify added resident
+Mar 01,2015 17:39:00 [info]  Pass
+Mar 01,2015 17:39:00 [info]  Open resident Profile
+Mar 01,2015 17:39:04 [info]  Pass
+Mar 01,2015 17:39:07 [info]  Click on Medication button
+Mar 01,2015 17:39:11 [info]  Pass
+Mar 01,2015 17:39:11 [info]  Click on Add Medication button
+Mar 01,2015 17:39:28 [info]  Pass
+Mar 01,2015 17:39:28 [info]  Enter Medicine Name
+Mar 01,2015 17:39:44 [info]  Pass
+Mar 01,2015 17:39:44 [info]  Enter Dosage
+Mar 01,2015 17:39:48 [info]  Pass
+Mar 01,2015 17:39:48 [info]  Enter instruction
+Mar 01,2015 17:39:52 [info]  Pass
+Mar 01,2015 17:39:52 [info]  Open 'Calender'
+Mar 01,2015 17:39:57 [info]  Pass
+Mar 01,2015 17:40:00 [info]  Select date
+Mar 01,2015 17:40:07 [info]  Pass
+Mar 01,2015 17:40:07 [info]  Select Frequency
+Mar 01,2015 17:40:11 [info]  Pass
+Mar 01,2015 17:40:12 [info]  Select Frequency
+Mar 01,2015 17:40:18 [info]  Pass
+Mar 01,2015 17:40:18 [info]  Select Other day option
+Mar 01,2015 17:40:20 [info]  Pass
+Mar 01,2015 17:40:20 [info]  Select time
+Mar 01,2015 17:40:21 [info]  Pass
+Mar 01,2015 17:40:21 [info]  Select AM/PM
+Mar 01,2015 17:40:22 [info]  Pass
+Mar 01,2015 17:40:22 [info]  Click on Add Schedule button
+Mar 01,2015 17:40:27 [info]  Pass
+Mar 01,2015 17:40:27 [info]  Verify Added Schedule
+Mar 01,2015 17:40:27 [info]  Pass
+Mar 01,2015 17:40:27 [info]  Click on Save button
+Mar 01,2015 17:40:49 [info]  Pass
+Mar 01,2015 17:41:04 [info]  Open Medication page
+Mar 01,2015 17:41:21 [info]  Pass
+Mar 01,2015 17:41:21 [info]  Click on EMR Tab
+Mar 01,2015 17:41:24 [info]  Pass
+Mar 01,2015 17:41:24 [info]  Click on 'Morning' tab
+Mar 01,2015 17:41:43 [info]  Pass
+Mar 01,2015 17:41:43 [info]  Verify Added Schedule
+Mar 01,2015 17:42:05 [info]  Pass
+Mar 01,2015 17:42:05 [info]  Click on Expend button
+Mar 01,2015 17:42:09 [info]  Pass
+Mar 01,2015 17:42:09 [info]  Verify Starting Blackout
+Mar 01,2015 17:42:14 [info]  Pass
+Mar 01,2015 17:42:24 [info]  Open resident profile
+Mar 01,2015 17:42:41 [info]  Pass
+Mar 01,2015 17:42:41 [info]  End Execution of Test Class com.iCM.scripts.AddMedicationEvery5thDay
+*****************************************************************************
+
+*****************************************************************************
+Mar 01,2015 17:50:15 [info]   Execution Started of Test Class com.iCM.scripts.AddEditMedicationSchedule and Test method testAddEditMedicationSchedule
+*****************************************************************************
+Mar 01,2015 17:50:15 [info]  Open application url
+Mar 01,2015 17:50:30 [info]  Pass
+Mar 01,2015 17:50:30 [info]  Verify Page title
+Mar 01,2015 17:50:35 [info]  Pass
+Mar 01,2015 17:50:35 [info]  Enter User name at login page.
+Mar 01,2015 17:50:36 [info]  Pass
+Mar 01,2015 17:50:36 [info]  Enter password at login page.
+Mar 01,2015 17:50:37 [info]  Pass
+Mar 01,2015 17:50:37 [info]  Click on Sign In button
+Mar 01,2015 17:50:52 [info]  Pass
+Mar 01,2015 17:50:52 [info]  Verify home page title
+Mar 01,2015 17:50:57 [info]  Pass
+Mar 01,2015 17:50:57 [info]  Open Add resident form via deep link
+Mar 01,2015 17:51:10 [info]  Pass
+Mar 01,2015 17:51:10 [info]  Enter Resident First Name
+Mar 01,2015 17:51:14 [info]  Pass
+Mar 01,2015 17:51:14 [info]  Enter Middle name
+Mar 01,2015 17:51:17 [info]  Pass
+Mar 01,2015 17:51:17 [info]  Enter last name
+Mar 01,2015 17:51:20 [info]  Pass
+Mar 01,2015 17:51:20 [info]  Open 'Calender'
+Mar 01,2015 17:51:22 [info]  Pass
+Mar 01,2015 17:51:27 [info]  Select Year
+Mar 01,2015 17:51:33 [info]  Pass

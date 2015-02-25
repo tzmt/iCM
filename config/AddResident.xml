@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="5" verbose="1" name="Add Resident"
+	annotations="JDK">
+	<test name="AddResident" junit="false"
+		preserve-order="true">
+		<classes>
+			<class name="com.iCM.scripts.AddResident" />			
+		</classes>		
+	</test>
+</suite> 

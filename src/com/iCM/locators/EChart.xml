@@ -23,7 +23,6 @@
   	<Time><![CDATA[//*[@id='Hours']]]></Time>
   	<TimeTyep><![CDATA[//*[@id='AMPM']]]></TimeTyep>
   	<AddSchedule><![CDATA[//*[@id='AddRow']]]></AddSchedule>
-  	
   	<TimeTable_1><![CDATA[//*[@id='TimeTable']/tbody/tr[1]/td[1]]]></TimeTable_1>
 	<TimeTable_2><![CDATA[//*[@id='TimeTable']/tbody/tr[2]/td[1]]]></TimeTable_2>
 	<TimeTable_3><![CDATA[//*[@id='TimeTable']/tbody/tr[3]/td[1]]]></TimeTable_3>
@@ -31,30 +30,21 @@
   	<RemoveSchedule_2><![CDATA[//*[@id='TimeTable']/tbody/tr[2]/td[6]/a]]></RemoveSchedule_2>
   	<RemoveSchedule_3><![CDATA[//*[@id='TimeTable']/tbody/tr[3]/td[6]/a]]></RemoveSchedule_3>
   	<ClickEMAR><![CDATA[//*[@id='TimeTable']/tbody/tr[3]/td[6]/a]]></ClickEMAR>
-  	
     <SaveMedi><![CDATA[//*[@class='form-actions']/button]]></SaveMedi>
-    
     <ViewMedication><![CDATA[//*[@id='tsc_breadcrumb-3']/li[5]/]]></ViewMedication>]
     <VerifyEdit><![CDATA[//*[@class='form-actions']/a/]]></VerifyEdit>
     <ClickMedical><![CDATA[//*[@id='tsc_breadcrumb-3']/li[3]/a]]></ClickMedical>
     <VerifyMedicine><![CDATA[//*[@class='medicine']/strong]]]></VerifyMedicine>
-    
     <MorningTab><![CDATA[//ul[@class = 'nav nav-pills bar']/li[2]/a]]></MorningTab>
     <MorningTime><![CDATA[//td[contains(@class,'Morning')]/div/div/div[1]]]></MorningTime>
     <ExpendMorn><![CDATA[//td[contains(@class, 'Morning_')]/div/a]]></ExpendMorn>
-    
 	<NoonTab><![CDATA[//ul[@class = 'nav nav-pills bar']/li[3]/a]]></NoonTab>
 	<NoonTime><![CDATA[//td[contains(@class,'AfterNoon')]/div/div/div[1]]]></NoonTime>
 	<ExpendNoon><![CDATA[//td[contains(@class, 'AfterNoon_')]/div/a]]></ExpendNoon>
-	
 	<EvnTab><![CDATA[//ul[@class = 'nav nav-pills bar']/li[4]/a]]></EvnTab>
 	<EvnTime><![CDATA[//td[contains(@class,'Evening')]/div/div/div[1]]]></EvnTime>
-	<ExpendEvn><![CDATA[//td[contains(@class, 'Evening_')]/div/a]]></ExpendEvn>
-	
-	<AllTab><![CDATA[//ul[@class = 'nav nav-pills bar']/li[1]/a]]></AllTab>
-	
-	
-
+	<ExpendEvn><![CDATA[//td[contains(@class, 'Evening_')]/div/a]]></ExpendEvn>	
+	<AllTab><![CDATA[//ul[@class = 'nav nav-pills bar']/li[1]/a]]></AllTab>	
     <CancelMedi><![CDATA[//*[@class='form-actions']/a]]></CancelMedi>
     <MediName><![CDATA[//div[@class='form-horizontal']/div[1]/div[2]/div]]></MediName>
     <View><![CDATA[//*[@class='table table-hover dataTable']/tbody/tr[1]/td[6]/a[1]]]></View>
@@ -66,7 +56,7 @@
   	<PrintMAR><![CDATA[//*[@id='printEMAR']]]></PrintMAR>
   	<Comment><![CDATA[//*[@id='comments']]]></Comment>
   	<OkButton><![CDATA[//*[@id='OKFooter']/button[2]]]></OkButton>
-  	<MedicalName><![CDATA[//*[@class='table table-hover dataTable']/tbody/tr[1]/td[1]/strong]]></MedicalName>
+  	<MedicalName><![CDATA[//*[@id='DataTables_Table_0']/tbody/tr/td[1]]]></MedicalName>
   	<ResiNamePop><![CDATA[//*[@id='pageContainer1']/xhtml:div[2]/xhtml:div[93]]]></ResiNamePop>
   	<ResiName><![CDATA[//*[@id='ResidentName']/p/strong]]></ResiName>
   	<Sun><![CDATA[//*[@id='DaysOfWeekCalender']/button[2]/i]]></Sun>
@@ -75,6 +65,10 @@
 	<ScheduleCalender><![CDATA[//*[@id='ScheduleStartDate']]]></ScheduleCalender>
 	<ScheduleDate><![CDATA[//*[@id='date']]]></ScheduleDate>
 	<Jump><![CDATA[//div[@class='pull-left']/button]]></Jump>
+	<DisTab><![CDATA[//*[@id='content']/div[5]/div/div/ul/li[3]/a/span]]></DisTab>
+	
+	<Frequency><![CDATA[//*[@id='uniform-ChkOtherDays']/span]]></Frequency>
+  	<FrequencyDrpdwn><![CDATA[//*[@id='ddlOtherDay']]]></FrequencyDrpdwn>
   </AddMedication>
   
   <Admin>
@@ -100,4 +94,21 @@
   	<OkOmission><![CDATA[//*[@id='EOOKFootr']/div[3]/a]]></OkOmission>
   	<OmissionVerify><![CDATA[//td[@class='All']/div/div/div[2]/div/button[1]/b]]></OmissionVerify>
   </Omission>
+  
+  <HoldMedicine>
+  	<Hold><![CDATA[//*[@class='table table-hover dataTable']/tbody/tr[1]/td[6]/a[2]]]></Hold>
+  	<EndDate><![CDATA[//*[@id='EndDate']]]></EndDate>
+  	<HoldComment><![CDATA[//*[@id='HeldMedComments']]]></HoldComment>
+  	<HoldOk><![CDATA[//*[@id='HoldMedicationForm']/div[3]/button[2]]]></HoldOk>
+  	<OnHold><![CDATA[//*[@id='Med']/div/table/tbody/tr[1]/td[6]/div/button[2]]]></OnHold>
+  	<RestartMedicine><![CDATA[//div[@class='btn-group open']/ul/li/a]]></RestartMedicine>
+  </HoldMedicine>
+  
+  <Notes>
+  	<NotesButton><![CDATA[//*[@id='content']/div[5]/div/div/ul/li[4]/a]]></NotesButton>
+  	<AddNote><![CDATA[//*[@id='MedNotes']/div[1]]]></AddNote>
+  	<EnterNote><![CDATA[//*[@id='MedLogNote']]]></EnterNote>
+  	<NoteSave><![CDATA[//*[@id='MedNotesFootr']/button[2]]]></NoteSave>
+  	<VerifyNote><![CDATA[//*[@id='datablelgsAndNots']/tbody/tr/td[3]]]></VerifyNote>
+  </Notes>
 </Locators>

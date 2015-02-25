@@ -2,7 +2,17 @@
 <suite thread-count="5" verbose="1" name="Functional Automation"
 	annotations="JDK">
 	<suite-files>
-		<suite-file path="Login.xml"></suite-file> 
+		<suite-file path="AddEditMedicationSchedule.xml"></suite-file>
+		<suite-file path="Login.xml"></suite-file>
+		<suite-file path="AddResident.xml"></suite-file>
+		<suite-file path="AdministrationSchedule.xml"></suite-file>
+		<suite-file path="DCMedication.xml"></suite-file>
+		<suite-file path="EChart.xml"></suite-file>
+		<suite-file path="EChartAddMedication.xml"></suite-file>
+		<suite-file path="EChartMedication.xml"></suite-file>
+		<suite-file path="EMREChartMedication.xml"></suite-file>
+		<suite-file path="Omission.xml"></suite-file>
+		<suite-file path="ViewEChartMedication.xml"></suite-file>
         <!--suite-file path="ExeLog.xml"></suite-file-->
 	</suite-files>
 </suite> 

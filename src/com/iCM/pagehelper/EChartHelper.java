@@ -10,7 +10,11 @@ import java.util.Date;
 
 
 
+
+import java.util.List;
+
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 
 import com.iCM.locators.LocatorReader;
@@ -189,6 +193,7 @@ public class EChartHelper extends DriverHelper
 				int j=i+2;
 				String locator3="//*[@id='administeredlogtbl']/tbody/tr["+st+"]/td["+j+"]";
 				String atr=getAttribute(locator3, "style");
+				System.out.println(atr);
 				Assert.assertTrue(atr.contains("background-color: rgb(23, 21, 21);"));
 				flag=true;
 		}
@@ -197,13 +202,30 @@ public class EChartHelper extends DriverHelper
 
 	public void removeschedule() 
 	{
-		String locator = "//table[@id='TimeTable']/tbody/tr[1]//a[contains(text(), 'Remove')]";
-		String locator1 =  echartLocator.getLocator("AddMedication.okb");
-		while(isElementPresent(locator))
+		String locator = "//tbody[@id='timeBdy']/tr[1]/td[9]/a";
+		String okB = echartLocator.getLocator("okb");
+		boolean result = false;
+		do
 		{
-				clickOn(locator);
-				clickOn(locator1);
-		}
+			List<WebElement> el = getWebDriver().findElements(ByLocator(locator));
+			int count = el.size();
+			System.out.println(count);
+			result = isElementPresent(locator);
+			if(result)
+			{	
+				for(int i = 0;i<3;i++)
+				{
+					getWebDriver().findElement(ByLocator(locator)).click();
+					clickOn(okB);
+					waitForWorkAroundTime(1000);
+				}
+			}
+			else
+			{
+				refreshCurrentPage();
+				waitForWorkAroundTime(3000);
+			}
+		}while(result==false);
 	}
 
 	public String getUSTime()
@@ -284,7 +306,74 @@ public class EChartHelper extends DriverHelper
 					click("Admin.AdminButton");
 				}
 			}
-		}
-		
+		}	
 	}
+	
+	public void selectEndDate(String Date) 
+	{
+		waitForWorkAroundTime(3000);
+		String obj = echartLocator.getLocator(Date);
+		Calendar cal = Calendar.getInstance();
+				
+		int date = cal.get(Calendar.DAY_OF_MONTH)+1;
+		String newValue = obj+date;
+		clickOn(newValue);
+		waitForWorkAroundTime(500);
+	}
+
+	public void verifyItemNot(String item) 
+	{
+		String locator = echartLocator.getLocator(item);
+		WaitForElementPresent(locator, 20);
+		Assert.assertFalse(isElementPresent(locator));	
+	}
+
+	public void verifyBlackOutOtherDay(String Frequency) 
+	{
+		boolean flag = false;
+		Calendar cal = Calendar.getInstance();
+		int date = cal.get(Calendar.DAY_OF_MONTH);
+		String locator = "//*[@id='administeredlogtbl']/thead/tr[3]/td";
+		int count = getXpathCount(locator);
+		int i=date;
+		do
+		{	
+			int k=i+2;
+			String locator3="//*[@id='administeredlogtbl']/tbody/tr[1]/td["+k+"]";
+			String atr=getAttribute(locator3, "style");
+			Assert.assertTrue(atr.contains(("background-color: rgb(242, 242, 242)")));
+			if(Frequency == "Every Other Day")
+			{
+				i=i+2;	
+			}
+			else if(Frequency == "Every 3rd Day")
+			{
+				i=i+3;
+			}
+			else if(Frequency =="Every 4th day")
+			{
+				i=i+4;
+			}
+			else if(Frequency=="Every 5th day")
+			{
+				i=i+5;
+			}
+			else if(Frequency =="Every 7 days")
+			{
+				i=i+7;
+			}
+			else if(Frequency =="Every 10 days")
+			{
+				i=i+10;
+			}
+			else if(Frequency=="Every 14 days")
+			{
+				i=i+14;
+			}	
+			flag=true;
+		}while(i<=count);
+		Assert.assertTrue(flag);
+	}
+	
+
 }
