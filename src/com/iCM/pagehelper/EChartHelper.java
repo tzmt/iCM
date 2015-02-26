@@ -328,7 +328,7 @@ public class EChartHelper extends DriverHelper
 		Assert.assertFalse(isElementPresent(locator));	
 	}
 
-	public void verifyBlackOutOtherDay(String Frequency) 
+	public void verifyBlackOutOtherDay(String Frequency)
 	{
 		boolean flag = false;
 		Calendar cal = Calendar.getInstance();
@@ -374,6 +374,4 @@ public class EChartHelper extends DriverHelper
 		}while(i<=count);
 		Assert.assertTrue(flag);
 	}
-	
-
 }
