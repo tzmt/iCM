@@ -265,7 +265,7 @@ public class AddMedicationEvery7thDay extends DriverTestCase
 				ExecutionLog.Log("Open Medication page");
 				visit("Medication/List/"+id);
 				ExecutionLog.Log("Pass");
-				
+			
 				//Click on 'EMR' Tab
 				ExecutionLog.Log("Click on EMR Tab");
 				echartHelper.click("AddMedication.EMRTab");

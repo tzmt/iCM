@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Locators>
+  <EMR>
+  	<EMRLeft><![CDATA[//*[@id='sidebar-tabs']/li[3]/a]]></EMRLeft>
+  	<EMRTitle><![CDATA[//*[@id='content']/h1]]></EMRTitle>
+  	<ResiName><![CDATA[//*[@id='ResidentName']/p/strong]]></ResiName>
+	<DateCalender><![CDATA[//*[@id='date']]]></DateCalender>
+  	<AllTab><![CDATA[//*[@id='tableTab']/li[1]/a]]></AllTab>
+  	<AdminButton><![CDATA[//td[@class='All']/div[1]/div/div[2]/div/button[2]]]></AdminButton>
+  	<AdminLate><![CDATA[//ul[@class='dropdown-menu text-left']/li[2]/a]]></AdminLate>
+  	<AdminLatePop><![CDATA[//ul[@class='dropdown-menu text-left']/li[2]/ul/li[1]/a]]></AdminLatePop>
+  	<DateField><![CDATA[//*[@id='NewDate']]]></DateField>
+  	<TimeField><![CDATA[//*[@id='NewTime']]]></TimeField>
+  	<AdminisButton><![CDATA[//td[@class='All']/div[1]/div/div[2]/div/button]]></AdminisButton>
+  	<AdminisUndo><![CDATA[//td[@class='All']/div[1]/div/div[2]/div/a]]></AdminisUndo>
+  	<AdminisText><![CDATA[//td[@class='All']/div[1]/div/div[2]/div/button/b[2]]]></AdminisText>
+  </EMR>
+</Locators>

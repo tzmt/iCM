@@ -58,7 +58,7 @@ public class AddMedicationEveryOtherDay extends DriverTestCase
 				ExecutionLog.Log("Verify home page title");
 				loginHelper.verifyTitle("iCM - Home");
 				ExecutionLog.Log("Pass");
-	
+
 				//Open the add Resident screen
 				ExecutionLog.Log("Open Add resident form via deep link");
 				visit("ALM/addResident");
@@ -266,6 +266,9 @@ public class AddMedicationEveryOtherDay extends DriverTestCase
 				visit("Medication/List/"+id);
 				ExecutionLog.Log("Pass");
 				
+				//getWebDriver().navigate().to("http://65.98.29.34:8087/Medication/List/2594");
+				//echartHelper.waitForWorkAroundTime(3000);
+				
 				//Click on 'EMR' Tab
 				ExecutionLog.Log("Click on EMR Tab");
 				echartHelper.click("AddMedication.EMRTab");
@@ -291,11 +294,11 @@ public class AddMedicationEveryOtherDay extends DriverTestCase
 				echartHelper.verifyBlackOutOtherDay("Every Other Day");
 				ExecutionLog.Log("Pass");
 				
-				visit("Resident/Discharge?ResidentId="+id);
+		//		visit("Resident/Discharge?ResidentId="+id);
 				
 				//Click on 'Discharge' button
 				ExecutionLog.Log("Open resident profile");
-				residentHelper.click("AddResident.DischargeButton");
+		//		residentHelper.click("AddResident.DischargeButton");
 				ExecutionLog.Log("Pass");		
 			
 		}

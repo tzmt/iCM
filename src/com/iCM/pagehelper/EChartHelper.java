@@ -22,9 +22,10 @@ import com.iCM.util.DriverHelper;
 
 public class EChartHelper extends DriverHelper 
 {
-	private LocatorReader echartLocator;	
-
-	
+	private LocatorReader echartLocator;
+	int count,i;
+    SimpleDateFormat dateFormat = new SimpleDateFormat("MMM");
+ 
 	public EChartHelper(WebDriver driver) 
 	{
 		super(driver);
@@ -330,48 +331,83 @@ public class EChartHelper extends DriverHelper
 
 	public void verifyBlackOutOtherDay(String Frequency)
 	{
+		System.out.println("\t\tEntered in the verify function");
 		boolean flag = false;
 		Calendar cal = Calendar.getInstance();
 		int date = cal.get(Calendar.DAY_OF_MONTH);
-		String locator = "//*[@id='administeredlogtbl']/thead/tr[3]/td";
-		int count = getXpathCount(locator);
-		int i=date;
-		do
-		{	
-			int k=i+2;
-			String locator3="//*[@id='administeredlogtbl']/tbody/tr[1]/td["+k+"]";
-			String atr=getAttribute(locator3, "style");
-			Assert.assertTrue(atr.contains(("background-color: rgb(242, 242, 242)")));
-			if(Frequency == "Every Other Day")
-			{
-				i=i+2;	
-			}
-			else if(Frequency == "Every 3rd Day")
-			{
-				i=i+3;
-			}
-			else if(Frequency =="Every 4th day")
-			{
-				i=i+4;
-			}
-			else if(Frequency=="Every 5th day")
-			{
-				i=i+5;
-			}
-			else if(Frequency =="Every 7 days")
-			{
-				i=i+7;
-			}
-			else if(Frequency =="Every 10 days")
-			{
-				i=i+10;
-			}
-			else if(Frequency=="Every 14 days")
-			{
-				i=i+14;
-			}	
-			flag=true;
-		}while(i<=count);
-		Assert.assertTrue(flag);
+		String locatorCount = "//*[@id='administeredlogtbl']/thead/tr[3]/td";
+		count = getXpathCount(locatorCount);
+		i=date;
+		for(int j=1;j<=2;j++)
+		{
+			System.out.println("j = "+j+"\t i"+"\t"+i);
+			System.out.println("\t\tEntered in the loop for");
+			do
+			{	
+				System.out.println("\t\tEntered in the loop while");
+				int k=i+2;
+				String locator3="//*[@id='administeredlogtbl']/tbody/tr[1]/td["+k+"]";
+				String atr=getAttribute(locator3, "style");
+				Assert.assertTrue(atr.contains(("background-color: rgb(242, 242, 242)")));
+				if(Frequency == "Every Other Day")
+				{
+					i=i+2;	
+				}
+				else if(Frequency == "Every 3rd Day")
+				{
+					i=i+3;
+				}
+				else if(Frequency =="Every 4th day")
+				{
+					i=i+4;
+				}
+				else if(Frequency=="Every 5th day")
+				{
+					i=i+5;
+				}
+				else if(Frequency =="Every 7 days")
+				{
+					i=i+7;
+				}
+				else if(Frequency =="Every 10 days")
+				{
+					i=i+10;
+				}
+				else if(Frequency=="Every 14 days")
+				{
+					i=i+14;
+				}	
+				flag=true;
+			}while(i<=count);
+			Assert.assertTrue(flag);
+			selectNext(j,date,locatorCount,count);
+		}
+	}
+	
+	public void selectNext(int j,int date,String locator,int count)
+	{
+		System.out.println("\t\tEntered in the function");
+		Calendar currentMonth = Calendar.getInstance();
+		click("AddMedication.ScheduleDate");
+		waitForWorkAroundTime(3000);
+		currentMonth.add(Calendar.MONTH, j);
+		i=i-count;
+		select("ScheduleMonth",currentMonth.getTime().toString().substring(4,7));
+		System.out.println("New Date"+currentMonth.getTime().toString().substring(4,7)+"\t"+i);
+		selectNextDate("1");
+		click("AddMedication.Jump");
+		waitForWorkAroundTime(2000);
+		click("AddMedication.MorningTab");
+		click("AddMedication.ExpendMorn");
+		count = getXpathCount(locator);
+		System.out.println("Last = "+"i= "+i+"New Month = "+count);	
+	}
+	
+	public void selectNextDate(String Date) 
+	{
+		waitForWorkAroundTime(3000);
+		String date = "link="+Date;
+		clickOn(date);
+		waitForWorkAroundTime(2000);
 	}
 }

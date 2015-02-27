@@ -17,6 +17,7 @@ import java.util.Set;
 
 
 
+
 import javax.activation.DataHandler;
 import javax.activation.DataSource;
 import javax.activation.FileDataSource;
@@ -45,6 +46,7 @@ import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
 
 import com.iCM.pagehelper.EChartHelper;
+import com.iCM.pagehelper.EMRHelper;
 import com.iCM.pagehelper.LoginHelper;
 import com.iCM.pagehelper.ResidentHelper;
 import com.thoughtworks.selenium.Selenium;
@@ -62,6 +64,7 @@ public abstract class DriverTestCase
 	protected LoginHelper loginHelper;
 	protected ResidentHelper residentHelper;
 	protected EChartHelper echartHelper;
+	protected EMRHelper eMRHelper;
     
 
 	//Initialize objects

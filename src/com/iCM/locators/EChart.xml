@@ -64,6 +64,7 @@
 	<okb><![CDATA[//div[@class='modal-footer']/a[2]]]></okb>
 	<ScheduleCalender><![CDATA[//*[@id='ScheduleStartDate']]]></ScheduleCalender>
 	<ScheduleDate><![CDATA[//*[@id='date']]]></ScheduleDate>
+	<ScheduleMonth><![CDATA[//div[@class='ui-datepicker-title']/select[1]]]></ScheduleMonth>
 	<Jump><![CDATA[//div[@class='pull-left']/button]]></Jump>
 	<DisTab><![CDATA[//*[@id='content']/div[5]/div/div/ul/li[3]/a/span]]></DisTab>
 	
