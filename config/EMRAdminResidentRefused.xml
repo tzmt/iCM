@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="5" verbose="1" name="EMRAdmin Resident Refused"
+	annotations="JDK">
+	<test name="EMRAdminResidentRefused" junit="false"
+		preserve-order="true">
+		<classes>
+			<class name="com.iCM.scripts.EMRAdminResidentRefused" />			
+		</classes>		
+	</test>
+</suite> 

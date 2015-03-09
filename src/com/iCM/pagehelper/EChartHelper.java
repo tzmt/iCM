@@ -12,6 +12,7 @@ import java.util.Date;
 
 
 import java.util.List;
+import java.util.Random;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -25,6 +26,7 @@ public class EChartHelper extends DriverHelper
 	private LocatorReader echartLocator;
 	int count,i;
     SimpleDateFormat dateFormat = new SimpleDateFormat("MMM");
+    Random rand = new Random();
  
 	public EChartHelper(WebDriver driver) 
 	{
@@ -251,6 +253,10 @@ public class EChartHelper extends DriverHelper
 		  {
 			  
 		  }
+		  if(hrs>12)
+		  {
+			  hrs=hrs-12;
+		  }
 		  String NewD = String.valueOf(hrs)+":"+NewMin;
 		  System.out.println(NewD);
 		  return NewD;
@@ -340,11 +346,8 @@ public class EChartHelper extends DriverHelper
 		i=date;
 		for(int j=1;j<=2;j++)
 		{
-			System.out.println("j = "+j+"\t i"+"\t"+i);
-			System.out.println("\t\tEntered in the loop for");
 			do
 			{	
-				System.out.println("\t\tEntered in the loop while");
 				int k=i+2;
 				String locator3="//*[@id='administeredlogtbl']/tbody/tr[1]/td["+k+"]";
 				String atr=getAttribute(locator3, "style");
@@ -378,7 +381,10 @@ public class EChartHelper extends DriverHelper
 					i=i+14;
 				}	
 				flag=true;
-			}while(i<=count);
+			}while(i<count);
+			System.out.println("i ="+i);
+			i=i-count;
+			
 			Assert.assertTrue(flag);
 			selectNext(j,date,locatorCount,count);
 		}
@@ -386,21 +392,17 @@ public class EChartHelper extends DriverHelper
 	
 	public void selectNext(int j,int date,String locator,int count)
 	{
-		System.out.println("\t\tEntered in the function");
 		Calendar currentMonth = Calendar.getInstance();
 		click("AddMedication.ScheduleDate");
 		waitForWorkAroundTime(3000);
 		currentMonth.add(Calendar.MONTH, j);
-		i=i-count;
 		select("ScheduleMonth",currentMonth.getTime().toString().substring(4,7));
-		System.out.println("New Date"+currentMonth.getTime().toString().substring(4,7)+"\t"+i);
 		selectNextDate("1");
 		click("AddMedication.Jump");
 		waitForWorkAroundTime(2000);
 		click("AddMedication.MorningTab");
 		click("AddMedication.ExpendMorn");
 		count = getXpathCount(locator);
-		System.out.println("Last = "+"i= "+i+"New Month = "+count);	
 	}
 	
 	public void selectNextDate(String Date) 
@@ -410,4 +412,55 @@ public class EChartHelper extends DriverHelper
 		clickOn(date);
 		waitForWorkAroundTime(2000);
 	}
+
+	public void selectDays() 
+	{
+		int day[] = new int[5];
+		day[0]=1;
+		day[1]=5;
+		day[2]=10;
+		day[3]=15;
+		day[4]=20;
+		for(int i=0;i<5;i++)
+		{
+			String locator = "//*[@id='DaysOfMonthsCalender']/button["+day[i]+"]";
+			clickOn(locator);
+		}
+	}
+
+	public void verifyDays() 
+	{
+		int day[] = new int[5];
+		day[0]=1;
+		day[1]=5;
+		day[2]=10;
+		day[3]=15;
+		day[4]=20;
+		for(int i=0;i<2;i++)
+		{
+			for(int j=0;i<day.length;j++)
+			{
+				int k=day[j]+2;
+				String locator="//*[@id='administeredlogtbl']/tbody/tr[1]/td["+k+"]";
+				String atr=getAttribute(locator, "style");
+				Assert.assertTrue(atr.contains(("background-color: rgb(242, 242, 242)")));
+				selectNextMonth(i);
+			}
+		}
+	}
+	
+	public void selectNextMonth(int j)
+	{
+		Calendar currentMonth = Calendar.getInstance();
+		click("AddMedication.ScheduleDate");
+		waitForWorkAroundTime(3000);
+		currentMonth.add(Calendar.MONTH, j);
+		select("ScheduleMonth",currentMonth.getTime().toString().substring(4,7));
+		selectNextDate("1");
+		click("AddMedication.Jump");
+		waitForWorkAroundTime(2000);
+		click("AddMedication.MorningTab");
+		click("AddMedication.ExpendMorn");
+	}
+	
 }

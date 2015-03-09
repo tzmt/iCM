@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Locators>
+   <Admin>
+  	<AdminButton><![CDATA[//td[@class='All']/div/div/div[2]/div/button[1]]]></AdminButton>
+  	<AdminDropdown><![CDATA[//td[@class='All']/div/div/div[2]/div/button[2]]]></AdminDropdown>
+  	<AdminReading><![CDATA[//td[@class='All']/div/div/div[2]/div/ul/li[1]/a]]></AdminReading>
+  	<AdminLate><![CDATA[//td[@class='All']/div/div/div[2]/div/ul/li[3]/a]]></AdminLate>
+  	<AdminOmission><![CDATA[//td[@class='All']/div/div/div[2]/div/ul/li[4]/a]]></AdminOmission>
+  	
+  	<EMRLeft><![CDATA[//*[@id='sidebar-tabs']/li[3]/a]]></EMRLeft>
+  	<EMRDate><![CDATA[//*[@id='date']]]></EMRDate>
+  	<CurrentDate><![CDATA[//*[@id='CurrentDate']]]></CurrentDate>
+  	<AllTab><![CDATA[//ul[@class = 'nav nav-pills bar']/li[1]/a]]></AllTab>
+  	<Expend><![CDATA[//table[@class='table PatientRow']/tbody/tr[1]/td[3]/div/a]]></Expend>
+  	<VerifyAK><![CDATA[//*[@id='administeredlogtbl']/tbody/tr/td[11]]]></VerifyAK>
+  	
+  	<AdminLateItem><![CDATA[//td[@class='All']/div/div/div[2]/div/ul/li[3]/ul/li[1]/a]]></AdminLateItem>
+  	<CalenderWindow><![CDATA[//*[@id='ui-datepicker-div']]]></CalenderWindow>
+  	<TimePicker><![CDATA[//*[@id='AdministerLate']/div[1]/div/div/span/i]]></TimePicker>
+  	<TimeWindow><![CDATA[//*[@id='AdministerLate']/div[1]/div/div/div]]></TimeWindow>
+  	<AdminLateReading><![CDATA[//td[@class='All']/div/div/div[2]/div/ul/li[3]/ul/li[2]/a]]></AdminLateReading>
+  	<DateField><![CDATA[//*[@id='NewDate']]]></DateField>
+  	<TimeField><![CDATA[//*[@id='NewTime']]]></TimeField>
+  	
+  	<Heading><![CDATA[//*[@id='MedicationForm']/div[1]/h3]]></Heading>
+  	<RecordType><![CDATA[//*[@id='ReadingType']]]></RecordType>
+  	<BloodSuger><![CDATA[//*[@id='BloodSugar']]]></BloodSuger>
+  	<AdminNow><![CDATA[//*[@id='sbmBtn']]]></AdminNow>
+  	
+  	<AdminisText><![CDATA[//div[@class='control-label']/div/button/b[2]]]></AdminisText>
+  	<AdminisUndo><![CDATA[//div[@class='control-label']/div/a]]></AdminisUndo>
+  	
+  	<MAR><![CDATA[//*[@id='all']/table[1]/thead/tr/td[3]/a[1]]]></MAR>
+  	<VerifyMAR><![CDATA[//*[@id='printEMAR']]]></VerifyMAR>
+  	<EMROmission><![CDATA[//td[@class='All']/div/div/div[2]/div/ul/li[2]/a]]></EMROmission>
+  	<EMRRefused><![CDATA[//td[@class='All']/div/div/div[2]/div/ul/li[2]/ul/li[1]/a]]></EMRRefused>
+  	
+  	<ResidentRefused><![CDATA[//td[@class='All']/div/div/div[2]/div/ul/li[4]/ul/li[1]/a]]></ResidentRefused>
+  	<ResultRefused><![CDATA[//*[@id='ErrorOmissionFormModal']/div[5]/div/textarea]]></ResultRefused>
+  	<SaveRefused><![CDATA[//form[@id='OmissionAddForm']/div[4]/button[2]]]></SaveRefused>
+  	<OkRefused><![CDATA[//form[@id='OmissionAddForm']/div[3]/div[3]/a]]></OkRefused>
+  	<Omitted><![CDATA[//td[@class='All']/div/div/div[2]/div/button[1]/b]]></Omitted>
+  	<SavedRefused><![CDATA[//td[@class='All']/div/div/div[2]/div[2]/small]]></SavedRefused>
+  	
+  	<ResidentHold><![CDATA[//td[@class='All']/div/div/div[2]/div/ul/li[4]/ul/li[2]/a]]></ResidentHold>
+  	<Required><![CDATA[//span[@class='help-inline msghelp']]]></Required>
+  	<ToField><![CDATA[//*[@id='ToDateHold']]]></ToField>
+  	<Month><![CDATA[//div[@class='ui-datepicker-title']/select[1]]]></Month>
+  	<Date><![CDATA[link=]]></Date>
+  	<HoldResult><![CDATA[//td[@class='All']/div/div/div[2]/div/div[2]/small/strong]]></HoldResult>
+  	
+  	<Physically><![CDATA[//td[@class='All']/div/div/div[2]/div/ul/li[4]/ul/li[3]/a]]></Physically>
+  	<PhysicallyDate><![CDATA[//*[@id='OmissionDiv']/div[2]/div/span[1]]]></PhysicallyDate>
+  	<PhysicallyTime><![CDATA[//*[@id='OmissionDiv']/div[2]/div/span[3]]]></PhysicallyTime>
+  	<PhysicallySaved><![CDATA[//td[@class='All']/div/div/div[2]/div[2]/small/strong]]></PhysicallySaved>
+  	
+  	<BloodSugar><![CDATA[//*[@id='BloodSugar']]]></BloodSugar>
+  	<AdminNow><![CDATA[//*[@id='sbmBtn']]]></AdminNow>
+  	<AdminSuccess><![CDATA[//*[@id='OKFootr']/div[1]]]></AdminSuccess>
+  	<AdminOk><![CDATA[//*[@id='OKFootr']/div[3]/button]]></AdminOk>
+  	<AdminBy><![CDATA[//td[@class='All']/div/div/div[2]/div/button[1]/b[2]]]></AdminBy>
+  	<AdminUndo><![CDATA[//td[@class='All']/div/div/div[2]/div/a]]></AdminUndo>
+  </Admin>
+  
+  <Omission>
+  	<OmiDropdown><![CDATA[//*[@id='content']/div[3]/div/button]]></OmiDropdown>
+  	<AddOmission><![CDATA[//*[@id='content']/div[3]/div/ul/li[1]/a]]></AddOmission>
+  	<SelectTypeOmission><![CDATA[//*[@id='ErrorOrOmssionTypeId']]]></SelectTypeOmission>
+  	<MedicationDrpdwn><![CDATA[//*[@id='MedId_chzn']/a/span]]></MedicationDrpdwn>
+  	<SearchMedicationOmission><![CDATA[//*[@id='MedId_chzn']/div/div/input]]></SearchMedicationOmission>
+  	<DMedicine><![CDATA[//*[@id='MedId_chzn_o_1']]]></DMedicine>
+  	<ResultOmission><![CDATA[//*[@id='OResults']]]></ResultOmission>
+  	<SaveOmission><![CDATA[//*[@id='EOFootr']/button[2]]]></SaveOmission>
+  	<VerifyOmission><![CDATA[//*[@id='EOOKFootr']/div[1]]]></VerifyOmission>
+  	<OkOmission><![CDATA[//*[@id='EOOKFootr']/div[3]/a]]></OkOmission>
+  	<OmissionVerify><![CDATA[//td[@class='All']/div/div/div[2]/div/button[1]/b]]></OmissionVerify>
+  </Omission>
+  
+  <HoldMedicine>
+  	<Hold><![CDATA[//*[@class='table table-hover dataTable']/tbody/tr[1]/td[6]/a[2]]]></Hold>
+  	<EndDate><![CDATA[//*[@id='EndDate']]]></EndDate>
+  	<HoldComment><![CDATA[//*[@id='HeldMedComments']]]></HoldComment>
+  	<HoldOk><![CDATA[//*[@id='HoldMedicationForm']/div[3]/button[2]]]></HoldOk>
+  	<OnHold><![CDATA[//*[@id='Med']/div/table/tbody/tr[1]/td[6]/div/button[2]]]></OnHold>
+  	<RestartMedicine><![CDATA[//div[@class='btn-group open']/ul/li/a]]></RestartMedicine>
+  </HoldMedicine>
+</Locators>

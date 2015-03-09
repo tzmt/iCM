@@ -52,7 +52,7 @@ public class EMRWithoutError extends DriverTestCase
 			
 			//Click on 'EMR'
 			ExecutionLog.Log("Click on 'EMR'");
-			eMRHelper.click("EMR.EMRLeft");
+			eMRHelper.click("Admin.EMRLeft");
 			ExecutionLog.Log("Pass");
 
 			//Verify EMR Title
@@ -62,7 +62,7 @@ public class EMRWithoutError extends DriverTestCase
 			
 			//Verify No 500 error page displayed
 			ExecutionLog.Log("Verify No 500 error page displayed");
-			eMRHelper.verifyNoError();
+			eMRHelper.verifyNoError("Admin.AllTab","Admin.EMRDate","Admin.CurrentDate");
 			ExecutionLog.Log("Pass");
 		}
 		catch (Error e) 

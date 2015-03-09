@@ -1,0 +1,3068 @@
+
+*****************************************************************************
+Mar 09,2015 11:48:52 [info]   Execution Started of Test Class com.iCM.scripts.EMRAdminLate and Test method testEMRAdminLate
+*****************************************************************************
+Mar 09,2015 11:48:52 [info]  Open application url
+Mar 09,2015 11:49:12 [info]  Pass
+Mar 09,2015 11:49:12 [info]  Verify Page title
+Mar 09,2015 11:49:17 [info]  Pass
+Mar 09,2015 11:49:17 [info]  Enter User name at login page.
+Mar 09,2015 11:49:17 [info]  Pass
+Mar 09,2015 11:49:17 [info]  Enter password at login page.
+Mar 09,2015 11:49:18 [info]  Pass
+Mar 09,2015 11:49:18 [info]  Click on Sign In button
+Mar 09,2015 11:49:39 [info]  Pass
+Mar 09,2015 11:49:39 [info]  Verify home page title
+Mar 09,2015 11:49:45 [info]  Pass
+Mar 09,2015 11:49:45 [info]  Open Add resident form via deep link
+Mar 09,2015 11:49:58 [info]  Pass
+Mar 09,2015 11:49:58 [info]  Enter Resident First Name
+Mar 09,2015 11:50:02 [info]  Pass
+Mar 09,2015 11:50:02 [info]  Enter Middle name
+Mar 09,2015 11:50:05 [info]  Pass
+Mar 09,2015 11:50:05 [info]  Enter last name
+Mar 09,2015 11:50:08 [info]  Pass
+Mar 09,2015 11:50:08 [info]  Open 'Calender'
+Mar 09,2015 11:50:10 [info]  Pass
+Mar 09,2015 11:50:15 [info]  Select Year
+Mar 09,2015 11:50:21 [info]  Pass
+Mar 09,2015 11:50:24 [info]  Select date
+Mar 09,2015 11:50:27 [info]  Pass
+Mar 09,2015 11:50:27 [info]  Select gender
+Mar 09,2015 11:50:28 [info]  Pass
+Mar 09,2015 11:50:28 [info]  Select Marital Status
+Mar 09,2015 11:50:30 [info]  Pass
+Mar 09,2015 11:50:30 [info]  Open 'Calender' for admit date
+Mar 09,2015 11:50:31 [info]  Pass
+Mar 09,2015 11:50:34 [info]  Select Year
+Mar 09,2015 11:50:41 [info]  Pass
+Mar 09,2015 11:50:41 [info]  Select Month
+Mar 09,2015 11:50:42 [info]  Pass
+Mar 09,2015 11:50:42 [info]  Select date
+Mar 09,2015 11:50:44 [info]  Pass
+Mar 09,2015 11:50:44 [info]  Select Facality
+Mar 09,2015 11:50:46 [info]  Pass
+Mar 09,2015 11:50:49 [info]  Select Nurse
+Mar 09,2015 11:50:50 [info]  Pass
+Mar 09,2015 11:50:50 [info]  Enter level of care
+Mar 09,2015 11:50:54 [info]  Pass
+Mar 09,2015 11:50:54 [info]  Click on 'Save' button
+Mar 09,2015 11:50:57 [info]  Pass
+Mar 09,2015 11:50:57 [info]  Search Added resident
+Mar 09,2015 11:51:05 [info]  Pass
+Mar 09,2015 11:51:05 [info]  Verify added resident
+Mar 09,2015 11:51:08 [info]  Pass
+Mar 09,2015 11:51:08 [info]  Open resident Profile
+Mar 09,2015 11:51:12 [info]  Pass
+Mar 09,2015 11:51:15 [info]  Click on Medication button
+Mar 09,2015 11:51:18 [info]  Pass
+Mar 09,2015 11:51:18 [info]  Click on Add Medication button
+Mar 09,2015 11:51:33 [info]  Pass
+Mar 09,2015 11:51:33 [info]  Enter Medicine Name
+Mar 09,2015 11:51:46 [info]  Pass
+Mar 09,2015 11:51:46 [info]  Enter Dosage
+Mar 09,2015 11:51:49 [info]  Pass
+Mar 09,2015 11:51:49 [info]  Enter instruction
+Mar 09,2015 11:51:53 [info]  Pass
+Mar 09,2015 11:51:53 [info]  Open 'Calender'
+Mar 09,2015 11:51:57 [info]  Pass
+Mar 09,2015 11:52:00 [info]  Select date
+Mar 09,2015 11:52:03 [info]  Pass
+Mar 09,2015 11:52:03 [info]  Select time
+Mar 09,2015 11:52:05 [info]  Pass
+Mar 09,2015 11:52:05 [info]  Select AM/PM
+Mar 09,2015 11:52:06 [info]  Pass
+Mar 09,2015 11:52:06 [info]  Click on Add Schedule button
+Mar 09,2015 11:52:09 [info]  Pass
+Mar 09,2015 11:52:09 [info]  Verify Added Schedule
+Mar 09,2015 11:52:10 [info]  Pass
+Mar 09,2015 11:52:10 [info]  Click on Save button
+Mar 09,2015 11:52:27 [info]  Pass
+Mar 09,2015 11:52:27 [info]  Verify Title
+Mar 09,2015 11:52:32 [info]  Pass
+Mar 09,2015 11:52:42 [info]  Open Medication page
+Mar 09,2015 11:52:55 [info]  Pass
+Mar 09,2015 11:52:55 [info]  Click on EMR Tab
+Mar 09,2015 11:52:58 [info]  Pass
+Mar 09,2015 11:52:58 [info]  Click on All Meds Tab
+Mar 09,2015 11:53:15 [info]  Pass
+Mar 09,2015 11:53:18 [info]  Click on Admin Button dropdown
+Mar 09,2015 11:53:21 [info]  Pass
+Mar 09,2015 11:53:21 [info]  Click on reading
+Mar 09,2015 11:53:27 [info]  Pass
+Mar 09,2015 11:53:30 [info]  Verify Date field is populated
+Mar 09,2015 11:53:30 [info]  Pass
+Mar 09,2015 11:53:30 [info]  Verify Time field is populated
+Mar 09,2015 11:53:30 [info]  Pass
+Mar 09,2015 11:53:30 [info]  Verify current Date is populated in field
+Mar 09,2015 11:53:31 [info]  Pass
+Mar 09,2015 11:53:31 [info]  Verify current time is populated in field
+Mar 09,2015 11:53:31 [info]  Mar 09,2015 11:53:31 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at com.iCM.pagehelper.EMRHelper.verifyCurrentDateTime(EMRHelper.java:111)
+	at com.iCM.scripts.EMRAdminLate.testEMRAdminLate(EMRAdminLate.java:301)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Mar 09,2015 11:53:31 [info]  End Execution of Test Class com.iCM.scripts.EMRAdminLate
+*****************************************************************************
+
+*****************************************************************************
+Mar 09,2015 12:07:41 [info]   Execution Started of Test Class com.iCM.scripts.EMRAdminLate and Test method testEMRAdminLate
+*****************************************************************************
+Mar 09,2015 12:07:41 [info]  Open application url
+Mar 09,2015 12:07:54 [info]  Pass
+Mar 09,2015 12:07:54 [info]  Verify Page title
+Mar 09,2015 12:07:59 [info]  Pass
+Mar 09,2015 12:07:59 [info]  Enter User name at login page.
+Mar 09,2015 12:08:00 [info]  Pass
+Mar 09,2015 12:08:00 [info]  Enter password at login page.
+Mar 09,2015 12:08:01 [info]  Pass
+Mar 09,2015 12:08:01 [info]  Click on Sign In button
+Mar 09,2015 12:08:20 [info]  Pass
+Mar 09,2015 12:08:20 [info]  Verify home page title
+Mar 09,2015 12:08:26 [info]  Pass
+Mar 09,2015 12:08:26 [info]  Open Add resident form via deep link
+Mar 09,2015 12:08:35 [info]  Pass
+Mar 09,2015 12:08:35 [info]  Enter Resident First Name
+Mar 09,2015 12:08:38 [info]  Pass
+Mar 09,2015 12:08:38 [info]  Enter Middle name
+Mar 09,2015 12:08:42 [info]  Pass
+Mar 09,2015 12:08:42 [info]  Enter last name
+Mar 09,2015 12:08:45 [info]  Pass
+Mar 09,2015 12:08:45 [info]  Open 'Calender'
+Mar 09,2015 12:08:47 [info]  Pass
+Mar 09,2015 12:08:52 [info]  Select Year
+Mar 09,2015 12:08:58 [info]  Pass
+Mar 09,2015 12:09:01 [info]  Select date
+Mar 09,2015 12:09:04 [info]  Pass
+Mar 09,2015 12:09:04 [info]  Select gender
+Mar 09,2015 12:09:05 [info]  Pass
+Mar 09,2015 12:09:05 [info]  Select Marital Status
+Mar 09,2015 12:09:06 [info]  Pass
+Mar 09,2015 12:09:06 [info]  Open 'Calender' for admit date
+Mar 09,2015 12:09:08 [info]  Pass
+Mar 09,2015 12:09:11 [info]  Select Year
+Mar 09,2015 12:09:17 [info]  Pass
+Mar 09,2015 12:09:17 [info]  Select Month
+Mar 09,2015 12:09:19 [info]  Pass
+Mar 09,2015 12:09:19 [info]  Select date
+Mar 09,2015 12:09:21 [info]  Pass
+Mar 09,2015 12:09:21 [info]  Select Facality
+Mar 09,2015 12:09:23 [info]  Pass
+Mar 09,2015 12:09:26 [info]  Select Nurse
+Mar 09,2015 12:09:27 [info]  Pass
+Mar 09,2015 12:09:27 [info]  Enter level of care
+Mar 09,2015 12:09:31 [info]  Pass
+Mar 09,2015 12:09:31 [info]  Click on 'Save' button
+Mar 09,2015 12:09:34 [info]  Pass
+Mar 09,2015 12:09:34 [info]  Search Added resident
+Mar 09,2015 12:09:47 [info]  Pass
+Mar 09,2015 12:09:47 [info]  Verify added resident
+Mar 09,2015 12:09:50 [info]  Pass
+Mar 09,2015 12:09:50 [info]  Open resident Profile
+Mar 09,2015 12:09:53 [info]  Pass
+Mar 09,2015 12:09:57 [info]  Click on Medication button
+Mar 09,2015 12:10:00 [info]  Pass
+Mar 09,2015 12:10:00 [info]  Click on Add Medication button
+Mar 09,2015 12:10:13 [info]  Pass
+Mar 09,2015 12:10:13 [info]  Enter Medicine Name
+Mar 09,2015 12:10:22 [info]  Pass
+Mar 09,2015 12:10:22 [info]  Enter Dosage
+Mar 09,2015 12:10:26 [info]  Pass
+Mar 09,2015 12:10:26 [info]  Enter instruction
+Mar 09,2015 12:10:29 [info]  Pass
+Mar 09,2015 12:10:29 [info]  Open 'Calender'
+Mar 09,2015 12:10:33 [info]  Pass
+Mar 09,2015 12:10:36 [info]  Select date
+Mar 09,2015 12:10:40 [info]  Pass
+Mar 09,2015 12:10:40 [info]  Select time
+Mar 09,2015 12:10:41 [info]  Pass
+Mar 09,2015 12:10:41 [info]  Select AM/PM
+Mar 09,2015 12:10:42 [info]  Pass
+Mar 09,2015 12:10:42 [info]  Click on Add Schedule button
+Mar 09,2015 12:10:45 [info]  Pass
+Mar 09,2015 12:10:45 [info]  Verify Added Schedule
+Mar 09,2015 12:10:45 [info]  Pass
+Mar 09,2015 12:10:45 [info]  Click on Save button
+Mar 09,2015 12:11:01 [info]  Pass
+Mar 09,2015 12:11:01 [info]  Verify Title
+Mar 09,2015 12:11:06 [info]  Pass
+Mar 09,2015 12:11:16 [info]  Open Medication page
+Mar 09,2015 12:11:25 [info]  Pass
+Mar 09,2015 12:11:25 [info]  Click on EMR Tab
+Mar 09,2015 12:11:29 [info]  Pass
+Mar 09,2015 12:11:29 [info]  Click on All Meds Tab
+Mar 09,2015 12:11:41 [info]  Pass
+Mar 09,2015 12:11:44 [info]  Click on Admin Button dropdown
+Mar 09,2015 12:11:47 [info]  Pass
+Mar 09,2015 12:11:47 [info]  Click on reading
+Mar 09,2015 12:11:53 [info]  Pass
+Mar 09,2015 12:11:56 [info]  Verify Date field is populated
+Mar 09,2015 12:11:56 [info]  Pass
+Mar 09,2015 12:11:56 [info]  Verify Time field is populated
+Mar 09,2015 12:11:56 [info]  Pass
+Mar 09,2015 12:11:56 [info]  Verify current Date is populated in field
+Mar 09,2015 12:11:57 [info]  Pass
+Mar 09,2015 12:11:57 [info]  Verify current time is populated in field
+Mar 09,2015 12:11:57 [info]  Mar 09,2015 12:11:57 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at com.iCM.pagehelper.EMRHelper.verifyCurrentDateTime(EMRHelper.java:111)
+	at com.iCM.scripts.EMRAdminLate.testEMRAdminLate(EMRAdminLate.java:301)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Mar 09,2015 12:11:57 [info]  End Execution of Test Class com.iCM.scripts.EMRAdminLate
+*****************************************************************************
+
+*****************************************************************************
+Mar 09,2015 12:28:26 [info]   Execution Started of Test Class com.iCM.scripts.AddMedicationEvery10thDay and Test method testAddMedicationEvery10thDay
+*****************************************************************************
+Mar 09,2015 12:28:26 [info]  Open application url
+Mar 09,2015 12:28:49 [info]  Pass
+Mar 09,2015 12:28:49 [info]  Verify Page title
+Mar 09,2015 12:28:54 [info]  Pass
+Mar 09,2015 12:28:54 [info]  Enter User name at login page.
+Mar 09,2015 12:28:54 [info]  Pass
+Mar 09,2015 12:28:54 [info]  Enter password at login page.
+Mar 09,2015 12:28:56 [info]  Pass
+Mar 09,2015 12:28:56 [info]  Click on Sign In button
+Mar 09,2015 12:29:19 [info]  Pass
+Mar 09,2015 12:29:19 [info]  Verify home page title
+Mar 09,2015 12:29:24 [info]  Pass
+Mar 09,2015 12:29:24 [info]  Open Add resident form via deep link
+Mar 09,2015 12:29:37 [info]  Pass
+Mar 09,2015 12:29:37 [info]  Enter Resident First Name
+Mar 09,2015 12:29:41 [info]  Pass
+Mar 09,2015 12:29:41 [info]  Enter Middle name
+Mar 09,2015 12:29:44 [info]  Pass
+Mar 09,2015 12:29:44 [info]  Enter last name
+Mar 09,2015 12:29:48 [info]  Pass
+Mar 09,2015 12:29:48 [info]  Open 'Calender'
+Mar 09,2015 12:29:49 [info]  Pass
+Mar 09,2015 12:29:54 [info]  Select Year
+Mar 09,2015 12:30:01 [info]  Pass
+Mar 09,2015 12:30:04 [info]  Select date
+Mar 09,2015 12:30:07 [info]  Pass
+Mar 09,2015 12:30:07 [info]  Select gender
+Mar 09,2015 12:30:08 [info]  Pass
+Mar 09,2015 12:30:08 [info]  Select Marital Status
+Mar 09,2015 12:30:10 [info]  Pass
+Mar 09,2015 12:30:10 [info]  Open 'Calender' for admit date
+Mar 09,2015 12:30:11 [info]  Pass
+Mar 09,2015 12:30:14 [info]  Select Year
+Mar 09,2015 12:30:21 [info]  Pass
+Mar 09,2015 12:30:21 [info]  Select Month
+Mar 09,2015 12:30:22 [info]  Pass
+Mar 09,2015 12:30:22 [info]  Select date
+Mar 09,2015 12:30:25 [info]  Pass
+Mar 09,2015 12:30:25 [info]  Select Facality
+Mar 09,2015 12:30:27 [info]  Pass
+Mar 09,2015 12:30:30 [info]  Select Nurse
+Mar 09,2015 12:30:31 [info]  Pass
+Mar 09,2015 12:30:31 [info]  Enter level of care
+Mar 09,2015 12:30:35 [info]  Pass
+Mar 09,2015 12:30:35 [info]  Click on 'Save' button
+Mar 09,2015 12:30:38 [info]  Pass
+Mar 09,2015 12:30:38 [info]  Search Added resident
+Mar 09,2015 12:30:50 [info]  Pass
+Mar 09,2015 12:30:50 [info]  Verify added resident
+Mar 09,2015 12:30:53 [info]  Pass
+Mar 09,2015 12:30:53 [info]  Open resident Profile
+Mar 09,2015 12:30:57 [info]  Pass
+Mar 09,2015 12:31:00 [info]  Click on Medication button
+Mar 09,2015 12:31:04 [info]  Pass
+Mar 09,2015 12:31:04 [info]  Click on Add Medication button
+Mar 09,2015 12:31:19 [info]  Pass
+Mar 09,2015 12:31:19 [info]  Enter Medicine Name
+Mar 09,2015 12:31:31 [info]  Pass
+Mar 09,2015 12:31:31 [info]  Enter Dosage
+Mar 09,2015 12:31:35 [info]  Pass
+Mar 09,2015 12:31:35 [info]  Enter instruction
+Mar 09,2015 12:31:38 [info]  Pass
+Mar 09,2015 12:31:38 [info]  Open 'Calender'
+Mar 09,2015 12:31:42 [info]  Pass
+Mar 09,2015 12:31:45 [info]  Select date
+Mar 09,2015 12:31:49 [info]  Pass
+Mar 09,2015 12:31:49 [info]  Select Frequency
+Mar 09,2015 12:31:53 [info]  Pass
+Mar 09,2015 12:31:53 [info]  Select Frequency
+Mar 09,2015 12:31:56 [info]  Pass
+Mar 09,2015 12:31:56 [info]  Select Other day option
+Mar 09,2015 12:31:58 [info]  Pass
+Mar 09,2015 12:31:58 [info]  Select time
+Mar 09,2015 12:31:59 [info]  Pass
+Mar 09,2015 12:31:59 [info]  Select AM/PM
+Mar 09,2015 12:32:00 [info]  Pass
+Mar 09,2015 12:32:00 [info]  Click on Add Schedule button
+Mar 09,2015 12:32:04 [info]  Pass
+Mar 09,2015 12:32:04 [info]  Verify Added Schedule
+Mar 09,2015 12:32:04 [info]  Pass
+Mar 09,2015 12:32:04 [info]  Click on Save button
+Mar 09,2015 12:32:23 [info]  Pass
+Mar 09,2015 12:32:38 [info]  Open Medication page
+Mar 09,2015 12:32:51 [info]  Pass
+Mar 09,2015 12:32:51 [info]  Click on EMR Tab
+Mar 09,2015 12:32:54 [info]  Pass
+Mar 09,2015 12:32:54 [info]  Click on 'Morning' tab
+Mar 09,2015 12:33:10 [info]  Pass
+Mar 09,2015 12:33:10 [info]  Verify Added Schedule
+Mar 09,2015 12:33:10 [info]  Pass
+Mar 09,2015 12:33:10 [info]  Click on Expend button
+Mar 09,2015 12:33:14 [info]  Pass
+Mar 09,2015 12:33:14 [info]  Verify Starting Blackout
+Mar 09,2015 12:34:58 [info]  Pass
+Mar 09,2015 12:35:09 [info]  Open resident profile
+Mar 09,2015 12:35:25 [info]  Pass
+Mar 09,2015 12:35:25 [info]  End Execution of Test Class com.iCM.scripts.AddMedicationEvery10thDay
+*****************************************************************************
+
+*****************************************************************************
+Mar 09,2015 13:55:05 [info]   Execution Started of Test Class com.iCM.scripts.EChart and Test method testEChart
+*****************************************************************************
+Mar 09,2015 13:55:05 [info]  Open application url
+Mar 09,2015 13:55:33 [info]  Pass
+Mar 09,2015 13:55:33 [info]  Verify Page title
+Mar 09,2015 13:55:38 [info]  Pass
+Mar 09,2015 13:55:38 [info]  Enter User name at login page.
+Mar 09,2015 13:55:39 [info]  Pass
+Mar 09,2015 13:55:39 [info]  Enter password at login page.
+Mar 09,2015 13:55:40 [info]  Pass
+Mar 09,2015 13:55:40 [info]  Click on Sign In button
+Mar 09,2015 13:56:13 [info]  Pass
+Mar 09,2015 13:56:13 [info]  Verify home page title
+Mar 09,2015 13:56:18 [info]  Pass
+Mar 09,2015 13:56:18 [info]  Open resident list via deep link
+Mar 09,2015 13:56:30 [info]  Pass
+Mar 09,2015 13:56:30 [info]  Open resident Profile
+Mar 09,2015 13:56:33 [info]  Pass
+Mar 09,2015 13:56:33 [info]  Verify 'EChart' Page title
+Mar 09,2015 13:56:39 [info]  Mar 09,2015 13:56:39 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: Page title is: iCM - Resident List but expected is: eChart expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.iCM.pagehelper.EChartHelper.verifyTitle(EChartHelper.java:56)
+	at com.iCM.scripts.EChart.testEChart(EChart.java:65)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Mar 09,2015 13:56:39 [info]  End Execution of Test Class com.iCM.scripts.EChart
+*****************************************************************************
+
+*****************************************************************************
+Mar 09,2015 13:58:24 [info]   Execution Started of Test Class com.iCM.scripts.EChart and Test method testEChart
+*****************************************************************************
+Mar 09,2015 13:58:24 [info]  Open application url
+Mar 09,2015 13:58:52 [info]  Pass
+Mar 09,2015 13:58:52 [info]  Verify Page title
+Mar 09,2015 13:58:57 [info]  Pass
+Mar 09,2015 13:58:57 [info]  Enter User name at login page.
+Mar 09,2015 13:58:58 [info]  Pass
+Mar 09,2015 13:58:58 [info]  Enter password at login page.
+Mar 09,2015 13:58:59 [info]  Pass
+Mar 09,2015 13:58:59 [info]  Click on Sign In button
+Mar 09,2015 13:59:01 [info]  Pass
+Mar 09,2015 13:59:01 [info]  Verify home page title
+Mar 09,2015 13:59:16 [info]  Mar 09,2015 13:59:16 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: Page title is: iCM - Login but expected is: iCM - Home expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.iCM.pagehelper.LoginHelper.verifyTitle(LoginHelper.java:23)
+	at com.iCM.scripts.EChart.testEChart(EChart.java:50)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Mar 09,2015 13:59:16 [info]  End Execution of Test Class com.iCM.scripts.EChart
+*****************************************************************************
+
+*****************************************************************************
+Mar 09,2015 14:05:05 [info]   Execution Started of Test Class com.iCM.scripts.EChart and Test method testEChart
+*****************************************************************************
+Mar 09,2015 14:05:05 [info]  Open application url
+Mar 09,2015 14:05:36 [info]  Pass
+Mar 09,2015 14:05:36 [info]  Verify Page title
+Mar 09,2015 14:05:41 [info]  Pass
+Mar 09,2015 14:05:41 [info]  Enter User name at login page.
+Mar 09,2015 14:05:42 [info]  Pass
+Mar 09,2015 14:05:42 [info]  Enter password at login page.
+Mar 09,2015 14:05:43 [info]  Pass
+Mar 09,2015 14:05:43 [info]  Click on Sign In button
+Mar 09,2015 14:06:08 [info]  Pass
+Mar 09,2015 14:06:08 [info]  Verify home page title
+Mar 09,2015 14:06:14 [info]  Pass
+Mar 09,2015 14:06:14 [info]  Open resident list via deep link
+Mar 09,2015 14:06:28 [info]  Pass
+Mar 09,2015 14:06:28 [info]  Open resident Profile
+Mar 09,2015 14:06:32 [info]  Pass
+Mar 09,2015 14:06:32 [info]  Verify 'EChart' Page title
+Mar 09,2015 14:06:37 [info]  Pass
+Mar 09,2015 14:06:37 [info]  Verify Medication button
+Mar 09,2015 14:06:43 [info]  Pass
+Mar 09,2015 14:06:43 [info]  Verify EMR button
+Mar 09,2015 14:06:48 [info]  Pass
+Mar 09,2015 14:06:48 [info]  End Execution of Test Class com.iCM.scripts.EChart
+*****************************************************************************
+
+*****************************************************************************
+Mar 09,2015 15:00:04 [info]   Execution Started of Test Class com.iCM.scripts.EChart and Test method testEChart
+*****************************************************************************
+Mar 09,2015 15:00:04 [info]  Open application url
+Mar 09,2015 15:00:07 [info]  Pass
+Mar 09,2015 15:00:07 [info]  Verify Page title
+Mar 09,2015 15:00:16 [info]  Mar 09,2015 15:00:16 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: Page title is: ser is not able t - Google Search but expected is: iCM - Login expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.iCM.pagehelper.LoginHelper.verifyTitle(LoginHelper.java:23)
+	at com.iCM.scripts.EChart.testEChart(EChart.java:30)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Mar 09,2015 15:00:16 [info]  End Execution of Test Class com.iCM.scripts.EChart
+*****************************************************************************
+
+*****************************************************************************
+Mar 09,2015 15:01:12 [info]   Execution Started of Test Class com.iCM.scripts.EChart and Test method testEChart
+*****************************************************************************
+Mar 09,2015 15:01:12 [info]  Open application url
+Mar 09,2015 15:01:28 [info]  Pass
+Mar 09,2015 15:01:28 [info]  Verify Page title
+Mar 09,2015 15:01:33 [info]  Pass
+Mar 09,2015 15:01:33 [info]  Enter User name at login page.
+Mar 09,2015 15:01:34 [info]  Pass
+Mar 09,2015 15:01:34 [info]  Enter password at login page.
+Mar 09,2015 15:01:35 [info]  Pass
+Mar 09,2015 15:01:35 [info]  Click on Sign In button
+Mar 09,2015 15:01:53 [info]  Pass
+Mar 09,2015 15:01:53 [info]  Verify home page title
+Mar 09,2015 15:01:58 [info]  Pass
+Mar 09,2015 15:01:58 [info]  Open resident list via deep link
+Mar 09,2015 15:02:11 [info]  Pass
+Mar 09,2015 15:02:11 [info]  Open resident Profile
+Mar 09,2015 15:02:14 [info]  Pass
+Mar 09,2015 15:02:14 [info]  Verify 'EChart' Page title
+Mar 09,2015 15:02:19 [info]  Pass
+Mar 09,2015 15:02:19 [info]  Verify Medication button
+Mar 09,2015 15:02:25 [info]  Pass
+Mar 09,2015 15:02:25 [info]  Verify EMR button
+Mar 09,2015 15:02:30 [info]  Pass
+Mar 09,2015 15:02:30 [info]  End Execution of Test Class com.iCM.scripts.EChart
+*****************************************************************************
+
+*****************************************************************************
+Mar 09,2015 15:02:56 [info]   Execution Started of Test Class com.iCM.scripts.EMRAdminLate and Test method testEMRAdminLate
+*****************************************************************************
+Mar 09,2015 15:02:56 [info]  Open application url
+Mar 09,2015 15:03:10 [info]  Pass
+Mar 09,2015 15:03:10 [info]  Verify Page title
+Mar 09,2015 15:03:15 [info]  Pass
+Mar 09,2015 15:03:15 [info]  Enter User name at login page.
+Mar 09,2015 15:03:16 [info]  Pass
+Mar 09,2015 15:03:16 [info]  Enter password at login page.
+Mar 09,2015 15:03:17 [info]  Pass
+Mar 09,2015 15:03:17 [info]  Click on Sign In button
+Mar 09,2015 15:03:32 [info]  Pass
+Mar 09,2015 15:03:32 [info]  Verify home page title
+Mar 09,2015 15:03:38 [info]  Pass
+Mar 09,2015 15:03:38 [info]  Open Add resident form via deep link
+Mar 09,2015 15:03:51 [info]  Pass
+Mar 09,2015 15:03:51 [info]  Enter Resident First Name
+Mar 09,2015 15:03:54 [info]  Pass
+Mar 09,2015 15:03:54 [info]  Enter Middle name
+Mar 09,2015 15:03:58 [info]  Pass
+Mar 09,2015 15:03:58 [info]  Enter last name
+Mar 09,2015 15:04:01 [info]  Pass
+Mar 09,2015 15:04:01 [info]  Open 'Calender'
+Mar 09,2015 15:04:03 [info]  Pass
+Mar 09,2015 15:04:08 [info]  Select Year
+Mar 09,2015 15:04:14 [info]  Pass
+Mar 09,2015 15:04:17 [info]  Select date
+Mar 09,2015 15:04:19 [info]  Pass
+Mar 09,2015 15:04:19 [info]  Select gender
+Mar 09,2015 15:04:21 [info]  Pass
+Mar 09,2015 15:04:21 [info]  Select Marital Status
+Mar 09,2015 15:04:22 [info]  Pass
+Mar 09,2015 15:04:22 [info]  Open 'Calender' for admit date
+Mar 09,2015 15:04:24 [info]  Pass
+Mar 09,2015 15:04:27 [info]  Select Year
+Mar 09,2015 15:04:33 [info]  Pass
+Mar 09,2015 15:04:33 [info]  Select Month
+Mar 09,2015 15:04:34 [info]  Pass
+Mar 09,2015 15:04:34 [info]  Select date
+Mar 09,2015 15:04:37 [info]  Pass
+Mar 09,2015 15:04:37 [info]  Select Facality
+Mar 09,2015 15:04:38 [info]  Pass
+Mar 09,2015 15:04:41 [info]  Select Nurse
+Mar 09,2015 15:04:43 [info]  Pass
+Mar 09,2015 15:04:43 [info]  Enter level of care
+Mar 09,2015 15:04:46 [info]  Pass
+Mar 09,2015 15:04:46 [info]  Click on 'Save' button
+Mar 09,2015 15:04:50 [info]  Pass
+Mar 09,2015 15:04:50 [info]  Search Added resident
+Mar 09,2015 15:04:55 [info]  Pass
+Mar 09,2015 15:04:55 [info]  Verify added resident
+Mar 09,2015 15:04:58 [info]  Pass
+Mar 09,2015 15:04:58 [info]  Open resident Profile
+Mar 09,2015 15:05:01 [info]  Pass
+Mar 09,2015 15:05:04 [info]  Click on Medication button
+Mar 09,2015 15:05:08 [info]  Pass
+Mar 09,2015 15:05:08 [info]  Click on Add Medication button
+Mar 09,2015 15:05:24 [info]  Pass
+Mar 09,2015 15:05:24 [info]  Enter Medicine Name
+Mar 09,2015 15:05:36 [info]  Pass
+Mar 09,2015 15:05:36 [info]  Enter Dosage
+Mar 09,2015 15:05:40 [info]  Pass
+Mar 09,2015 15:05:40 [info]  Enter instruction
+Mar 09,2015 15:05:44 [info]  Pass
+Mar 09,2015 15:05:44 [info]  Open 'Calender'
+Mar 09,2015 15:05:48 [info]  Pass
+Mar 09,2015 15:05:51 [info]  Select date
+Mar 09,2015 15:05:54 [info]  Pass
+Mar 09,2015 15:05:54 [info]  Select time
+Mar 09,2015 15:05:56 [info]  Pass
+Mar 09,2015 15:05:56 [info]  Select AM/PM
+Mar 09,2015 15:05:56 [info]  Pass
+Mar 09,2015 15:05:56 [info]  Click on Add Schedule button
+Mar 09,2015 15:06:00 [info]  Pass
+Mar 09,2015 15:06:00 [info]  Verify Added Schedule
+Mar 09,2015 15:06:00 [info]  Pass
+Mar 09,2015 15:06:00 [info]  Click on Save button
+Mar 09,2015 15:06:18 [info]  Pass
+Mar 09,2015 15:06:18 [info]  Verify Title
+Mar 09,2015 15:06:23 [info]  Pass
+Mar 09,2015 15:06:33 [info]  Open Medication page
+Mar 09,2015 15:06:46 [info]  Pass
+Mar 09,2015 15:06:46 [info]  Click on EMR Tab
+Mar 09,2015 15:06:49 [info]  Pass
+Mar 09,2015 15:06:49 [info]  Click on All Meds Tab
+Mar 09,2015 15:07:05 [info]  Pass
+Mar 09,2015 15:07:08 [info]  Click on Admin Button dropdown
+Mar 09,2015 15:07:12 [info]  Pass
+Mar 09,2015 15:07:12 [info]  Click on reading
+Mar 09,2015 15:07:17 [info]  Pass
+Mar 09,2015 15:07:20 [info]  Verify Date field is populated
+Mar 09,2015 15:07:21 [info]  Pass
+Mar 09,2015 15:07:21 [info]  Verify Time field is populated
+Mar 09,2015 15:07:21 [info]  Pass
+Mar 09,2015 15:07:21 [info]  Verify current Date is populated in field
+Mar 09,2015 15:07:21 [info]  Pass
+Mar 09,2015 15:07:21 [info]  Verify current time is populated in field
+Mar 09,2015 15:07:22 [info]  Mar 09,2015 15:07:22 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at com.iCM.pagehelper.EMRHelper.verifyCurrentDateTime(EMRHelper.java:111)
+	at com.iCM.scripts.EMRAdminLate.testEMRAdminLate(EMRAdminLate.java:301)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Mar 09,2015 15:07:22 [info]  End Execution of Test Class com.iCM.scripts.EMRAdminLate
+*****************************************************************************
+
+*****************************************************************************
+Mar 09,2015 15:09:02 [info]   Execution Started of Test Class com.iCM.scripts.EMRAdminLate and Test method testEMRAdminLate
+*****************************************************************************
+Mar 09,2015 15:09:02 [info]  Open application url
+Mar 09,2015 15:09:18 [info]  Pass
+Mar 09,2015 15:09:18 [info]  Verify Page title
+Mar 09,2015 15:09:23 [info]  Pass
+Mar 09,2015 15:09:23 [info]  Enter User name at login page.
+Mar 09,2015 15:09:23 [info]  Pass
+Mar 09,2015 15:09:23 [info]  Enter password at login page.
+Mar 09,2015 15:09:24 [info]  Pass
+Mar 09,2015 15:09:24 [info]  Click on Sign In button
+Mar 09,2015 15:09:48 [info]  Pass
+Mar 09,2015 15:09:48 [info]  Verify home page title
+Mar 09,2015 15:09:53 [info]  Pass
+Mar 09,2015 15:09:53 [info]  Open Add resident form via deep link
+Mar 09,2015 15:10:06 [info]  Pass
+Mar 09,2015 15:10:06 [info]  Enter Resident First Name
+Mar 09,2015 15:10:09 [info]  Pass
+Mar 09,2015 15:10:09 [info]  Enter Middle name
+Mar 09,2015 15:10:13 [info]  Pass
+Mar 09,2015 15:10:13 [info]  Enter last name
+Mar 09,2015 15:10:16 [info]  Pass
+Mar 09,2015 15:10:16 [info]  Open 'Calender'
+Mar 09,2015 15:10:18 [info]  Pass
+Mar 09,2015 15:10:23 [info]  Select Year
+Mar 09,2015 15:10:29 [info]  Pass
+Mar 09,2015 15:10:32 [info]  Select date
+Mar 09,2015 15:10:34 [info]  Pass
+Mar 09,2015 15:10:34 [info]  Select gender
+Mar 09,2015 15:10:36 [info]  Pass
+Mar 09,2015 15:10:36 [info]  Select Marital Status
+Mar 09,2015 15:10:37 [info]  Pass
+Mar 09,2015 15:10:37 [info]  Open 'Calender' for admit date
+Mar 09,2015 15:10:39 [info]  Pass
+Mar 09,2015 15:10:42 [info]  Select Year
+Mar 09,2015 15:10:48 [info]  Pass
+Mar 09,2015 15:10:48 [info]  Select Month
+Mar 09,2015 15:10:49 [info]  Pass
+Mar 09,2015 15:10:49 [info]  Select date
+Mar 09,2015 15:10:52 [info]  Pass
+Mar 09,2015 15:10:52 [info]  Select Facality
+Mar 09,2015 15:10:53 [info]  Pass
+Mar 09,2015 15:10:56 [info]  Select Nurse
+Mar 09,2015 15:10:58 [info]  Pass
+Mar 09,2015 15:10:58 [info]  Enter level of care
+Mar 09,2015 15:11:01 [info]  Pass
+Mar 09,2015 15:11:01 [info]  Click on 'Save' button
+Mar 09,2015 15:11:05 [info]  Pass
+Mar 09,2015 15:11:05 [info]  Search Added resident
+Mar 09,2015 15:11:12 [info]  Pass
+Mar 09,2015 15:11:12 [info]  Verify added resident
+Mar 09,2015 15:11:15 [info]  Pass
+Mar 09,2015 15:11:15 [info]  Open resident Profile
+Mar 09,2015 15:11:19 [info]  Pass
+Mar 09,2015 15:11:23 [info]  Click on Medication button
+Mar 09,2015 15:11:26 [info]  Pass
+Mar 09,2015 15:11:26 [info]  Click on Add Medication button
+Mar 09,2015 15:11:40 [info]  Pass
+Mar 09,2015 15:11:40 [info]  Enter Medicine Name
+Mar 09,2015 15:11:52 [info]  Pass
+Mar 09,2015 15:11:52 [info]  Enter Dosage
+Mar 09,2015 15:11:55 [info]  Pass
+Mar 09,2015 15:11:55 [info]  Enter instruction
+Mar 09,2015 15:11:59 [info]  Pass
+Mar 09,2015 15:11:59 [info]  Open 'Calender'
+Mar 09,2015 15:12:03 [info]  Pass
+Mar 09,2015 15:12:06 [info]  Select date
+Mar 09,2015 15:12:09 [info]  Pass
+Mar 09,2015 15:12:09 [info]  Select time
+Mar 09,2015 15:12:11 [info]  Pass
+Mar 09,2015 15:12:11 [info]  Select AM/PM
+Mar 09,2015 15:12:12 [info]  Pass
+Mar 09,2015 15:12:12 [info]  Click on Add Schedule button
+Mar 09,2015 15:12:15 [info]  Pass
+Mar 09,2015 15:12:15 [info]  Verify Added Schedule
+Mar 09,2015 15:12:15 [info]  Pass
+Mar 09,2015 15:12:15 [info]  Click on Save button
+Mar 09,2015 15:12:33 [info]  Pass
+Mar 09,2015 15:12:33 [info]  Verify Title
+Mar 09,2015 15:12:38 [info]  Pass
+Mar 09,2015 15:12:48 [info]  Open Medication page
+Mar 09,2015 15:13:00 [info]  Pass
+Mar 09,2015 15:13:00 [info]  Click on EMR Tab
+Mar 09,2015 15:13:03 [info]  Pass
+Mar 09,2015 15:13:03 [info]  Click on All Meds Tab
+Mar 09,2015 15:13:19 [info]  Pass
+Mar 09,2015 15:13:22 [info]  Click on Admin Button dropdown
+Mar 09,2015 15:13:26 [info]  Pass
+Mar 09,2015 15:13:26 [info]  Click on reading
+Mar 09,2015 15:13:31 [info]  Pass
+Mar 09,2015 15:13:34 [info]  Verify Date field is populated
+Mar 09,2015 15:13:34 [info]  Pass
+Mar 09,2015 15:13:34 [info]  Verify Time field is populated
+Mar 09,2015 15:13:35 [info]  Pass
+Mar 09,2015 15:13:35 [info]  Verify current Date is populated in field
+Mar 09,2015 15:13:35 [info]  Pass
+Mar 09,2015 15:13:35 [info]  Verify current time is populated in field
+Mar 09,2015 15:13:35 [info]  Mar 09,2015 15:13:35 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at com.iCM.pagehelper.EMRHelper.verifyCurrentDateTime(EMRHelper.java:111)
+	at com.iCM.scripts.EMRAdminLate.testEMRAdminLate(EMRAdminLate.java:301)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Mar 09,2015 15:13:35 [info]  End Execution of Test Class com.iCM.scripts.EMRAdminLate
+*****************************************************************************
+
+*****************************************************************************
+Mar 09,2015 15:14:31 [info]   Execution Started of Test Class com.iCM.scripts.EMRAdministerUndo and Test method testEMRAdministerLate
+*****************************************************************************
+Mar 09,2015 15:14:31 [info]  Open application url
+Mar 09,2015 15:14:45 [info]  Pass
+Mar 09,2015 15:14:45 [info]  Verify Page title
+Mar 09,2015 15:14:50 [info]  Pass
+Mar 09,2015 15:14:50 [info]  Enter User name at login page.
+Mar 09,2015 15:14:51 [info]  Pass
+Mar 09,2015 15:14:51 [info]  Enter password at login page.
+Mar 09,2015 15:14:52 [info]  Pass
+Mar 09,2015 15:14:52 [info]  Click on Sign In button
+Mar 09,2015 15:15:07 [info]  Pass
+Mar 09,2015 15:15:07 [info]  Verify home page title
+Mar 09,2015 15:15:12 [info]  Pass
+Mar 09,2015 15:15:12 [info]  Click on 'EMR'
+Mar 09,2015 15:15:16 [info]  Pass
+Mar 09,2015 15:15:16 [info]  Verify EMR title
+Mar 09,2015 15:15:23 [info]  Pass
+Mar 09,2015 15:15:23 [info]  Click on 'EMR'
+Mar 09,2015 15:15:27 [info]  Pass
+Mar 09,2015 15:15:27 [info]  Click on Administer button
+Mar 09,2015 15:15:33 [info]  Pass
+Mar 09,2015 15:15:36 [info]  Verify User is able to Administered
+Mar 09,2015 15:15:36 [info]  Mar 09,2015 15:15:36 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.NullPointerException
+	at com.iCM.locators.LocatorReader.getLocator(LocatorReader.java:32)
+	at com.iCM.pagehelper.EMRHelper.verifyFieldText(EMRHelper.java:189)
+	at com.iCM.scripts.EMRAdministerUndo.testEMRAdministerLate(EMRAdministerUndo.java:83)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Mar 09,2015 15:15:36 [info]  End Execution of Test Class com.iCM.scripts.EMRAdministerUndo
+*****************************************************************************
+
+*****************************************************************************
+Mar 09,2015 16:22:20 [info]   Execution Started of Test Class com.iCM.scripts.AddMedicationEvery14thDay and Test method testAddMedicationEvery14thDay
+*****************************************************************************
+Mar 09,2015 16:22:20 [info]  Open application url
+Mar 09,2015 16:22:38 [info]  Pass
+Mar 09,2015 16:22:38 [info]  Verify Page title
+Mar 09,2015 16:22:44 [info]  Pass
+Mar 09,2015 16:22:44 [info]  Enter User name at login page.
+Mar 09,2015 16:22:44 [info]  Pass
+Mar 09,2015 16:22:44 [info]  Enter password at login page.
+Mar 09,2015 16:22:45 [info]  Pass
+Mar 09,2015 16:22:45 [info]  Click on Sign In button
+Mar 09,2015 16:23:07 [info]  Pass
+Mar 09,2015 16:23:07 [info]  Verify home page title
+Mar 09,2015 16:23:13 [info]  Pass
+Mar 09,2015 16:23:13 [info]  Open Add resident form via deep link
+Mar 09,2015 16:23:25 [info]  Pass
+Mar 09,2015 16:23:25 [info]  Enter Resident First Name
+Mar 09,2015 16:23:29 [info]  Pass
+Mar 09,2015 16:23:29 [info]  Enter Middle name
+Mar 09,2015 16:23:32 [info]  Pass
+Mar 09,2015 16:23:32 [info]  Enter last name
+Mar 09,2015 16:23:36 [info]  Pass
+Mar 09,2015 16:23:36 [info]  Open 'Calender'
+Mar 09,2015 16:23:37 [info]  Pass
+Mar 09,2015 16:23:42 [info]  Select Year
+Mar 09,2015 16:23:48 [info]  Pass
+Mar 09,2015 16:23:51 [info]  Select date
+Mar 09,2015 16:23:54 [info]  Pass
+Mar 09,2015 16:23:54 [info]  Select gender
+Mar 09,2015 16:23:56 [info]  Pass
+Mar 09,2015 16:23:56 [info]  Select Marital Status
+Mar 09,2015 16:23:57 [info]  Pass
+Mar 09,2015 16:23:57 [info]  Open 'Calender' for admit date
+Mar 09,2015 16:23:59 [info]  Pass
+Mar 09,2015 16:24:02 [info]  Select Year
+Mar 09,2015 16:24:08 [info]  Pass
+Mar 09,2015 16:24:08 [info]  Select Month
+Mar 09,2015 16:24:09 [info]  Pass
+Mar 09,2015 16:24:09 [info]  Select date
+Mar 09,2015 16:24:12 [info]  Pass
+Mar 09,2015 16:24:12 [info]  Select Facality
+Mar 09,2015 16:24:13 [info]  Pass
+Mar 09,2015 16:24:16 [info]  Select Nurse
+Mar 09,2015 16:24:18 [info]  Pass
+Mar 09,2015 16:24:18 [info]  Enter level of care
+Mar 09,2015 16:24:21 [info]  Pass
+Mar 09,2015 16:24:21 [info]  Click on 'Save' button
+Mar 09,2015 16:24:24 [info]  Pass
+Mar 09,2015 16:24:24 [info]  Search Added resident
+Mar 09,2015 16:24:32 [info]  Pass
+Mar 09,2015 16:24:32 [info]  Verify added resident
+Mar 09,2015 16:24:35 [info]  Pass
+Mar 09,2015 16:24:35 [info]  Open resident Profile
+Mar 09,2015 16:24:39 [info]  Pass
+Mar 09,2015 16:24:46 [info]  Click on Medication button
+Mar 09,2015 16:24:50 [info]  Pass
+Mar 09,2015 16:24:50 [info]  Click on Add Medication button
+Mar 09,2015 16:25:05 [info]  Pass
+Mar 09,2015 16:25:05 [info]  Enter Medicine Name
+Mar 09,2015 16:25:18 [info]  Pass
+Mar 09,2015 16:25:18 [info]  Enter Dosage
+Mar 09,2015 16:25:21 [info]  Pass
+Mar 09,2015 16:25:21 [info]  Enter instruction
+Mar 09,2015 16:25:25 [info]  Pass
+Mar 09,2015 16:25:25 [info]  Open 'Calender'
+Mar 09,2015 16:25:29 [info]  Pass
+Mar 09,2015 16:25:32 [info]  Select date
+Mar 09,2015 16:25:36 [info]  Pass
+Mar 09,2015 16:25:36 [info]  Select Frequency
+Mar 09,2015 16:25:39 [info]  Pass
+Mar 09,2015 16:25:39 [info]  Select Frequency
+Mar 09,2015 16:25:43 [info]  Pass
+Mar 09,2015 16:25:43 [info]  Select Other day option
+Mar 09,2015 16:25:44 [info]  Pass
+Mar 09,2015 16:25:44 [info]  Select time
+Mar 09,2015 16:25:46 [info]  Pass
+Mar 09,2015 16:25:46 [info]  Select AM/PM
+Mar 09,2015 16:25:46 [info]  Pass
+Mar 09,2015 16:25:46 [info]  Click on Add Schedule button
+Mar 09,2015 16:25:50 [info]  Pass
+Mar 09,2015 16:25:50 [info]  Verify Added Schedule
+Mar 09,2015 16:25:50 [info]  Pass
+Mar 09,2015 16:25:50 [info]  Click on Save button
+Mar 09,2015 16:26:09 [info]  Pass
+Mar 09,2015 16:26:24 [info]  Open Medication page
+Mar 09,2015 16:26:36 [info]  Pass
+Mar 09,2015 16:26:36 [info]  Click on EMR Tab
+Mar 09,2015 16:26:40 [info]  Pass
+Mar 09,2015 16:26:40 [info]  Click on 'Morning' tab
+Mar 09,2015 16:26:56 [info]  Pass
+Mar 09,2015 16:26:56 [info]  Verify Added Schedule
+Mar 09,2015 16:26:56 [info]  Pass
+Mar 09,2015 16:26:56 [info]  Click on Expend button
+Mar 09,2015 16:27:00 [info]  Pass
+Mar 09,2015 16:27:00 [info]  Verify Starting Blackout
+Mar 09,2015 16:28:35 [info]  Pass
+Mar 09,2015 16:28:46 [info]  Open resident profile
+Mar 09,2015 16:29:01 [info]  Pass
+Mar 09,2015 16:29:01 [info]  End Execution of Test Class com.iCM.scripts.AddMedicationEvery14thDay
+*****************************************************************************
+
+*****************************************************************************
+Mar 09,2015 16:29:30 [info]   Execution Started of Test Class com.iCM.scripts.EMRAdminLate and Test method testEMRAdminLate
+*****************************************************************************
+Mar 09,2015 16:29:30 [info]  Open application url
+Mar 09,2015 16:29:46 [info]  Pass
+Mar 09,2015 16:29:46 [info]  Verify Page title
+Mar 09,2015 16:29:51 [info]  Pass
+Mar 09,2015 16:29:51 [info]  Enter User name at login page.
+Mar 09,2015 16:29:52 [info]  Pass
+Mar 09,2015 16:29:52 [info]  Enter password at login page.
+Mar 09,2015 16:29:53 [info]  Pass
+Mar 09,2015 16:29:53 [info]  Click on Sign In button
+Mar 09,2015 16:30:09 [info]  Pass
+Mar 09,2015 16:30:09 [info]  Verify home page title
+Mar 09,2015 16:30:15 [info]  Pass
+Mar 09,2015 16:30:15 [info]  Open Add resident form via deep link
+Mar 09,2015 16:30:27 [info]  Pass
+Mar 09,2015 16:30:27 [info]  Enter Resident First Name
+Mar 09,2015 16:30:31 [info]  Pass
+Mar 09,2015 16:30:31 [info]  Enter Middle name
+Mar 09,2015 16:30:34 [info]  Pass
+Mar 09,2015 16:30:34 [info]  Enter last name
+Mar 09,2015 16:30:37 [info]  Pass
+Mar 09,2015 16:30:37 [info]  Open 'Calender'
+Mar 09,2015 16:30:39 [info]  Pass
+Mar 09,2015 16:30:44 [info]  Select Year
+Mar 09,2015 16:30:50 [info]  Pass
+Mar 09,2015 16:30:53 [info]  Select date
+Mar 09,2015 16:30:56 [info]  Pass
+Mar 09,2015 16:30:56 [info]  Select gender
+Mar 09,2015 16:30:57 [info]  Pass
+Mar 09,2015 16:30:57 [info]  Select Marital Status
+Mar 09,2015 16:30:59 [info]  Pass
+Mar 09,2015 16:30:59 [info]  Open 'Calender' for admit date
+Mar 09,2015 16:31:00 [info]  Pass
+Mar 09,2015 16:31:03 [info]  Select Year
+Mar 09,2015 16:31:10 [info]  Pass
+Mar 09,2015 16:31:10 [info]  Select Month
+Mar 09,2015 16:31:11 [info]  Pass
+Mar 09,2015 16:31:11 [info]  Select date
+Mar 09,2015 16:31:13 [info]  Pass
+Mar 09,2015 16:31:13 [info]  Select Facality
+Mar 09,2015 16:31:15 [info]  Pass
+Mar 09,2015 16:31:18 [info]  Select Nurse
+Mar 09,2015 16:31:19 [info]  Pass
+Mar 09,2015 16:31:19 [info]  Enter level of care
+Mar 09,2015 16:31:23 [info]  Pass
+Mar 09,2015 16:31:23 [info]  Click on 'Save' button
+Mar 09,2015 16:31:26 [info]  Pass
+Mar 09,2015 16:31:26 [info]  Search Added resident
+Mar 09,2015 16:31:31 [info]  Pass
+Mar 09,2015 16:31:31 [info]  Verify added resident
+Mar 09,2015 16:31:34 [info]  Pass
+Mar 09,2015 16:31:34 [info]  Open resident Profile
+Mar 09,2015 16:31:38 [info]  Pass
+Mar 09,2015 16:31:41 [info]  Click on Medication button
+Mar 09,2015 16:31:45 [info]  Pass
+Mar 09,2015 16:31:45 [info]  Click on Add Medication button
+Mar 09,2015 16:31:59 [info]  Pass
+Mar 09,2015 16:31:59 [info]  Enter Medicine Name
+Mar 09,2015 16:32:11 [info]  Pass
+Mar 09,2015 16:32:11 [info]  Enter Dosage
+Mar 09,2015 16:32:15 [info]  Pass
+Mar 09,2015 16:32:15 [info]  Enter instruction
+Mar 09,2015 16:32:19 [info]  Pass
+Mar 09,2015 16:32:19 [info]  Open 'Calender'
+Mar 09,2015 16:32:23 [info]  Pass
+Mar 09,2015 16:32:26 [info]  Select date
+Mar 09,2015 16:32:29 [info]  Pass
+Mar 09,2015 16:32:29 [info]  Select time
+Mar 09,2015 16:32:31 [info]  Pass
+Mar 09,2015 16:32:31 [info]  Select AM/PM
+Mar 09,2015 16:32:31 [info]  Pass
+Mar 09,2015 16:32:31 [info]  Click on Add Schedule button
+Mar 09,2015 16:32:35 [info]  Pass
+Mar 09,2015 16:32:35 [info]  Verify Added Schedule
+Mar 09,2015 16:32:35 [info]  Pass
+Mar 09,2015 16:32:35 [info]  Click on Save button
+Mar 09,2015 16:32:52 [info]  Pass
+Mar 09,2015 16:32:52 [info]  Verify Title
+Mar 09,2015 16:32:58 [info]  Pass
+Mar 09,2015 16:33:08 [info]  Open Medication page
+Mar 09,2015 16:33:20 [info]  Pass
+Mar 09,2015 16:33:20 [info]  Click on EMR Tab
+Mar 09,2015 16:33:24 [info]  Pass
+Mar 09,2015 16:33:24 [info]  Click on All Meds Tab
+Mar 09,2015 16:33:39 [info]  Pass
+Mar 09,2015 16:33:42 [info]  Click on Admin Button dropdown
+Mar 09,2015 16:33:46 [info]  Pass
+Mar 09,2015 16:33:46 [info]  Click on reading
+Mar 09,2015 16:33:51 [info]  Pass
+Mar 09,2015 16:33:54 [info]  Verify Date field is populated
+Mar 09,2015 16:33:55 [info]  Pass
+Mar 09,2015 16:33:55 [info]  Verify Time field is populated
+Mar 09,2015 16:33:55 [info]  Pass
+Mar 09,2015 16:33:55 [info]  Verify current Date is populated in field
+Mar 09,2015 16:33:55 [info]  Pass
+Mar 09,2015 16:33:55 [info]  Verify current time is populated in field
+Mar 09,2015 16:33:56 [info]  Mar 09,2015 16:33:56 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at com.iCM.pagehelper.EMRHelper.verifyCurrentDateTime(EMRHelper.java:111)
+	at com.iCM.scripts.EMRAdminLate.testEMRAdminLate(EMRAdminLate.java:301)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Mar 09,2015 16:33:56 [info]  End Execution of Test Class com.iCM.scripts.EMRAdminLate
+*****************************************************************************
+
+*****************************************************************************
+Mar 09,2015 16:37:12 [info]   Execution Started of Test Class com.iCM.scripts.EMRAdminLate and Test method testEMRAdminLate
+*****************************************************************************
+Mar 09,2015 16:37:12 [info]  Open application url
+Mar 09,2015 16:37:27 [info]  Pass
+Mar 09,2015 16:37:27 [info]  Verify Page title
+Mar 09,2015 16:37:32 [info]  Pass
+Mar 09,2015 16:37:32 [info]  Enter User name at login page.
+Mar 09,2015 16:37:34 [info]  Pass
+Mar 09,2015 16:37:34 [info]  Enter password at login page.
+Mar 09,2015 16:37:34 [info]  Pass
+Mar 09,2015 16:37:34 [info]  Click on Sign In button
+Mar 09,2015 16:37:53 [info]  Pass
+Mar 09,2015 16:37:53 [info]  Verify home page title
+Mar 09,2015 16:37:58 [info]  Pass
+Mar 09,2015 16:37:58 [info]  Open Add resident form via deep link
+Mar 09,2015 16:38:09 [info]  Pass
+Mar 09,2015 16:38:09 [info]  Enter Resident First Name
+Mar 09,2015 16:38:13 [info]  Pass
+Mar 09,2015 16:38:13 [info]  Enter Middle name
+Mar 09,2015 16:38:16 [info]  Pass
+Mar 09,2015 16:38:16 [info]  Enter last name
+Mar 09,2015 16:38:19 [info]  Pass
+Mar 09,2015 16:38:19 [info]  Open 'Calender'
+Mar 09,2015 16:38:21 [info]  Pass
+Mar 09,2015 16:38:26 [info]  Select Year
+Mar 09,2015 16:38:32 [info]  Pass
+Mar 09,2015 16:38:35 [info]  Select date
+Mar 09,2015 16:38:38 [info]  Pass
+Mar 09,2015 16:38:38 [info]  Select gender
+Mar 09,2015 16:38:39 [info]  Pass
+Mar 09,2015 16:38:39 [info]  Select Marital Status
+Mar 09,2015 16:38:40 [info]  Pass
+Mar 09,2015 16:38:40 [info]  Open 'Calender' for admit date
+Mar 09,2015 16:38:42 [info]  Pass
+Mar 09,2015 16:38:45 [info]  Select Year
+Mar 09,2015 16:38:51 [info]  Pass
+Mar 09,2015 16:38:51 [info]  Select Month
+Mar 09,2015 16:38:52 [info]  Pass
+Mar 09,2015 16:38:52 [info]  Select date
+Mar 09,2015 16:38:55 [info]  Pass
+Mar 09,2015 16:38:55 [info]  Select Facality
+Mar 09,2015 16:38:56 [info]  Pass
+Mar 09,2015 16:38:59 [info]  Select Nurse
+Mar 09,2015 16:39:01 [info]  Pass
+Mar 09,2015 16:39:01 [info]  Enter level of care
+Mar 09,2015 16:39:04 [info]  Pass
+Mar 09,2015 16:39:04 [info]  Click on 'Save' button
+Mar 09,2015 16:39:08 [info]  Pass
+Mar 09,2015 16:39:08 [info]  Search Added resident
+Mar 09,2015 16:39:16 [info]  Pass
+Mar 09,2015 16:39:16 [info]  Verify added resident
+Mar 09,2015 16:39:19 [info]  Pass
+Mar 09,2015 16:39:19 [info]  Open resident Profile
+Mar 09,2015 16:39:23 [info]  Pass
+Mar 09,2015 16:39:26 [info]  Click on Medication button
+Mar 09,2015 16:39:30 [info]  Pass
+Mar 09,2015 16:39:30 [info]  Click on Add Medication button
+Mar 09,2015 16:39:40 [info]  Pass
+Mar 09,2015 16:39:40 [info]  Enter Medicine Name
+Mar 09,2015 16:39:51 [info]  Pass
+Mar 09,2015 16:39:51 [info]  Enter Dosage
+Mar 09,2015 16:39:54 [info]  Pass
+Mar 09,2015 16:39:54 [info]  Enter instruction
+Mar 09,2015 16:39:58 [info]  Pass
+Mar 09,2015 16:39:58 [info]  Open 'Calender'
+Mar 09,2015 16:40:02 [info]  Pass
+Mar 09,2015 16:40:05 [info]  Select date
+Mar 09,2015 16:40:08 [info]  Pass
+Mar 09,2015 16:40:08 [info]  Select time
+Mar 09,2015 16:40:10 [info]  Pass
+Mar 09,2015 16:40:10 [info]  Select AM/PM
+Mar 09,2015 16:40:11 [info]  Pass
+Mar 09,2015 16:40:11 [info]  Click on Add Schedule button
+Mar 09,2015 16:40:14 [info]  Pass
+Mar 09,2015 16:40:14 [info]  Verify Added Schedule
+Mar 09,2015 16:40:14 [info]  Pass
+Mar 09,2015 16:40:14 [info]  Click on Save button
+Mar 09,2015 16:40:30 [info]  Pass
+Mar 09,2015 16:40:30 [info]  Verify Title
+Mar 09,2015 16:40:35 [info]  Pass
+Mar 09,2015 16:40:45 [info]  Open Medication page
+Mar 09,2015 16:40:55 [info]  Pass
+Mar 09,2015 16:40:55 [info]  Click on EMR Tab
+Mar 09,2015 16:40:59 [info]  Pass
+Mar 09,2015 16:40:59 [info]  Click on All Meds Tab
+Mar 09,2015 16:41:12 [info]  Pass
+Mar 09,2015 16:41:15 [info]  Click on Admin Button dropdown
+Mar 09,2015 16:41:19 [info]  Pass
+Mar 09,2015 16:41:19 [info]  Click on reading
+Mar 09,2015 16:41:24 [info]  Pass
+Mar 09,2015 16:41:27 [info]  Verify Date field is populated
+Mar 09,2015 16:41:27 [info]  Pass
+Mar 09,2015 16:41:27 [info]  Verify Time field is populated
+Mar 09,2015 16:41:28 [info]  Pass
+Mar 09,2015 16:41:28 [info]  Verify current Date is populated in field
+Mar 09,2015 16:41:28 [info]  Pass
+Mar 09,2015 16:41:28 [info]  Verify current time is populated in field
+Mar 09,2015 16:41:29 [info]  Mar 09,2015 16:41:29 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at com.iCM.pagehelper.EMRHelper.verifyCurrentDateTime(EMRHelper.java:119)
+	at com.iCM.scripts.EMRAdminLate.testEMRAdminLate(EMRAdminLate.java:301)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Mar 09,2015 16:41:29 [info]  End Execution of Test Class com.iCM.scripts.EMRAdminLate
+*****************************************************************************
+
+*****************************************************************************
+Mar 09,2015 16:47:28 [info]   Execution Started of Test Class com.iCM.scripts.EMRAdminLate and Test method testEMRAdminLate
+*****************************************************************************
+Mar 09,2015 16:47:28 [info]  Open application url
+Mar 09,2015 16:47:43 [info]  Pass
+Mar 09,2015 16:47:43 [info]  Verify Page title
+Mar 09,2015 16:47:49 [info]  Pass
+Mar 09,2015 16:47:49 [info]  Enter User name at login page.
+Mar 09,2015 16:47:49 [info]  Pass
+Mar 09,2015 16:47:49 [info]  Enter password at login page.
+Mar 09,2015 16:47:50 [info]  Pass
+Mar 09,2015 16:47:50 [info]  Click on Sign In button
+Mar 09,2015 16:48:08 [info]  Pass
+Mar 09,2015 16:48:08 [info]  Verify home page title
+Mar 09,2015 16:48:13 [info]  Pass
+Mar 09,2015 16:48:13 [info]  Open Add resident form via deep link
+Mar 09,2015 16:48:27 [info]  Pass
+Mar 09,2015 16:48:27 [info]  Enter Resident First Name
+Mar 09,2015 16:48:30 [info]  Pass
+Mar 09,2015 16:48:30 [info]  Enter Middle name
+Mar 09,2015 16:48:34 [info]  Pass
+Mar 09,2015 16:48:34 [info]  Enter last name
+Mar 09,2015 16:48:37 [info]  Pass
+Mar 09,2015 16:48:37 [info]  Open 'Calender'
+Mar 09,2015 16:48:39 [info]  Pass
+Mar 09,2015 16:48:44 [info]  Select Year
+Mar 09,2015 16:48:50 [info]  Pass
+Mar 09,2015 16:48:53 [info]  Select date
+Mar 09,2015 16:48:55 [info]  Pass
+Mar 09,2015 16:48:55 [info]  Select gender
+Mar 09,2015 16:48:57 [info]  Pass
+Mar 09,2015 16:48:57 [info]  Select Marital Status
+Mar 09,2015 16:48:58 [info]  Pass
+Mar 09,2015 16:48:58 [info]  Open 'Calender' for admit date
+Mar 09,2015 16:49:00 [info]  Pass
+Mar 09,2015 16:49:03 [info]  Select Year
+Mar 09,2015 16:49:09 [info]  Pass
+Mar 09,2015 16:49:09 [info]  Select Month
+Mar 09,2015 16:49:10 [info]  Pass
+Mar 09,2015 16:49:10 [info]  Select date
+Mar 09,2015 16:49:13 [info]  Pass
+Mar 09,2015 16:49:13 [info]  Select Facality
+Mar 09,2015 16:49:14 [info]  Pass
+Mar 09,2015 16:49:17 [info]  Select Nurse
+Mar 09,2015 16:49:19 [info]  Pass
+Mar 09,2015 16:49:19 [info]  Enter level of care
+Mar 09,2015 16:49:22 [info]  Pass
+Mar 09,2015 16:49:22 [info]  Click on 'Save' button
+Mar 09,2015 16:49:26 [info]  Pass
+Mar 09,2015 16:49:26 [info]  Search Added resident
+Mar 09,2015 16:49:31 [info]  Pass
+Mar 09,2015 16:49:31 [info]  Verify added resident
+Mar 09,2015 16:49:34 [info]  Pass
+Mar 09,2015 16:49:34 [info]  Open resident Profile
+Mar 09,2015 16:49:38 [info]  Pass
+Mar 09,2015 16:49:41 [info]  Click on Medication button
+Mar 09,2015 16:49:44 [info]  Pass
+Mar 09,2015 16:49:44 [info]  Click on Add Medication button
+Mar 09,2015 16:49:59 [info]  Pass
+Mar 09,2015 16:49:59 [info]  Enter Medicine Name
+Mar 09,2015 16:50:11 [info]  Pass
+Mar 09,2015 16:50:11 [info]  Enter Dosage
+Mar 09,2015 16:50:15 [info]  Pass
+Mar 09,2015 16:50:15 [info]  Enter instruction
+Mar 09,2015 16:50:18 [info]  Pass
+Mar 09,2015 16:50:18 [info]  Open 'Calender'
+Mar 09,2015 16:50:23 [info]  Pass
+Mar 09,2015 16:50:26 [info]  Select date
+Mar 09,2015 16:50:29 [info]  Pass
+Mar 09,2015 16:50:29 [info]  Select time
+Mar 09,2015 16:50:30 [info]  Pass
+Mar 09,2015 16:50:30 [info]  Select AM/PM
+Mar 09,2015 16:50:31 [info]  Pass
+Mar 09,2015 16:50:31 [info]  Click on Add Schedule button
+Mar 09,2015 16:50:35 [info]  Pass
+Mar 09,2015 16:50:35 [info]  Verify Added Schedule
+Mar 09,2015 16:50:35 [info]  Pass
+Mar 09,2015 16:50:35 [info]  Click on Save button
+Mar 09,2015 16:50:52 [info]  Pass
+Mar 09,2015 16:50:52 [info]  Verify Title
+Mar 09,2015 16:50:57 [info]  Pass
+Mar 09,2015 16:51:07 [info]  Open Medication page
+Mar 09,2015 16:51:19 [info]  Pass
+Mar 09,2015 16:51:19 [info]  Click on EMR Tab
+Mar 09,2015 16:51:23 [info]  Pass
+Mar 09,2015 16:51:23 [info]  Click on All Meds Tab
+Mar 09,2015 16:51:40 [info]  Pass
+Mar 09,2015 16:51:43 [info]  Click on Admin Button dropdown
+Mar 09,2015 16:51:46 [info]  Pass
+Mar 09,2015 16:51:46 [info]  Click on reading
+Mar 09,2015 16:51:52 [info]  Pass
+Mar 09,2015 16:51:55 [info]  Verify Date field is populated
+Mar 09,2015 16:51:55 [info]  Pass
+Mar 09,2015 16:51:55 [info]  Verify Time field is populated
+Mar 09,2015 16:51:55 [info]  Pass
+Mar 09,2015 16:51:55 [info]  Verify current Date is populated in field
+Mar 09,2015 16:51:55 [info]  Pass
+Mar 09,2015 16:51:55 [info]  Verify current time is populated in field
+Mar 09,2015 16:51:56 [info]  Mar 09,2015 16:51:56 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at com.iCM.pagehelper.EMRHelper.verifyCurrentDateTime(EMRHelper.java:119)
+	at com.iCM.scripts.EMRAdminLate.testEMRAdminLate(EMRAdminLate.java:301)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Mar 09,2015 16:51:56 [info]  End Execution of Test Class com.iCM.scripts.EMRAdminLate
+*****************************************************************************
+
+*****************************************************************************
+Mar 09,2015 16:52:38 [info]   Execution Started of Test Class com.iCM.scripts.EMRAdminLate and Test method testEMRAdminLate
+*****************************************************************************
+Mar 09,2015 16:52:38 [info]  Open application url
+Mar 09,2015 16:52:52 [info]  Pass
+Mar 09,2015 16:52:52 [info]  Verify Page title
+Mar 09,2015 16:52:57 [info]  Pass
+Mar 09,2015 16:52:57 [info]  Enter User name at login page.
+Mar 09,2015 16:52:58 [info]  Pass
+Mar 09,2015 16:52:58 [info]  Enter password at login page.
+Mar 09,2015 16:52:59 [info]  Pass
+Mar 09,2015 16:52:59 [info]  Click on Sign In button
+Mar 09,2015 16:53:14 [info]  Pass
+Mar 09,2015 16:53:14 [info]  Verify home page title
+Mar 09,2015 16:53:19 [info]  Pass
+Mar 09,2015 16:53:19 [info]  Open Add resident form via deep link
+Mar 09,2015 16:53:31 [info]  Pass
+Mar 09,2015 16:53:31 [info]  Enter Resident First Name
+Mar 09,2015 16:53:34 [info]  Pass
+Mar 09,2015 16:53:34 [info]  Enter Middle name
+Mar 09,2015 16:53:38 [info]  Pass
+Mar 09,2015 16:53:38 [info]  Enter last name
+Mar 09,2015 16:53:41 [info]  Pass
+Mar 09,2015 16:53:41 [info]  Open 'Calender'
+Mar 09,2015 16:53:43 [info]  Pass
+Mar 09,2015 16:53:48 [info]  Select Year
+Mar 09,2015 16:53:54 [info]  Pass
+Mar 09,2015 16:53:57 [info]  Select date
+Mar 09,2015 16:54:00 [info]  Pass
+Mar 09,2015 16:54:00 [info]  Select gender
+Mar 09,2015 16:54:01 [info]  Pass
+Mar 09,2015 16:54:01 [info]  Select Marital Status
+Mar 09,2015 16:54:02 [info]  Pass
+Mar 09,2015 16:54:02 [info]  Open 'Calender' for admit date
+Mar 09,2015 16:54:04 [info]  Pass
+Mar 09,2015 16:54:07 [info]  Select Year
+Mar 09,2015 16:54:13 [info]  Pass
+Mar 09,2015 16:54:13 [info]  Select Month
+Mar 09,2015 16:54:14 [info]  Pass
+Mar 09,2015 16:54:14 [info]  Select date
+Mar 09,2015 16:54:17 [info]  Pass
+Mar 09,2015 16:54:17 [info]  Select Facality
+Mar 09,2015 16:54:18 [info]  Pass
+Mar 09,2015 16:54:21 [info]  Select Nurse
+Mar 09,2015 16:54:23 [info]  Pass
+Mar 09,2015 16:54:23 [info]  Enter level of care
+Mar 09,2015 16:54:26 [info]  Pass
+Mar 09,2015 16:54:26 [info]  Click on 'Save' button
+Mar 09,2015 16:54:30 [info]  Pass
+Mar 09,2015 16:54:30 [info]  Search Added resident
+Mar 09,2015 16:54:34 [info]  Pass
+Mar 09,2015 16:54:34 [info]  Verify added resident
+Mar 09,2015 16:54:38 [info]  Pass
+Mar 09,2015 16:54:38 [info]  Open resident Profile
+Mar 09,2015 16:54:41 [info]  Pass
+Mar 09,2015 16:54:44 [info]  Click on Medication button
+Mar 09,2015 16:54:48 [info]  Pass
+Mar 09,2015 16:54:48 [info]  Click on Add Medication button
+Mar 09,2015 16:55:02 [info]  Pass
+Mar 09,2015 16:55:02 [info]  Enter Medicine Name
+Mar 09,2015 16:55:13 [info]  Pass
+Mar 09,2015 16:55:13 [info]  Enter Dosage
+Mar 09,2015 16:55:16 [info]  Pass
+Mar 09,2015 16:55:16 [info]  Enter instruction
+Mar 09,2015 16:55:20 [info]  Pass
+Mar 09,2015 16:55:20 [info]  Open 'Calender'
+Mar 09,2015 16:55:24 [info]  Pass
+Mar 09,2015 16:55:27 [info]  Select date
+Mar 09,2015 16:55:30 [info]  Pass
+Mar 09,2015 16:55:30 [info]  Select time
+Mar 09,2015 16:55:31 [info]  Pass
+Mar 09,2015 16:55:31 [info]  Select AM/PM
+Mar 09,2015 16:55:32 [info]  Pass
+Mar 09,2015 16:55:32 [info]  Click on Add Schedule button
+Mar 09,2015 16:55:36 [info]  Pass
+Mar 09,2015 16:55:36 [info]  Verify Added Schedule
+Mar 09,2015 16:55:36 [info]  Pass
+Mar 09,2015 16:55:36 [info]  Click on Save button
+Mar 09,2015 16:55:52 [info]  Pass
+Mar 09,2015 16:55:52 [info]  Verify Title
+Mar 09,2015 16:55:58 [info]  Pass
+Mar 09,2015 16:56:08 [info]  Open Medication page
+Mar 09,2015 16:56:18 [info]  Pass
+Mar 09,2015 16:56:18 [info]  Click on EMR Tab
+Mar 09,2015 16:56:22 [info]  Pass
+Mar 09,2015 16:56:22 [info]  Click on All Meds Tab
+Mar 09,2015 16:56:40 [info]  Pass
+Mar 09,2015 16:56:43 [info]  Click on Admin Button dropdown
+Mar 09,2015 16:56:47 [info]  Pass
+Mar 09,2015 16:56:47 [info]  Click on reading
+Mar 09,2015 16:56:52 [info]  Pass
+Mar 09,2015 16:56:55 [info]  Verify Date field is populated
+Mar 09,2015 16:56:55 [info]  Pass
+Mar 09,2015 16:56:55 [info]  Verify Time field is populated
+Mar 09,2015 16:56:56 [info]  Pass
+Mar 09,2015 16:56:56 [info]  Verify current Date is populated in field
+Mar 09,2015 16:56:56 [info]  Pass
+Mar 09,2015 16:56:56 [info]  Verify current time is populated in field
+Mar 09,2015 16:56:57 [info]  Mar 09,2015 16:56:57 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at com.iCM.pagehelper.EMRHelper.verifyCurrentDateTime(EMRHelper.java:119)
+	at com.iCM.scripts.EMRAdminLate.testEMRAdminLate(EMRAdminLate.java:301)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Mar 09,2015 16:56:57 [info]  End Execution of Test Class com.iCM.scripts.EMRAdminLate
+*****************************************************************************
+
+*****************************************************************************
+Mar 09,2015 16:57:49 [info]   Execution Started of Test Class com.iCM.scripts.EMRAdminLate and Test method testEMRAdminLate
+*****************************************************************************
+Mar 09,2015 16:57:49 [info]  Open application url
+Mar 09,2015 16:58:16 [info]  Pass
+Mar 09,2015 16:58:16 [info]  Verify Page title
+Mar 09,2015 16:58:21 [info]  Pass
+Mar 09,2015 16:58:21 [info]  Enter User name at login page.
+Mar 09,2015 16:58:22 [info]  Pass
+Mar 09,2015 16:58:22 [info]  Enter password at login page.
+Mar 09,2015 16:58:23 [info]  Pass
+Mar 09,2015 16:58:23 [info]  Click on Sign In button
+Mar 09,2015 16:58:49 [info]  Pass
+Mar 09,2015 16:58:49 [info]  Verify home page title
+Mar 09,2015 16:58:54 [info]  Pass
+Mar 09,2015 16:58:54 [info]  Open Add resident form via deep link
+Mar 09,2015 16:59:07 [info]  Pass
+Mar 09,2015 16:59:07 [info]  Enter Resident First Name
+Mar 09,2015 16:59:10 [info]  Pass
+Mar 09,2015 16:59:10 [info]  Enter Middle name
+Mar 09,2015 16:59:14 [info]  Pass
+Mar 09,2015 16:59:14 [info]  Enter last name
+Mar 09,2015 16:59:17 [info]  Pass
+Mar 09,2015 16:59:17 [info]  Open 'Calender'
+Mar 09,2015 16:59:19 [info]  Pass
+Mar 09,2015 16:59:24 [info]  Select Year
+Mar 09,2015 16:59:30 [info]  Pass
+Mar 09,2015 16:59:33 [info]  Select date
+Mar 09,2015 16:59:36 [info]  Pass
+Mar 09,2015 16:59:36 [info]  Select gender
+Mar 09,2015 16:59:37 [info]  Pass
+Mar 09,2015 16:59:37 [info]  Select Marital Status
+Mar 09,2015 16:59:38 [info]  Pass
+Mar 09,2015 16:59:38 [info]  Open 'Calender' for admit date
+Mar 09,2015 16:59:40 [info]  Pass
+Mar 09,2015 16:59:43 [info]  Select Year
+Mar 09,2015 16:59:49 [info]  Pass
+Mar 09,2015 16:59:49 [info]  Select Month
+Mar 09,2015 16:59:51 [info]  Pass
+Mar 09,2015 16:59:51 [info]  Select date
+Mar 09,2015 16:59:53 [info]  Pass
+Mar 09,2015 16:59:53 [info]  Select Facality
+Mar 09,2015 16:59:55 [info]  Pass
+Mar 09,2015 16:59:58 [info]  Select Nurse
+Mar 09,2015 16:59:59 [info]  Pass
+Mar 09,2015 16:59:59 [info]  Enter level of care
+Mar 09,2015 17:00:02 [info]  Pass
+Mar 09,2015 17:00:02 [info]  Click on 'Save' button
+Mar 09,2015 17:00:06 [info]  Pass
+Mar 09,2015 17:00:06 [info]  Search Added resident
+Mar 09,2015 17:00:13 [info]  Pass
+Mar 09,2015 17:00:13 [info]  Verify added resident
+Mar 09,2015 17:00:16 [info]  Pass
+Mar 09,2015 17:00:16 [info]  Open resident Profile
+Mar 09,2015 17:00:20 [info]  Pass
+Mar 09,2015 17:00:25 [info]  Click on Medication button
+Mar 09,2015 17:00:29 [info]  Pass
+Mar 09,2015 17:00:29 [info]  Click on Add Medication button
+Mar 09,2015 17:00:48 [info]  Pass
+Mar 09,2015 17:00:48 [info]  Enter Medicine Name
+Mar 09,2015 17:01:01 [info]  Pass
+Mar 09,2015 17:01:01 [info]  Enter Dosage
+Mar 09,2015 17:01:04 [info]  Pass
+Mar 09,2015 17:01:04 [info]  Enter instruction
+Mar 09,2015 17:01:08 [info]  Pass
+Mar 09,2015 17:01:08 [info]  Open 'Calender'
+Mar 09,2015 17:01:12 [info]  Pass
+Mar 09,2015 17:01:15 [info]  Select date
+Mar 09,2015 17:01:18 [info]  Pass
+Mar 09,2015 17:01:18 [info]  Select time
+Mar 09,2015 17:01:20 [info]  Pass
+Mar 09,2015 17:01:20 [info]  Select AM/PM
+Mar 09,2015 17:01:21 [info]  Pass
+Mar 09,2015 17:01:21 [info]  Click on Add Schedule button
+Mar 09,2015 17:01:24 [info]  Pass
+Mar 09,2015 17:01:24 [info]  Verify Added Schedule
+Mar 09,2015 17:01:25 [info]  Pass
+Mar 09,2015 17:01:25 [info]  Click on Save button
+Mar 09,2015 17:01:42 [info]  Pass
+Mar 09,2015 17:01:42 [info]  Verify Title
+Mar 09,2015 17:01:47 [info]  Pass
+Mar 09,2015 17:01:57 [info]  Open Medication page
+Mar 09,2015 17:02:09 [info]  Pass
+Mar 09,2015 17:02:09 [info]  Click on EMR Tab
+Mar 09,2015 17:02:12 [info]  Pass
+Mar 09,2015 17:02:12 [info]  Click on All Meds Tab
+Mar 09,2015 17:02:28 [info]  Pass
+Mar 09,2015 17:02:31 [info]  Click on Admin Button dropdown
+Mar 09,2015 17:02:35 [info]  Pass
+Mar 09,2015 17:02:35 [info]  Click on reading
+Mar 09,2015 17:02:40 [info]  Pass
+Mar 09,2015 17:02:43 [info]  Verify Date field is populated
+Mar 09,2015 17:02:44 [info]  Pass
+Mar 09,2015 17:02:44 [info]  Verify Time field is populated
+Mar 09,2015 17:02:44 [info]  Pass
+Mar 09,2015 17:02:44 [info]  Verify current Date is populated in field
+Mar 09,2015 17:02:44 [info]  Pass
+Mar 09,2015 17:02:44 [info]  Verify current time is populated in field
+Mar 09,2015 17:02:45 [info]  Mar 09,2015 17:02:45 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at com.iCM.pagehelper.EMRHelper.verifyCurrentDateTime(EMRHelper.java:119)
+	at com.iCM.scripts.EMRAdminLate.testEMRAdminLate(EMRAdminLate.java:301)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Mar 09,2015 17:02:45 [info]  End Execution of Test Class com.iCM.scripts.EMRAdminLate
+*****************************************************************************
+
+*****************************************************************************
+Mar 09,2015 19:53:47 [info]   Execution Started of Test Class com.iCM.scripts.EMRAdminLate and Test method testEMRAdminLate
+*****************************************************************************
+Mar 09,2015 19:53:47 [info]  Open application url
+Mar 09,2015 19:54:02 [info]  Pass
+Mar 09,2015 19:54:02 [info]  Verify Page title
+Mar 09,2015 19:54:07 [info]  Pass
+Mar 09,2015 19:54:07 [info]  Enter User name at login page.
+Mar 09,2015 19:54:08 [info]  Pass
+Mar 09,2015 19:54:08 [info]  Enter password at login page.
+Mar 09,2015 19:54:09 [info]  Pass
+Mar 09,2015 19:54:09 [info]  Click on Sign In button
+Mar 09,2015 19:54:26 [info]  Pass
+Mar 09,2015 19:54:26 [info]  Verify home page title
+Mar 09,2015 19:54:31 [info]  Pass
+Mar 09,2015 19:54:31 [info]  Open Add resident form via deep link
+Mar 09,2015 19:54:45 [info]  Pass
+Mar 09,2015 19:54:45 [info]  Enter Resident First Name
+Mar 09,2015 19:54:48 [info]  Pass
+Mar 09,2015 19:54:48 [info]  Enter Middle name
+Mar 09,2015 19:54:52 [info]  Pass
+Mar 09,2015 19:54:52 [info]  Enter last name
+Mar 09,2015 19:54:55 [info]  Pass
+Mar 09,2015 19:54:55 [info]  Open 'Calender'
+Mar 09,2015 19:54:57 [info]  Pass
+Mar 09,2015 19:55:02 [info]  Select Year
+Mar 09,2015 19:55:08 [info]  Pass
+Mar 09,2015 19:55:11 [info]  Select date
+Mar 09,2015 19:55:13 [info]  Pass
+Mar 09,2015 19:55:13 [info]  Select gender
+Mar 09,2015 19:55:15 [info]  Pass
+Mar 09,2015 19:55:15 [info]  Select Marital Status
+Mar 09,2015 19:55:16 [info]  Pass
+Mar 09,2015 19:55:16 [info]  Open 'Calender' for admit date
+Mar 09,2015 19:55:18 [info]  Pass
+Mar 09,2015 19:55:21 [info]  Select Year
+Mar 09,2015 19:55:27 [info]  Pass
+Mar 09,2015 19:55:27 [info]  Select Month
+Mar 09,2015 19:55:28 [info]  Pass
+Mar 09,2015 19:55:28 [info]  Select date
+Mar 09,2015 19:55:31 [info]  Pass
+Mar 09,2015 19:55:31 [info]  Select Facality
+Mar 09,2015 19:55:32 [info]  Pass
+Mar 09,2015 19:55:35 [info]  Select Nurse
+Mar 09,2015 19:55:37 [info]  Pass
+Mar 09,2015 19:55:37 [info]  Enter level of care
+Mar 09,2015 19:55:40 [info]  Pass
+Mar 09,2015 19:55:40 [info]  Click on 'Save' button
+Mar 09,2015 19:55:44 [info]  Pass
+Mar 09,2015 19:55:44 [info]  Search Added resident
+Mar 09,2015 19:55:48 [info]  Pass
+Mar 09,2015 19:55:48 [info]  Verify added resident
+Mar 09,2015 19:55:51 [info]  Pass
+Mar 09,2015 19:55:51 [info]  Open resident Profile
+Mar 09,2015 19:55:55 [info]  Pass
+Mar 09,2015 19:55:58 [info]  Click on Medication button
+Mar 09,2015 19:56:02 [info]  Pass
+Mar 09,2015 19:56:02 [info]  Click on Add Medication button
+Mar 09,2015 19:56:17 [info]  Pass
+Mar 09,2015 19:56:17 [info]  Enter Medicine Name
+Mar 09,2015 19:56:30 [info]  Pass
+Mar 09,2015 19:56:30 [info]  Enter Dosage
+Mar 09,2015 19:56:33 [info]  Pass
+Mar 09,2015 19:56:33 [info]  Enter instruction
+Mar 09,2015 19:56:37 [info]  Pass
+Mar 09,2015 19:56:37 [info]  Open 'Calender'
+Mar 09,2015 19:56:41 [info]  Pass
+Mar 09,2015 19:56:44 [info]  Select date
+Mar 09,2015 19:56:47 [info]  Pass
+Mar 09,2015 19:56:47 [info]  Select time
+Mar 09,2015 19:56:49 [info]  Pass
+Mar 09,2015 19:56:49 [info]  Select AM/PM
+Mar 09,2015 19:56:50 [info]  Pass
+Mar 09,2015 19:56:50 [info]  Click on Add Schedule button
+Mar 09,2015 19:56:53 [info]  Pass
+Mar 09,2015 19:56:53 [info]  Verify Added Schedule
+Mar 09,2015 19:56:54 [info]  Pass
+Mar 09,2015 19:56:54 [info]  Click on Save button
+Mar 09,2015 19:57:11 [info]  Pass
+Mar 09,2015 19:57:11 [info]  Verify Title
+Mar 09,2015 19:57:16 [info]  Pass
+Mar 09,2015 19:57:26 [info]  Open Medication page
+Mar 09,2015 19:57:39 [info]  Pass
+Mar 09,2015 19:57:39 [info]  Click on EMR Tab
+Mar 09,2015 19:57:42 [info]  Pass
+Mar 09,2015 19:57:43 [info]  Click on All Meds Tab
+Mar 09,2015 19:57:58 [info]  Pass
+Mar 09,2015 19:58:01 [info]  Click on Admin Button dropdown
+Mar 09,2015 19:58:05 [info]  Pass
+Mar 09,2015 19:58:05 [info]  Click on reading
+Mar 09,2015 19:58:10 [info]  Pass
+Mar 09,2015 19:58:13 [info]  Verify Date field is populated
+Mar 09,2015 19:58:13 [info]  Pass
+Mar 09,2015 19:58:13 [info]  Verify Time field is populated
+Mar 09,2015 19:58:14 [info]  Pass
+Mar 09,2015 19:58:14 [info]  Verify current Date is populated in field
+Mar 09,2015 19:58:14 [info]  Pass
+Mar 09,2015 19:58:14 [info]  Verify current time is populated in field
+Mar 09,2015 19:58:15 [info]  Pass
+Mar 09,2015 19:58:15 [info]  Click on Date field
+Mar 09,2015 19:58:15 [info]  Pass
+Mar 09,2015 19:58:18 [info]  Verify calender opens
+Mar 09,2015 19:58:18 [info]  Pass
+Mar 09,2015 19:58:18 [info]  Click on Time picker
+Mar 09,2015 19:58:21 [info]  Pass
+Mar 09,2015 19:58:21 [info]  VVerify Time window displayed
+Mar 09,2015 19:58:22 [info]  Pass
+Mar 09,2015 19:58:32 [info]  Open resident profile
+Mar 09,2015 19:58:48 [info]  Pass
+Mar 09,2015 19:58:48 [info]  End Execution of Test Class com.iCM.scripts.EMRAdminLate
+*****************************************************************************
+
+*****************************************************************************
+Mar 09,2015 20:16:20 [info]   Execution Started of Test Class com.iCM.scripts.EMRAdministerUndo and Test method testEMRAdministerLate
+*****************************************************************************
+Mar 09,2015 20:16:20 [info]  Open application url
+Mar 09,2015 20:16:34 [info]  Pass
+Mar 09,2015 20:16:34 [info]  Verify Page title
+Mar 09,2015 20:16:39 [info]  Pass
+Mar 09,2015 20:16:39 [info]  Enter User name at login page.
+Mar 09,2015 20:16:39 [info]  Pass
+Mar 09,2015 20:16:39 [info]  Enter password at login page.
+Mar 09,2015 20:16:40 [info]  Pass
+Mar 09,2015 20:16:40 [info]  Click on Sign In button
+Mar 09,2015 20:16:56 [info]  Pass
+Mar 09,2015 20:16:56 [info]  Verify home page title
+Mar 09,2015 20:17:01 [info]  Pass
+Mar 09,2015 20:17:01 [info]  Click on 'EMR'
+Mar 09,2015 20:17:05 [info]  Pass
+Mar 09,2015 20:17:05 [info]  Verify EMR title
+Mar 09,2015 20:17:10 [info]  Pass
+Mar 09,2015 20:17:10 [info]  Click on 'EMR'
+Mar 09,2015 20:17:13 [info]  Pass
+Mar 09,2015 20:17:13 [info]  Click on Administer button
+Mar 09,2015 20:17:17 [info]  Pass
+Mar 09,2015 20:17:20 [info]  Mar 09,2015 20:17:20 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at com.iCM.pagehelper.EMRHelper.verifyOverlay(EMRHelper.java:208)
+	at com.iCM.scripts.EMRAdministerUndo.testEMRAdministerLate(EMRAdministerUndo.java:79)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Mar 09,2015 20:17:20 [info]  End Execution of Test Class com.iCM.scripts.EMRAdministerUndo
+*****************************************************************************
+
+*****************************************************************************
+Mar 09,2015 20:18:18 [info]   Execution Started of Test Class com.iCM.scripts.EMRAdministerUndo and Test method testEMRAdministerLate
+*****************************************************************************
+Mar 09,2015 20:18:18 [info]  Open application url
+Mar 09,2015 20:18:32 [info]  Pass
+Mar 09,2015 20:18:32 [info]  Verify Page title
+Mar 09,2015 20:18:37 [info]  Pass
+Mar 09,2015 20:18:37 [info]  Enter User name at login page.
+Mar 09,2015 20:18:38 [info]  Pass
+Mar 09,2015 20:18:38 [info]  Enter password at login page.
+Mar 09,2015 20:18:39 [info]  Pass
+Mar 09,2015 20:18:39 [info]  Click on Sign In button
+Mar 09,2015 20:18:56 [info]  Pass
+Mar 09,2015 20:18:56 [info]  Verify home page title
+Mar 09,2015 20:19:02 [info]  Pass
+Mar 09,2015 20:19:02 [info]  Click on 'EMR'
+Mar 09,2015 20:19:05 [info]  Pass
+Mar 09,2015 20:19:05 [info]  Verify EMR title
+Mar 09,2015 20:19:10 [info]  Pass
+Mar 09,2015 20:19:10 [info]  Click on 'EMR'
+Mar 09,2015 20:19:14 [info]  Pass
+Mar 09,2015 20:19:14 [info]  Click on Administer button
+Mar 09,2015 20:19:18 [info]  Pass
+Mar 09,2015 20:19:21 [info]  Enter Blood Suger
+Mar 09,2015 20:19:21 [info]  Pass
+Mar 09,2015 20:19:21 [info]  Click on 'Administer now' button
+Mar 09,2015 20:19:25 [info]  Pass
+Mar 09,2015 20:19:25 [info]  Click on 'Ok' button
+Mar 09,2015 20:19:28 [info]  Pass
+Mar 09,2015 20:19:31 [info]  Verify User is able to Administered
+Mar 09,2015 20:19:31 [info]  Mar 09,2015 20:19:31 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.NullPointerException
+	at com.iCM.locators.LocatorReader.getLocator(LocatorReader.java:32)
+	at com.iCM.pagehelper.EMRHelper.verifyFieldText(EMRHelper.java:197)
+	at com.iCM.scripts.EMRAdministerUndo.testEMRAdministerLate(EMRAdministerUndo.java:100)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Mar 09,2015 20:19:31 [info]  End Execution of Test Class com.iCM.scripts.EMRAdministerUndo
+*****************************************************************************
+
+*****************************************************************************
+Mar 09,2015 20:20:19 [info]   Execution Started of Test Class com.iCM.scripts.EMRAdministerUndo and Test method testEMRAdministerLate
+*****************************************************************************
+Mar 09,2015 20:20:19 [info]  Open application url
+Mar 09,2015 20:20:33 [info]  Pass
+Mar 09,2015 20:20:33 [info]  Verify Page title
+Mar 09,2015 20:20:38 [info]  Pass
+Mar 09,2015 20:20:38 [info]  Enter User name at login page.
+Mar 09,2015 20:20:39 [info]  Pass
+Mar 09,2015 20:20:39 [info]  Enter password at login page.
+Mar 09,2015 20:20:39 [info]  Pass
+Mar 09,2015 20:20:39 [info]  Click on Sign In button
+Mar 09,2015 20:21:00 [info]  Pass
+Mar 09,2015 20:21:00 [info]  Verify home page title
+Mar 09,2015 20:21:06 [info]  Pass
+Mar 09,2015 20:21:06 [info]  Click on 'EMR'
+Mar 09,2015 20:21:09 [info]  Pass
+Mar 09,2015 20:21:09 [info]  Verify EMR title
+Mar 09,2015 20:21:14 [info]  Mar 09,2015 20:21:14 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: Page title is: iCM - Home but expected is: Administer Medication expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.iCM.pagehelper.LoginHelper.verifyTitle(LoginHelper.java:23)
+	at com.iCM.scripts.EMRAdministerUndo.testEMRAdministerLate(EMRAdministerUndo.java:62)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Mar 09,2015 20:21:14 [info]  End Execution of Test Class com.iCM.scripts.EMRAdministerUndo
+*****************************************************************************
+
+*****************************************************************************
+Mar 09,2015 20:25:14 [info]   Execution Started of Test Class com.iCM.scripts.EMRAdministerUndo and Test method testEMRAdministerLate
+*****************************************************************************
+Mar 09,2015 20:25:14 [info]  Open application url
+Mar 09,2015 20:25:28 [info]  Pass
+Mar 09,2015 20:25:28 [info]  Verify Page title
+Mar 09,2015 20:25:33 [info]  Pass
+Mar 09,2015 20:25:33 [info]  Enter User name at login page.
+Mar 09,2015 20:25:34 [info]  Pass
+Mar 09,2015 20:25:34 [info]  Enter password at login page.
+Mar 09,2015 20:25:35 [info]  Pass
+Mar 09,2015 20:25:35 [info]  Click on Sign In button
+Mar 09,2015 20:25:53 [info]  Pass
+Mar 09,2015 20:25:53 [info]  Verify home page title
+Mar 09,2015 20:25:58 [info]  Pass
+Mar 09,2015 20:25:58 [info]  Click on 'EMR'
+Mar 09,2015 20:26:02 [info]  Pass
+Mar 09,2015 20:26:02 [info]  Verify EMR title
+Mar 09,2015 20:26:09 [info]  Pass
+Mar 09,2015 20:26:09 [info]  Click on 'EMR'
+Mar 09,2015 20:26:13 [info]  Pass
+Mar 09,2015 20:26:13 [info]  Click on Administer button
+Mar 09,2015 20:26:17 [info]  Pass
+Mar 09,2015 20:26:20 [info]  Enter Blood Suger
+Mar 09,2015 20:26:21 [info]  Pass
+Mar 09,2015 20:26:21 [info]  Click on 'Administer now' button
+Mar 09,2015 20:26:24 [info]  Pass
+Mar 09,2015 20:26:24 [info]  Click on 'Ok' button
+Mar 09,2015 20:26:28 [info]  Pass
+Mar 09,2015 20:26:31 [info]  Verify User is able to Administered
+Mar 09,2015 20:26:31 [info]  Pass
+Mar 09,2015 20:26:34 [info]  Click on Undo button
+Mar 09,2015 20:26:38 [info]  Pass
+Mar 09,2015 20:26:41 [info]  Verify User is able to undo the Administered
+Mar 09,2015 20:26:41 [info]  Mar 09,2015 20:26:41 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.NullPointerException
+	at com.iCM.locators.LocatorReader.getLocator(LocatorReader.java:32)
+	at com.iCM.pagehelper.EMRHelper.verifyFieldNot(EMRHelper.java:215)
+	at com.iCM.scripts.EMRAdministerUndo.testEMRAdministerLate(EMRAdministerUndo.java:116)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Mar 09,2015 20:26:41 [info]  End Execution of Test Class com.iCM.scripts.EMRAdministerUndo
+*****************************************************************************
+
+*****************************************************************************
+Mar 09,2015 20:27:43 [info]   Execution Started of Test Class com.iCM.scripts.EMRAdministerUndo and Test method testEMRAdministerLate
+*****************************************************************************
+Mar 09,2015 20:27:43 [info]  Open application url
+Mar 09,2015 20:27:56 [info]  Pass
+Mar 09,2015 20:27:56 [info]  Verify Page title
+Mar 09,2015 20:28:01 [info]  Pass
+Mar 09,2015 20:28:01 [info]  Enter User name at login page.
+Mar 09,2015 20:28:02 [info]  Pass
+Mar 09,2015 20:28:02 [info]  Enter password at login page.
+Mar 09,2015 20:28:03 [info]  Pass
+Mar 09,2015 20:28:03 [info]  Click on Sign In button
+Mar 09,2015 20:28:17 [info]  Pass
+Mar 09,2015 20:28:17 [info]  Verify home page title
+Mar 09,2015 20:28:22 [info]  Pass
+Mar 09,2015 20:28:22 [info]  Click on 'EMR'
+Mar 09,2015 20:28:25 [info]  Pass
+Mar 09,2015 20:28:25 [info]  Verify EMR title
+Mar 09,2015 20:28:31 [info]  Pass
+Mar 09,2015 20:28:31 [info]  Click on 'EMR'
+Mar 09,2015 20:28:34 [info]  Pass
+Mar 09,2015 20:28:34 [info]  Click on Administer button
+Mar 09,2015 20:28:38 [info]  Pass
+Mar 09,2015 20:28:41 [info]  Enter Blood Suger
+Mar 09,2015 20:28:42 [info]  Pass
+Mar 09,2015 20:28:42 [info]  Click on 'Administer now' button
+Mar 09,2015 20:28:46 [info]  Pass
+Mar 09,2015 20:28:46 [info]  Click on 'Ok' button
+Mar 09,2015 20:28:49 [info]  Pass
+Mar 09,2015 20:28:52 [info]  Verify User is able to Administered
+Mar 09,2015 20:28:52 [info]  Pass
+Mar 09,2015 20:28:55 [info]  Click on Undo button
+Mar 09,2015 20:28:59 [info]  Pass
+Mar 09,2015 20:29:02 [info]  Verify User is able to undo the Administered
+Mar 09,2015 20:29:23 [info]  Mar 09,2015 20:29:23 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at com.iCM.pagehelper.EMRHelper.verifyFieldNot(EMRHelper.java:217)
+	at com.iCM.scripts.EMRAdministerUndo.testEMRAdministerLate(EMRAdministerUndo.java:116)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Mar 09,2015 20:29:23 [info]  End Execution of Test Class com.iCM.scripts.EMRAdministerUndo
+*****************************************************************************
+
+*****************************************************************************
+Mar 09,2015 20:30:25 [info]   Execution Started of Test Class com.iCM.scripts.EMRAdministerUndo and Test method testEMRAdministerLate
+*****************************************************************************
+Mar 09,2015 20:30:25 [info]  Open application url
+Mar 09,2015 20:30:38 [info]  Pass
+Mar 09,2015 20:30:38 [info]  Verify Page title
+Mar 09,2015 20:30:43 [info]  Pass
+Mar 09,2015 20:30:43 [info]  Enter User name at login page.
+Mar 09,2015 20:30:44 [info]  Pass
+Mar 09,2015 20:30:44 [info]  Enter password at login page.
+Mar 09,2015 20:30:45 [info]  Pass
+Mar 09,2015 20:30:45 [info]  Click on Sign In button
+Mar 09,2015 20:31:00 [info]  Pass
+Mar 09,2015 20:31:00 [info]  Verify home page title
+Mar 09,2015 20:31:06 [info]  Pass
+Mar 09,2015 20:31:06 [info]  Click on 'EMR'
+Mar 09,2015 20:31:09 [info]  Pass
+Mar 09,2015 20:31:09 [info]  Verify EMR title
+Mar 09,2015 20:31:14 [info]  Pass
+Mar 09,2015 20:31:14 [info]  Click on 'EMR'
+Mar 09,2015 20:31:18 [info]  Pass
+Mar 09,2015 20:31:18 [info]  Click on Administer button
+Mar 09,2015 20:31:22 [info]  Pass
+Mar 09,2015 20:31:25 [info]  Enter Blood Suger
+Mar 09,2015 20:31:25 [info]  Pass
+Mar 09,2015 20:31:25 [info]  Click on 'Administer now' button
+Mar 09,2015 20:31:29 [info]  Pass
+Mar 09,2015 20:31:29 [info]  Click on 'Ok' button
+Mar 09,2015 20:31:33 [info]  Pass
+Mar 09,2015 20:31:36 [info]  Verify User is able to Administered
+Mar 09,2015 20:31:36 [info]  Pass
+Mar 09,2015 20:31:39 [info]  Click on Undo button
+Mar 09,2015 20:31:42 [info]  Pass
+Mar 09,2015 20:31:45 [info]  Verify User is able to undo the Administered
+Mar 09,2015 20:32:06 [info]  Pass
+Mar 09,2015 20:32:06 [info]  End Execution of Test Class com.iCM.scripts.EMRAdministerUndo
+*****************************************************************************
+
+*****************************************************************************
+Mar 09,2015 21:15:24 [info]   Execution Started of Test Class com.iCM.scripts.EMRAdministerMonthlyView and Test method testEMRAdministerUndo
+*****************************************************************************
+Mar 09,2015 21:15:24 [info]  Open application url
+Mar 09,2015 21:15:38 [info]  Pass
+Mar 09,2015 21:15:38 [info]  Verify Page title
+Mar 09,2015 21:15:43 [info]  Pass
+Mar 09,2015 21:15:43 [info]  Enter User name at login page.
+Mar 09,2015 21:15:44 [info]  Pass
+Mar 09,2015 21:15:44 [info]  Enter password at login page.
+Mar 09,2015 21:15:45 [info]  Pass
+Mar 09,2015 21:15:45 [info]  Click on Sign In button
+Mar 09,2015 21:16:04 [info]  Pass
+Mar 09,2015 21:16:04 [info]  Verify home page title
+Mar 09,2015 21:16:09 [info]  Pass
+Mar 09,2015 21:16:09 [info]  Click on 'EMR'
+Mar 09,2015 21:16:13 [info]  Pass
+Mar 09,2015 21:16:13 [info]  Verify EMR title
+Mar 09,2015 21:16:18 [info]  Mar 09,2015 21:16:18 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: Page title is: iCM - Home but expected is: Administer Medication expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.iCM.pagehelper.LoginHelper.verifyTitle(LoginHelper.java:23)
+	at com.iCM.scripts.EMRAdministerMonthlyView.testEMRAdministerUndo(EMRAdministerMonthlyView.java:62)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Mar 09,2015 21:16:18 [info]  End Execution of Test Class com.iCM.scripts.EMRAdministerMonthlyView
+*****************************************************************************
+
+*****************************************************************************
+Mar 09,2015 21:17:54 [info]   Execution Started of Test Class com.iCM.scripts.EMRAdministerMonthlyView and Test method testEMRAdministerUndo
+*****************************************************************************
+Mar 09,2015 21:17:54 [info]  Open application url
+Mar 09,2015 21:18:18 [info]  Pass
+Mar 09,2015 21:18:18 [info]  Verify Page title
+Mar 09,2015 21:18:24 [info]  Pass
+Mar 09,2015 21:18:24 [info]  Enter User name at login page.
+Mar 09,2015 21:18:24 [info]  Pass
+Mar 09,2015 21:18:24 [info]  Enter password at login page.
+Mar 09,2015 21:18:25 [info]  Pass
+Mar 09,2015 21:18:25 [info]  Click on Sign In button
+Mar 09,2015 21:18:46 [info]  Pass
+Mar 09,2015 21:18:46 [info]  Verify home page title
+Mar 09,2015 21:18:51 [info]  Pass
+Mar 09,2015 21:18:51 [info]  Click on 'EMR'
+Mar 09,2015 21:18:55 [info]  Pass
+Mar 09,2015 21:18:55 [info]  Verify EMR title
+Mar 09,2015 21:19:01 [info]  Pass
+Mar 09,2015 21:19:01 [info]  Click on 'EMR'
+Mar 09,2015 21:19:05 [info]  Pass
+Mar 09,2015 21:19:05 [info]  Click on Administer button
+Mar 09,2015 21:19:10 [info]  Pass
+Mar 09,2015 21:19:13 [info]  Mar 09,2015 21:19:13 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at com.iCM.pagehelper.EMRHelper.verifyOverlay(EMRHelper.java:208)
+	at com.iCM.scripts.EMRAdministerMonthlyView.testEMRAdministerUndo(EMRAdministerMonthlyView.java:79)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Mar 09,2015 21:19:13 [info]  End Execution of Test Class com.iCM.scripts.EMRAdministerMonthlyView
+*****************************************************************************
+
+*****************************************************************************
+Mar 09,2015 21:19:48 [info]   Execution Started of Test Class com.iCM.scripts.EMRAdministerMonthlyView and Test method testEMRAdministerUndo
+*****************************************************************************
+Mar 09,2015 21:19:48 [info]  Open application url
+Mar 09,2015 21:20:02 [info]  Pass
+Mar 09,2015 21:20:02 [info]  Verify Page title
+Mar 09,2015 21:20:07 [info]  Pass
+Mar 09,2015 21:20:07 [info]  Enter User name at login page.
+Mar 09,2015 21:20:07 [info]  Pass
+Mar 09,2015 21:20:07 [info]  Enter password at login page.
+Mar 09,2015 21:20:08 [info]  Pass
+Mar 09,2015 21:20:08 [info]  Click on Sign In button
+Mar 09,2015 21:20:26 [info]  Pass
+Mar 09,2015 21:20:26 [info]  Verify home page title
+Mar 09,2015 21:20:31 [info]  Pass
+Mar 09,2015 21:20:31 [info]  Click on 'EMR'
+Mar 09,2015 21:20:35 [info]  Pass
+Mar 09,2015 21:20:35 [info]  Verify EMR title
+Mar 09,2015 21:20:40 [info]  Pass
+Mar 09,2015 21:20:40 [info]  Click on 'EMR'
+Mar 09,2015 21:20:44 [info]  Pass
+Mar 09,2015 21:20:44 [info]  Click on Administer button
+Mar 09,2015 21:20:48 [info]  Pass
+Mar 09,2015 21:20:51 [info]  Enter Blood Suger
+Mar 09,2015 21:20:51 [info]  Pass
+Mar 09,2015 21:20:51 [info]  Click on 'Administer now' button
+Mar 09,2015 21:20:55 [info]  Pass
+Mar 09,2015 21:20:55 [info]  Click on 'Ok' button
+Mar 09,2015 21:20:59 [info]  Pass
+Mar 09,2015 21:21:02 [info]  Verify User is able to Administered
+Mar 09,2015 21:21:02 [info]  Pass
+Mar 09,2015 21:21:05 [info]  Click on Undo button
+Mar 09,2015 21:21:09 [info]  Pass
+Mar 09,2015 21:21:12 [info]  User is able to see the monthly view
+Mar 09,2015 21:21:12 [info]  Pass
+Mar 09,2015 21:21:12 [info]  User is able to see the monthly view
+Mar 09,2015 21:21:15 [info]  Pass
+Mar 09,2015 21:21:15 [info]  Click on Undo button
+Mar 09,2015 21:21:19 [info]  Pass
+Mar 09,2015 21:21:19 [info]  End Execution of Test Class com.iCM.scripts.EMRAdministerMonthlyView
+*****************************************************************************
+
+*****************************************************************************
+Mar 09,2015 21:37:51 [info]   Execution Started of Test Class com.iCM.scripts.EMRAdministerMonthlyView and Test method testEMRAdministerUndo
+*****************************************************************************
+Mar 09,2015 21:37:51 [info]  Open application url
+Mar 09,2015 21:38:06 [info]  Pass
+Mar 09,2015 21:38:06 [info]  Verify Page title
+Mar 09,2015 21:38:11 [info]  Pass
+Mar 09,2015 21:38:11 [info]  Enter User name at login page.
+Mar 09,2015 21:38:11 [info]  Pass
+Mar 09,2015 21:38:11 [info]  Enter password at login page.
+Mar 09,2015 21:38:12 [info]  Pass
+Mar 09,2015 21:38:12 [info]  Click on Sign In button
+Mar 09,2015 21:38:31 [info]  Pass
+Mar 09,2015 21:38:31 [info]  Verify home page title
+Mar 09,2015 21:38:36 [info]  Pass
+Mar 09,2015 21:38:36 [info]  Click on 'EMR'
+Mar 09,2015 21:38:39 [info]  Pass
+Mar 09,2015 21:38:39 [info]  Verify EMR title
+Mar 09,2015 21:38:44 [info]  Pass
+Mar 09,2015 21:38:44 [info]  Click on 'EMR'
+Mar 09,2015 21:38:48 [info]  Pass
+Mar 09,2015 21:38:48 [info]  Click on Administer button
+Mar 09,2015 21:38:52 [info]  Pass
+Mar 09,2015 21:38:55 [info]  Enter Blood Suger
+Mar 09,2015 21:38:56 [info]  Pass
+Mar 09,2015 21:38:56 [info]  Click on 'Administer now' button
+Mar 09,2015 21:38:59 [info]  Pass
+Mar 09,2015 21:38:59 [info]  Click on 'Ok' button
+Mar 09,2015 21:39:03 [info]  Pass
+Mar 09,2015 21:39:06 [info]  Verify User is able to Administered
+Mar 09,2015 21:39:06 [info]  Pass
+Mar 09,2015 21:39:06 [info]  Verify user initials in normal color
+Mar 09,2015 21:39:06 [info]  Pass
+Mar 09,2015 21:39:09 [info]  Click on Undo button
+Mar 09,2015 21:39:13 [info]  Pass
+Mar 09,2015 21:39:16 [info]  User is able to see the monthly view
+Mar 09,2015 21:39:16 [info]  Pass
+Mar 09,2015 21:39:16 [info]  User is able to see the monthly view
+Mar 09,2015 21:39:19 [info]  Pass
+Mar 09,2015 21:39:19 [info]  Click on Undo button
+Mar 09,2015 21:39:23 [info]  Pass
+Mar 09,2015 21:39:23 [info]  End Execution of Test Class com.iCM.scripts.EMRAdministerMonthlyView
+*****************************************************************************
+
+*****************************************************************************
+Mar 09,2015 21:44:53 [info]   Execution Started of Test Class com.iCM.scripts.EMRAdministerMonthlyViewOrange and Test method testEMRAdministerMonthlyViewGreen
+*****************************************************************************
+Mar 09,2015 21:44:53 [info]  Open application url
+Mar 09,2015 21:45:07 [info]  Pass
+Mar 09,2015 21:45:07 [info]  Verify Page title
+Mar 09,2015 21:45:12 [info]  Pass
+Mar 09,2015 21:45:12 [info]  Enter User name at login page.
+Mar 09,2015 21:45:13 [info]  Pass
+Mar 09,2015 21:45:13 [info]  Enter password at login page.
+Mar 09,2015 21:45:14 [info]  Pass
+Mar 09,2015 21:45:14 [info]  Click on Sign In button
+Mar 09,2015 21:45:30 [info]  Pass
+Mar 09,2015 21:45:30 [info]  Verify home page title
+Mar 09,2015 21:45:35 [info]  Pass
+Mar 09,2015 21:45:35 [info]  Click on 'EMR'
+Mar 09,2015 21:45:39 [info]  Pass
+Mar 09,2015 21:45:39 [info]  Verify EMR title
+Mar 09,2015 21:45:44 [info]  Pass
+Mar 09,2015 21:45:44 [info]  Click on 'EMR'
+Mar 09,2015 21:45:47 [info]  Pass
+Mar 09,2015 21:45:47 [info]  Click on Admin Button dropdown
+Mar 09,2015 21:45:51 [info]  Pass
+Mar 09,2015 21:45:51 [info]  Click on ReResident Refused
+Mar 09,2015 21:45:57 [info]  Pass
+Mar 09,2015 21:46:02 [info]  Enter Result
+Mar 09,2015 21:46:02 [info]  Pass
+Mar 09,2015 21:46:02 [info]  Click on Save button
+Mar 09,2015 21:46:06 [info]  Pass
+Mar 09,2015 21:46:06 [info]  Click on Save button
+Mar 09,2015 21:46:09 [info]  Pass
+Mar 09,2015 21:46:09 [info]  Verify Omitted displayed
+Mar 09,2015 21:46:13 [info]  Pass
+Mar 09,2015 21:46:13 [info]  Verify user initials in Orange color
+Mar 09,2015 21:46:13 [info]  Pass
+Mar 09,2015 21:46:16 [info]  Click on Undo button
+Mar 09,2015 21:46:20 [info]  Pass
+Mar 09,2015 21:46:23 [info]  User is able to see the monthly view
+Mar 09,2015 21:46:23 [info]  Pass
+Mar 09,2015 21:46:23 [info]  User is able to see the monthly view
+Mar 09,2015 21:46:27 [info]  Pass
+Mar 09,2015 21:46:27 [info]  Click on Undo button
+Mar 09,2015 21:46:31 [info]  Pass
+Mar 09,2015 21:46:31 [info]  End Execution of Test Class com.iCM.scripts.EMRAdministerMonthlyViewOrange
+*****************************************************************************
+
+*****************************************************************************
+Mar 09,2015 22:07:35 [info]   Execution Started of Test Class com.iCM.scripts.EMRAdministerMAR and Test method testEMRAdministerMAR
+*****************************************************************************
+Mar 09,2015 22:07:35 [info]  Open application url
+Mar 09,2015 22:07:48 [info]  Pass
+Mar 09,2015 22:07:48 [info]  Verify Page title
+Mar 09,2015 22:07:53 [info]  Pass
+Mar 09,2015 22:07:53 [info]  Enter User name at login page.
+Mar 09,2015 22:07:53 [info]  Pass
+Mar 09,2015 22:07:53 [info]  Enter password at login page.
+Mar 09,2015 22:07:54 [info]  Pass
+Mar 09,2015 22:07:54 [info]  Click on Sign In button
+Mar 09,2015 22:08:10 [info]  Pass
+Mar 09,2015 22:08:10 [info]  Verify home page title
+Mar 09,2015 22:08:15 [info]  Pass
+Mar 09,2015 22:08:15 [info]  Click on 'EMR'
+Mar 09,2015 22:08:19 [info]  Pass
+Mar 09,2015 22:08:19 [info]  Verify EMR title
+Mar 09,2015 22:08:24 [info]  Pass
+Mar 09,2015 22:08:24 [info]  Click on 'EMR'
+Mar 09,2015 22:08:27 [info]  Pass
+Mar 09,2015 22:08:27 [info]  Click on Generate MAR button
+Mar 09,2015 22:08:31 [info]  Pass
+Mar 09,2015 22:08:37 [info]  Click on 'Generate MAR' button
+Mar 09,2015 22:08:38 [info]  Mar 09,2015 22:08:38 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Command duration or timeout: 46 milliseconds
+Build info: version: '2.41.0', revision: '3192d8a', time: '2014-03-27 17:17:32'
+System info: host: 'user-PC', ip: '192.168.21.1', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_20'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=29.0.1, platform=XP, browserConnectionEnabled=true, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 7f34ba55-f491-4264-b885-8746ee716dd9
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:268)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:79)
+	at com.iCM.util.DriverHelper.clickOn(DriverHelper.java:254)
+	at com.iCM.pagehelper.EMRHelper.click(EMRHelper.java:28)
+	at com.iCM.scripts.EMRAdministerMAR.testEMRAdministerMAR(EMRAdministerMAR.java:84)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Caused by: org.openqa.selenium.remote.ErrorHandler$UnknownServerException: Element is not currently visible and so may not be interacted with
+Build info: version: '2.41.0', revision: '3192d8a', time: '2014-03-27 17:17:32'
+System info: host: 'user-PC', ip: '192.168.21.1', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_20'
+Driver info: driver.version: unknown
+	at <anonymous class>.fxdriver.preconditions.visible(file:///C:/Users/user/AppData/Local/Temp/anonymous6577007304839706518webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:8225)
+	at <anonymous class>.DelayedCommand.prototype.checkPreconditions_(file:///C:/Users/user/AppData/Local/Temp/anonymous6577007304839706518webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10867)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/user/AppData/Local/Temp/anonymous6577007304839706518webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10884)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_(file:///C:/Users/user/AppData/Local/Temp/anonymous6577007304839706518webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10889)
+	at <anonymous class>.DelayedCommand.prototype.execute/<(file:///C:/Users/user/AppData/Local/Temp/anonymous6577007304839706518webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10831)
+Mar 09,2015 22:08:38 [info]  End Execution of Test Class com.iCM.scripts.EMRAdministerMAR
+*****************************************************************************
+
+*****************************************************************************
+Mar 09,2015 22:09:03 [info]   Execution Started of Test Class com.iCM.scripts.EMRAdministerMAR and Test method testEMRAdministerMAR
+*****************************************************************************
+Mar 09,2015 22:09:03 [info]  Open application url
+Mar 09,2015 22:09:18 [info]  Pass
+Mar 09,2015 22:09:18 [info]  Verify Page title
+Mar 09,2015 22:09:23 [info]  Pass
+Mar 09,2015 22:09:23 [info]  Enter User name at login page.
+Mar 09,2015 22:09:23 [info]  Pass
+Mar 09,2015 22:09:23 [info]  Enter password at login page.
+Mar 09,2015 22:09:24 [info]  Pass
+Mar 09,2015 22:09:24 [info]  Click on Sign In button
+Mar 09,2015 22:09:42 [info]  Pass
+Mar 09,2015 22:09:42 [info]  Verify home page title
+Mar 09,2015 22:09:47 [info]  Pass
+Mar 09,2015 22:09:47 [info]  Click on 'EMR'
+Mar 09,2015 22:09:50 [info]  Pass
+Mar 09,2015 22:09:50 [info]  Verify EMR title
+Mar 09,2015 22:09:56 [info]  Pass
+Mar 09,2015 22:10:02 [info]  Click on 'Generate MAR' button
+Mar 09,2015 22:10:02 [info]  Mar 09,2015 22:10:02 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Command duration or timeout: 39 milliseconds
+Build info: version: '2.41.0', revision: '3192d8a', time: '2014-03-27 17:17:32'
+System info: host: 'user-PC', ip: '192.168.21.1', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_20'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=29.0.1, platform=XP, browserConnectionEnabled=true, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 378b48b1-799c-48d2-8b31-0e485739aa6e
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:268)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:79)
+	at com.iCM.util.DriverHelper.clickOn(DriverHelper.java:254)
+	at com.iCM.pagehelper.EMRHelper.click(EMRHelper.java:28)
+	at com.iCM.scripts.EMRAdministerMAR.testEMRAdministerMAR(EMRAdministerMAR.java:74)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Caused by: org.openqa.selenium.remote.ErrorHandler$UnknownServerException: Element is not currently visible and so may not be interacted with
+Build info: version: '2.41.0', revision: '3192d8a', time: '2014-03-27 17:17:32'
+System info: host: 'user-PC', ip: '192.168.21.1', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_20'
+Driver info: driver.version: unknown
+	at <anonymous class>.fxdriver.preconditions.visible(file:///C:/Users/user/AppData/Local/Temp/anonymous8856408298090567856webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:8225)
+	at <anonymous class>.DelayedCommand.prototype.checkPreconditions_(file:///C:/Users/user/AppData/Local/Temp/anonymous8856408298090567856webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10867)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/user/AppData/Local/Temp/anonymous8856408298090567856webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10884)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_(file:///C:/Users/user/AppData/Local/Temp/anonymous8856408298090567856webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10889)
+	at <anonymous class>.DelayedCommand.prototype.execute/<(file:///C:/Users/user/AppData/Local/Temp/anonymous8856408298090567856webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10831)
+Mar 09,2015 22:10:02 [info]  End Execution of Test Class com.iCM.scripts.EMRAdministerMAR
+*****************************************************************************
+
+*****************************************************************************
+Mar 09,2015 22:11:24 [info]   Execution Started of Test Class com.iCM.scripts.EMRAdministerMAR and Test method testEMRAdministerMAR
+*****************************************************************************
+Mar 09,2015 22:11:24 [info]  Open application url
+Mar 09,2015 22:11:38 [info]  Pass
+Mar 09,2015 22:11:38 [info]  Verify Page title
+Mar 09,2015 22:11:43 [info]  Pass
+Mar 09,2015 22:11:43 [info]  Enter User name at login page.
+Mar 09,2015 22:11:44 [info]  Pass
+Mar 09,2015 22:11:44 [info]  Enter password at login page.
+Mar 09,2015 22:11:45 [info]  Pass
+Mar 09,2015 22:11:45 [info]  Click on Sign In button
+Mar 09,2015 22:12:00 [info]  Pass
+Mar 09,2015 22:12:00 [info]  Verify home page title
+Mar 09,2015 22:12:05 [info]  Pass
+Mar 09,2015 22:12:05 [info]  Click on 'EMR'
+Mar 09,2015 22:12:09 [info]  Pass
+Mar 09,2015 22:12:09 [info]  Verify EMR title
+Mar 09,2015 22:12:14 [info]  Pass
+Mar 09,2015 22:12:14 [info]  Click on All Meds Tab
+Mar 09,2015 22:12:17 [info]  Pass
+Mar 09,2015 22:12:24 [info]  Click on 'Generate MAR' button
+Mar 09,2015 22:12:24 [info]  Mar 09,2015 22:12:24 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Command duration or timeout: 40 milliseconds
+Build info: version: '2.41.0', revision: '3192d8a', time: '2014-03-27 17:17:32'
+System info: host: 'user-PC', ip: '192.168.21.1', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_20'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=29.0.1, platform=XP, browserConnectionEnabled=true, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 8b7a4f3b-2521-4fe5-a9e3-0affa0cebdbf
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:268)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:79)
+	at com.iCM.util.DriverHelper.clickOn(DriverHelper.java:254)
+	at com.iCM.pagehelper.EMRHelper.click(EMRHelper.java:28)
+	at com.iCM.scripts.EMRAdministerMAR.testEMRAdministerMAR(EMRAdministerMAR.java:79)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Caused by: org.openqa.selenium.remote.ErrorHandler$UnknownServerException: Element is not currently visible and so may not be interacted with
+Build info: version: '2.41.0', revision: '3192d8a', time: '2014-03-27 17:17:32'
+System info: host: 'user-PC', ip: '192.168.21.1', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_20'
+Driver info: driver.version: unknown
+	at <anonymous class>.fxdriver.preconditions.visible(file:///C:/Users/user/AppData/Local/Temp/anonymous948851488604587194webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:8225)
+	at <anonymous class>.DelayedCommand.prototype.checkPreconditions_(file:///C:/Users/user/AppData/Local/Temp/anonymous948851488604587194webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10867)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/user/AppData/Local/Temp/anonymous948851488604587194webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10884)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_(file:///C:/Users/user/AppData/Local/Temp/anonymous948851488604587194webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10889)
+	at <anonymous class>.DelayedCommand.prototype.execute/<(file:///C:/Users/user/AppData/Local/Temp/anonymous948851488604587194webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10831)
+Mar 09,2015 22:12:24 [info]  End Execution of Test Class com.iCM.scripts.EMRAdministerMAR
+*****************************************************************************
+
+*****************************************************************************
+Mar 09,2015 22:14:19 [info]   Execution Started of Test Class com.iCM.scripts.EMRAdministerMAR and Test method testEMRAdministerMAR
+*****************************************************************************
+Mar 09,2015 22:14:19 [info]  Open application url
+Mar 09,2015 22:14:33 [info]  Pass
+Mar 09,2015 22:14:33 [info]  Verify Page title
+Mar 09,2015 22:14:38 [info]  Pass
+Mar 09,2015 22:14:38 [info]  Enter User name at login page.
+Mar 09,2015 22:14:39 [info]  Pass
+Mar 09,2015 22:14:39 [info]  Enter password at login page.
+Mar 09,2015 22:14:40 [info]  Pass
+Mar 09,2015 22:14:40 [info]  Click on Sign In button
+Mar 09,2015 22:14:59 [info]  Pass
+Mar 09,2015 22:14:59 [info]  Verify home page title
+Mar 09,2015 22:15:04 [info]  Pass
+Mar 09,2015 22:15:04 [info]  Click on 'EMR'
+Mar 09,2015 22:15:08 [info]  Pass
+Mar 09,2015 22:15:08 [info]  Verify EMR title
+Mar 09,2015 22:15:13 [info]  Pass
+Mar 09,2015 22:15:13 [info]  Click on All Meds Tab
+Mar 09,2015 22:15:17 [info]  Pass
+Mar 09,2015 22:15:20 [info]  Click on Click on MAR button
+Mar 09,2015 22:15:20 [info]  Mar 09,2015 22:15:20 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.NullPointerException
+	at com.iCM.locators.LocatorReader.getLocator(LocatorReader.java:32)
+	at com.iCM.pagehelper.EChartHelper.click(EChartHelper.java:47)
+	at com.iCM.scripts.EMRAdministerMAR.testEMRAdministerMAR(EMRAdministerMAR.java:76)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Mar 09,2015 22:15:20 [info]  End Execution of Test Class com.iCM.scripts.EMRAdministerMAR
+*****************************************************************************
+
+*****************************************************************************
+Mar 09,2015 22:40:37 [info]   Execution Started of Test Class com.iCM.scripts.EMRAdministerMAR and Test method testEMRAdministerMAR
+*****************************************************************************
+Mar 09,2015 22:40:37 [info]  Open application url
+Mar 09,2015 22:40:52 [info]  Pass
+Mar 09,2015 22:40:52 [info]  Verify Page title
+Mar 09,2015 22:40:57 [info]  Pass
+Mar 09,2015 22:40:57 [info]  Enter User name at login page.
+Mar 09,2015 22:40:57 [info]  Pass
+Mar 09,2015 22:40:57 [info]  Enter password at login page.
+Mar 09,2015 22:40:58 [info]  Pass
+Mar 09,2015 22:40:58 [info]  Click on Sign In button
+Mar 09,2015 22:41:17 [info]  Pass
+Mar 09,2015 22:41:17 [info]  Verify home page title
+Mar 09,2015 22:41:22 [info]  Pass
+Mar 09,2015 22:41:22 [info]  Click on 'EMR'
+Mar 09,2015 22:41:25 [info]  Pass
+Mar 09,2015 22:41:25 [info]  Verify EMR title
+Mar 09,2015 22:41:30 [info]  Pass
+Mar 09,2015 22:41:30 [info]  Click on All Meds Tab
+Mar 09,2015 22:41:34 [info]  Pass
+Mar 09,2015 22:41:37 [info]  Click on Click on MAR button
+Mar 09,2015 22:41:41 [info]  Pass
+Mar 09,2015 22:41:44 [info]  Click on 'Generate MAR' button
+Mar 09,2015 22:41:48 [info]  Pass
+Mar 09,2015 22:41:54 [info]  End Execution of Test Class com.iCM.scripts.EMRAdministerMAR
+*****************************************************************************
+
+*****************************************************************************
+Mar 09,2015 22:58:52 [info]   Execution Started of Test Class com.iCM.scripts.EMROmissionUndo and Test method testEMROmissionUndo
+*****************************************************************************
+Mar 09,2015 22:58:52 [info]  Open application url
+Mar 09,2015 22:59:07 [info]  Pass
+Mar 09,2015 22:59:07 [info]  Verify Page title
+Mar 09,2015 22:59:12 [info]  Pass
+Mar 09,2015 22:59:12 [info]  Enter User name at login page.
+Mar 09,2015 22:59:13 [info]  Pass
+Mar 09,2015 22:59:13 [info]  Enter password at login page.
+Mar 09,2015 22:59:14 [info]  Pass
+Mar 09,2015 22:59:14 [info]  Click on Sign In button
+Mar 09,2015 22:59:31 [info]  Pass
+Mar 09,2015 22:59:31 [info]  Verify home page title
+Mar 09,2015 22:59:37 [info]  Pass
+Mar 09,2015 22:59:37 [info]  Click on 'EMR'
+Mar 09,2015 22:59:40 [info]  Pass
+Mar 09,2015 22:59:40 [info]  Verify EMR title
+Mar 09,2015 22:59:45 [info]  Pass
+Mar 09,2015 22:59:45 [info]  Click on 'EMR'
+Mar 09,2015 22:59:49 [info]  Pass
+Mar 09,2015 22:59:49 [info]  Click on Admin Button dropdown
+Mar 09,2015 22:59:53 [info]  Pass
+Mar 09,2015 22:59:53 [info]  Click on ReResident Refused
+Mar 09,2015 22:59:58 [info]  Mar 09,2015 22:59:58 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Command duration or timeout: 42 milliseconds
+Build info: version: '2.41.0', revision: '3192d8a', time: '2014-03-27 17:17:32'
+System info: host: 'user-PC', ip: '192.168.21.1', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_20'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=29.0.1, platform=XP, browserConnectionEnabled=true, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 7dc6ca9e-7817-4eb0-8bcc-f7ece237f4c2
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:268)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:89)
+	at com.iCM.pagehelper.EMRHelper.clickOnFirst(EMRHelper.java:225)
+	at com.iCM.scripts.EMROmissionUndo.testEMROmissionUndo(EMROmissionUndo.java:76)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Caused by: org.openqa.selenium.remote.ErrorHandler$UnknownServerException: Element is not currently visible and so may not be interacted with
+Build info: version: '2.41.0', revision: '3192d8a', time: '2014-03-27 17:17:32'
+System info: host: 'user-PC', ip: '192.168.21.1', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_20'
+Driver info: driver.version: unknown
+	at <anonymous class>.fxdriver.preconditions.visible(file:///C:/Users/user/AppData/Local/Temp/anonymous4212973551185421084webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:8225)
+	at <anonymous class>.DelayedCommand.prototype.checkPreconditions_(file:///C:/Users/user/AppData/Local/Temp/anonymous4212973551185421084webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10867)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/user/AppData/Local/Temp/anonymous4212973551185421084webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10884)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_(file:///C:/Users/user/AppData/Local/Temp/anonymous4212973551185421084webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10889)
+	at <anonymous class>.DelayedCommand.prototype.execute/<(file:///C:/Users/user/AppData/Local/Temp/anonymous4212973551185421084webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10831)
+Mar 09,2015 22:59:58 [info]  End Execution of Test Class com.iCM.scripts.EMROmissionUndo
+*****************************************************************************
+
+*****************************************************************************
+Mar 09,2015 23:01:28 [info]   Execution Started of Test Class com.iCM.scripts.EMROmissionUndo and Test method testEMROmissionUndo
+*****************************************************************************
+Mar 09,2015 23:01:28 [info]  Open application url
+Mar 09,2015 23:01:43 [info]  Pass
+Mar 09,2015 23:01:43 [info]  Verify Page title
+Mar 09,2015 23:01:48 [info]  Pass
+Mar 09,2015 23:01:48 [info]  Enter User name at login page.
+Mar 09,2015 23:01:48 [info]  Pass
+Mar 09,2015 23:01:48 [info]  Enter password at login page.
+Mar 09,2015 23:01:50 [info]  Pass
+Mar 09,2015 23:01:50 [info]  Click on Sign In button
+Mar 09,2015 23:02:07 [info]  Pass
+Mar 09,2015 23:02:07 [info]  Verify home page title
+Mar 09,2015 23:02:12 [info]  Pass
+Mar 09,2015 23:02:12 [info]  Click on 'EMR'
+Mar 09,2015 23:02:16 [info]  Pass
+Mar 09,2015 23:02:16 [info]  Verify EMR title
+Mar 09,2015 23:02:21 [info]  Pass
+Mar 09,2015 23:02:21 [info]  Click on 'EMR'
+Mar 09,2015 23:02:24 [info]  Pass
+Mar 09,2015 23:02:24 [info]  Click on Admin Button dropdown
+Mar 09,2015 23:02:32 [info]  Pass
+Mar 09,2015 23:02:32 [info]  Click on ReResident Refused
+Mar 09,2015 23:02:37 [info]  Mar 09,2015 23:02:37 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Command duration or timeout: 41 milliseconds
+Build info: version: '2.41.0', revision: '3192d8a', time: '2014-03-27 17:17:32'
+System info: host: 'user-PC', ip: '192.168.21.1', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_20'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=29.0.1, platform=XP, browserConnectionEnabled=true, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 1566ef84-6c4b-4c6e-8ff8-794c8cc43086
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:268)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:89)
+	at com.iCM.pagehelper.EMRHelper.clickOnFirst(EMRHelper.java:225)
+	at com.iCM.scripts.EMROmissionUndo.testEMROmissionUndo(EMROmissionUndo.java:78)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Caused by: org.openqa.selenium.remote.ErrorHandler$UnknownServerException: Element is not currently visible and so may not be interacted with
+Build info: version: '2.41.0', revision: '3192d8a', time: '2014-03-27 17:17:32'
+System info: host: 'user-PC', ip: '192.168.21.1', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_20'
+Driver info: driver.version: unknown
+	at <anonymous class>.fxdriver.preconditions.visible(file:///C:/Users/user/AppData/Local/Temp/anonymous6590919968269004200webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:8225)
+	at <anonymous class>.DelayedCommand.prototype.checkPreconditions_(file:///C:/Users/user/AppData/Local/Temp/anonymous6590919968269004200webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10867)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/user/AppData/Local/Temp/anonymous6590919968269004200webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10884)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_(file:///C:/Users/user/AppData/Local/Temp/anonymous6590919968269004200webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10889)
+	at <anonymous class>.DelayedCommand.prototype.execute/<(file:///C:/Users/user/AppData/Local/Temp/anonymous6590919968269004200webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10831)
+Mar 09,2015 23:02:37 [info]  End Execution of Test Class com.iCM.scripts.EMROmissionUndo
+*****************************************************************************
+
+*****************************************************************************
+Mar 09,2015 23:07:17 [info]   Execution Started of Test Class com.iCM.scripts.EMROmissionUndo and Test method testEMROmissionUndo
+*****************************************************************************
+Mar 09,2015 23:07:18 [info]  Open application url
+Mar 09,2015 23:07:34 [info]  Pass
+Mar 09,2015 23:07:34 [info]  Verify Page title
+Mar 09,2015 23:07:40 [info]  Pass
+Mar 09,2015 23:07:40 [info]  Enter User name at login page.
+Mar 09,2015 23:07:40 [info]  Pass
+Mar 09,2015 23:07:40 [info]  Enter password at login page.
+Mar 09,2015 23:07:41 [info]  Pass
+Mar 09,2015 23:07:41 [info]  Click on Sign In button
+Mar 09,2015 23:07:58 [info]  Pass
+Mar 09,2015 23:07:58 [info]  Verify home page title
+Mar 09,2015 23:08:03 [info]  Pass
+Mar 09,2015 23:08:03 [info]  Click on 'EMR'
+Mar 09,2015 23:08:07 [info]  Pass
+Mar 09,2015 23:08:07 [info]  Verify EMR title
+Mar 09,2015 23:08:12 [info]  Pass
+Mar 09,2015 23:08:12 [info]  Click on 'EMR'
+Mar 09,2015 23:08:16 [info]  Pass
+Mar 09,2015 23:08:16 [info]  Click on Admin Button dropdown
+Mar 09,2015 23:08:20 [info]  Pass
+Mar 09,2015 23:08:20 [info]  Click on ReResident Refused
+Mar 09,2015 23:08:25 [info]  Pass
+Mar 09,2015 23:08:30 [info]  Enter Result
+Mar 09,2015 23:08:31 [info]  Pass
+Mar 09,2015 23:08:31 [info]  Click on Save button
+Mar 09,2015 23:08:35 [info]  Pass
+Mar 09,2015 23:08:35 [info]  Click on Save button
+Mar 09,2015 23:08:38 [info]  Pass
+Mar 09,2015 23:08:38 [info]  Verify Omitted displayed
+Mar 09,2015 23:08:42 [info]  Pass
+Mar 09,2015 23:08:45 [info]  Click on Undo button
+Mar 09,2015 23:08:48 [info]  Pass
+Mar 09,2015 23:08:51 [info]  Verify User is able to undo the Administered
+Mar 09,2015 23:08:52 [info]  Mar 09,2015 23:08:52 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertFalse(Assert.java:63)
+	at org.testng.Assert.assertFalse(Assert.java:73)
+	at com.iCM.pagehelper.EMRHelper.verifyFieldNot(EMRHelper.java:213)
+	at com.iCM.scripts.EMROmissionUndo.testEMROmissionUndo(EMROmissionUndo.java:116)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Mar 09,2015 23:08:52 [info]  End Execution of Test Class com.iCM.scripts.EMROmissionUndo
+*****************************************************************************
+
+*****************************************************************************
+Mar 09,2015 23:10:23 [info]   Execution Started of Test Class com.iCM.scripts.EMROmissionUndo and Test method testEMROmissionUndo
+*****************************************************************************
+Mar 09,2015 23:10:23 [info]  Open application url
+Mar 09,2015 23:10:40 [info]  Pass
+Mar 09,2015 23:10:40 [info]  Verify Page title
+Mar 09,2015 23:10:48 [info]  Pass
+Mar 09,2015 23:10:48 [info]  Enter User name at login page.
+Mar 09,2015 23:10:49 [info]  Pass
+Mar 09,2015 23:10:49 [info]  Enter password at login page.
+Mar 09,2015 23:10:50 [info]  Pass
+Mar 09,2015 23:10:50 [info]  Click on Sign In button
+Mar 09,2015 23:11:08 [info]  Pass
+Mar 09,2015 23:11:08 [info]  Verify home page title
+Mar 09,2015 23:11:13 [info]  Pass
+Mar 09,2015 23:11:13 [info]  Click on 'EMR'
+Mar 09,2015 23:11:17 [info]  Pass
+Mar 09,2015 23:11:17 [info]  Verify EMR title
+Mar 09,2015 23:11:22 [info]  Pass
+Mar 09,2015 23:11:22 [info]  Click on 'EMR'
+Mar 09,2015 23:11:26 [info]  Pass
+Mar 09,2015 23:11:26 [info]  Click on Admin Button dropdown
+Mar 09,2015 23:11:29 [info]  Pass
+Mar 09,2015 23:11:29 [info]  Click on ReResident Refused
+Mar 09,2015 23:11:35 [info]  Pass
+Mar 09,2015 23:11:40 [info]  Enter Result
+Mar 09,2015 23:11:41 [info]  Pass
+Mar 09,2015 23:11:41 [info]  Click on Save button
+Mar 09,2015 23:11:44 [info]  Pass
+Mar 09,2015 23:11:44 [info]  Click on Save button
+Mar 09,2015 23:11:48 [info]  Pass
+Mar 09,2015 23:11:48 [info]  Verify Omitted displayed
+Mar 09,2015 23:11:51 [info]  Pass
+Mar 09,2015 23:11:54 [info]  Click on Undo button
+Mar 09,2015 23:11:58 [info]  Pass
+Mar 09,2015 23:12:01 [info]  Verify User is able to undo the Administered
+Mar 09,2015 23:12:22 [info]  Pass
+Mar 09,2015 23:12:22 [info]  End Execution of Test Class com.iCM.scripts.EMROmissionUndo
+*****************************************************************************
+
+*****************************************************************************
+Mar 09,2015 23:17:35 [info]   Execution Started of Test Class com.iCM.scripts.EMRAdminLate and Test method testEMRAdminLate
+*****************************************************************************
+Mar 09,2015 23:17:35 [info]  Open application url
+Mar 09,2015 23:17:51 [info]  Pass
+Mar 09,2015 23:17:51 [info]  Verify Page title
+Mar 09,2015 23:17:56 [info]  Pass
+Mar 09,2015 23:17:56 [info]  Enter User name at login page.
+Mar 09,2015 23:17:58 [info]  Pass
+Mar 09,2015 23:17:58 [info]  Enter password at login page.
+Mar 09,2015 23:17:58 [info]  Pass
+Mar 09,2015 23:17:58 [info]  Click on Sign In button
+Mar 09,2015 23:18:15 [info]  Pass
+Mar 09,2015 23:18:15 [info]  Verify home page title
+Mar 09,2015 23:18:20 [info]  Pass
+Mar 09,2015 23:18:20 [info]  Open Add resident form via deep link
+Mar 09,2015 23:18:34 [info]  Pass
+Mar 09,2015 23:18:34 [info]  Enter Resident First Name
+Mar 09,2015 23:18:37 [info]  Pass
+Mar 09,2015 23:18:37 [info]  Enter Middle name
+Mar 09,2015 23:18:41 [info]  Pass
+Mar 09,2015 23:18:41 [info]  Enter last name
+Mar 09,2015 23:18:44 [info]  Pass
+Mar 09,2015 23:18:44 [info]  Open 'Calender'
+Mar 09,2015 23:18:46 [info]  Pass
+Mar 09,2015 23:18:51 [info]  Select Year
+Mar 09,2015 23:18:57 [info]  Pass
+Mar 09,2015 23:19:00 [info]  Select date
+Mar 09,2015 23:19:03 [info]  Pass
+Mar 09,2015 23:19:03 [info]  Select gender
+Mar 09,2015 23:19:04 [info]  Pass
+Mar 09,2015 23:19:04 [info]  Select Marital Status
+Mar 09,2015 23:19:06 [info]  Pass
+Mar 09,2015 23:19:06 [info]  Open 'Calender' for admit date
+Mar 09,2015 23:19:07 [info]  Pass
+Mar 09,2015 23:19:10 [info]  Select Year
+Mar 09,2015 23:19:17 [info]  Pass
+Mar 09,2015 23:19:17 [info]  Select Month
+Mar 09,2015 23:19:18 [info]  Pass
+Mar 09,2015 23:19:18 [info]  Select date
+Mar 09,2015 23:19:20 [info]  Pass
+Mar 09,2015 23:19:20 [info]  Select Facality
+Mar 09,2015 23:19:22 [info]  Pass
+Mar 09,2015 23:19:25 [info]  Select Nurse
+Mar 09,2015 23:19:26 [info]  Pass
+Mar 09,2015 23:19:26 [info]  Enter level of care
+Mar 09,2015 23:19:30 [info]  Pass
+Mar 09,2015 23:19:30 [info]  Click on 'Save' button
+Mar 09,2015 23:19:33 [info]  Pass
+Mar 09,2015 23:19:33 [info]  Search Added resident
+Mar 09,2015 23:19:37 [info]  Pass
+Mar 09,2015 23:19:37 [info]  Verify added resident
+Mar 09,2015 23:19:41 [info]  Pass
+Mar 09,2015 23:19:41 [info]  Open resident Profile
+Mar 09,2015 23:19:44 [info]  Pass
+Mar 09,2015 23:19:47 [info]  Click on Medication button
+Mar 09,2015 23:19:51 [info]  Pass
+Mar 09,2015 23:19:51 [info]  Click on Add Medication button
+Mar 09,2015 23:20:06 [info]  Pass
+Mar 09,2015 23:20:06 [info]  Enter Medicine Name
+Mar 09,2015 23:20:19 [info]  Pass
+Mar 09,2015 23:20:19 [info]  Enter Dosage
+Mar 09,2015 23:20:22 [info]  Pass
+Mar 09,2015 23:20:22 [info]  Enter instruction
+Mar 09,2015 23:20:26 [info]  Pass
+Mar 09,2015 23:20:26 [info]  Open 'Calender'
+Mar 09,2015 23:20:30 [info]  Pass
+Mar 09,2015 23:20:33 [info]  Select date
+Mar 09,2015 23:20:36 [info]  Pass
+Mar 09,2015 23:20:36 [info]  Select time
+Mar 09,2015 23:20:37 [info]  Pass
+Mar 09,2015 23:20:37 [info]  Select AM/PM
+Mar 09,2015 23:20:38 [info]  Pass
+Mar 09,2015 23:20:38 [info]  Click on Add Schedule button
+Mar 09,2015 23:20:42 [info]  Pass
+Mar 09,2015 23:20:42 [info]  Verify Added Schedule
+Mar 09,2015 23:20:42 [info]  Pass
+Mar 09,2015 23:20:42 [info]  Click on Save button
+Mar 09,2015 23:21:00 [info]  Pass
+Mar 09,2015 23:21:00 [info]  Verify Title
+Mar 09,2015 23:21:05 [info]  Pass
+Mar 09,2015 23:21:15 [info]  Open Medication page
+Mar 09,2015 23:21:29 [info]  Pass
+Mar 09,2015 23:21:29 [info]  Click on EMR Tab
+Mar 09,2015 23:21:32 [info]  Pass
+Mar 09,2015 23:21:32 [info]  Click on All Meds Tab
+Mar 09,2015 23:21:51 [info]  Pass
+Mar 09,2015 23:21:54 [info]  Click on Admin Button dropdown
+Mar 09,2015 23:21:57 [info]  Pass
+Mar 09,2015 23:21:57 [info]  Click on reading
+Mar 09,2015 23:22:03 [info]  Pass
+Mar 09,2015 23:22:06 [info]  Verify Date field is populated
+Mar 09,2015 23:22:06 [info]  Pass
+Mar 09,2015 23:22:06 [info]  Verify Time field is populated
+Mar 09,2015 23:22:06 [info]  Pass
+Mar 09,2015 23:22:06 [info]  Verify current Date is populated in field
+Mar 09,2015 23:22:06 [info]  Pass
+Mar 09,2015 23:22:07 [info]  Verify current time is populated in field
+Mar 09,2015 23:22:07 [info]  Pass
+Mar 09,2015 23:22:07 [info]  Click on Date field
+Mar 09,2015 23:22:07 [info]  Pass
+Mar 09,2015 23:22:10 [info]  Verify calender opens
+Mar 09,2015 23:22:10 [info]  Pass
+Mar 09,2015 23:22:10 [info]  Click on Time picker
+Mar 09,2015 23:22:14 [info]  Pass
+Mar 09,2015 23:22:14 [info]  VVerify Time window displayed
+Mar 09,2015 23:22:14 [info]  Pass
+Mar 09,2015 23:22:23 [info]  Open resident profile
+Mar 09,2015 23:22:39 [info]  Pass
+Mar 09,2015 23:22:39 [info]  End Execution of Test Class com.iCM.scripts.EMRAdminLate
+*****************************************************************************
+
+*****************************************************************************
+Mar 09,2015 23:37:23 [info]   Execution Started of Test Class com.iCM.scripts.AddEditMedicationSchedule and Test method testAddEditMedicationSchedule
+*****************************************************************************
+Mar 09,2015 23:37:23 [info]  Open application url
+Mar 09,2015 23:37:38 [info]  Pass
+Mar 09,2015 23:37:38 [info]  Verify Page title
+Mar 09,2015 23:37:43 [info]  Pass
+Mar 09,2015 23:37:43 [info]  Enter User name at login page.
+Mar 09,2015 23:37:45 [info]  Pass
+Mar 09,2015 23:37:45 [info]  Enter password at login page.
+Mar 09,2015 23:37:45 [info]  Pass
+Mar 09,2015 23:37:45 [info]  Click on Sign In button
+Mar 09,2015 23:38:02 [info]  Pass
+Mar 09,2015 23:38:02 [info]  Verify home page title
+Mar 09,2015 23:38:07 [info]  Pass
+Mar 09,2015 23:38:07 [info]  Open Add resident form via deep link

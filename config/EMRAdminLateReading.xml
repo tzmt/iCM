@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="5" verbose="1" name="EMR Admin Late Reading"
+	annotations="JDK">
+	<test name="EMRAdminLateReading" junit="false"
+		preserve-order="true">
+		<classes>
+			<class name="com.iCM.scripts.EMRAdminLateReading" />			
+		</classes>		
+	</test>
+</suite> 

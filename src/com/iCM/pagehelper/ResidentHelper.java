@@ -56,6 +56,7 @@ public class ResidentHelper extends DriverHelper
 		Calendar cal = Calendar.getInstance(); 
 		int date = cal.get(Calendar.DAY_OF_MONTH);
 		String newValue = obj+date;
+		System.out.println(newValue);
 		clickOn(newValue);
 		waitForWorkAroundTime(500);
 		
@@ -84,7 +85,6 @@ public class ResidentHelper extends DriverHelper
 		String obj = residentLocator.getLocator(month);
 		selectDropDown(obj, value);
 		waitForWorkAroundTime(500);
-		
 	}
 
 	public void selectFacality(String facality)

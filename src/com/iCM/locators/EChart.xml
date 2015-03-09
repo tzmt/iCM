@@ -70,6 +70,8 @@
 	
 	<Frequency><![CDATA[//*[@id='uniform-ChkOtherDays']/span]]></Frequency>
   	<FrequencyDrpdwn><![CDATA[//*[@id='ddlOtherDay']]]></FrequencyDrpdwn>
+  	
+  	<DayOfMonth><![CDATA[//*[@id='uniform-ChkMonthDays']/span]]></DayOfMonth>
   </AddMedication>
   
   <Admin>

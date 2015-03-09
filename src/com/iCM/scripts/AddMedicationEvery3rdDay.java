@@ -270,7 +270,7 @@ public class AddMedicationEvery3rdDay extends DriverTestCase
 				ExecutionLog.Log("Click on EMR Tab");
 				echartHelper.click("AddMedication.EMRTab");
 				ExecutionLog.Log("Pass");
-				
+
 				//Click on 'Morning' tab
 				ExecutionLog.Log("Click on 'Morning' tab");
 				echartHelper.click("AddMedication.MorningTab");

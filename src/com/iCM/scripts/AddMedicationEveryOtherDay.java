@@ -294,11 +294,11 @@ public class AddMedicationEveryOtherDay extends DriverTestCase
 				echartHelper.verifyBlackOutOtherDay("Every Other Day");
 				ExecutionLog.Log("Pass");
 				
-		//		visit("Resident/Discharge?ResidentId="+id);
+				visit("Resident/Discharge?ResidentId="+id);
 				
 				//Click on 'Discharge' button
 				ExecutionLog.Log("Open resident profile");
-		//		residentHelper.click("AddResident.DischargeButton");
+				residentHelper.click("AddResident.DischargeButton");
 				ExecutionLog.Log("Pass");		
 			
 		}
