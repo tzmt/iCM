@@ -169,6 +169,9 @@ public class NotesToMedicine extends DriverTestCase
 				ExecutionLog.Log("Open resident Profile");
 				residentHelper.click("AddResident.ResidentName");
 				ExecutionLog.Log("Pass");
+
+				//wait
+				residentHelper.waitForWorkAroundTime(3000);
 				
 				//Get User ID
 				String id = echartHelper.getID();

@@ -158,7 +158,7 @@ public class EMRHelper extends DriverHelper
 
 	public void verifyDateTime(String Field, String Text)
 	{
-		String value,newMin ="";
+		String value,newMin,value1,newMin1 ="";
 		TimeZone tz = TimeZone.getTimeZone("GMT-5:00");
 		Calendar c = Calendar.getInstance(tz);
 		String locator = emrLocator.getLocator(Field);
@@ -189,11 +189,20 @@ public class EMRHelper extends DriverHelper
 			{
 				newMin = String.valueOf(c.get(Calendar.MINUTE));
 			}
-		
+			if(c.get(Calendar.MINUTE)+1<10)
+			{
+				newMin1 = "0"+c.get(Calendar.MINUTE)+1;
+			}
+			else
+			{
+				newMin1 = String.valueOf(c.get(Calendar.MINUTE)+1);
+			}
 			value = c.get(Calendar.HOUR)+":"+newMin+AMPM;
+			value1 = c.get(Calendar.HOUR)+":"+newMin1+AMPM;
 			System.out.println("Time in Field : "+getText(locator));
 			System.out.println("Time BY CODE : "+value);
-			Assert.assertTrue(getText(locator).contains(value));
+			System.out.println("Time BY CODE1 : "+value1);
+			Assert.assertTrue(getText(locator).contains(value)||getText(locator).contains(value1));
 		}	
 	}
 

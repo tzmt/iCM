@@ -90,11 +90,6 @@ public class GenerateEMRReport extends DriverTestCase
 			ExecutionLog.Log("Click on 'Generate Now'");
 			echartHelper.performAction("AddMedication.PrintMAR");
 			ExecutionLog.Log("Pass");
-			
-			//Verify Resident Name
-			ExecutionLog.Log("Click on 'Generate Now'");
-			echartHelper.verifyResi("AddMedication.ResiNamePop", ResiName);
-			ExecutionLog.Log("Pass");
 		}
 
 		catch (Error e) {

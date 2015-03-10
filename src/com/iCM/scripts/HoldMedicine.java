@@ -170,6 +170,9 @@ public class HoldMedicine extends DriverTestCase
 				residentHelper.click("AddResident.ResidentName");
 				ExecutionLog.Log("Pass");
 				
+				//wait
+				residentHelper.waitForWorkAroundTime(3000);
+				
 				//Get User ID
 				String id = echartHelper.getID();
 				System.out.println("Id return by method"+id);

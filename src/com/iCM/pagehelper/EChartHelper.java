@@ -381,7 +381,7 @@ public class EChartHelper extends DriverHelper
 					i=i+14;
 				}	
 				flag=true;
-			}while(i<count);
+			}while(i<=count);
 			System.out.println("i ="+i);
 			i=i-count;
 			
@@ -436,16 +436,16 @@ public class EChartHelper extends DriverHelper
 		day[2]=10;
 		day[3]=15;
 		day[4]=20;
-		for(int i=0;i<2;i++)
+		for(int i=1;i<=2;i++)
 		{
-			for(int j=0;i<day.length;j++)
+			for(int j=0;j<day.length;j++)
 			{
 				int k=day[j]+2;
 				String locator="//*[@id='administeredlogtbl']/tbody/tr[1]/td["+k+"]";
 				String atr=getAttribute(locator, "style");
-				Assert.assertTrue(atr.contains(("background-color: rgb(242, 242, 242)")));
-				selectNextMonth(i);
+				Assert.assertTrue(atr.contains(("background-color: rgb(23, 21, 21)")));
 			}
+			selectNextMonth(i);
 		}
 	}
 	
@@ -458,8 +458,9 @@ public class EChartHelper extends DriverHelper
 		select("ScheduleMonth",currentMonth.getTime().toString().substring(4,7));
 		selectNextDate("1");
 		click("AddMedication.Jump");
-		waitForWorkAroundTime(2000);
+		waitForWorkAroundTime(3000);
 		click("AddMedication.MorningTab");
+		waitForWorkAroundTime(2000);
 		click("AddMedication.ExpendMorn");
 	}
 	

@@ -12,7 +12,7 @@ import com.iCM.util.ExecutionLog;
 public class EMRAdministerMonthlyViewOrange extends DriverTestCase
 {	
 	@Test
-	public void testEMRAdministerMonthlyViewGreen() throws Exception
+	public void testEMRAdministerMonthlyViewOrange() throws Exception
 	{			
 		//Initialize objects
 		eMRHelper = new EMRHelper(getWebDriver());		
@@ -73,7 +73,7 @@ public class EMRAdministerMonthlyViewOrange extends DriverTestCase
 			
 			//Click on Resident Refused
 			ExecutionLog.Log("Click on ReResident Refused");
-			eMRHelper.clickOnFirst("Admin.AdminDropdown", "AdminOmission", "Admin.AdminReading","Admin.ResidentRefused");
+			eMRHelper.clickOnFirst("Admin.AdminDropdown", "Admin.EMROmission", "Admin.AdminReading","Admin.EMRRefused");
 			ExecutionLog.Log("Pass");
 			
 			eMRHelper.waitForWorkAroundTime(5000);
@@ -133,13 +133,13 @@ public class EMRAdministerMonthlyViewOrange extends DriverTestCase
 		}
 		catch (Error e) 
 		{
-			captureScreenshot("testEMRAdministerMonthlyViewGreen");	
+			captureScreenshot("testEMRAdministerMonthlyViewOrange");	
 			ExecutionLog.LogErrorMessage(e);			
 			throw e;
 		} 
 		catch(Exception e) 
 		{
-			captureScreenshot("testEMRAdministerMonthlyViewGreen");
+			captureScreenshot("testEMRAdministerMonthlyViewOrange");
 			ExecutionLog.LogExceptionMessage(e);			
 			throw e;
 		}		

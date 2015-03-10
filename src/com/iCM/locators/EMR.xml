@@ -47,8 +47,7 @@
   	<ToField><![CDATA[//*[@id='ToDateHold']]]></ToField>
   	<Month><![CDATA[//div[@class='ui-datepicker-title']/select[1]]]></Month>
   	<Date><![CDATA[link=]]></Date>
-  	<HoldResult><![CDATA[//td[@class='All']/div/div/div[2]/div/div[2]/small/strong]]></HoldResult>
-  	
+  	<HoldResult><![CDATA[//td[@class='All']/div/div/div[2]/div[2]/small/strong]]></HoldResult>
   	<Physically><![CDATA[//td[@class='All']/div/div/div[2]/div/ul/li[4]/ul/li[3]/a]]></Physically>
   	<PhysicallyDate><![CDATA[//*[@id='OmissionDiv']/div[2]/div/span[1]]]></PhysicallyDate>
   	<PhysicallyTime><![CDATA[//*[@id='OmissionDiv']/div[2]/div/span[3]]]></PhysicallyTime>

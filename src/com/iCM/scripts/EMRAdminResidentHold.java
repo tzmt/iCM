@@ -171,6 +171,9 @@ public class EMRAdminResidentHold extends DriverTestCase
 				residentHelper.click("AddResident.ResidentName");
 				ExecutionLog.Log("Pass");
 				
+				//wait
+				residentHelper.waitForWorkAroundTime(3000);
+				
 				//Get User ID
 				String id = echartHelper.getID();
 				System.out.println("Id return by method"+id);
@@ -331,6 +334,9 @@ public class EMRAdminResidentHold extends DriverTestCase
 				eMRHelper.verifyItemText("Admin.Omitted","Omitted");
 				ExecutionLog.Log("Pass");
 				
+				//Wait
+				eMRHelper.waitForWorkAroundTime(3000);
+					
 				//Verify result displayed
 				ExecutionLog.Log("Verify result displayed");
 				eMRHelper.verifyItemText("Admin.HoldResult","Hold");

@@ -171,6 +171,9 @@ public class AddMedicationDayOfMonth extends DriverTestCase
 				residentHelper.click("AddResident.ResidentName");
 				ExecutionLog.Log("Pass");
 				
+				//wait
+				residentHelper.waitForWorkAroundTime(3000);
+				
 				//Get User ID
 				String id = echartHelper.getID();
 				System.out.println("Id return by method"+id);
@@ -266,9 +269,6 @@ public class AddMedicationDayOfMonth extends DriverTestCase
 				visit("Medication/List/"+id);
 				ExecutionLog.Log("Pass");
 				
-				//getWebDriver().navigate().to("http://65.98.29.34:8087/Medication/List/2594");
-				//echartHelper.waitForWorkAroundTime(3000);
-				
 				//Click on 'EMR' Tab
 				ExecutionLog.Log("Click on EMR Tab");
 				echartHelper.click("AddMedication.EMRTab");
@@ -294,11 +294,11 @@ public class AddMedicationDayOfMonth extends DriverTestCase
 				echartHelper.verifyDays();
 				ExecutionLog.Log("Pass");
 				
-		//		visit("Resident/Discharge?ResidentId="+id);
+				visit("Resident/Discharge?ResidentId="+id);
 				
 				//Click on 'Discharge' button
 				ExecutionLog.Log("Open resident profile");
-		//		residentHelper.click("AddResident.DischargeButton");
+				residentHelper.click("AddResident.DischargeButton");
 				ExecutionLog.Log("Pass");		
 			
 		}
