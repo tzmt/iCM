@@ -60,11 +60,6 @@ public class GenerateEMRReport extends DriverTestCase
 			echartHelper.click("EChart.Resident");
 			ExecutionLog.Log("Pass");
 			
-			//Get Resident Name
-			ExecutionLog.Log("Get Resident Name");
-			String ResiName = echartHelper.getName("AddMedication.ResiName");
-			ExecutionLog.Log("Pass");
-			
 			//Click on 'Medication'.
 			ExecutionLog.Log("Click on Medication button");
 			echartHelper.click("EChart.Medication");
@@ -92,12 +87,14 @@ public class GenerateEMRReport extends DriverTestCase
 			ExecutionLog.Log("Pass");
 		}
 
-		catch (Error e) {
+		catch (Error e) 
+		{
 			captureScreenshot("testGenerateEMRReport");	
 			ExecutionLog.LogErrorMessage(e);			
 			throw e;
 		} 
-		catch(Exception e) {
+		catch(Exception e) 
+		{
 			captureScreenshot("testGenerateEMRReport");
 			ExecutionLog.LogExceptionMessage(e);			
 			throw e;

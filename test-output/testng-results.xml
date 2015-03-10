@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="66486" started-at="2015-03-10T17:28:20Z" finished-at="2015-03-10T17:29:27Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="66486" started-at="2015-03-10T17:28:20Z" finished-at="2015-03-10T17:29:27Z">
+      <class name="com.iCM.scripts.EMRAdminResidentHoldRecordUpdated">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.iCM.scripts.EMRAdminResidentHoldRecordUpdated@1a52fbd]" name="setUp" is-config="true" duration-ms="15058" started-at="2015-03-10T22:58:05Z" finished-at="2015-03-10T22:58:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testEMRAdminResidentHoldRecordUpdated()[pri:0, instance:com.iCM.scripts.EMRAdminResidentHoldRecordUpdated@1a52fbd]" name="testEMRAdminResidentHoldRecordUpdated" duration-ms="66445" started-at="2015-03-10T22:58:20Z" finished-at="2015-03-10T22:59:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEMRAdminResidentHoldRecordUpdated -->
+        <test-method status="PASS" signature="endMethods()[pri:0, instance:com.iCM.scripts.EMRAdminResidentHoldRecordUpdated@1a52fbd]" name="endMethods" is-config="true" duration-ms="11" started-at="2015-03-10T22:59:27Z" finished-at="2015-03-10T22:59:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endMethods -->
+        <test-method status="PASS" signature="afterMainMethod()[pri:0, instance:com.iCM.scripts.EMRAdminResidentHoldRecordUpdated@1a52fbd]" name="afterMainMethod" is-config="true" duration-ms="984" started-at="2015-03-10T22:59:27Z" finished-at="2015-03-10T22:59:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMainMethod -->
+      </class> <!-- com.iCM.scripts.EMRAdminResidentHoldRecordUpdated -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

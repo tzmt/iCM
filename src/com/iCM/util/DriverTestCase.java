@@ -49,7 +49,6 @@ import com.iCM.pagehelper.EChartHelper;
 import com.iCM.pagehelper.EMRHelper;
 import com.iCM.pagehelper.LoginHelper;
 import com.iCM.pagehelper.ResidentHelper;
-import com.thoughtworks.selenium.Selenium;
 
 
 public abstract class DriverTestCase 
@@ -60,7 +59,6 @@ public abstract class DriverTestCase
 
 	//Define objects
 	private WebDriver driver;
-	private Selenium selenium;
 	protected LoginHelper loginHelper;
 	protected ResidentHelper residentHelper;
 	protected EChartHelper echartHelper;
@@ -134,10 +132,6 @@ public abstract class DriverTestCase
 		return driver;
 	}
 
-	public Selenium getSelenium()
-	{		
-		return selenium;		
-	}
 
 	//Open application URL
 	public void openUrl(String url){

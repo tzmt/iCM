@@ -14,12 +14,10 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
 
-import com.thoughtworks.selenium.Selenium;
 
 public abstract class DriverHelper {
 	// Define objects
 	protected WebDriver driver;
-	private Selenium selenium;
 	//private Object a;
 	protected String entrRate = "";
 	protected String entrNam = "";
@@ -57,10 +55,6 @@ public abstract class DriverHelper {
 		return driver;
 	}
 
-	// Return selenium object
-	public Selenium getSelenium() {
-		return selenium;
-	}
 
 	// Print message on screen
 	public void Log(String logMsg) {

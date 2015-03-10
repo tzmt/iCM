@@ -25,10 +25,14 @@
   	<Heading><![CDATA[//*[@id='MedicationForm']/div[1]/h3]]></Heading>
   	<RecordType><![CDATA[//*[@id='ReadingType']]]></RecordType>
   	<BloodSuger><![CDATA[//*[@id='BloodSugar']]]></BloodSuger>
+  	<Insulin><![CDATA[//*[@id='InsulinUnits']]]></Insulin>
   	<AdminNow><![CDATA[//*[@id='sbmBtn']]]></AdminNow>
   	
   	<AdminisText><![CDATA[//div[@class='control-label']/div/button/b[2]]]></AdminisText>
   	<AdminisUndo><![CDATA[//div[@class='control-label']/div/a]]></AdminisUndo>
+  	
+  	<OmmisionTab><![CDATA[//div[@class='tabbable']/ul/li[2]/a]]></OmmisionTab>
+  	<ToFromField><![CDATA[//table[@id='datableOmissions']/tbody/tr[1]/td[2]]]></ToFromField>
   	
   	<MAR><![CDATA[//*[@id='all']/table[1]/thead/tr/td[3]/a[1]]]></MAR>
   	<VerifyMAR><![CDATA[//*[@id='printEMAR']]]></VerifyMAR>

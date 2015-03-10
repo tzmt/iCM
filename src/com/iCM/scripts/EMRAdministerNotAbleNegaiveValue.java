@@ -9,10 +9,10 @@ import com.iCM.pagehelper.LoginHelper;
 import com.iCM.util.DriverTestCase;
 import com.iCM.util.ExecutionLog;
 
-public class EMRAdministerMonthlyViewOrange extends DriverTestCase
+public class EMRAdministerNotAbleNegaiveValue extends DriverTestCase
 {	
 	@Test
-	public void testEMRAdministerMonthlyViewOrange() throws Exception
+	public void testEMRAdministerNotAbleNegaiveValue() throws Exception
 	{			
 		//Initialize objects
 		eMRHelper = new EMRHelper(getWebDriver());		
@@ -67,61 +67,47 @@ public class EMRAdministerMonthlyViewOrange extends DriverTestCase
 			eMRHelper.click("Admin.AllTab");
 			ExecutionLog.Log("Pass");
 			
-			ExecutionLog.Log("Click on Admin Button dropdown");
-			eMRHelper.click("Admin.AdminDropdown");
+			//Click on Administer button
+			ExecutionLog.Log("Click on Administer button");
+			eMRHelper.click("Admin.AdminButton");
 			ExecutionLog.Log("Pass");
-			
-			//Click on Resident Refused
-			ExecutionLog.Log("Click on ReResident Refused");
-			eMRHelper.clickOnFirst("Admin.AdminDropdown", "Admin.EMROmission", "Admin.AdminReading","Admin.EMRRefused");
-			ExecutionLog.Log("Pass");
-			
-			eMRHelper.waitForWorkAroundTime(5000);
 
-			//Enter Result
-			ExecutionLog.Log("Enter Result");
-			eMRHelper.type("Admin.ResultRefused","Feeling Better");
-			ExecutionLog.Log("Pass");
-			
-			//Click on Save button
-			ExecutionLog.Log("Click on Save button");
-			eMRHelper.click("Admin.SaveRefused");
-			ExecutionLog.Log("Pass");
-			
-			//Click on Ok button
-			ExecutionLog.Log("Click on Save button");
-			eMRHelper.click("Admin.OkRefused");
-			ExecutionLog.Log("Pass");
-			
-			//Verify Omitted displayed
-			ExecutionLog.Log("Verify Omitted displayed");
-			eMRHelper.verifyItemText("Admin.Omitted","Omitted");
-			ExecutionLog.Log("Pass");
-			
-			//Verify Colour
-			ExecutionLog.Log("Verify user initials in Orange color");
-			eMRHelper.verifyColor("Admin.AdminButton","Orange");
-			ExecutionLog.Log("Pass");
-			
 			//Wait
 			eMRHelper.waitForWorkAroundTime(3000);
 			
-			//Click on Expend button
-			ExecutionLog.Log("Click onExpend button button");
-			eMRHelper.click("Admin.Expend");
+			//Verify OverLayPresent
+			eMRHelper.verifyOverlay();
+			
+			//Enter Blood suger
+			ExecutionLog.Log("Enter Blood Suger");
+			eMRHelper.type("Admin.BloodSuger","100");
 			ExecutionLog.Log("Pass");
 			
-			//Wait
+			//Enter negative value in insulin
+			ExecutionLog.Log("Enter -ve value in insulin");
+			eMRHelper.type("Admin.Insulin","-100");
+			ExecutionLog.Log("Pass");
+			
+			//User is not able to give -negative value 
+			ExecutionLog.Log("User is not able to give -negative value");
+			eMRHelper.verifyNotNegative("Admin.Insulin","-");
+			ExecutionLog.Log("Pass");
+			
+			//Click on 'Administer now' button
+			ExecutionLog.Log("Click on 'Administer now' button");
+			eMRHelper.click("AdminNow");
+			ExecutionLog.Log("Pass");
+			
+			//Click on ok button
+			ExecutionLog.Log("Click on 'Ok' button");
+			eMRHelper.click("AdminOk");
+			ExecutionLog.Log("Pass");
+			
 			eMRHelper.waitForWorkAroundTime(3000);
 			
-			//User is able to see the monthly view
-			ExecutionLog.Log("User is able to see the monthly view");
-			eMRHelper.verifyItem("Admin.VerifyAK");
-			ExecutionLog.Log("Pass");
-			
-			//Verify Record Updated
-			ExecutionLog.Log("User is able to see the monthly view");
-			eMRHelper.verifyRecordUpdate("Admin.VerifyAK");
+			//Verify User is able to Administered
+			ExecutionLog.Log("Verify User is able to Administered");
+			eMRHelper.verifyFieldText("Admin.AdminisText","Administered");
 			ExecutionLog.Log("Pass");
 			
 			//Click on Undo button
@@ -133,13 +119,13 @@ public class EMRAdministerMonthlyViewOrange extends DriverTestCase
 		}
 		catch (Error e) 
 		{
-			captureScreenshot("testEMRAdministerMonthlyViewOrange");	
+			captureScreenshot("testEMRAdministerNotAbleNegaiveValue");	
 			ExecutionLog.LogErrorMessage(e);			
 			throw e;
 		} 
 		catch(Exception e) 
 		{
-			captureScreenshot("testEMRAdministerMonthlyViewOrange");
+			captureScreenshot("testEMRAdministerNotAbleNegaiveValue");
 			ExecutionLog.LogExceptionMessage(e);			
 			throw e;
 		}		

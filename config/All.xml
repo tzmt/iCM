@@ -20,6 +20,7 @@
 		<suite-file path="EMRAdministerMAR.xml"></suite-file>
 		<suite-file path="EMRAdministerMonthlyViewGreen.xml"></suite-file>
 		<suite-file path="EMRAdministerMonthlyViewOrange.xml"></suite-file>
+		<suite-file path="EMRAdministerNotAbleNegaiveValue.xml"></suite-file>
 		<suite-file path="EMRAdministerUndo.xml"></suite-file>
 		<suite-file path="EMRAdminLate.xml"></suite-file>
 		<suite-file path="EMRAdminLateReading.xml"></suite-file>

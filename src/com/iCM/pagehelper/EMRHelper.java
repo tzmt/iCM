@@ -240,6 +240,7 @@ public class EMRHelper extends DriverHelper
 		String locator2 = emrLocator.getLocator(Field3);
 		getWebDriver().findElement(ByLocator(locator2)).sendKeys(Key.TAB);
 		String locator3 = emrLocator.getLocator(Field4);
+		waitForWorkAroundTime(2000);
 		getWebDriver().findElement(ByLocator(locator3)).sendKeys(Key.ENTER);
 	}
 
@@ -304,5 +305,24 @@ public class EMRHelper extends DriverHelper
 		verifyItem(Field);
 		waitForWorkAroundTime(3000);
 		
+	}
+
+	public void verifyNotNegative(String Field, String Value) 
+	{
+		String locator = emrLocator.getLocator(Field);
+		Assert.assertFalse(getText(locator).contains("-"));
+		
+	}
+
+	public void verifyToForm(String Field) 
+	{
+		String locator = emrLocator.getLocator(Field);
+		Calendar c = Calendar.getInstance();
+		int newMon = c.get(Calendar.MONTH)+1;
+	 	String TodayDate ="From: "+newMon+"/"+c.get(Calendar.DATE)+"/"+c.get(Calendar.YEAR)+"\nat 12:00 AM";
+		String lastDate = "To: 9/03/2015\nat 12:00 AM";
+		WaitForElementPresent(locator, 20);
+		Assert.assertTrue(getText(locator).contains(TodayDate));
+		Assert.assertTrue(getText(locator).contains(lastDate));
 	}
 }

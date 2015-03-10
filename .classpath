@@ -7,9 +7,9 @@
 	<classpathentry kind="lib" path="lib/jaxen-1.1.3.jar"/>
 	<classpathentry kind="lib" path="lib/mail.jar"/>
 	<classpathentry kind="lib" path="lib/reportng-1.1.2.jar"/>
-	<classpathentry kind="lib" path="lib/selenium-server-standalone-2.41.0.jar"/>
 	<classpathentry kind="lib" path="lib/sikuli-script.jar"/>
 	<classpathentry kind="lib" path="lib/testng-5.14.1.jar"/>
 	<classpathentry kind="lib" path="lib/velocity-dep-1.4.jar"/>
+	<classpathentry kind="lib" path="E:/TestOrigen_Automation/Eclipse/AutomationiCM/AutomationiCM/lib/selenium-server-standalone-2.44.0.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
