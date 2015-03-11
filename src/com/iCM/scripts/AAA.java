@@ -55,7 +55,7 @@ public class AAA
 			value1 = c.get(Calendar.HOUR)+":"+newMin1+AMPM;
 			System.out.println(value);
 			System.out.println(value1);
-		*/
+		
 			//3/10/2015 at 12:00 AM To: 3/19/2015 at 12:00 AM
 		 	Calendar c = Calendar.getInstance();
 		 	int newMon = c.get(Calendar.MONTH)+1;
@@ -63,7 +63,11 @@ public class AAA
 			String lastDate = "\nTo: 9/03/2015\nat 12:AM";
 			String Text = TodayDate+lastDate; 
 			System.out.println(Text);
-			
+		*/
+		 Random rnd = new Random();
+		 String one = String.valueOf(rnd.nextInt(100000)+1);
+		 System.out.println(one+one);
+		 
 			
 	}
 }

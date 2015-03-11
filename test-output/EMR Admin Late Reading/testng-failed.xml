@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [EMR Admin Late Reading]">
+  <test name="EMRAdminLateReading(failed)">
+    <classes>
+      <class name="com.iCM.scripts.EMRAdminLateReading">
+        <methods>
+          <include name="afterMainMethod"/>
+          <include name="testEMRAdminLateReading"/>
+          <include name="setUp"/>
+          <include name="endMethods"/>
+        </methods>
+      </class> <!-- com.iCM.scripts.EMRAdminLateReading -->
+    </classes>
+  </test> <!-- EMRAdminLateReading(failed) -->
+</suite> <!-- Failed suite [EMR Admin Late Reading] -->

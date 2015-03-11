@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Add Medication Every 14th Day]">
+  <test name="AddMedicationEvery14thDay(failed)">
+    <classes>
+      <class name="com.iCM.scripts.AddMedicationEvery14thDay">
+        <methods>
+          <include name="afterMainMethod"/>
+          <include name="setUp"/>
+          <include name="endMethods"/>
+          <include name="testAddMedicationEvery14thDay"/>
+        </methods>
+      </class> <!-- com.iCM.scripts.AddMedicationEvery14thDay -->
+    </classes>
+  </test> <!-- AddMedicationEvery14thDay(failed) -->
+</suite> <!-- Failed suite [Add Medication Every 14th Day] -->

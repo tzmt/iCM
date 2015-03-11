@@ -60,11 +60,6 @@ public class EChartAddMedication extends DriverTestCase
 			echartHelper.click("EChart.Resident");
 			ExecutionLog.Log("Pass");
 			
-			//Verify 'EChart' title
-			ExecutionLog.Log("Verify 'EChart' Page title");
-			echartHelper.verifyTitle("eChart");
-			ExecutionLog.Log("Pass");
-			
 			//Click on 'Medication'.
 			ExecutionLog.Log("Click on Medication button");
 			echartHelper.click("EChart.Medication");

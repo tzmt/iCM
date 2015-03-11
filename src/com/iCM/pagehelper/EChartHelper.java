@@ -342,10 +342,10 @@ public class EChartHelper extends DriverHelper
 		Calendar cal = Calendar.getInstance();
 		int date = cal.get(Calendar.DAY_OF_MONTH);
 		String locatorCount = "//*[@id='administeredlogtbl']/thead/tr[3]/td";
-		count = getXpathCount(locatorCount);
 		i=date;
 		for(int j=1;j<=2;j++)
 		{
+			count = getXpathCount(locatorCount);
 			do
 			{	
 				int k=i+2;
@@ -382,15 +382,13 @@ public class EChartHelper extends DriverHelper
 				}	
 				flag=true;
 			}while(i<=count);
-			System.out.println("i ="+i);
 			i=i-count;
-			
 			Assert.assertTrue(flag);
-			selectNext(j,date,locatorCount,count);
+			selectNext(j,date,locatorCount);
 		}
 	}
 	
-	public void selectNext(int j,int date,String locator,int count)
+	public void selectNext(int j,int date,String locator)
 	{
 		Calendar currentMonth = Calendar.getInstance();
 		click("AddMedication.ScheduleDate");
@@ -401,6 +399,7 @@ public class EChartHelper extends DriverHelper
 		click("AddMedication.Jump");
 		waitForWorkAroundTime(2000);
 		click("AddMedication.MorningTab");
+		waitForWorkAroundTime(2000);
 		click("AddMedication.ExpendMorn");
 		count = getXpathCount(locator);
 	}

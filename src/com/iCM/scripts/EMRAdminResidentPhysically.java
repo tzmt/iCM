@@ -266,7 +266,7 @@ public class EMRAdminResidentPhysically extends DriverTestCase
 				ExecutionLog.Log("Click on EMR Tab");
 				echartHelper.click("AddMedication.EMRTab");
 				ExecutionLog.Log("Pass");
-				
+
 				//Click on All Meds Tab
 				ExecutionLog.Log("Click on All Meds Tab");
 				echartHelper.click("AddMedication.AllTab");

@@ -3,14 +3,14 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.iCM.scripts.EMRAdminResidentHoldRecordUpdated">
+      <class name="com.iCM.scripts.EMRAdminResidentPhysically">
         <methods>
-          <include name="endMethods"/>
+          <include name="testEMRAdminResidentHold"/>
           <include name="afterMainMethod"/>
-          <include name="testEMRAdminResidentHoldRecordUpdated"/>
+          <include name="endMethods"/>
           <include name="setUp"/>
         </methods>
-      </class> <!-- com.iCM.scripts.EMRAdminResidentHoldRecordUpdated -->
+      </class> <!-- com.iCM.scripts.EMRAdminResidentPhysically -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
