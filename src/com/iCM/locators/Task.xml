@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Locators>
+  <LocationTab><![CDATA[//*[@id='sidebar-tabs']/li[4]/a]]></LocationTab>
+  <StaffTaskTab><![CDATA[//div[@class='box span12']/div[1]/a[1]]]></StaffTaskTab>
+  <AddTaskButton><![CDATA[//*[@id='content']/div[2]/a]]></AddTaskButton>
+  <TaskSearch><![CDATA[//*[@id='DataTables_Table_0_filter']/label/input]]></TaskSearch>
+  <TaskTitle><![CDATA[//*[@id='Title']]]></TaskTitle>
+  <TaskDescription><![CDATA[//*[@id='Description']]]></TaskDescription>
+  <StaffField><![CDATA[//*[@id='ddl_Staff_chzn']/ul/li/input]]></StaffField>
+  <SelectStaff><![CDATA[//*[@id='ddl_Staff_chzn_o_0']]]></SelectStaff>
+  <DueDateCalender><![CDATA[//*[@id='DueDate']]]></DueDateCalender>
+  <DueYear><![CDATA[//div[@class='ui-datepicker-title']/select[2]]]></DueYear>
+  <DueDate><![CDATA[link=]]></DueDate>
+  <StatusDropdown><![CDATA[//*[@id='ddl_Status_chzn']/a/div/b]]></StatusDropdown>
+  <StatusDrpNew><![CDATA[//*[@id='ddl_Status_chzn_o_1']]]></StatusDrpNew>
+  <StatusDrpIn><![CDATA[//*[@id='ddl_Status_chzn_o_2']]]></StatusDrpIn>
+  <StatusDrpCom><![CDATA[//*[@id='ddl_Status_chzn_o_3']]]></StatusDrpCom>
+  <TaskSave><![CDATA[//div[@class='form-actions']/button]]></TaskSave>
+  <VerifyTask><![CDATA[//*[@id='DataTables_Table_0']/tbody/tr/td[1]]]></VerifyTask>
+  <VerifyStatus><![CDATA[//*[@id='DataTables_Table_0']/tbody/tr/td[5]/span]]></VerifyStatus>
+  <TaskView><![CDATA[//td[@class='center ']/a[1]]]></TaskView>
+  <TaskVerify><![CDATA[//div[@class='form-horizontal']/div[2]/div[2]]]></TaskVerify>
+  <TaskEdit><![CDATA[//div[@class='form-actions']/a[1]]]></TaskEdit>
+  <TaskDelete><![CDATA[//td[@class='center ']/a[2]]]></TaskDelete>
+  
+</Locators>

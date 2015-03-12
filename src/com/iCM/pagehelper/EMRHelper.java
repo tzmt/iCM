@@ -210,8 +210,7 @@ public class EMRHelper extends DriverHelper
 	{
 		String locator = emrLocator.getLocator(Field);
 		WaitForElementPresent(locator, 20);
-		Assert.assertTrue(getText(locator).equalsIgnoreCase(Text));
-		
+		Assert.assertTrue(getText(locator).equalsIgnoreCase(Text));	
 	}
 
 	public void verifyOverlay() 

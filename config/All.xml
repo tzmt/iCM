@@ -12,11 +12,15 @@
 		<suite-file path="AddMedicationEvery7thDay.xml"></suite-file>
 		<suite-file path="AddMedicationEveryOtherDay.xml"></suite-file>
 		<suite-file path="AddResident.xml"></suite-file>
+		<suite-file path="AddTask.xml"></suite-file>
+		<suite-file path="AddTaskWithComplete.xml"></suite-file>
+		<suite-file path="AddTaskWithInProgress.xml"></suite-file>
 		<suite-file path="AdministrationSchedule.xml"></suite-file>
 		<suite-file path="DCMedication.xml"></suite-file>
 		<suite-file path="EChart.xml"></suite-file>
 		<suite-file path="EChartAddMedication.xml"></suite-file>
 		<suite-file path="EChartMedication.xml"></suite-file>
+		<suite-file path="EditTask.xml"></suite-file>
 		<suite-file path="EMRAdministerMAR.xml"></suite-file>
 		<suite-file path="EMRAdministerMonthlyViewGreen.xml"></suite-file>
 		<suite-file path="EMRAdministerMonthlyViewOrange.xml"></suite-file>

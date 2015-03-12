@@ -171,7 +171,7 @@ public class NotesToMedicine extends DriverTestCase
 				ExecutionLog.Log("Pass");
 
 				//wait
-				residentHelper.waitForWorkAroundTime(3000);
+				residentHelper.waitForWorkAroundTime(4000);
 				
 				//Get User ID
 				String id = echartHelper.getID();
