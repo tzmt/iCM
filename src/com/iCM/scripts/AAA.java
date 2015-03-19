@@ -20,7 +20,7 @@ public class AAA
 		
 		
 		 String AMPM,newMin,newMin1="";
-		/* 
+		
 		TimeZone tz = TimeZone.getTimeZone("GMT-4:01");
 		Calendar c = Calendar.getInstance(tz);
 		System.out.println(c.get(java.util.Calendar.HOUR_OF_DAY)+":"+c.get(java.util.Calendar.MINUTE)+":"+c.get(java.util.Calendar.SECOND)+"="+c.get(Calendar.DATE));
@@ -56,17 +56,6 @@ public class AAA
 			System.out.println(value);
 			System.out.println(value1);
 		
-			//3/10/2015 at 12:00 AM To: 3/19/2015 at 12:00 AM
-		 	Calendar c = Calendar.getInstance();
-		 	int newMon = c.get(Calendar.MONTH)+1;
-		 	String TodayDate ="From: "+newMon+"/"+c.get(Calendar.DATE)+"/"+c.get(Calendar.YEAR)+"\nat 12:00 AM";
-			String lastDate = "\nTo: 9/03/2015\nat 12:AM";
-			String Text = TodayDate+lastDate; 
-			System.out.println(Text);
-		*/
-		 Random rnd = new Random();
-		 String one = String.valueOf(rnd.nextInt(100000)+1);
-		 System.out.println(one+one);
 		 
 			
 	}

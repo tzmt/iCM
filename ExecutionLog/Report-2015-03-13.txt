@@ -1,0 +1,2848 @@
+
+*****************************************************************************
+Mar 13,2015 11:49:38 [info]   Execution Started of Test Class com.iCM.scripts.AddEditMedicationSchedule and Test method testAddEditMedicationSchedule
+*****************************************************************************
+Mar 13,2015 11:49:39 [info]  Open application url
+Mar 13,2015 11:49:58 [info]  Pass
+Mar 13,2015 11:49:58 [info]  Verify Page title
+Mar 13,2015 11:50:03 [info]  Pass
+Mar 13,2015 11:50:03 [info]  Enter User name at login page.
+Mar 13,2015 11:50:04 [info]  Pass
+Mar 13,2015 11:50:04 [info]  Enter password at login page.
+Mar 13,2015 11:50:05 [info]  Pass
+Mar 13,2015 11:50:05 [info]  Click on Sign In button
+Mar 13,2015 11:50:25 [info]  Pass
+Mar 13,2015 11:50:25 [info]  Verify home page title
+Mar 13,2015 11:50:30 [info]  Pass
+Mar 13,2015 11:50:30 [info]  Open Add resident form via deep link
+Mar 13,2015 11:50:42 [info]  Pass
+Mar 13,2015 11:50:42 [info]  Enter Resident First Name
+Mar 13,2015 11:50:46 [info]  Pass
+Mar 13,2015 11:50:46 [info]  Enter Middle name
+Mar 13,2015 11:50:49 [info]  Pass
+Mar 13,2015 11:50:49 [info]  Enter last name
+Mar 13,2015 11:50:52 [info]  Pass
+Mar 13,2015 11:50:52 [info]  Open 'Calender'
+Mar 13,2015 11:50:54 [info]  Pass
+Mar 13,2015 11:50:59 [info]  Select Year
+Mar 13,2015 11:51:05 [info]  Pass
+Mar 13,2015 11:51:08 [info]  Select date
+Mar 13,2015 11:51:11 [info]  Pass
+Mar 13,2015 11:51:11 [info]  Select gender
+Mar 13,2015 11:51:12 [info]  Pass
+Mar 13,2015 11:51:12 [info]  Select Marital Status
+Mar 13,2015 11:51:14 [info]  Pass
+Mar 13,2015 11:51:14 [info]  Open 'Calender' for admit date
+Mar 13,2015 11:51:15 [info]  Pass
+Mar 13,2015 11:51:18 [info]  Select Year
+Mar 13,2015 11:51:25 [info]  Pass
+Mar 13,2015 11:51:25 [info]  Select Month
+Mar 13,2015 11:51:26 [info]  Pass
+Mar 13,2015 11:51:26 [info]  Select date
+Mar 13,2015 11:51:28 [info]  Pass
+Mar 13,2015 11:51:28 [info]  Select Facality
+Mar 13,2015 11:51:30 [info]  Pass
+Mar 13,2015 11:51:33 [info]  Select Nurse
+Mar 13,2015 11:51:34 [info]  Pass
+Mar 13,2015 11:51:34 [info]  Enter level of care
+Mar 13,2015 11:51:37 [info]  Pass
+Mar 13,2015 11:51:37 [info]  Click on 'Save' button
+Mar 13,2015 11:51:41 [info]  Pass
+Mar 13,2015 11:51:41 [info]  Search Added resident
+Mar 13,2015 11:51:49 [info]  Pass
+Mar 13,2015 11:51:49 [info]  Verify added resident
+Mar 13,2015 11:51:52 [info]  Pass
+Mar 13,2015 11:51:52 [info]  Open resident Profile
+Mar 13,2015 11:51:56 [info]  Pass
+Mar 13,2015 11:52:02 [info]  Click on Medication button
+Mar 13,2015 11:52:06 [info]  Pass
+Mar 13,2015 11:52:06 [info]  Click on Add Medication button
+Mar 13,2015 11:52:21 [info]  Pass
+Mar 13,2015 11:52:21 [info]  Enter Medicine Name
+Mar 13,2015 11:52:33 [info]  Pass
+Mar 13,2015 11:52:33 [info]  Enter Dosage
+Mar 13,2015 11:52:37 [info]  Pass
+Mar 13,2015 11:52:37 [info]  Enter instruction
+Mar 13,2015 11:52:41 [info]  Pass
+Mar 13,2015 11:52:41 [info]  Open 'Calender'
+Mar 13,2015 11:52:45 [info]  Pass
+Mar 13,2015 11:52:48 [info]  Select date
+Mar 13,2015 11:52:51 [info]  Pass
+Mar 13,2015 11:52:51 [info]  Select time
+Mar 13,2015 11:52:53 [info]  Pass
+Mar 13,2015 11:52:53 [info]  Select AM/PM
+Mar 13,2015 11:52:53 [info]  Pass
+Mar 13,2015 11:52:53 [info]  Click on Add Schedule button
+Mar 13,2015 11:52:57 [info]  Pass
+Mar 13,2015 11:52:57 [info]  Verify Added Schedule
+Mar 13,2015 11:52:57 [info]  Pass
+Mar 13,2015 11:52:57 [info]  Select time
+Mar 13,2015 11:52:58 [info]  Pass
+Mar 13,2015 11:52:58 [info]  Select AM/PM
+Mar 13,2015 11:53:00 [info]  Pass
+Mar 13,2015 11:53:00 [info]  Click on Add Schedule button
+Mar 13,2015 11:53:03 [info]  Pass
+Mar 13,2015 11:53:03 [info]  Verify Added Schedule
+Mar 13,2015 11:53:04 [info]  Pass
+Mar 13,2015 11:53:04 [info]  Select time
+Mar 13,2015 11:53:05 [info]  Pass
+Mar 13,2015 11:53:05 [info]  Select AM/PM
+Mar 13,2015 11:53:06 [info]  Pass
+Mar 13,2015 11:53:06 [info]  Click on Add Schedule button
+Mar 13,2015 11:53:10 [info]  Pass
+Mar 13,2015 11:53:10 [info]  Verify Added Schedule
+Mar 13,2015 11:53:10 [info]  Pass
+Mar 13,2015 11:53:10 [info]  Click on Save button
+Mar 13,2015 11:53:28 [info]  Pass
+Mar 13,2015 11:53:43 [info]  Open Medication page
+Mar 13,2015 11:53:54 [info]  Pass
+Mar 13,2015 11:53:54 [info]  Click on EMR Tab
+Mar 13,2015 11:53:58 [info]  Pass
+Mar 13,2015 11:53:58 [info]  Click on 'Morning' tab
+Mar 13,2015 11:54:14 [info]  Pass
+Mar 13,2015 11:54:14 [info]  Click on 'Expend' button
+Mar 13,2015 11:54:17 [info]  Pass
+Mar 13,2015 11:54:17 [info]  Verify Added Schedule
+Mar 13,2015 11:54:18 [info]  Pass
+Mar 13,2015 11:54:18 [info]  Click on Expend button
+Mar 13,2015 11:54:22 [info]  Pass
+Mar 13,2015 11:54:22 [info]  Verify Starting Blackout
+Mar 13,2015 11:54:27 [info]  Pass
+Mar 13,2015 11:54:27 [info]  Click on 'Noon' tab
+Mar 13,2015 11:54:31 [info]  Pass
+Mar 13,2015 11:54:31 [info]  Verify Added Schedule
+Mar 13,2015 11:54:33 [info]  Pass
+Mar 13,2015 11:54:33 [info]  Click on Expend button
+Mar 13,2015 11:54:37 [info]  Pass
+Mar 13,2015 11:54:37 [info]  Verify Starting Blackout
+Mar 13,2015 11:54:42 [info]  Pass
+Mar 13,2015 11:54:42 [info]  Click on 'Evening' tab
+Mar 13,2015 11:54:45 [info]  Pass
+Mar 13,2015 11:54:45 [info]  Verify Added Schedule
+Mar 13,2015 11:54:48 [info]  Pass
+Mar 13,2015 11:54:48 [info]  Click on Expend button
+Mar 13,2015 11:54:51 [info]  Pass
+Mar 13,2015 11:54:51 [info]  Verify Starting Blackout
+Mar 13,2015 11:54:57 [info]  Pass
+Mar 13,2015 11:54:57 [info]  Open Medication page
+Mar 13,2015 11:55:11 [info]  Pass
+Mar 13,2015 11:55:11 [info]  Click on View button
+Mar 13,2015 11:55:15 [info]  Pass
+Mar 13,2015 11:55:15 [info]  Click on Edit button
+Mar 13,2015 11:55:28 [info]  Pass
+Mar 13,2015 11:55:33 [info]  Remove scheduled time
+Mar 13,2015 11:55:48 [info]  Pass
+Mar 13,2015 11:55:48 [info]  Uncheck Sunday
+Mar 13,2015 11:55:49 [info]  Pass
+Mar 13,2015 11:55:49 [info]  Uncheck Wednesday
+Mar 13,2015 11:55:50 [info]  Pass
+Mar 13,2015 11:55:50 [info]  Click on 'Scheduled Calender'
+Mar 13,2015 11:55:54 [info]  Pass
+Mar 13,2015 11:55:59 [info]  Select Date'
+Mar 13,2015 11:56:05 [info]  Pass
+Mar 13,2015 11:56:05 [info]  Select time
+Mar 13,2015 11:56:06 [info]  Pass
+Mar 13,2015 11:56:06 [info]  Select AM/PM
+Mar 13,2015 11:56:07 [info]  Pass
+Mar 13,2015 11:56:07 [info]  Click on Add Schedule button
+Mar 13,2015 11:56:11 [info]  Pass
+Mar 13,2015 11:56:11 [info]  Select time
+Mar 13,2015 11:56:12 [info]  Pass
+Mar 13,2015 11:56:12 [info]  Select AM/PM
+Mar 13,2015 11:56:14 [info]  Pass
+Mar 13,2015 11:56:14 [info]  Click on Add Schedule button
+Mar 13,2015 11:56:17 [info]  Pass
+Mar 13,2015 11:56:17 [info]  Select time
+Mar 13,2015 11:56:19 [info]  Pass
+Mar 13,2015 11:56:19 [info]  Select AM/PM
+Mar 13,2015 11:56:20 [info]  Pass
+Mar 13,2015 11:56:20 [info]  Click on Add Schedule button
+Mar 13,2015 11:56:24 [info]  Pass
+Mar 13,2015 11:56:24 [info]  Click on Save button
+Mar 13,2015 11:56:40 [info]  Pass
+Mar 13,2015 11:56:40 [info]  Open Medication page
+Mar 13,2015 11:56:52 [info]  Pass
+Mar 13,2015 11:56:54 [info]  Click on EMR Tab
+Mar 13,2015 11:56:58 [info]  Pass
+Mar 13,2015 11:56:58 [info]  Click on 'Morning' tab
+Mar 13,2015 11:57:13 [info]  Pass
+Mar 13,2015 11:57:13 [info]  Verify Added Schedule
+Mar 13,2015 11:57:13 [info]  Pass
+Mar 13,2015 11:57:13 [info]  Click on Expend button
+Mar 13,2015 11:57:17 [info]  Pass
+Mar 13,2015 11:57:17 [info]  Verify New Scheduled Blackout
+Mar 13,2015 11:57:24 [info]  Pass
+Mar 13,2015 11:57:49 [info]  Open resident profile
+Mar 13,2015 11:58:10 [info]  Pass
+Mar 13,2015 11:58:10 [info]  End Execution of Test Class com.iCM.scripts.AddEditMedicationSchedule
+*****************************************************************************
+
+*****************************************************************************
+Mar 13,2015 11:58:23 [info]   Execution Started of Test Class com.iCM.scripts.AddMedicationDayOfMonth and Test method testAddMedicationDayOfMonth
+*****************************************************************************
+Mar 13,2015 11:58:23 [info]  Open application url
+Mar 13,2015 11:58:44 [info]  Pass
+Mar 13,2015 11:58:44 [info]  Verify Page title
+Mar 13,2015 11:58:49 [info]  Pass
+Mar 13,2015 11:58:49 [info]  Enter User name at login page.
+Mar 13,2015 11:58:49 [info]  Pass
+Mar 13,2015 11:58:49 [info]  Enter password at login page.
+Mar 13,2015 11:58:50 [info]  Pass
+Mar 13,2015 11:58:50 [info]  Click on Sign In button
+Mar 13,2015 11:59:24 [info]  Pass
+Mar 13,2015 11:59:24 [info]  Verify home page title
+Mar 13,2015 11:59:30 [info]  Pass
+Mar 13,2015 11:59:30 [info]  Open Add resident form via deep link
+Mar 13,2015 11:59:45 [info]  Pass
+Mar 13,2015 11:59:45 [info]  Enter Resident First Name
+Mar 13,2015 11:59:48 [info]  Pass
+Mar 13,2015 11:59:48 [info]  Enter Middle name
+Mar 13,2015 11:59:52 [info]  Pass
+Mar 13,2015 11:59:52 [info]  Enter last name
+Mar 13,2015 11:59:55 [info]  Pass
+Mar 13,2015 11:59:55 [info]  Open 'Calender'
+Mar 13,2015 11:59:56 [info]  Pass
+Mar 13,2015 12:00:01 [info]  Select Year
+Mar 13,2015 12:00:08 [info]  Pass
+Mar 13,2015 12:00:11 [info]  Select date
+Mar 13,2015 12:00:13 [info]  Pass
+Mar 13,2015 12:00:13 [info]  Select gender
+Mar 13,2015 12:00:15 [info]  Pass
+Mar 13,2015 12:00:15 [info]  Select Marital Status
+Mar 13,2015 12:00:16 [info]  Pass
+Mar 13,2015 12:00:16 [info]  Open 'Calender' for admit date
+Mar 13,2015 12:00:18 [info]  Pass
+Mar 13,2015 12:00:21 [info]  Select Year
+Mar 13,2015 12:00:27 [info]  Pass
+Mar 13,2015 12:00:27 [info]  Select Month
+Mar 13,2015 12:00:28 [info]  Pass
+Mar 13,2015 12:00:28 [info]  Select date
+Mar 13,2015 12:00:31 [info]  Pass
+Mar 13,2015 12:00:31 [info]  Select Facality
+Mar 13,2015 12:00:32 [info]  Pass
+Mar 13,2015 12:00:35 [info]  Select Nurse
+Mar 13,2015 12:00:37 [info]  Pass
+Mar 13,2015 12:00:37 [info]  Enter level of care
+Mar 13,2015 12:00:40 [info]  Pass
+Mar 13,2015 12:00:40 [info]  Click on 'Save' button
+Mar 13,2015 12:00:43 [info]  Pass
+Mar 13,2015 12:00:43 [info]  Search Added resident
+Mar 13,2015 12:00:53 [info]  Pass
+Mar 13,2015 12:00:53 [info]  Verify added resident
+Mar 13,2015 12:00:56 [info]  Pass
+Mar 13,2015 12:00:56 [info]  Open resident Profile
+Mar 13,2015 12:01:00 [info]  Pass
+Mar 13,2015 12:01:06 [info]  Click on Medication button
+Mar 13,2015 12:01:09 [info]  Pass
+Mar 13,2015 12:01:09 [info]  Click on Add Medication button
+Mar 13,2015 12:01:22 [info]  Pass
+Mar 13,2015 12:01:22 [info]  Enter Medicine Name
+Mar 13,2015 12:01:32 [info]  Pass
+Mar 13,2015 12:01:32 [info]  Enter Dosage
+Mar 13,2015 12:01:35 [info]  Pass
+Mar 13,2015 12:01:35 [info]  Enter instruction
+Mar 13,2015 12:01:39 [info]  Pass
+Mar 13,2015 12:01:39 [info]  Open 'Calender'
+Mar 13,2015 12:01:43 [info]  Pass
+Mar 13,2015 12:01:46 [info]  Select date
+Mar 13,2015 12:01:49 [info]  Pass
+Mar 13,2015 12:01:49 [info]  Select Frequency
+Mar 13,2015 12:01:53 [info]  Pass
+Mar 13,2015 12:01:53 [info]  Select Frequency
+Mar 13,2015 12:01:57 [info]  Pass
+Mar 13,2015 12:01:57 [info]  Select Days of month
+Mar 13,2015 12:01:59 [info]  Pass
+Mar 13,2015 12:01:59 [info]  Select time
+Mar 13,2015 12:02:00 [info]  Pass
+Mar 13,2015 12:02:00 [info]  Select AM/PM
+Mar 13,2015 12:02:01 [info]  Pass
+Mar 13,2015 12:02:01 [info]  Click on Add Schedule button
+Mar 13,2015 12:02:04 [info]  Pass
+Mar 13,2015 12:02:04 [info]  Verify Added Schedule
+Mar 13,2015 12:02:05 [info]  Pass
+Mar 13,2015 12:02:05 [info]  Click on Save button
+Mar 13,2015 12:02:19 [info]  Pass
+Mar 13,2015 12:02:35 [info]  Open Medication page
+Mar 13,2015 12:02:48 [info]  Pass
+Mar 13,2015 12:02:48 [info]  Click on EMR Tab
+Mar 13,2015 12:02:52 [info]  Pass
+Mar 13,2015 12:02:52 [info]  Click on 'Morning' tab
+Mar 13,2015 12:03:03 [info]  Pass
+Mar 13,2015 12:03:03 [info]  Verify Added Schedule
+Mar 13,2015 12:03:04 [info]  Pass
+Mar 13,2015 12:03:04 [info]  Click on Expend button
+Mar 13,2015 12:03:07 [info]  Pass
+Mar 13,2015 12:03:07 [info]  Verify Starting Blackout
+Mar 13,2015 12:04:46 [info]  Pass
+Mar 13,2015 12:04:57 [info]  Open resident profile
+Mar 13,2015 12:05:13 [info]  Pass
+Mar 13,2015 12:05:13 [info]  End Execution of Test Class com.iCM.scripts.AddMedicationDayOfMonth
+*****************************************************************************
+
+*****************************************************************************
+Mar 13,2015 12:05:28 [info]   Execution Started of Test Class com.iCM.scripts.AddMedicationEvery10thDay and Test method testAddMedicationEvery10thDay
+*****************************************************************************
+Mar 13,2015 12:05:28 [info]  Open application url
+Mar 13,2015 12:05:48 [info]  Pass
+Mar 13,2015 12:05:48 [info]  Verify Page title
+Mar 13,2015 12:05:53 [info]  Pass
+Mar 13,2015 12:05:53 [info]  Enter User name at login page.
+Mar 13,2015 12:05:54 [info]  Pass
+Mar 13,2015 12:05:54 [info]  Enter password at login page.
+Mar 13,2015 12:05:55 [info]  Pass
+Mar 13,2015 12:05:55 [info]  Click on Sign In button
+Mar 13,2015 12:06:19 [info]  Pass
+Mar 13,2015 12:06:19 [info]  Verify home page title
+Mar 13,2015 12:06:24 [info]  Pass
+Mar 13,2015 12:06:24 [info]  Open Add resident form via deep link
+Mar 13,2015 12:06:32 [info]  Pass
+Mar 13,2015 12:06:32 [info]  Enter Resident First Name
+Mar 13,2015 12:06:35 [info]  Pass
+Mar 13,2015 12:06:35 [info]  Enter Middle name
+Mar 13,2015 12:06:39 [info]  Pass
+Mar 13,2015 12:06:39 [info]  Enter last name
+Mar 13,2015 12:06:42 [info]  Pass
+Mar 13,2015 12:06:42 [info]  Open 'Calender'
+Mar 13,2015 12:06:44 [info]  Pass
+Mar 13,2015 12:06:49 [info]  Select Year
+Mar 13,2015 12:06:55 [info]  Pass
+Mar 13,2015 12:06:58 [info]  Select date
+Mar 13,2015 12:07:01 [info]  Pass
+Mar 13,2015 12:07:01 [info]  Select gender
+Mar 13,2015 12:07:02 [info]  Pass
+Mar 13,2015 12:07:02 [info]  Select Marital Status
+Mar 13,2015 12:07:03 [info]  Pass
+Mar 13,2015 12:07:03 [info]  Open 'Calender' for admit date
+Mar 13,2015 12:07:05 [info]  Pass
+Mar 13,2015 12:07:08 [info]  Select Year
+Mar 13,2015 12:07:14 [info]  Pass
+Mar 13,2015 12:07:14 [info]  Select Month
+Mar 13,2015 12:07:16 [info]  Pass
+Mar 13,2015 12:07:16 [info]  Select date
+Mar 13,2015 12:07:18 [info]  Pass
+Mar 13,2015 12:07:18 [info]  Select Facality
+Mar 13,2015 12:07:19 [info]  Pass
+Mar 13,2015 12:07:22 [info]  Select Nurse
+Mar 13,2015 12:07:24 [info]  Pass
+Mar 13,2015 12:07:24 [info]  Enter level of care
+Mar 13,2015 12:07:27 [info]  Pass
+Mar 13,2015 12:07:27 [info]  Click on 'Save' button
+Mar 13,2015 12:07:31 [info]  Pass
+Mar 13,2015 12:07:31 [info]  Search Added resident
+Mar 13,2015 12:07:41 [info]  Pass
+Mar 13,2015 12:07:41 [info]  Verify added resident
+Mar 13,2015 12:07:45 [info]  Pass
+Mar 13,2015 12:07:45 [info]  Open resident Profile
+Mar 13,2015 12:07:48 [info]  Pass
+Mar 13,2015 12:07:54 [info]  Click on Medication button
+Mar 13,2015 12:07:58 [info]  Pass
+Mar 13,2015 12:07:58 [info]  Click on Add Medication button
+Mar 13,2015 12:08:13 [info]  Pass
+Mar 13,2015 12:08:13 [info]  Enter Medicine Name
+Mar 13,2015 12:08:25 [info]  Pass
+Mar 13,2015 12:08:25 [info]  Enter Dosage
+Mar 13,2015 12:08:29 [info]  Pass
+Mar 13,2015 12:08:29 [info]  Enter instruction
+Mar 13,2015 12:08:32 [info]  Pass
+Mar 13,2015 12:08:32 [info]  Open 'Calender'
+Mar 13,2015 12:08:36 [info]  Pass
+Mar 13,2015 12:08:39 [info]  Select date
+Mar 13,2015 12:08:43 [info]  Pass
+Mar 13,2015 12:08:43 [info]  Select Frequency
+Mar 13,2015 12:08:46 [info]  Pass
+Mar 13,2015 12:08:46 [info]  Select Frequency
+Mar 13,2015 12:08:50 [info]  Pass
+Mar 13,2015 12:08:50 [info]  Select Other day option
+Mar 13,2015 12:08:51 [info]  Pass
+Mar 13,2015 12:08:51 [info]  Select time
+Mar 13,2015 12:08:52 [info]  Pass
+Mar 13,2015 12:08:52 [info]  Select AM/PM
+Mar 13,2015 12:08:53 [info]  Pass
+Mar 13,2015 12:08:53 [info]  Click on Add Schedule button
+Mar 13,2015 12:08:57 [info]  Pass
+Mar 13,2015 12:08:57 [info]  Verify Added Schedule
+Mar 13,2015 12:08:57 [info]  Pass
+Mar 13,2015 12:08:57 [info]  Click on Save button
+Mar 13,2015 12:09:14 [info]  Pass
+Mar 13,2015 12:09:30 [info]  Open Medication page
+Mar 13,2015 12:09:41 [info]  Pass
+Mar 13,2015 12:09:41 [info]  Click on EMR Tab
+Mar 13,2015 12:09:44 [info]  Pass
+Mar 13,2015 12:09:44 [info]  Click on 'Morning' tab
+Mar 13,2015 12:10:02 [info]  Pass
+Mar 13,2015 12:10:02 [info]  Verify Added Schedule
+Mar 13,2015 12:10:02 [info]  Pass
+Mar 13,2015 12:10:02 [info]  Click on Expend button
+Mar 13,2015 12:10:06 [info]  Pass
+Mar 13,2015 12:10:06 [info]  Verify Starting Blackout
+Mar 13,2015 12:11:44 [info]  Pass
+Mar 13,2015 12:11:54 [info]  Open resident profile
+Mar 13,2015 12:12:10 [info]  Pass
+Mar 13,2015 12:12:10 [info]  End Execution of Test Class com.iCM.scripts.AddMedicationEvery10thDay
+*****************************************************************************
+
+*****************************************************************************
+Mar 13,2015 12:12:23 [info]   Execution Started of Test Class com.iCM.scripts.AddMedicationEvery14thDay and Test method testAddMedicationEvery14thDay
+*****************************************************************************
+Mar 13,2015 12:12:23 [info]  Open application url
+Mar 13,2015 12:12:42 [info]  Pass
+Mar 13,2015 12:12:42 [info]  Verify Page title
+Mar 13,2015 12:12:47 [info]  Pass
+Mar 13,2015 12:12:47 [info]  Enter User name at login page.
+Mar 13,2015 12:12:48 [info]  Pass
+Mar 13,2015 12:12:48 [info]  Enter password at login page.
+Mar 13,2015 12:12:49 [info]  Pass
+Mar 13,2015 12:12:49 [info]  Click on Sign In button
+Mar 13,2015 12:13:16 [info]  Pass
+Mar 13,2015 12:13:16 [info]  Verify home page title
+Mar 13,2015 12:13:21 [info]  Pass
+Mar 13,2015 12:13:21 [info]  Open Add resident form via deep link
+Mar 13,2015 12:13:33 [info]  Pass
+Mar 13,2015 12:13:33 [info]  Enter Resident First Name
+Mar 13,2015 12:13:36 [info]  Pass
+Mar 13,2015 12:13:36 [info]  Enter Middle name
+Mar 13,2015 12:13:40 [info]  Pass
+Mar 13,2015 12:13:40 [info]  Enter last name
+Mar 13,2015 12:13:43 [info]  Pass
+Mar 13,2015 12:13:43 [info]  Open 'Calender'
+Mar 13,2015 12:13:44 [info]  Pass
+Mar 13,2015 12:13:50 [info]  Select Year
+Mar 13,2015 12:13:56 [info]  Pass
+Mar 13,2015 12:13:59 [info]  Select date
+Mar 13,2015 12:14:01 [info]  Pass
+Mar 13,2015 12:14:01 [info]  Select gender
+Mar 13,2015 12:14:03 [info]  Pass
+Mar 13,2015 12:14:03 [info]  Select Marital Status
+Mar 13,2015 12:14:04 [info]  Pass
+Mar 13,2015 12:14:04 [info]  Open 'Calender' for admit date
+Mar 13,2015 12:14:06 [info]  Pass
+Mar 13,2015 12:14:09 [info]  Select Year
+Mar 13,2015 12:14:15 [info]  Pass
+Mar 13,2015 12:14:15 [info]  Select Month
+Mar 13,2015 12:14:17 [info]  Pass
+Mar 13,2015 12:14:17 [info]  Select date
+Mar 13,2015 12:14:19 [info]  Pass
+Mar 13,2015 12:14:19 [info]  Select Facality
+Mar 13,2015 12:14:21 [info]  Pass
+Mar 13,2015 12:14:24 [info]  Select Nurse
+Mar 13,2015 12:14:25 [info]  Pass
+Mar 13,2015 12:14:25 [info]  Enter level of care
+Mar 13,2015 12:14:28 [info]  Pass
+Mar 13,2015 12:14:28 [info]  Click on 'Save' button
+Mar 13,2015 12:14:32 [info]  Pass
+Mar 13,2015 12:14:32 [info]  Search Added resident
+Mar 13,2015 12:14:47 [info]  Pass
+Mar 13,2015 12:14:47 [info]  Verify added resident
+Mar 13,2015 12:14:50 [info]  Pass
+Mar 13,2015 12:14:50 [info]  Open resident Profile
+Mar 13,2015 12:14:53 [info]  Pass
+Mar 13,2015 12:14:59 [info]  Click on Medication button
+Mar 13,2015 12:15:03 [info]  Pass
+Mar 13,2015 12:15:03 [info]  Click on Add Medication button
+Mar 13,2015 12:15:25 [info]  Pass
+Mar 13,2015 12:15:25 [info]  Enter Medicine Name
+Mar 13,2015 12:15:41 [info]  Pass
+Mar 13,2015 12:15:41 [info]  Enter Dosage
+Mar 13,2015 12:15:44 [info]  Pass
+Mar 13,2015 12:15:44 [info]  Enter instruction
+Mar 13,2015 12:15:48 [info]  Pass
+Mar 13,2015 12:15:48 [info]  Open 'Calender'
+Mar 13,2015 12:15:52 [info]  Pass
+Mar 13,2015 12:15:55 [info]  Select date
+Mar 13,2015 12:15:58 [info]  Pass
+Mar 13,2015 12:15:58 [info]  Select Frequency
+Mar 13,2015 12:16:02 [info]  Pass
+Mar 13,2015 12:16:02 [info]  Select Frequency
+Mar 13,2015 12:16:06 [info]  Pass
+Mar 13,2015 12:16:06 [info]  Select Other day option
+Mar 13,2015 12:16:07 [info]  Pass
+Mar 13,2015 12:16:07 [info]  Select time
+Mar 13,2015 12:16:08 [info]  Pass
+Mar 13,2015 12:16:08 [info]  Select AM/PM
+Mar 13,2015 12:16:09 [info]  Pass
+Mar 13,2015 12:16:09 [info]  Click on Add Schedule button
+Mar 13,2015 12:16:13 [info]  Pass
+Mar 13,2015 12:16:13 [info]  Verify Added Schedule
+Mar 13,2015 12:16:13 [info]  Pass
+Mar 13,2015 12:16:13 [info]  Click on Save button
+Mar 13,2015 12:16:31 [info]  Pass
+Mar 13,2015 12:16:47 [info]  Open Medication page
+Mar 13,2015 12:16:59 [info]  Pass
+Mar 13,2015 12:16:59 [info]  Click on EMR Tab
+Mar 13,2015 12:17:03 [info]  Pass
+Mar 13,2015 12:17:03 [info]  Click on 'Morning' tab
+Mar 13,2015 12:17:19 [info]  Pass
+Mar 13,2015 12:17:19 [info]  Verify Added Schedule
+Mar 13,2015 12:17:19 [info]  Pass
+Mar 13,2015 12:17:19 [info]  Click on Expend button
+Mar 13,2015 12:17:23 [info]  Pass
+Mar 13,2015 12:17:23 [info]  Verify Starting Blackout
+Mar 13,2015 12:19:16 [info]  Pass
+Mar 13,2015 12:19:42 [info]  Open resident profile
+Mar 13,2015 12:20:14 [info]  Pass
+Mar 13,2015 12:20:14 [info]  End Execution of Test Class com.iCM.scripts.AddMedicationEvery14thDay
+*****************************************************************************
+
+*****************************************************************************
+Mar 13,2015 12:20:26 [info]   Execution Started of Test Class com.iCM.scripts.AddMedicationEvery3rdDay and Test method testAddMedicationEvery3rdDay
+*****************************************************************************
+Mar 13,2015 12:20:26 [info]  Open application url
+Mar 13,2015 12:20:57 [info]  Pass
+Mar 13,2015 12:20:57 [info]  Verify Page title
+Mar 13,2015 12:21:02 [info]  Pass
+Mar 13,2015 12:21:02 [info]  Enter User name at login page.
+Mar 13,2015 12:21:02 [info]  Pass
+Mar 13,2015 12:21:02 [info]  Enter password at login page.
+Mar 13,2015 12:21:03 [info]  Pass
+Mar 13,2015 12:21:03 [info]  Click on Sign In button
+Mar 13,2015 12:21:35 [info]  Pass
+Mar 13,2015 12:21:35 [info]  Verify home page title
+Mar 13,2015 12:21:40 [info]  Pass
+Mar 13,2015 12:21:40 [info]  Open Add resident form via deep link
+Mar 13,2015 12:21:52 [info]  Pass
+Mar 13,2015 12:21:52 [info]  Enter Resident First Name
+Mar 13,2015 12:21:56 [info]  Pass
+Mar 13,2015 12:21:56 [info]  Enter Middle name
+Mar 13,2015 12:21:59 [info]  Pass
+Mar 13,2015 12:21:59 [info]  Enter last name
+Mar 13,2015 12:22:02 [info]  Pass
+Mar 13,2015 12:22:02 [info]  Open 'Calender'
+Mar 13,2015 12:22:04 [info]  Pass
+Mar 13,2015 12:22:09 [info]  Select Year
+Mar 13,2015 12:22:15 [info]  Pass
+Mar 13,2015 12:22:18 [info]  Select date
+Mar 13,2015 12:22:21 [info]  Pass
+Mar 13,2015 12:22:21 [info]  Select gender
+Mar 13,2015 12:22:23 [info]  Pass
+Mar 13,2015 12:22:23 [info]  Select Marital Status
+Mar 13,2015 12:22:24 [info]  Pass
+Mar 13,2015 12:22:24 [info]  Open 'Calender' for admit date
+Mar 13,2015 12:22:26 [info]  Pass
+Mar 13,2015 12:22:29 [info]  Select Year
+Mar 13,2015 12:22:35 [info]  Pass
+Mar 13,2015 12:22:35 [info]  Select Month
+Mar 13,2015 12:22:36 [info]  Pass
+Mar 13,2015 12:22:36 [info]  Select date
+Mar 13,2015 12:22:39 [info]  Pass
+Mar 13,2015 12:22:39 [info]  Select Facality
+Mar 13,2015 12:22:40 [info]  Pass
+Mar 13,2015 12:22:43 [info]  Select Nurse
+Mar 13,2015 12:22:45 [info]  Pass
+Mar 13,2015 12:22:45 [info]  Enter level of care
+Mar 13,2015 12:22:48 [info]  Pass
+Mar 13,2015 12:22:48 [info]  Click on 'Save' button
+Mar 13,2015 12:22:52 [info]  Pass
+Mar 13,2015 12:22:52 [info]  Search Added resident
+Mar 13,2015 12:23:26 [info]  Pass
+Mar 13,2015 12:23:26 [info]  Verify added resident
+Mar 13,2015 12:23:30 [info]  Pass
+Mar 13,2015 12:23:30 [info]  Open resident Profile
+Mar 13,2015 12:23:33 [info]  Pass
+Mar 13,2015 12:23:39 [info]  Click on Medication button
+Mar 13,2015 12:23:43 [info]  Pass
+Mar 13,2015 12:23:43 [info]  Click on Add Medication button
+Mar 13,2015 12:23:57 [info]  Pass
+Mar 13,2015 12:23:57 [info]  Enter Medicine Name
+Mar 13,2015 12:24:19 [info]  Pass
+Mar 13,2015 12:24:19 [info]  Enter Dosage
+Mar 13,2015 12:24:22 [info]  Pass
+Mar 13,2015 12:24:22 [info]  Enter instruction
+Mar 13,2015 12:24:26 [info]  Pass
+Mar 13,2015 12:24:26 [info]  Open 'Calender'
+Mar 13,2015 12:24:30 [info]  Pass
+Mar 13,2015 12:24:33 [info]  Select date
+Mar 13,2015 12:24:36 [info]  Pass
+Mar 13,2015 12:24:36 [info]  Select Frequency
+Mar 13,2015 12:24:40 [info]  Pass
+Mar 13,2015 12:24:40 [info]  Select Frequency
+Mar 13,2015 12:24:43 [info]  Pass
+Mar 13,2015 12:24:43 [info]  Select Other day option
+Mar 13,2015 12:24:45 [info]  Pass
+Mar 13,2015 12:24:45 [info]  Select time
+Mar 13,2015 12:24:46 [info]  Pass
+Mar 13,2015 12:24:46 [info]  Select AM/PM
+Mar 13,2015 12:24:47 [info]  Pass
+Mar 13,2015 12:24:47 [info]  Click on Add Schedule button
+Mar 13,2015 12:24:50 [info]  Pass
+Mar 13,2015 12:24:50 [info]  Verify Added Schedule
+Mar 13,2015 12:24:51 [info]  Pass
+Mar 13,2015 12:24:51 [info]  Click on Save button
+Mar 13,2015 12:25:06 [info]  Pass
+Mar 13,2015 12:25:21 [info]  Open Medication page
+Mar 13,2015 12:25:34 [info]  Pass
+Mar 13,2015 12:25:34 [info]  Click on EMR Tab
+Mar 13,2015 12:25:37 [info]  Pass
+Mar 13,2015 12:25:37 [info]  Click on 'Morning' tab
+Mar 13,2015 12:26:00 [info]  Pass
+Mar 13,2015 12:26:00 [info]  Verify Added Schedule
+Mar 13,2015 12:26:00 [info]  Pass
+Mar 13,2015 12:26:00 [info]  Click on Expend button
+Mar 13,2015 12:26:04 [info]  Pass
+Mar 13,2015 12:26:04 [info]  Verify Starting Blackout
+Mar 13,2015 12:27:58 [info]  Pass
+Mar 13,2015 12:28:20 [info]  Open resident profile
+Mar 13,2015 12:28:47 [info]  Pass
+Mar 13,2015 12:28:47 [info]  End Execution of Test Class com.iCM.scripts.AddMedicationEvery3rdDay
+*****************************************************************************
+
+*****************************************************************************
+Mar 13,2015 12:28:59 [info]   Execution Started of Test Class com.iCM.scripts.AddMedicationEvery4thDay and Test method testAddMedicationEvery4thDay
+*****************************************************************************
+Mar 13,2015 12:28:59 [info]  Open application url
+Mar 13,2015 12:29:42 [info]  Pass
+Mar 13,2015 12:29:42 [info]  Verify Page title
+Mar 13,2015 12:29:47 [info]  Pass
+Mar 13,2015 12:29:47 [info]  Enter User name at login page.
+Mar 13,2015 12:29:47 [info]  Pass
+Mar 13,2015 12:29:47 [info]  Enter password at login page.
+Mar 13,2015 12:29:48 [info]  Pass
+Mar 13,2015 12:29:48 [info]  Click on Sign In button
+Mar 13,2015 12:30:35 [info]  Pass
+Mar 13,2015 12:30:35 [info]  Verify home page title
+Mar 13,2015 12:30:40 [info]  Pass
+Mar 13,2015 12:30:40 [info]  Open Add resident form via deep link
+Mar 13,2015 12:31:00 [info]  Pass
+Mar 13,2015 12:31:00 [info]  Enter Resident First Name
+Mar 13,2015 12:31:03 [info]  Pass
+Mar 13,2015 12:31:03 [info]  Enter Middle name
+Mar 13,2015 12:31:07 [info]  Pass
+Mar 13,2015 12:31:07 [info]  Enter last name
+Mar 13,2015 12:31:10 [info]  Pass
+Mar 13,2015 12:31:10 [info]  Open 'Calender'
+Mar 13,2015 12:31:12 [info]  Pass
+Mar 13,2015 12:31:17 [info]  Select Year
+Mar 13,2015 12:31:23 [info]  Pass
+Mar 13,2015 12:31:26 [info]  Select date
+Mar 13,2015 12:31:29 [info]  Pass
+Mar 13,2015 12:31:29 [info]  Select gender
+Mar 13,2015 12:31:30 [info]  Pass
+Mar 13,2015 12:31:30 [info]  Select Marital Status
+Mar 13,2015 12:31:32 [info]  Pass
+Mar 13,2015 12:31:32 [info]  Open 'Calender' for admit date
+Mar 13,2015 12:31:34 [info]  Pass
+Mar 13,2015 12:31:37 [info]  Select Year
+Mar 13,2015 12:31:43 [info]  Pass
+Mar 13,2015 12:31:43 [info]  Select Month
+Mar 13,2015 12:31:44 [info]  Pass
+Mar 13,2015 12:31:44 [info]  Select date
+Mar 13,2015 12:31:47 [info]  Pass
+Mar 13,2015 12:31:47 [info]  Select Facality
+Mar 13,2015 12:31:48 [info]  Pass
+Mar 13,2015 12:31:51 [info]  Select Nurse
+Mar 13,2015 12:31:53 [info]  Pass
+Mar 13,2015 12:31:53 [info]  Enter level of care
+Mar 13,2015 12:31:56 [info]  Pass
+Mar 13,2015 12:31:56 [info]  Click on 'Save' button
+Mar 13,2015 12:32:00 [info]  Pass
+Mar 13,2015 12:32:00 [info]  Search Added resident
+Mar 13,2015 12:32:30 [info]  Pass
+Mar 13,2015 12:32:30 [info]  Verify added resident
+Mar 13,2015 12:32:33 [info]  Pass
+Mar 13,2015 12:32:33 [info]  Open resident Profile
+Mar 13,2015 12:32:37 [info]  Pass
+Mar 13,2015 12:32:46 [info]  Click on Medication button
+Mar 13,2015 12:32:50 [info]  Pass
+Mar 13,2015 12:32:50 [info]  Click on Add Medication button
+Mar 13,2015 12:33:06 [info]  Pass
+Mar 13,2015 12:33:06 [info]  Enter Medicine Name
+Mar 13,2015 12:33:20 [info]  Pass
+Mar 13,2015 12:33:20 [info]  Enter Dosage
+Mar 13,2015 12:33:23 [info]  Pass
+Mar 13,2015 12:33:23 [info]  Enter instruction
+Mar 13,2015 12:33:27 [info]  Pass
+Mar 13,2015 12:33:27 [info]  Open 'Calender'
+Mar 13,2015 12:33:31 [info]  Pass
+Mar 13,2015 12:33:34 [info]  Select date
+Mar 13,2015 12:33:37 [info]  Pass
+Mar 13,2015 12:33:37 [info]  Select Frequency
+Mar 13,2015 12:33:41 [info]  Pass
+Mar 13,2015 12:33:41 [info]  Select Frequency
+Mar 13,2015 12:33:44 [info]  Pass
+Mar 13,2015 12:33:44 [info]  Select Other day option
+Mar 13,2015 12:33:46 [info]  Pass
+Mar 13,2015 12:33:46 [info]  Select time
+Mar 13,2015 12:33:47 [info]  Pass
+Mar 13,2015 12:33:47 [info]  Select AM/PM
+Mar 13,2015 12:33:48 [info]  Pass
+Mar 13,2015 12:33:48 [info]  Click on Add Schedule button
+Mar 13,2015 12:33:52 [info]  Pass
+Mar 13,2015 12:33:52 [info]  Verify Added Schedule
+Mar 13,2015 12:33:52 [info]  Pass
+Mar 13,2015 12:33:52 [info]  Click on Save button
+Mar 13,2015 12:34:11 [info]  Pass
+Mar 13,2015 12:34:26 [info]  Open Medication page
+Mar 13,2015 12:34:39 [info]  Pass
+Mar 13,2015 12:34:39 [info]  Click on EMR Tab
+Mar 13,2015 12:34:43 [info]  Pass
+Mar 13,2015 12:34:43 [info]  Click on 'Morning' tab
+Mar 13,2015 12:35:01 [info]  Pass
+Mar 13,2015 12:35:01 [info]  Verify Added Schedule
+Mar 13,2015 12:35:01 [info]  Pass
+Mar 13,2015 12:35:01 [info]  Click on Expend button
+Mar 13,2015 12:35:05 [info]  Pass
+Mar 13,2015 12:35:05 [info]  Verify Starting Blackout
+Mar 13,2015 12:36:42 [info]  Pass
+Mar 13,2015 12:37:07 [info]  Open resident profile
+Mar 13,2015 12:37:35 [info]  Pass
+Mar 13,2015 12:37:35 [info]  End Execution of Test Class com.iCM.scripts.AddMedicationEvery4thDay
+*****************************************************************************
+
+*****************************************************************************
+Mar 13,2015 12:37:47 [info]   Execution Started of Test Class com.iCM.scripts.AddMedicationEvery5thDay and Test method testAddMedicationEvery5thDay
+*****************************************************************************
+Mar 13,2015 12:37:47 [info]  Open application url
+Mar 13,2015 12:38:25 [info]  Pass
+Mar 13,2015 12:38:25 [info]  Verify Page title
+Mar 13,2015 12:38:30 [info]  Pass
+Mar 13,2015 12:38:30 [info]  Enter User name at login page.
+Mar 13,2015 12:38:30 [info]  Pass
+Mar 13,2015 12:38:30 [info]  Enter password at login page.
+Mar 13,2015 12:38:31 [info]  Pass
+Mar 13,2015 12:38:31 [info]  Click on Sign In button
+Mar 13,2015 12:39:08 [info]  Pass
+Mar 13,2015 12:39:08 [info]  Verify home page title
+Mar 13,2015 12:39:13 [info]  Pass
+Mar 13,2015 12:39:13 [info]  Open Add resident form via deep link
+Mar 13,2015 12:39:31 [info]  Pass
+Mar 13,2015 12:39:31 [info]  Enter Resident First Name
+Mar 13,2015 12:39:35 [info]  Pass
+Mar 13,2015 12:39:35 [info]  Enter Middle name
+Mar 13,2015 12:39:38 [info]  Pass
+Mar 13,2015 12:39:38 [info]  Enter last name
+Mar 13,2015 12:39:42 [info]  Pass
+Mar 13,2015 12:39:42 [info]  Open 'Calender'
+Mar 13,2015 12:39:43 [info]  Pass
+Mar 13,2015 12:39:48 [info]  Select Year
+Mar 13,2015 12:39:54 [info]  Pass
+Mar 13,2015 12:39:57 [info]  Select date
+Mar 13,2015 12:40:00 [info]  Pass
+Mar 13,2015 12:40:00 [info]  Select gender
+Mar 13,2015 12:40:01 [info]  Pass
+Mar 13,2015 12:40:01 [info]  Select Marital Status
+Mar 13,2015 12:40:03 [info]  Pass
+Mar 13,2015 12:40:03 [info]  Open 'Calender' for admit date
+Mar 13,2015 12:40:04 [info]  Pass
+Mar 13,2015 12:40:07 [info]  Select Year
+Mar 13,2015 12:40:14 [info]  Pass
+Mar 13,2015 12:40:14 [info]  Select Month
+Mar 13,2015 12:40:15 [info]  Pass
+Mar 13,2015 12:40:15 [info]  Select date
+Mar 13,2015 12:40:18 [info]  Pass
+Mar 13,2015 12:40:18 [info]  Select Facality
+Mar 13,2015 12:40:19 [info]  Pass
+Mar 13,2015 12:40:22 [info]  Select Nurse
+Mar 13,2015 12:40:24 [info]  Pass
+Mar 13,2015 12:40:24 [info]  Enter level of care
+Mar 13,2015 12:40:27 [info]  Pass
+Mar 13,2015 12:40:27 [info]  Click on 'Save' button
+Mar 13,2015 12:40:31 [info]  Pass
+Mar 13,2015 12:40:31 [info]  Search Added resident
+Mar 13,2015 12:40:49 [info]  Pass
+Mar 13,2015 12:40:49 [info]  Verify added resident
+Mar 13,2015 12:40:52 [info]  Pass
+Mar 13,2015 12:40:52 [info]  Open resident Profile
+Mar 13,2015 12:40:56 [info]  Pass
+Mar 13,2015 12:41:02 [info]  Click on Medication button
+Mar 13,2015 12:41:06 [info]  Pass
+Mar 13,2015 12:41:06 [info]  Click on Add Medication button
+Mar 13,2015 12:41:24 [info]  Pass
+Mar 13,2015 12:41:24 [info]  Enter Medicine Name
+Mar 13,2015 12:41:36 [info]  Pass
+Mar 13,2015 12:41:36 [info]  Enter Dosage
+Mar 13,2015 12:41:40 [info]  Pass
+Mar 13,2015 12:41:40 [info]  Enter instruction
+Mar 13,2015 12:41:43 [info]  Pass
+Mar 13,2015 12:41:43 [info]  Open 'Calender'
+Mar 13,2015 12:41:48 [info]  Pass
+Mar 13,2015 12:41:51 [info]  Select date
+Mar 13,2015 12:41:54 [info]  Pass
+Mar 13,2015 12:41:54 [info]  Select Frequency
+Mar 13,2015 12:41:58 [info]  Pass
+Mar 13,2015 12:41:58 [info]  Select Frequency
+Mar 13,2015 12:42:01 [info]  Pass
+Mar 13,2015 12:42:01 [info]  Select Other day option
+Mar 13,2015 12:42:02 [info]  Pass
+Mar 13,2015 12:42:02 [info]  Select time
+Mar 13,2015 12:42:04 [info]  Pass
+Mar 13,2015 12:42:04 [info]  Select AM/PM
+Mar 13,2015 12:42:05 [info]  Pass
+Mar 13,2015 12:42:05 [info]  Click on Add Schedule button
+Mar 13,2015 12:42:08 [info]  Pass
+Mar 13,2015 12:42:08 [info]  Verify Added Schedule
+Mar 13,2015 12:42:09 [info]  Pass
+Mar 13,2015 12:42:09 [info]  Click on Save button
+Mar 13,2015 12:42:27 [info]  Pass
+Mar 13,2015 12:42:42 [info]  Open Medication page
+Mar 13,2015 12:42:58 [info]  Pass
+Mar 13,2015 12:42:58 [info]  Click on EMR Tab
+Mar 13,2015 12:43:02 [info]  Pass
+Mar 13,2015 12:43:02 [info]  Click on 'Morning' tab
+Mar 13,2015 12:43:23 [info]  Pass
+Mar 13,2015 12:43:23 [info]  Verify Added Schedule
+Mar 13,2015 12:43:24 [info]  Pass
+Mar 13,2015 12:43:24 [info]  Click on Expend button
+Mar 13,2015 12:43:27 [info]  Pass
+Mar 13,2015 12:43:27 [info]  Verify Starting Blackout
+Mar 13,2015 12:45:45 [info]  Pass
+Mar 13,2015 12:46:19 [info]  Open resident profile
+Mar 13,2015 12:46:46 [info]  Pass
+Mar 13,2015 12:46:46 [info]  End Execution of Test Class com.iCM.scripts.AddMedicationEvery5thDay
+*****************************************************************************
+
+*****************************************************************************
+Mar 13,2015 12:46:56 [info]   Execution Started of Test Class com.iCM.scripts.AddMedicationEvery7thDay and Test method testAddMedicationEvery7thDay
+*****************************************************************************
+Mar 13,2015 12:46:56 [info]  Open application url
+Mar 13,2015 12:47:32 [info]  Pass
+Mar 13,2015 12:47:32 [info]  Verify Page title
+Mar 13,2015 12:47:37 [info]  Pass
+Mar 13,2015 12:47:37 [info]  Enter User name at login page.
+Mar 13,2015 12:47:38 [info]  Pass
+Mar 13,2015 12:47:38 [info]  Enter password at login page.
+Mar 13,2015 12:47:39 [info]  Pass
+Mar 13,2015 12:47:39 [info]  Click on Sign In button
+Mar 13,2015 12:48:17 [info]  Pass
+Mar 13,2015 12:48:17 [info]  Verify home page title
+Mar 13,2015 12:48:22 [info]  Pass
+Mar 13,2015 12:48:22 [info]  Open Add resident form via deep link
+Mar 13,2015 12:48:34 [info]  Pass
+Mar 13,2015 12:48:34 [info]  Enter Resident First Name
+Mar 13,2015 12:48:37 [info]  Pass
+Mar 13,2015 12:48:37 [info]  Enter Middle name
+Mar 13,2015 12:48:40 [info]  Pass
+Mar 13,2015 12:48:40 [info]  Enter last name
+Mar 13,2015 12:48:44 [info]  Pass
+Mar 13,2015 12:48:44 [info]  Open 'Calender'
+Mar 13,2015 12:48:45 [info]  Pass
+Mar 13,2015 12:48:50 [info]  Select Year
+Mar 13,2015 12:48:57 [info]  Pass
+Mar 13,2015 12:49:00 [info]  Select date
+Mar 13,2015 12:49:02 [info]  Pass
+Mar 13,2015 12:49:02 [info]  Select gender
+Mar 13,2015 12:49:04 [info]  Pass
+Mar 13,2015 12:49:04 [info]  Select Marital Status
+Mar 13,2015 12:49:05 [info]  Pass
+Mar 13,2015 12:49:05 [info]  Open 'Calender' for admit date
+Mar 13,2015 12:49:07 [info]  Pass
+Mar 13,2015 12:49:10 [info]  Select Year
+Mar 13,2015 12:49:16 [info]  Pass
+Mar 13,2015 12:49:16 [info]  Select Month
+Mar 13,2015 12:49:17 [info]  Pass
+Mar 13,2015 12:49:17 [info]  Select date
+Mar 13,2015 12:49:20 [info]  Pass
+Mar 13,2015 12:49:20 [info]  Select Facality
+Mar 13,2015 12:49:22 [info]  Pass
+Mar 13,2015 12:49:25 [info]  Select Nurse
+Mar 13,2015 12:49:26 [info]  Pass
+Mar 13,2015 12:49:26 [info]  Enter level of care
+Mar 13,2015 12:49:30 [info]  Pass
+Mar 13,2015 12:49:30 [info]  Click on 'Save' button
+Mar 13,2015 12:49:33 [info]  Pass
+Mar 13,2015 12:49:33 [info]  Search Added resident
+Mar 13,2015 12:49:53 [info]  Pass
+Mar 13,2015 12:49:53 [info]  Verify added resident
+Mar 13,2015 12:49:56 [info]  Pass
+Mar 13,2015 12:49:56 [info]  Open resident Profile
+Mar 13,2015 12:50:00 [info]  Pass
+Mar 13,2015 12:50:06 [info]  Click on Medication button
+Mar 13,2015 12:50:10 [info]  Pass
+Mar 13,2015 12:50:10 [info]  Click on Add Medication button
+Mar 13,2015 12:50:29 [info]  Pass
+Mar 13,2015 12:50:29 [info]  Enter Medicine Name
+Mar 13,2015 12:50:48 [info]  Pass
+Mar 13,2015 12:50:48 [info]  Enter Dosage
+Mar 13,2015 12:50:51 [info]  Pass
+Mar 13,2015 12:50:51 [info]  Enter instruction
+Mar 13,2015 12:50:55 [info]  Pass
+Mar 13,2015 12:50:55 [info]  Open 'Calender'
+Mar 13,2015 12:50:59 [info]  Pass
+Mar 13,2015 12:51:02 [info]  Select date
+Mar 13,2015 12:51:06 [info]  Pass
+Mar 13,2015 12:51:06 [info]  Select Frequency
+Mar 13,2015 12:51:09 [info]  Pass
+Mar 13,2015 12:51:09 [info]  Select Frequency
+Mar 13,2015 12:51:13 [info]  Pass
+Mar 13,2015 12:51:13 [info]  Select Other day option
+Mar 13,2015 12:51:14 [info]  Pass
+Mar 13,2015 12:51:14 [info]  Select time
+Mar 13,2015 12:51:16 [info]  Pass
+Mar 13,2015 12:51:16 [info]  Select AM/PM
+Mar 13,2015 12:51:17 [info]  Pass
+Mar 13,2015 12:51:17 [info]  Click on Add Schedule button
+Mar 13,2015 12:51:20 [info]  Pass
+Mar 13,2015 12:51:20 [info]  Verify Added Schedule
+Mar 13,2015 12:51:21 [info]  Pass
+Mar 13,2015 12:51:21 [info]  Click on Save button
+Mar 13,2015 12:51:41 [info]  Pass
+Mar 13,2015 12:51:57 [info]  Open Medication page
+Mar 13,2015 12:52:10 [info]  Pass
+Mar 13,2015 12:52:10 [info]  Click on EMR Tab
+Mar 13,2015 12:52:14 [info]  Pass
+Mar 13,2015 12:52:14 [info]  Click on 'Morning' tab
+Mar 13,2015 12:52:38 [info]  Pass
+Mar 13,2015 12:52:38 [info]  Verify Added Schedule
+Mar 13,2015 12:52:39 [info]  Pass
+Mar 13,2015 12:52:39 [info]  Click on Expend button
+Mar 13,2015 12:52:42 [info]  Pass
+Mar 13,2015 12:52:42 [info]  Verify Starting Blackout
+Mar 13,2015 12:54:37 [info]  Pass
+Mar 13,2015 12:55:03 [info]  Open resident profile
+Mar 13,2015 12:55:29 [info]  Pass
+Mar 13,2015 12:55:29 [info]  End Execution of Test Class com.iCM.scripts.AddMedicationEvery7thDay
+*****************************************************************************
+
+*****************************************************************************
+Mar 13,2015 12:55:43 [info]   Execution Started of Test Class com.iCM.scripts.AddMedicationEveryOtherDay and Test method testAddMedicationEveryOtherDay
+*****************************************************************************
+Mar 13,2015 12:55:43 [info]  Open application url
+Mar 13,2015 12:56:16 [info]  Pass
+Mar 13,2015 12:56:16 [info]  Verify Page title
+Mar 13,2015 12:56:21 [info]  Pass
+Mar 13,2015 12:56:21 [info]  Enter User name at login page.
+Mar 13,2015 12:56:21 [info]  Pass
+Mar 13,2015 12:56:21 [info]  Enter password at login page.
+Mar 13,2015 12:56:22 [info]  Pass
+Mar 13,2015 12:56:22 [info]  Click on Sign In button
+Mar 13,2015 12:57:04 [info]  Pass
+Mar 13,2015 12:57:04 [info]  Verify home page title
+Mar 13,2015 12:57:09 [info]  Pass
+Mar 13,2015 12:57:09 [info]  Open Add resident form via deep link
+Mar 13,2015 12:57:23 [info]  Pass
+Mar 13,2015 12:57:23 [info]  Enter Resident First Name
+Mar 13,2015 12:57:26 [info]  Pass
+Mar 13,2015 12:57:26 [info]  Enter Middle name
+Mar 13,2015 12:57:30 [info]  Pass
+Mar 13,2015 12:57:30 [info]  Enter last name
+Mar 13,2015 12:57:33 [info]  Pass
+Mar 13,2015 12:57:33 [info]  Open 'Calender'
+Mar 13,2015 12:57:35 [info]  Pass
+Mar 13,2015 12:57:40 [info]  Select Year
+Mar 13,2015 12:57:46 [info]  Pass
+Mar 13,2015 12:57:49 [info]  Select date
+Mar 13,2015 12:57:52 [info]  Pass
+Mar 13,2015 12:57:52 [info]  Select gender
+Mar 13,2015 12:57:53 [info]  Pass
+Mar 13,2015 12:57:53 [info]  Select Marital Status
+Mar 13,2015 12:57:55 [info]  Pass
+Mar 13,2015 12:57:55 [info]  Open 'Calender' for admit date
+Mar 13,2015 12:57:56 [info]  Pass
+Mar 13,2015 12:57:59 [info]  Select Year
+Mar 13,2015 12:58:05 [info]  Pass
+Mar 13,2015 12:58:05 [info]  Select Month
+Mar 13,2015 12:58:07 [info]  Pass
+Mar 13,2015 12:58:07 [info]  Select date
+Mar 13,2015 12:58:09 [info]  Pass
+Mar 13,2015 12:58:09 [info]  Select Facality
+Mar 13,2015 12:58:11 [info]  Pass
+Mar 13,2015 12:58:14 [info]  Select Nurse
+Mar 13,2015 12:58:15 [info]  Pass
+Mar 13,2015 12:58:15 [info]  Enter level of care
+Mar 13,2015 12:58:19 [info]  Pass
+Mar 13,2015 12:58:19 [info]  Click on 'Save' button
+Mar 13,2015 12:58:22 [info]  Pass
+Mar 13,2015 12:58:22 [info]  Search Added resident
+Mar 13,2015 12:58:58 [info]  Pass
+Mar 13,2015 12:58:58 [info]  Verify added resident
+Mar 13,2015 12:59:02 [info]  Pass
+Mar 13,2015 12:59:02 [info]  Open resident Profile
+Mar 13,2015 12:59:05 [info]  Pass
+Mar 13,2015 12:59:11 [info]  Click on Medication button
+Mar 13,2015 12:59:15 [info]  Pass
+Mar 13,2015 12:59:15 [info]  Click on Add Medication button
+Mar 13,2015 12:59:31 [info]  Pass
+Mar 13,2015 12:59:31 [info]  Enter Medicine Name
+Mar 13,2015 12:59:43 [info]  Pass
+Mar 13,2015 12:59:43 [info]  Enter Dosage
+Mar 13,2015 12:59:47 [info]  Pass
+Mar 13,2015 12:59:47 [info]  Enter instruction
+Mar 13,2015 12:59:50 [info]  Pass
+Mar 13,2015 12:59:50 [info]  Open 'Calender'
+Mar 13,2015 12:59:55 [info]  Pass
+Mar 13,2015 12:59:58 [info]  Select date
+Mar 13,2015 13:00:01 [info]  Pass
+Mar 13,2015 13:00:01 [info]  Select Frequency
+Mar 13,2015 13:00:05 [info]  Pass
+Mar 13,2015 13:00:05 [info]  Select Frequency
+Mar 13,2015 13:00:08 [info]  Pass
+Mar 13,2015 13:00:08 [info]  Select Other day option
+Mar 13,2015 13:00:09 [info]  Pass
+Mar 13,2015 13:00:09 [info]  Select time
+Mar 13,2015 13:00:11 [info]  Pass
+Mar 13,2015 13:00:11 [info]  Select AM/PM
+Mar 13,2015 13:00:11 [info]  Pass
+Mar 13,2015 13:00:11 [info]  Click on Add Schedule button
+Mar 13,2015 13:00:15 [info]  Pass
+Mar 13,2015 13:00:15 [info]  Verify Added Schedule
+Mar 13,2015 13:00:15 [info]  Pass
+Mar 13,2015 13:00:15 [info]  Click on Save button
+Mar 13,2015 13:00:31 [info]  Pass
+Mar 13,2015 13:00:46 [info]  Open Medication page
+Mar 13,2015 13:00:57 [info]  Pass
+Mar 13,2015 13:00:57 [info]  Click on EMR Tab
+Mar 13,2015 13:01:00 [info]  Pass
+Mar 13,2015 13:01:00 [info]  Click on 'Morning' tab
+Mar 13,2015 13:01:23 [info]  Pass
+Mar 13,2015 13:01:23 [info]  Verify Added Schedule
+Mar 13,2015 13:01:23 [info]  Pass
+Mar 13,2015 13:01:23 [info]  Click on Expend button
+Mar 13,2015 13:01:26 [info]  Pass
+Mar 13,2015 13:01:26 [info]  Verify Starting Blackout
+Mar 13,2015 13:03:08 [info]  Pass
+Mar 13,2015 13:03:29 [info]  Open resident profile
+Mar 13,2015 13:04:03 [info]  Pass
+Mar 13,2015 13:04:03 [info]  End Execution of Test Class com.iCM.scripts.AddMedicationEveryOtherDay
+*****************************************************************************
+
+*****************************************************************************
+Mar 13,2015 13:04:15 [info]   Execution Started of Test Class com.iCM.scripts.AddResident and Test method testAddResident
+*****************************************************************************
+Mar 13,2015 13:04:15 [info]  Open application url
+Mar 13,2015 13:04:39 [info]  Pass
+Mar 13,2015 13:04:39 [info]  Verify Page title
+Mar 13,2015 13:04:44 [info]  Pass
+Mar 13,2015 13:04:44 [info]  Enter User name at login page.
+Mar 13,2015 13:04:44 [info]  Pass
+Mar 13,2015 13:04:44 [info]  Enter password at login page.
+Mar 13,2015 13:04:45 [info]  Pass
+Mar 13,2015 13:04:45 [info]  Click on Sign In button
+Mar 13,2015 13:05:22 [info]  Pass
+Mar 13,2015 13:05:22 [info]  Verify home page title
+Mar 13,2015 13:05:27 [info]  Pass
+Mar 13,2015 13:05:27 [info]  Open Add resident form via deep link
+Mar 13,2015 13:05:43 [info]  Pass
+Mar 13,2015 13:05:44 [info]  Enter Resident First Name
+Mar 13,2015 13:05:47 [info]  Pass
+Mar 13,2015 13:05:47 [info]  Enter Middle name
+Mar 13,2015 13:05:50 [info]  Pass
+Mar 13,2015 13:05:50 [info]  Enter last name
+Mar 13,2015 13:05:54 [info]  Pass
+Mar 13,2015 13:05:54 [info]  Open 'Calender'
+Mar 13,2015 13:05:55 [info]  Pass
+Mar 13,2015 13:05:55 [info]  Select Year
+Mar 13,2015 13:06:01 [info]  Pass
+Mar 13,2015 13:06:01 [info]  Select date
+Mar 13,2015 13:06:04 [info]  Pass
+Mar 13,2015 13:06:04 [info]  Select gender
+Mar 13,2015 13:06:05 [info]  Pass
+Mar 13,2015 13:06:05 [info]  Select Marital Status
+Mar 13,2015 13:06:07 [info]  Pass
+Mar 13,2015 13:06:07 [info]  Open 'Calender' for admit date
+Mar 13,2015 13:06:08 [info]  Pass
+Mar 13,2015 13:06:08 [info]  Select Year
+Mar 13,2015 13:06:15 [info]  Pass
+Mar 13,2015 13:06:15 [info]  Select Month
+Mar 13,2015 13:06:16 [info]  Pass
+Mar 13,2015 13:06:16 [info]  Select date
+Mar 13,2015 13:06:18 [info]  Pass
+Mar 13,2015 13:06:19 [info]  Select Facality
+Mar 13,2015 13:06:20 [info]  Pass
+Mar 13,2015 13:06:20 [info]  Select Nurse
+Mar 13,2015 13:06:21 [info]  Pass
+Mar 13,2015 13:06:21 [info]  Enter level of care
+Mar 13,2015 13:06:25 [info]  Pass
+Mar 13,2015 13:06:25 [info]  Click on 'Save' button
+Mar 13,2015 13:06:28 [info]  Pass
+Mar 13,2015 13:06:28 [info]  Search Added resident
+Mar 13,2015 13:07:01 [info]  Pass
+Mar 13,2015 13:07:01 [info]  Verify added resident
+Mar 13,2015 13:07:05 [info]  Pass
+Mar 13,2015 13:07:05 [info]  Deleting resident
+Mar 13,2015 13:07:05 [info]  Open resident profile
+Mar 13,2015 13:07:08 [info]  Pass
+Mar 13,2015 13:07:08 [info]  Open resident profile
+Mar 13,2015 13:07:16 [info]  Pass
+Mar 13,2015 13:07:16 [info]  Open resident profile
+Mar 13,2015 13:07:38 [info]  Pass
+Mar 13,2015 13:07:38 [info]  Open resident profile
+Mar 13,2015 13:07:41 [info]  Pass
+Mar 13,2015 13:07:41 [info]  Open resident profile
+Mar 13,2015 13:08:12 [info]  Pass
+Mar 13,2015 13:08:12 [info]  Search deleted resident
+Mar 13,2015 13:08:16 [info]  Pass
+Mar 13,2015 13:08:16 [info]  Verify added resident
+Mar 13,2015 13:08:19 [info]  Pass
+Mar 13,2015 13:08:19 [info]  End Execution of Test Class com.iCM.scripts.AddResident
+*****************************************************************************
+
+*****************************************************************************
+Mar 13,2015 13:08:31 [info]   Execution Started of Test Class com.iCM.scripts.AddTask and Test method testAddTask
+*****************************************************************************
+Mar 13,2015 13:08:31 [info]  Open application url
+Mar 13,2015 13:09:02 [info]  Pass
+Mar 13,2015 13:09:02 [info]  Verify Page title
+Mar 13,2015 13:09:07 [info]  Pass
+Mar 13,2015 13:09:07 [info]  Enter User name at login page.
+Mar 13,2015 13:09:07 [info]  Pass
+Mar 13,2015 13:09:08 [info]  Enter password at login page.
+Mar 13,2015 13:09:09 [info]  Pass
+Mar 13,2015 13:09:09 [info]  Click on Sign In button
+Mar 13,2015 13:09:53 [info]  Pass
+Mar 13,2015 13:09:53 [info]  Verify home page title
+Mar 13,2015 13:09:58 [info]  Pass
+Mar 13,2015 13:09:58 [info]  Click on 'Location' tab
+Mar 13,2015 13:09:59 [info]  Pass
+Mar 13,2015 13:09:59 [info]  Verify location page title
+Mar 13,2015 13:10:12 [info]  Pass
+Mar 13,2015 13:10:12 [info]  Click on 'Staff Task' tab
+Mar 13,2015 13:10:12 [info]  Pass
+Mar 13,2015 13:10:12 [info]  Verify Staff task page title
+Mar 13,2015 13:10:28 [info]  Pass
+Mar 13,2015 13:10:28 [info]  Click on Add Task Button
+Mar 13,2015 13:10:29 [info]  Pass
+Mar 13,2015 13:10:29 [info]  Verify Add task page title
+Mar 13,2015 13:10:46 [info]  Pass
+Mar 13,2015 13:10:46 [info]  Enter Title
+Mar 13,2015 13:10:47 [info]  Pass
+Mar 13,2015 13:10:47 [info]  Enter Description
+Mar 13,2015 13:10:47 [info]  Pass
+Mar 13,2015 13:10:47 [info]  Search Staff
+Mar 13,2015 13:10:48 [info]  Pass
+Mar 13,2015 13:10:48 [info]  Select Staff
+Mar 13,2015 13:10:48 [info]  Pass
+Mar 13,2015 13:10:48 [info]  Open Due Date Calender
+Mar 13,2015 13:10:50 [info]  Pass
+Mar 13,2015 13:10:50 [info]  Select Year
+Mar 13,2015 13:10:56 [info]  Pass
+Mar 13,2015 13:10:56 [info]  Select Date
+Mar 13,2015 13:10:59 [info]  Pass
+Mar 13,2015 13:10:59 [info]  Open Status Dropdown
+Mar 13,2015 13:10:59 [info]  Pass
+Mar 13,2015 13:10:59 [info]  Select Status
+Mar 13,2015 13:11:00 [info]  Pass
+Mar 13,2015 13:11:00 [info]  Click on 'Save' button
+Mar 13,2015 13:11:18 [info]  Pass
+Mar 13,2015 13:11:18 [info]  Search Created Task
+Mar 13,2015 13:11:18 [info]  Pass
+Mar 13,2015 13:11:18 [info]  Verify Created Task
+Mar 13,2015 13:11:19 [info]  Pass
+Mar 13,2015 13:11:19 [info]  Delete the task
+Mar 13,2015 13:11:19 [info]  Pass
+Mar 13,2015 13:11:19 [info]  End Execution of Test Class com.iCM.scripts.AddTask
+*****************************************************************************
+
+*****************************************************************************
+Mar 13,2015 13:11:32 [info]   Execution Started of Test Class com.iCM.scripts.AddTaskWithComplete and Test method testAddTaskWithComplete
+*****************************************************************************
+Mar 13,2015 13:11:32 [info]  Open application url
+Mar 13,2015 13:12:15 [info]  Pass
+Mar 13,2015 13:12:15 [info]  Verify Page title
+Mar 13,2015 13:12:20 [info]  Pass
+Mar 13,2015 13:12:20 [info]  Enter User name at login page.
+Mar 13,2015 13:12:21 [info]  Pass
+Mar 13,2015 13:12:21 [info]  Enter password at login page.
+Mar 13,2015 13:12:22 [info]  Pass
+Mar 13,2015 13:12:22 [info]  Click on Sign In button
+Mar 13,2015 13:12:58 [info]  Pass
+Mar 13,2015 13:12:58 [info]  Verify home page title
+Mar 13,2015 13:13:03 [info]  Pass
+Mar 13,2015 13:13:03 [info]  Click on 'Location' tab
+Mar 13,2015 13:13:04 [info]  Pass
+Mar 13,2015 13:13:04 [info]  Verify location page title
+Mar 13,2015 13:13:17 [info]  Pass
+Mar 13,2015 13:13:17 [info]  Click on 'Staff Task' tab
+Mar 13,2015 13:13:17 [info]  Pass
+Mar 13,2015 13:13:17 [info]  Verify Staff task page title
+Mar 13,2015 13:13:33 [info]  Pass
+Mar 13,2015 13:13:33 [info]  Click on Add Task Button
+Mar 13,2015 13:13:34 [info]  Pass
+Mar 13,2015 13:13:34 [info]  Enter Title
+Mar 13,2015 13:13:53 [info]  Pass
+Mar 13,2015 13:13:53 [info]  Enter Description
+Mar 13,2015 13:13:54 [info]  Pass
+Mar 13,2015 13:13:54 [info]  Search Staff
+Mar 13,2015 13:13:55 [info]  Pass
+Mar 13,2015 13:13:55 [info]  Select Staff
+Mar 13,2015 13:13:55 [info]  Pass
+Mar 13,2015 13:13:55 [info]  Open Due Date Calender
+Mar 13,2015 13:13:57 [info]  Pass
+Mar 13,2015 13:13:57 [info]  Select Year
+Mar 13,2015 13:14:03 [info]  Pass
+Mar 13,2015 13:14:03 [info]  Select Date
+Mar 13,2015 13:14:06 [info]  Pass
+Mar 13,2015 13:14:06 [info]  Open Status Dropdown
+Mar 13,2015 13:14:06 [info]  Pass
+Mar 13,2015 13:14:06 [info]  Select Status
+Mar 13,2015 13:14:07 [info]  Pass
+Mar 13,2015 13:14:07 [info]  Click on 'Save' button
+Mar 13,2015 13:14:23 [info]  Pass
+Mar 13,2015 13:14:24 [info]  Search Created Task
+Mar 13,2015 13:14:24 [info]  Pass
+Mar 13,2015 13:14:24 [info]  Verify Created Task
+Mar 13,2015 13:14:24 [info]  Pass
+Mar 13,2015 13:14:24 [info]  Verify in progress status
+Mar 13,2015 13:14:24 [info]  Pass
+Mar 13,2015 13:14:24 [info]  Delete the task
+Mar 13,2015 13:14:25 [info]  Pass
+Mar 13,2015 13:14:25 [info]  End Execution of Test Class com.iCM.scripts.AddTaskWithComplete
+*****************************************************************************
+
+*****************************************************************************
+Mar 13,2015 13:14:36 [info]   Execution Started of Test Class com.iCM.scripts.AddTaskWithInProgress and Test method testAddTaskWithInProgress
+*****************************************************************************
+Mar 13,2015 13:14:36 [info]  Open application url
+Mar 13,2015 13:15:14 [info]  Pass
+Mar 13,2015 13:15:14 [info]  Verify Page title
+Mar 13,2015 13:15:19 [info]  Pass
+Mar 13,2015 13:15:19 [info]  Enter User name at login page.
+Mar 13,2015 13:15:19 [info]  Pass
+Mar 13,2015 13:15:19 [info]  Enter password at login page.
+Mar 13,2015 13:15:20 [info]  Pass
+Mar 13,2015 13:15:20 [info]  Click on Sign In button
+Mar 13,2015 13:16:01 [info]  Pass
+Mar 13,2015 13:16:01 [info]  Verify home page title
+Mar 13,2015 13:16:06 [info]  Pass
+Mar 13,2015 13:16:06 [info]  Click on 'Location' tab
+Mar 13,2015 13:16:07 [info]  Pass
+Mar 13,2015 13:16:07 [info]  Verify location page title
+Mar 13,2015 13:16:14 [info]  Pass
+Mar 13,2015 13:16:14 [info]  Click on 'Staff Task' tab
+Mar 13,2015 13:16:14 [info]  Pass
+Mar 13,2015 13:16:14 [info]  Verify Staff task page title
+Mar 13,2015 13:16:26 [info]  Pass
+Mar 13,2015 13:16:26 [info]  Click on Add Task Button
+Mar 13,2015 13:16:26 [info]  Pass
+Mar 13,2015 13:16:26 [info]  Enter Title
+Mar 13,2015 13:16:36 [info]  Pass
+Mar 13,2015 13:16:36 [info]  Enter Description
+Mar 13,2015 13:16:36 [info]  Pass
+Mar 13,2015 13:16:36 [info]  Search Staff
+Mar 13,2015 13:16:37 [info]  Pass
+Mar 13,2015 13:16:37 [info]  Select Staff
+Mar 13,2015 13:16:37 [info]  Pass
+Mar 13,2015 13:16:37 [info]  Open Due Date Calender
+Mar 13,2015 13:16:39 [info]  Pass
+Mar 13,2015 13:16:39 [info]  Select Year
+Mar 13,2015 13:16:45 [info]  Pass
+Mar 13,2015 13:16:45 [info]  Select Date
+Mar 13,2015 13:16:48 [info]  Pass
+Mar 13,2015 13:16:48 [info]  Open Status Dropdown
+Mar 13,2015 13:16:49 [info]  Pass
+Mar 13,2015 13:16:49 [info]  Select Status
+Mar 13,2015 13:16:49 [info]  Pass
+Mar 13,2015 13:16:49 [info]  Click on 'Save' button
+Mar 13,2015 13:17:03 [info]  Pass
+Mar 13,2015 13:17:03 [info]  Search Created Task
+Mar 13,2015 13:17:04 [info]  Pass
+Mar 13,2015 13:17:04 [info]  Verify Created Task
+Mar 13,2015 13:17:04 [info]  Pass
+Mar 13,2015 13:17:04 [info]  Verify in progress status
+Mar 13,2015 13:17:04 [info]  Pass
+Mar 13,2015 13:17:05 [info]  Delete the task
+Mar 13,2015 13:17:05 [info]  Pass
+Mar 13,2015 13:17:05 [info]  End Execution of Test Class com.iCM.scripts.AddTaskWithInProgress
+*****************************************************************************
+
+*****************************************************************************
+Mar 13,2015 13:17:18 [info]   Execution Started of Test Class com.iCM.scripts.AdministrationSchedule and Test method testAdministrationSchedule
+*****************************************************************************
+Mar 13,2015 13:17:18 [info]  Open application url
+Mar 13,2015 13:17:40 [info]  Pass
+Mar 13,2015 13:17:40 [info]  Verify Page title
+Mar 13,2015 13:17:45 [info]  Pass
+Mar 13,2015 13:17:45 [info]  Enter User name at login page.
+Mar 13,2015 13:17:45 [info]  Pass
+Mar 13,2015 13:17:45 [info]  Enter password at login page.
+Mar 13,2015 13:17:47 [info]  Pass
+Mar 13,2015 13:17:47 [info]  Click on Sign In button
+Mar 13,2015 13:18:06 [info]  Pass
+Mar 13,2015 13:18:06 [info]  Verify home page title
+Mar 13,2015 13:18:11 [info]  Pass
+Mar 13,2015 13:18:11 [info]  Open Add resident form via deep link
+Mar 13,2015 13:18:23 [info]  Pass
+Mar 13,2015 13:18:23 [info]  Enter Resident First Name
+Mar 13,2015 13:18:26 [info]  Pass
+Mar 13,2015 13:18:26 [info]  Enter Middle name
+Mar 13,2015 13:18:30 [info]  Pass
+Mar 13,2015 13:18:30 [info]  Enter last name
+Mar 13,2015 13:18:33 [info]  Pass
+Mar 13,2015 13:18:33 [info]  Open 'Calender'
+Mar 13,2015 13:18:35 [info]  Pass
+Mar 13,2015 13:18:40 [info]  Select Year
+Mar 13,2015 13:18:46 [info]  Pass
+Mar 13,2015 13:18:49 [info]  Select date
+Mar 13,2015 13:18:51 [info]  Pass
+Mar 13,2015 13:18:51 [info]  Select gender
+Mar 13,2015 13:18:53 [info]  Pass
+Mar 13,2015 13:18:53 [info]  Select Marital Status
+Mar 13,2015 13:18:54 [info]  Pass
+Mar 13,2015 13:18:54 [info]  Open 'Calender' for admit date
+Mar 13,2015 13:18:56 [info]  Pass
+Mar 13,2015 13:18:59 [info]  Select Year
+Mar 13,2015 13:19:05 [info]  Pass
+Mar 13,2015 13:19:05 [info]  Select Month
+Mar 13,2015 13:19:06 [info]  Pass
+Mar 13,2015 13:19:06 [info]  Select date
+Mar 13,2015 13:19:09 [info]  Pass
+Mar 13,2015 13:19:09 [info]  Select Facality
+Mar 13,2015 13:19:10 [info]  Pass
+Mar 13,2015 13:19:13 [info]  Select Nurse
+Mar 13,2015 13:19:14 [info]  Pass
+Mar 13,2015 13:19:14 [info]  Enter level of care
+Mar 13,2015 13:19:18 [info]  Pass
+Mar 13,2015 13:19:18 [info]  Click on 'Save' button
+Mar 13,2015 13:19:21 [info]  Pass
+Mar 13,2015 13:19:21 [info]  Search Added resident
+Mar 13,2015 13:19:35 [info]  Pass
+Mar 13,2015 13:19:35 [info]  Verify added resident
+Mar 13,2015 13:19:38 [info]  Pass
+Mar 13,2015 13:19:38 [info]  Open resident Profile
+Mar 13,2015 13:19:42 [info]  Pass
+Mar 13,2015 13:19:48 [info]  Click on Medication button
+Mar 13,2015 13:19:52 [info]  Pass
+Mar 13,2015 13:19:52 [info]  Click on Add Medication button
+Mar 13,2015 13:20:04 [info]  Pass
+Mar 13,2015 13:20:04 [info]  Enter Medicine Name
+Mar 13,2015 13:20:13 [info]  Pass
+Mar 13,2015 13:20:13 [info]  Enter Dosage
+Mar 13,2015 13:20:17 [info]  Pass
+Mar 13,2015 13:20:17 [info]  Enter instruction
+Mar 13,2015 13:20:20 [info]  Pass
+Mar 13,2015 13:20:20 [info]  Open 'Calender'
+Mar 13,2015 13:20:25 [info]  Pass
+Mar 13,2015 13:20:28 [info]  Select date
+Mar 13,2015 13:20:31 [info]  Pass
+Mar 13,2015 13:20:31 [info]  Select time
+Mar 13,2015 13:20:32 [info]  Pass
+Mar 13,2015 13:20:32 [info]  Select AM/PM
+Mar 13,2015 13:20:33 [info]  Pass
+Mar 13,2015 13:20:33 [info]  Click on Add Schedule button
+Mar 13,2015 13:20:37 [info]  Pass
+Mar 13,2015 13:20:37 [info]  Verify Added Schedule
+Mar 13,2015 13:20:37 [info]  Pass
+Mar 13,2015 13:20:37 [info]  Click on Save button
+Mar 13,2015 13:20:53 [info]  Pass
+Mar 13,2015 13:20:53 [info]  Verify Title
+Mar 13,2015 13:20:58 [info]  Pass
+Mar 13,2015 13:21:08 [info]  Open Medication page
+Mar 13,2015 13:21:19 [info]  Pass
+Mar 13,2015 13:21:19 [info]  Click on EMR Tab
+Mar 13,2015 13:21:22 [info]  Pass
+Mar 13,2015 13:21:22 [info]  Click on All Meds Tab
+Mar 13,2015 13:21:41 [info]  Pass
+Mar 13,2015 13:21:44 [info]  Click on Admin Button
+Mar 13,2015 13:21:47 [info]  Pass
+Mar 13,2015 13:21:47 [info]  Click on Reading menu
+Mar 13,2015 13:21:51 [info]  Pass
+Mar 13,2015 13:21:51 [info]  Enter Blood Sugar
+Mar 13,2015 13:21:54 [info]  Pass
+Mar 13,2015 13:21:54 [info]  Click on Admin Now Button
+Mar 13,2015 13:21:58 [info]  Pass
+Mar 13,2015 13:21:58 [info]  Click on Ok Button
+Mar 13,2015 13:22:01 [info]  Pass
+Mar 13,2015 13:22:01 [info]  Click on All Meds Tab
+Mar 13,2015 13:22:05 [info]  Pass
+Mar 13,2015 13:22:08 [info]  Verify Admin By
+Mar 13,2015 13:22:08 [info]  Pass
+Mar 13,2015 13:22:08 [info]  Deleting created Resident
+Mar 13,2015 13:22:29 [info]  Pass
+Mar 13,2015 13:22:29 [info]  End Execution of Test Class com.iCM.scripts.AdministrationSchedule
+*****************************************************************************
+
+*****************************************************************************
+Mar 13,2015 13:22:42 [info]   Execution Started of Test Class com.iCM.scripts.DCMedication and Test method testDCMedication
+*****************************************************************************
+Mar 13,2015 13:22:42 [info]  Open application url
+Mar 13,2015 13:22:56 [info]  Pass
+Mar 13,2015 13:22:56 [info]  Verify Page title
+Mar 13,2015 13:23:01 [info]  Pass
+Mar 13,2015 13:23:01 [info]  Enter User name at login page.
+Mar 13,2015 13:23:02 [info]  Pass
+Mar 13,2015 13:23:02 [info]  Enter password at login page.
+Mar 13,2015 13:23:03 [info]  Pass
+Mar 13,2015 13:23:03 [info]  Click on Sign In button
+Mar 13,2015 13:23:20 [info]  Pass
+Mar 13,2015 13:23:20 [info]  Verify home page title
+Mar 13,2015 13:23:25 [info]  Pass
+Mar 13,2015 13:23:25 [info]  Open resident list via deep link
+Mar 13,2015 13:23:39 [info]  Pass
+Mar 13,2015 13:23:39 [info]  Open resident Profile
+Mar 13,2015 13:23:42 [info]  Pass
+Mar 13,2015 13:23:42 [info]  Verify 'EChart' Page title
+Mar 13,2015 13:23:47 [info]  Pass
+Mar 13,2015 13:23:47 [info]  Click on Medication button
+Mar 13,2015 13:23:51 [info]  Pass
+Mar 13,2015 13:23:51 [info]  Verify 'Medication' Page title
+Mar 13,2015 13:24:06 [info]  Pass
+Mar 13,2015 13:24:07 [info]  Get Medicine Name
+Mar 13,2015 13:24:07 [info]  Pass
+Mar 13,2015 13:24:07 [info]  Click on DC button
+Mar 13,2015 13:24:11 [info]  Pass
+Mar 13,2015 13:24:11 [info]  Enter Comment
+Mar 13,2015 13:24:14 [info]  Pass
+Mar 13,2015 13:24:14 [info]  Click on 'Ok' Button
+Mar 13,2015 13:24:18 [info]  Pass
+Mar 13,2015 13:24:18 [info]  Click on 'Discontinued' Button
+Mar 13,2015 13:24:21 [info]  Pass
+Mar 13,2015 13:24:21 [info]  Verify deleted medicin
+Mar 13,2015 13:24:22 [info]  Pass
+Mar 13,2015 13:24:22 [info]  End Execution of Test Class com.iCM.scripts.DCMedication
+*****************************************************************************
+
+*****************************************************************************
+Mar 13,2015 13:24:34 [info]   Execution Started of Test Class com.iCM.scripts.EChart and Test method testEChart
+*****************************************************************************
+Mar 13,2015 13:24:34 [info]  Open application url
+Mar 13,2015 13:24:51 [info]  Pass
+Mar 13,2015 13:24:51 [info]  Verify Page title
+Mar 13,2015 13:24:56 [info]  Pass
+Mar 13,2015 13:24:56 [info]  Enter User name at login page.
+Mar 13,2015 13:24:56 [info]  Pass
+Mar 13,2015 13:24:56 [info]  Enter password at login page.
+Mar 13,2015 13:24:58 [info]  Pass
+Mar 13,2015 13:24:58 [info]  Click on Sign In button
+Mar 13,2015 13:25:16 [info]  Pass
+Mar 13,2015 13:25:16 [info]  Verify home page title
+Mar 13,2015 13:25:21 [info]  Pass
+Mar 13,2015 13:25:21 [info]  Open resident list via deep link
+Mar 13,2015 13:25:37 [info]  Pass
+Mar 13,2015 13:25:37 [info]  Open resident Profile
+Mar 13,2015 13:25:41 [info]  Pass
+Mar 13,2015 13:25:41 [info]  Verify 'EChart' Page title
+Mar 13,2015 13:25:46 [info]  Pass
+Mar 13,2015 13:25:46 [info]  Verify Medication button
+Mar 13,2015 13:25:51 [info]  Pass
+Mar 13,2015 13:25:51 [info]  Verify EMR button
+Mar 13,2015 13:25:56 [info]  Pass
+Mar 13,2015 13:25:56 [info]  End Execution of Test Class com.iCM.scripts.EChart
+*****************************************************************************
+
+*****************************************************************************
+Mar 13,2015 13:26:09 [info]   Execution Started of Test Class com.iCM.scripts.EChartAddMedication and Test method testEChartAddMedication
+*****************************************************************************
+Mar 13,2015 13:26:09 [info]  Open application url
+Mar 13,2015 13:26:24 [info]  Pass
+Mar 13,2015 13:26:24 [info]  Verify Page title
+Mar 13,2015 13:26:29 [info]  Pass
+Mar 13,2015 13:26:29 [info]  Enter User name at login page.
+Mar 13,2015 13:26:29 [info]  Pass
+Mar 13,2015 13:26:29 [info]  Enter password at login page.
+Mar 13,2015 13:26:30 [info]  Pass
+Mar 13,2015 13:26:30 [info]  Click on Sign In button
+Mar 13,2015 13:26:48 [info]  Pass
+Mar 13,2015 13:26:48 [info]  Verify home page title
+Mar 13,2015 13:26:53 [info]  Pass
+Mar 13,2015 13:26:53 [info]  Open resident list via deep link
+Mar 13,2015 13:27:05 [info]  Pass
+Mar 13,2015 13:27:05 [info]  Open resident Profile
+Mar 13,2015 13:27:09 [info]  Pass
+Mar 13,2015 13:27:09 [info]  Click on Medication button
+Mar 13,2015 13:27:12 [info]  Pass
+Mar 13,2015 13:27:12 [info]  Click on Add Medication button
+Mar 13,2015 13:27:26 [info]  Pass
+Mar 13,2015 13:27:26 [info]  Enter Medicine Name
+Mar 13,2015 13:27:37 [info]  Pass
+Mar 13,2015 13:27:37 [info]  Enter Dosage
+Mar 13,2015 13:27:41 [info]  Pass
+Mar 13,2015 13:27:41 [info]  Enter instruction
+Mar 13,2015 13:27:44 [info]  Pass
+Mar 13,2015 13:27:44 [info]  Open 'Calender'
+Mar 13,2015 13:27:49 [info]  Pass
+Mar 13,2015 13:27:49 [info]  Select date
+Mar 13,2015 13:27:54 [info]  Pass
+Mar 13,2015 13:27:54 [info]  Click on Cancel button
+Mar 13,2015 13:27:57 [info]  Pass
+Mar 13,2015 13:27:57 [info]  Verify 'Medication' Page title
+Mar 13,2015 13:28:10 [info]  Pass
+Mar 13,2015 13:28:10 [info]  Click on Add Medication button
+Mar 13,2015 13:28:13 [info]  Pass
+Mar 13,2015 13:28:13 [info]  Enter Medicine Name
+Mar 13,2015 13:28:23 [info]  Pass
+Mar 13,2015 13:28:23 [info]  Enter Dosage
+Mar 13,2015 13:28:26 [info]  Pass
+Mar 13,2015 13:28:26 [info]  Enter instruction
+Mar 13,2015 13:28:30 [info]  Pass
+Mar 13,2015 13:28:30 [info]  Open 'Calender'
+Mar 13,2015 13:28:34 [info]  Pass
+Mar 13,2015 13:28:34 [info]  Select date
+Mar 13,2015 13:28:40 [info]  Pass
+Mar 13,2015 13:28:40 [info]  Click on Add Schedule button
+Mar 13,2015 13:28:44 [info]  Pass
+Mar 13,2015 13:28:44 [info]  Click on Save button
+Mar 13,2015 13:28:59 [info]  Pass
+Mar 13,2015 13:28:59 [info]  Verify 'View Medication' Page title
+Mar 13,2015 13:29:04 [info]  Pass
+Mar 13,2015 13:29:04 [info]  Verify added medicine
+Mar 13,2015 13:29:05 [info]  Pass
+Mar 13,2015 13:29:05 [info]  End Execution of Test Class com.iCM.scripts.EChartAddMedication
+*****************************************************************************
+
+*****************************************************************************
+Mar 13,2015 13:29:18 [info]   Execution Started of Test Class com.iCM.scripts.EChartMedication and Test method testEChartMedication
+*****************************************************************************
+Mar 13,2015 13:29:18 [info]  Open application url
+Mar 13,2015 13:29:34 [info]  Pass
+Mar 13,2015 13:29:34 [info]  Verify Page title
+Mar 13,2015 13:29:39 [info]  Pass
+Mar 13,2015 13:29:39 [info]  Enter User name at login page.
+Mar 13,2015 13:29:39 [info]  Pass
+Mar 13,2015 13:29:39 [info]  Enter password at login page.
+Mar 13,2015 13:29:41 [info]  Pass
+Mar 13,2015 13:29:41 [info]  Click on Sign In button
+Mar 13,2015 13:29:57 [info]  Pass
+Mar 13,2015 13:29:58 [info]  Verify home page title
+Mar 13,2015 13:30:03 [info]  Pass
+Mar 13,2015 13:30:03 [info]  Open resident list via deep link
+Mar 13,2015 13:30:15 [info]  Pass
+Mar 13,2015 13:30:15 [info]  Open resident Profile
+Mar 13,2015 13:30:18 [info]  Pass
+Mar 13,2015 13:30:18 [info]  Verify 'EChart' Page title
+Mar 13,2015 13:30:23 [info]  Pass
+Mar 13,2015 13:30:23 [info]  Click on Medication button
+Mar 13,2015 13:30:27 [info]  Pass
+Mar 13,2015 13:30:27 [info]  Verify 'Medication' Page title
+Mar 13,2015 13:30:40 [info]  Pass
+Mar 13,2015 13:30:40 [info]  End Execution of Test Class com.iCM.scripts.EChartMedication
+*****************************************************************************
+
+*****************************************************************************
+Mar 13,2015 13:30:52 [info]   Execution Started of Test Class com.iCM.scripts.EditTask and Test method testEditTask
+*****************************************************************************
+Mar 13,2015 13:30:52 [info]  Open application url
+Mar 13,2015 13:31:08 [info]  Pass
+Mar 13,2015 13:31:08 [info]  Verify Page title
+Mar 13,2015 13:31:13 [info]  Pass
+Mar 13,2015 13:31:13 [info]  Enter User name at login page.
+Mar 13,2015 13:31:14 [info]  Pass
+Mar 13,2015 13:31:14 [info]  Enter password at login page.
+Mar 13,2015 13:31:15 [info]  Pass
+Mar 13,2015 13:31:15 [info]  Click on Sign In button
+Mar 13,2015 13:31:31 [info]  Pass
+Mar 13,2015 13:31:31 [info]  Verify home page title
+Mar 13,2015 13:31:37 [info]  Pass
+Mar 13,2015 13:31:37 [info]  Click on 'Location' tab
+Mar 13,2015 13:31:37 [info]  Pass
+Mar 13,2015 13:31:37 [info]  Verify location page title
+Mar 13,2015 13:31:49 [info]  Pass
+Mar 13,2015 13:31:49 [info]  Click on 'Staff Task' tab
+Mar 13,2015 13:31:50 [info]  Pass
+Mar 13,2015 13:31:50 [info]  Verify Staff task page title
+Mar 13,2015 13:32:03 [info]  Pass
+Mar 13,2015 13:32:03 [info]  Click on Add Task Button
+Mar 13,2015 13:32:04 [info]  Pass
+Mar 13,2015 13:32:04 [info]  Verify Add task page title
+Mar 13,2015 13:32:16 [info]  Pass
+Mar 13,2015 13:32:16 [info]  Enter Title
+Mar 13,2015 13:32:17 [info]  Pass
+Mar 13,2015 13:32:17 [info]  Enter Description
+Mar 13,2015 13:32:17 [info]  Pass
+Mar 13,2015 13:32:17 [info]  Search Staff
+Mar 13,2015 13:32:18 [info]  Pass
+Mar 13,2015 13:32:18 [info]  Select Staff
+Mar 13,2015 13:32:18 [info]  Pass
+Mar 13,2015 13:32:18 [info]  Open Due Date Calender
+Mar 13,2015 13:32:20 [info]  Pass
+Mar 13,2015 13:32:20 [info]  Select Year
+Mar 13,2015 13:32:26 [info]  Pass
+Mar 13,2015 13:32:26 [info]  Select Date
+Mar 13,2015 13:32:29 [info]  Pass
+Mar 13,2015 13:32:29 [info]  Open Status Dropdown
+Mar 13,2015 13:32:30 [info]  Pass
+Mar 13,2015 13:32:30 [info]  Select Status
+Mar 13,2015 13:32:30 [info]  Pass
+Mar 13,2015 13:32:30 [info]  Click on 'Save' button
+Mar 13,2015 13:32:46 [info]  Pass
+Mar 13,2015 13:32:46 [info]  Search Created Task
+Mar 13,2015 13:32:46 [info]  Pass
+Mar 13,2015 13:32:46 [info]  Verify Created Task
+Mar 13,2015 13:32:47 [info]  Pass
+Mar 13,2015 13:32:47 [info]  Click on View Button
+Mar 13,2015 13:32:47 [info]  Pass
+Mar 13,2015 13:32:47 [info]  Verify Task
+Mar 13,2015 13:32:57 [info]  Pass
+Mar 13,2015 13:32:57 [info]  Click on Edit Button
+Mar 13,2015 13:32:57 [info]  Pass
+Mar 13,2015 13:32:57 [info]  Verify Add task page title
+Mar 13,2015 13:33:09 [info]  Pass
+Mar 13,2015 13:33:09 [info]  Enter UpdatedTitle
+Mar 13,2015 13:33:10 [info]  Pass
+Mar 13,2015 13:33:10 [info]  Click on 'Save' button
+Mar 13,2015 13:33:23 [info]  Pass
+Mar 13,2015 13:33:23 [info]  Search Updated Task
+Mar 13,2015 13:34:16 [info]  Mar 13,2015 13:34:16 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: Element Locator ://*[@id='DataTables_Table_0_filter']/label/input Not found expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.iCM.util.DriverHelper.sendKeys(DriverHelper.java:254)
+	at com.iCM.pagehelper.TaskHelper.type(TaskHelper.java:57)
+	at com.iCM.scripts.EditTask.testEditTask(EditTask.java:176)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1220)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.TestNG.privateMain(TestNG.java:1364)
+	at org.testng.TestNG.main(TestNG.java:1333)
+Mar 13,2015 13:34:16 [info]  End Execution of Test Class com.iCM.scripts.EditTask
+*****************************************************************************
+
+*****************************************************************************
+Mar 13,2015 13:34:29 [info]   Execution Started of Test Class com.iCM.scripts.EMRAdministerMAR and Test method testEMRAdministerMAR
+*****************************************************************************
+Mar 13,2015 13:34:29 [info]  Open application url
+Mar 13,2015 13:34:43 [info]  Pass
+Mar 13,2015 13:34:43 [info]  Verify Page title
+Mar 13,2015 13:34:48 [info]  Pass
+Mar 13,2015 13:34:48 [info]  Enter User name at login page.
+Mar 13,2015 13:34:49 [info]  Pass
+Mar 13,2015 13:34:49 [info]  Enter password at login page.
+Mar 13,2015 13:34:50 [info]  Pass
+Mar 13,2015 13:34:50 [info]  Click on Sign In button
+Mar 13,2015 13:35:06 [info]  Pass
+Mar 13,2015 13:35:06 [info]  Verify home page title
+Mar 13,2015 13:35:12 [info]  Pass
+Mar 13,2015 13:35:12 [info]  Click on 'EMR'
+Mar 13,2015 13:35:15 [info]  Pass
+Mar 13,2015 13:35:15 [info]  Verify EMR title
+Mar 13,2015 13:35:20 [info]  Pass
+Mar 13,2015 13:35:20 [info]  Click on All Meds Tab
+Mar 13,2015 13:35:24 [info]  Pass
+Mar 13,2015 13:35:27 [info]  Click on Click on MAR button
+Mar 13,2015 13:35:33 [info]  Pass
+Mar 13,2015 13:35:36 [info]  Click on 'Generate MAR' button
+Mar 13,2015 13:35:40 [info]  Pass
+Mar 13,2015 13:35:46 [info]  End Execution of Test Class com.iCM.scripts.EMRAdministerMAR
+*****************************************************************************
+
+*****************************************************************************
+Mar 13,2015 13:35:59 [info]   Execution Started of Test Class com.iCM.scripts.EMRAdministerMonthlyViewGreen and Test method testEMRAdministerMonthlyViewGreen
+*****************************************************************************
+Mar 13,2015 13:35:59 [info]  Open application url
+Mar 13,2015 13:36:15 [info]  Pass
+Mar 13,2015 13:36:15 [info]  Verify Page title
+Mar 13,2015 13:36:20 [info]  Pass
+Mar 13,2015 13:36:21 [info]  Enter User name at login page.
+Mar 13,2015 13:36:21 [info]  Pass
+Mar 13,2015 13:36:21 [info]  Enter password at login page.
+Mar 13,2015 13:36:22 [info]  Pass
+Mar 13,2015 13:36:22 [info]  Click on Sign In button
+Mar 13,2015 13:36:50 [info]  Pass
+Mar 13,2015 13:36:50 [info]  Verify home page title
+Mar 13,2015 13:36:55 [info]  Pass
+Mar 13,2015 13:36:55 [info]  Click on 'EMR'
+Mar 13,2015 13:36:59 [info]  Pass
+Mar 13,2015 13:36:59 [info]  Verify EMR title
+Mar 13,2015 13:37:05 [info]  Pass
+Mar 13,2015 13:37:05 [info]  Click on 'EMR'
+Mar 13,2015 13:37:09 [info]  Pass
+Mar 13,2015 13:37:09 [info]  Click on Administer button
+Mar 13,2015 13:37:13 [info]  Pass
+Mar 13,2015 13:37:16 [info]  Enter Blood Suger
+Mar 13,2015 13:37:17 [info]  Pass
+Mar 13,2015 13:37:17 [info]  Click on 'Administer now' button
+Mar 13,2015 13:37:20 [info]  Pass
+Mar 13,2015 13:37:20 [info]  Click on 'Ok' button
+Mar 13,2015 13:37:24 [info]  Pass
+Mar 13,2015 13:37:27 [info]  Verify User is able to Administered
+Mar 13,2015 13:37:27 [info]  Pass
+Mar 13,2015 13:37:27 [info]  Verify user initials in normal color
+Mar 13,2015 13:37:27 [info]  Pass
+Mar 13,2015 13:37:30 [info]  Click on Undo button
+Mar 13,2015 13:37:34 [info]  Pass
+Mar 13,2015 13:37:37 [info]  User is able to see the monthly view
+Mar 13,2015 13:37:38 [info]  Pass
+Mar 13,2015 13:37:38 [info]  User is able to see the monthly view
+Mar 13,2015 13:37:41 [info]  Pass
+Mar 13,2015 13:37:41 [info]  Click on Undo button
+Mar 13,2015 13:37:45 [info]  Pass
+Mar 13,2015 13:37:45 [info]  End Execution of Test Class com.iCM.scripts.EMRAdministerMonthlyViewGreen
+*****************************************************************************
+
+*****************************************************************************
+Mar 13,2015 13:37:59 [info]   Execution Started of Test Class com.iCM.scripts.EMRAdministerMonthlyViewOrange and Test method testEMRAdministerMonthlyViewOrange
+*****************************************************************************
+Mar 13,2015 13:37:59 [info]  Open application url
+Mar 13,2015 13:38:14 [info]  Pass
+Mar 13,2015 13:38:14 [info]  Verify Page title
+Mar 13,2015 13:38:19 [info]  Pass
+Mar 13,2015 13:38:19 [info]  Enter User name at login page.
+Mar 13,2015 13:38:20 [info]  Pass
+Mar 13,2015 13:38:20 [info]  Enter password at login page.
+Mar 13,2015 13:38:21 [info]  Pass
+Mar 13,2015 13:38:21 [info]  Click on Sign In button
+Mar 13,2015 13:38:40 [info]  Pass
+Mar 13,2015 13:38:40 [info]  Verify home page title
+Mar 13,2015 13:38:45 [info]  Pass
+Mar 13,2015 13:38:45 [info]  Open Add resident form via deep link
+Mar 13,2015 13:38:58 [info]  Pass
+Mar 13,2015 13:38:58 [info]  Enter Resident First Name
+Mar 13,2015 13:39:01 [info]  Pass
+Mar 13,2015 13:39:01 [info]  Enter Middle name
+Mar 13,2015 13:39:05 [info]  Pass
+Mar 13,2015 13:39:05 [info]  Enter last name
+Mar 13,2015 13:39:08 [info]  Pass
+Mar 13,2015 13:39:08 [info]  Open 'Calender'
+Mar 13,2015 13:39:10 [info]  Pass
+Mar 13,2015 13:39:15 [info]  Select Year
+Mar 13,2015 13:39:21 [info]  Pass
+Mar 13,2015 13:39:24 [info]  Select date
+Mar 13,2015 13:39:27 [info]  Pass
+Mar 13,2015 13:39:27 [info]  Select gender
+Mar 13,2015 13:39:28 [info]  Pass
+Mar 13,2015 13:39:28 [info]  Select Marital Status
+Mar 13,2015 13:39:30 [info]  Pass
+Mar 13,2015 13:39:30 [info]  Open 'Calender' for admit date
+Mar 13,2015 13:39:31 [info]  Pass
+Mar 13,2015 13:39:34 [info]  Select Year
+Mar 13,2015 13:39:40 [info]  Pass
+Mar 13,2015 13:39:40 [info]  Select Month
+Mar 13,2015 13:39:42 [info]  Pass
+Mar 13,2015 13:39:42 [info]  Select date
+Mar 13,2015 13:39:44 [info]  Pass
+Mar 13,2015 13:39:44 [info]  Select Facality
+Mar 13,2015 13:39:46 [info]  Pass
+Mar 13,2015 13:39:49 [info]  Select Nurse
+Mar 13,2015 13:39:50 [info]  Pass
+Mar 13,2015 13:39:50 [info]  Enter level of care
+Mar 13,2015 13:39:54 [info]  Pass
+Mar 13,2015 13:39:54 [info]  Click on 'Save' button
+Mar 13,2015 13:39:57 [info]  Pass
+Mar 13,2015 13:39:57 [info]  Search Added resident
+Mar 13,2015 13:40:03 [info]  Pass
+Mar 13,2015 13:40:03 [info]  Verify added resident
+Mar 13,2015 13:40:06 [info]  Pass
+Mar 13,2015 13:40:06 [info]  Open resident Profile
+Mar 13,2015 13:40:10 [info]  Pass
+Mar 13,2015 13:40:17 [info]  Click on Medication button
+Mar 13,2015 13:40:20 [info]  Pass
+Mar 13,2015 13:40:20 [info]  Click on Add Medication button
+Mar 13,2015 13:40:43 [info]  Pass
+Mar 13,2015 13:40:43 [info]  Enter Medicine Name
+Mar 13,2015 13:40:55 [info]  Pass
+Mar 13,2015 13:40:55 [info]  Enter Dosage
+Mar 13,2015 13:40:59 [info]  Pass
+Mar 13,2015 13:40:59 [info]  Enter instruction
+Mar 13,2015 13:41:02 [info]  Pass
+Mar 13,2015 13:41:02 [info]  Open 'Calender'
+Mar 13,2015 13:41:07 [info]  Pass
+Mar 13,2015 13:41:10 [info]  Select date
+Mar 13,2015 13:41:13 [info]  Pass
+Mar 13,2015 13:41:13 [info]  Select time
+Mar 13,2015 13:41:14 [info]  Pass
+Mar 13,2015 13:41:14 [info]  Select AM/PM
+Mar 13,2015 13:41:15 [info]  Pass
+Mar 13,2015 13:41:15 [info]  Click on Add Schedule button
+Mar 13,2015 13:41:19 [info]  Pass
+Mar 13,2015 13:41:19 [info]  Verify Added Schedule
+Mar 13,2015 13:41:19 [info]  Pass
+Mar 13,2015 13:41:19 [info]  Click on Save button
+Mar 13,2015 13:41:37 [info]  Pass
+Mar 13,2015 13:41:37 [info]  Verify Title
+Mar 13,2015 13:41:42 [info]  Pass
+Mar 13,2015 13:41:52 [info]  Open Medication page
+Mar 13,2015 13:42:05 [info]  Pass
+Mar 13,2015 13:42:05 [info]  Click on EMR Tab
+Mar 13,2015 13:42:08 [info]  Pass
+Mar 13,2015 13:42:08 [info]  Click on 'EMR'
+Mar 13,2015 13:42:27 [info]  Pass
+Mar 13,2015 13:42:27 [info]  Click on Admin Button dropdown
+Mar 13,2015 13:42:31 [info]  Pass
+Mar 13,2015 13:42:31 [info]  Click on ReResident Refused
+Mar 13,2015 13:42:38 [info]  Pass
+Mar 13,2015 13:42:43 [info]  Enter Result
+Mar 13,2015 13:42:44 [info]  Pass
+Mar 13,2015 13:42:44 [info]  Click on Save button
+Mar 13,2015 13:42:47 [info]  Pass
+Mar 13,2015 13:42:47 [info]  Click on Save button
+Mar 13,2015 13:42:51 [info]  Pass
+Mar 13,2015 13:42:51 [info]  Verify Omitted displayed
+Mar 13,2015 13:42:54 [info]  Pass
+Mar 13,2015 13:42:54 [info]  Verify user initials in Orange color
+Mar 13,2015 13:42:55 [info]  Pass
+Mar 13,2015 13:42:58 [info]  Click onExpend button button
+Mar 13,2015 13:42:58 [info]  Pass
+Mar 13,2015 13:43:01 [info]  User is able to see the monthly view
+Mar 13,2015 13:43:01 [info]  Pass
+Mar 13,2015 13:43:01 [info]  User is able to see the monthly view
+Mar 13,2015 13:43:01 [info]  Pass
+Mar 13,2015 13:43:01 [info]  Click on Undo button
+Mar 13,2015 13:43:04 [info]  Pass
+Mar 13,2015 13:43:16 [info]  Open resident profile
+Mar 13,2015 13:43:32 [info]  Pass
+Mar 13,2015 13:43:32 [info]  End Execution of Test Class com.iCM.scripts.EMRAdministerMonthlyViewOrange
+*****************************************************************************
+
+*****************************************************************************
+Mar 13,2015 13:43:46 [info]   Execution Started of Test Class com.iCM.scripts.EMRAdministerNotAbleNegaiveValue and Test method testEMRAdministerNotAbleNegaiveValue
+*****************************************************************************
+Mar 13,2015 13:43:46 [info]  Open application url
+Mar 13,2015 13:44:05 [info]  Pass
+Mar 13,2015 13:44:05 [info]  Verify Page title
+Mar 13,2015 13:44:10 [info]  Pass
+Mar 13,2015 13:44:10 [info]  Enter User name at login page.
+Mar 13,2015 13:44:10 [info]  Pass
+Mar 13,2015 13:44:10 [info]  Enter password at login page.
+Mar 13,2015 13:44:12 [info]  Pass
+Mar 13,2015 13:44:12 [info]  Click on Sign In button
+Mar 13,2015 13:44:31 [info]  Pass
+Mar 13,2015 13:44:31 [info]  Verify home page title
+Mar 13,2015 13:44:36 [info]  Pass
+Mar 13,2015 13:44:36 [info]  Click on 'EMR'
+Mar 13,2015 13:44:40 [info]  Pass
+Mar 13,2015 13:44:40 [info]  Verify EMR title
+Mar 13,2015 13:44:47 [info]  Pass
+Mar 13,2015 13:44:47 [info]  Click on 'EMR'
+Mar 13,2015 13:44:51 [info]  Pass
+Mar 13,2015 13:44:51 [info]  Click on Administer button
+Mar 13,2015 13:44:56 [info]  Pass
+Mar 13,2015 13:44:59 [info]  Enter Blood Suger
+Mar 13,2015 13:45:00 [info]  Pass
+Mar 13,2015 13:45:00 [info]  Enter -ve value in insulin
+Mar 13,2015 13:45:00 [info]  Pass
+Mar 13,2015 13:45:00 [info]  User is not able to give -negative value
+Mar 13,2015 13:45:01 [info]  Pass
+Mar 13,2015 13:45:01 [info]  Click on 'Administer now' button
+Mar 13,2015 13:45:04 [info]  Pass
+Mar 13,2015 13:45:04 [info]  Click on 'Ok' button
+Mar 13,2015 13:45:08 [info]  Pass
+Mar 13,2015 13:45:11 [info]  Verify User is able to Administered
+Mar 13,2015 13:45:11 [info]  Pass
+Mar 13,2015 13:45:11 [info]  Click on Undo button
+Mar 13,2015 13:45:15 [info]  Pass
+Mar 13,2015 13:45:15 [info]  End Execution of Test Class com.iCM.scripts.EMRAdministerNotAbleNegaiveValue
+*****************************************************************************
+
+*****************************************************************************
+Mar 13,2015 13:45:28 [info]   Execution Started of Test Class com.iCM.scripts.EMRAdministerUndo and Test method testEMRAdministerUndo
+*****************************************************************************
+Mar 13,2015 13:45:28 [info]  Open application url
+Mar 13,2015 13:45:49 [info]  Pass
+Mar 13,2015 13:45:49 [info]  Verify Page title
+Mar 13,2015 13:45:54 [info]  Pass
+Mar 13,2015 13:45:54 [info]  Enter User name at login page.
+Mar 13,2015 13:45:55 [info]  Pass
+Mar 13,2015 13:45:55 [info]  Enter password at login page.
+Mar 13,2015 13:45:56 [info]  Pass
+Mar 13,2015 13:45:56 [info]  Click on Sign In button
+Mar 13,2015 13:46:13 [info]  Pass
+Mar 13,2015 13:46:13 [info]  Verify home page title
+Mar 13,2015 13:46:18 [info]  Pass
+Mar 13,2015 13:46:18 [info]  Click on 'EMR'
+Mar 13,2015 13:46:22 [info]  Pass
+Mar 13,2015 13:46:22 [info]  Verify EMR title
+Mar 13,2015 13:46:27 [info]  Pass
+Mar 13,2015 13:46:27 [info]  Click on 'EMR'
+Mar 13,2015 13:46:31 [info]  Pass
+Mar 13,2015 13:46:31 [info]  Click on Administer button
+Mar 13,2015 13:46:37 [info]  Pass
+Mar 13,2015 13:46:40 [info]  Enter Blood Suger
+Mar 13,2015 13:46:41 [info]  Pass
+Mar 13,2015 13:46:41 [info]  Click on 'Administer now' button
+Mar 13,2015 13:46:44 [info]  Pass
+Mar 13,2015 13:46:44 [info]  Click on 'Ok' button
+Mar 13,2015 13:46:48 [info]  Pass
+Mar 13,2015 13:46:51 [info]  Verify User is able to Administered
+Mar 13,2015 13:46:51 [info]  Pass
+Mar 13,2015 13:46:54 [info]  Click on Undo button
+Mar 13,2015 13:46:58 [info]  Pass
+Mar 13,2015 13:47:01 [info]  Verify User is able to undo the Administered
+Mar 13,2015 13:47:22 [info]  Pass
+Mar 13,2015 13:47:22 [info]  End Execution of Test Class com.iCM.scripts.EMRAdministerUndo
+*****************************************************************************
+
+*****************************************************************************
+Mar 13,2015 13:47:34 [info]   Execution Started of Test Class com.iCM.scripts.EMRAdminLate and Test method testEMRAdminLate
+*****************************************************************************
+Mar 13,2015 13:47:34 [info]  Open application url
+Mar 13,2015 13:47:56 [info]  Pass
+Mar 13,2015 13:47:56 [info]  Verify Page title
+Mar 13,2015 13:48:01 [info]  Pass
+Mar 13,2015 13:48:01 [info]  Enter User name at login page.
+Mar 13,2015 13:48:02 [info]  Pass
+Mar 13,2015 13:48:02 [info]  Enter password at login page.
+Mar 13,2015 13:48:05 [info]  Pass
+Mar 13,2015 13:48:05 [info]  Click on Sign In button
+Mar 13,2015 13:48:24 [info]  Pass
+Mar 13,2015 13:48:24 [info]  Verify home page title
+Mar 13,2015 13:48:29 [info]  Pass
+Mar 13,2015 13:48:29 [info]  Open Add resident form via deep link
+Mar 13,2015 13:48:39 [info]  Pass
+Mar 13,2015 13:48:39 [info]  Enter Resident First Name
+Mar 13,2015 13:48:43 [info]  Pass
+Mar 13,2015 13:48:43 [info]  Enter Middle name
+Mar 13,2015 13:48:46 [info]  Pass
+Mar 13,2015 13:48:46 [info]  Enter last name
+Mar 13,2015 13:48:49 [info]  Pass
+Mar 13,2015 13:48:49 [info]  Open 'Calender'
+Mar 13,2015 13:48:51 [info]  Pass
+Mar 13,2015 13:48:56 [info]  Select Year
+Mar 13,2015 13:49:02 [info]  Pass
+Mar 13,2015 13:49:05 [info]  Select date
+Mar 13,2015 13:49:07 [info]  Pass
+Mar 13,2015 13:49:07 [info]  Select gender
+Mar 13,2015 13:49:08 [info]  Pass
+Mar 13,2015 13:49:08 [info]  Select Marital Status
+Mar 13,2015 13:49:09 [info]  Pass
+Mar 13,2015 13:49:09 [info]  Open 'Calender' for admit date
+Mar 13,2015 13:49:11 [info]  Pass
+Mar 13,2015 13:49:14 [info]  Select Year
+Mar 13,2015 13:49:20 [info]  Pass
+Mar 13,2015 13:49:20 [info]  Select Month
+Mar 13,2015 13:49:22 [info]  Pass
+Mar 13,2015 13:49:22 [info]  Select date
+Mar 13,2015 13:49:23 [info]  Pass
+Mar 13,2015 13:49:23 [info]  Select Facality
+Mar 13,2015 13:49:24 [info]  Pass
+Mar 13,2015 13:49:27 [info]  Select Nurse
+Mar 13,2015 13:49:29 [info]  Pass
+Mar 13,2015 13:49:29 [info]  Enter level of care
+Mar 13,2015 13:49:32 [info]  Pass
+Mar 13,2015 13:49:32 [info]  Click on 'Save' button
+Mar 13,2015 13:49:36 [info]  Pass
+Mar 13,2015 13:49:36 [info]  Search Added resident
+Mar 13,2015 13:50:10 [info]  Mar 13,2015 13:50:10 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: Element Locator ://*[@id='DataTables_Table_0_filter']/label/input Not found expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.iCM.util.DriverHelper.sendKeys(DriverHelper.java:254)
+	at com.iCM.pagehelper.ResidentHelper.type(ResidentHelper.java:27)
+	at com.iCM.scripts.EMRAdminLate.testEMRAdminLate(EMRAdminLate.java:161)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1220)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.TestNG.privateMain(TestNG.java:1364)
+	at org.testng.TestNG.main(TestNG.java:1333)
+Mar 13,2015 13:50:10 [info]  End Execution of Test Class com.iCM.scripts.EMRAdminLate
+*****************************************************************************
+
+*****************************************************************************
+Mar 13,2015 13:50:24 [info]   Execution Started of Test Class com.iCM.scripts.EMRAdminLateReading and Test method testEMRAdminLateReading
+*****************************************************************************
+Mar 13,2015 13:50:24 [info]  Open application url
+Mar 13,2015 13:50:38 [info]  Pass
+Mar 13,2015 13:50:38 [info]  Verify Page title
+Mar 13,2015 13:50:43 [info]  Pass
+Mar 13,2015 13:50:43 [info]  Enter User name at login page.
+Mar 13,2015 13:50:44 [info]  Pass
+Mar 13,2015 13:50:44 [info]  Enter password at login page.
+Mar 13,2015 13:50:44 [info]  Pass
+Mar 13,2015 13:50:44 [info]  Click on Sign In button
+Mar 13,2015 13:51:01 [info]  Pass
+Mar 13,2015 13:51:01 [info]  Verify home page title
+Mar 13,2015 13:51:07 [info]  Pass
+Mar 13,2015 13:51:07 [info]  Open Add resident form via deep link
+Mar 13,2015 13:51:19 [info]  Pass
+Mar 13,2015 13:51:19 [info]  Enter Resident First Name
+Mar 13,2015 13:51:23 [info]  Pass
+Mar 13,2015 13:51:23 [info]  Enter Middle name
+Mar 13,2015 13:51:26 [info]  Pass
+Mar 13,2015 13:51:26 [info]  Enter last name
+Mar 13,2015 13:51:30 [info]  Pass
+Mar 13,2015 13:51:30 [info]  Open 'Calender'
+Mar 13,2015 13:51:31 [info]  Pass
+Mar 13,2015 13:51:36 [info]  Select Year
+Mar 13,2015 13:51:42 [info]  Pass
+Mar 13,2015 13:51:45 [info]  Select date
+Mar 13,2015 13:51:47 [info]  Pass
+Mar 13,2015 13:51:47 [info]  Select gender
+Mar 13,2015 13:51:48 [info]  Pass
+Mar 13,2015 13:51:48 [info]  Select Marital Status
+Mar 13,2015 13:51:50 [info]  Pass
+Mar 13,2015 13:51:50 [info]  Open 'Calender' for admit date
+Mar 13,2015 13:51:51 [info]  Pass
+Mar 13,2015 13:51:54 [info]  Select Year
+Mar 13,2015 13:52:00 [info]  Pass
+Mar 13,2015 13:52:00 [info]  Select Month
+Mar 13,2015 13:52:02 [info]  Pass
+Mar 13,2015 13:52:02 [info]  Select date
+Mar 13,2015 13:52:03 [info]  Pass
+Mar 13,2015 13:52:03 [info]  Select Facality
+Mar 13,2015 13:52:04 [info]  Pass
+Mar 13,2015 13:52:07 [info]  Select Nurse
+Mar 13,2015 13:52:09 [info]  Pass
+Mar 13,2015 13:52:09 [info]  Enter level of care
+Mar 13,2015 13:52:12 [info]  Pass
+Mar 13,2015 13:52:12 [info]  Click on 'Save' button
+Mar 13,2015 13:52:16 [info]  Pass
+Mar 13,2015 13:52:16 [info]  Search Added resident
+Mar 13,2015 13:52:51 [info]  Mar 13,2015 13:52:51 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: Element Locator ://*[@id='DataTables_Table_0_filter']/label/input Not found expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.iCM.util.DriverHelper.sendKeys(DriverHelper.java:254)
+	at com.iCM.pagehelper.ResidentHelper.type(ResidentHelper.java:27)
+	at com.iCM.scripts.EMRAdminLateReading.testEMRAdminLateReading(EMRAdminLateReading.java:161)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1220)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.TestNG.privateMain(TestNG.java:1364)
+	at org.testng.TestNG.main(TestNG.java:1333)
+Mar 13,2015 13:52:51 [info]  End Execution of Test Class com.iCM.scripts.EMRAdminLateReading
+*****************************************************************************
+
+*****************************************************************************
+Mar 13,2015 13:53:05 [info]   Execution Started of Test Class com.iCM.scripts.EMRAdminResidentHold and Test method testEMRAdminResidentHold
+*****************************************************************************
+Mar 13,2015 13:53:05 [info]  Open application url
+Mar 13,2015 13:53:18 [info]  Pass
+Mar 13,2015 13:53:18 [info]  Verify Page title
+Mar 13,2015 13:53:23 [info]  Pass
+Mar 13,2015 13:53:23 [info]  Enter User name at login page.
+Mar 13,2015 13:53:23 [info]  Pass
+Mar 13,2015 13:53:23 [info]  Enter password at login page.
+Mar 13,2015 13:53:24 [info]  Pass
+Mar 13,2015 13:53:24 [info]  Click on Sign In button
+Mar 13,2015 13:53:39 [info]  Pass
+Mar 13,2015 13:53:39 [info]  Verify home page title
+Mar 13,2015 13:53:44 [info]  Pass
+Mar 13,2015 13:53:44 [info]  Open Add resident form via deep link
+Mar 13,2015 13:53:58 [info]  Pass
+Mar 13,2015 13:53:58 [info]  Enter Resident First Name
+Mar 13,2015 13:54:01 [info]  Pass
+Mar 13,2015 13:54:01 [info]  Enter Middle name
+Mar 13,2015 13:54:05 [info]  Pass
+Mar 13,2015 13:54:05 [info]  Enter last name
+Mar 13,2015 13:54:08 [info]  Pass
+Mar 13,2015 13:54:08 [info]  Open 'Calender'
+Mar 13,2015 13:54:10 [info]  Pass
+Mar 13,2015 13:54:15 [info]  Select Year
+Mar 13,2015 13:54:21 [info]  Pass
+Mar 13,2015 13:54:24 [info]  Select date
+Mar 13,2015 13:54:25 [info]  Pass
+Mar 13,2015 13:54:25 [info]  Select gender
+Mar 13,2015 13:54:27 [info]  Pass
+Mar 13,2015 13:54:27 [info]  Select Marital Status
+Mar 13,2015 13:54:28 [info]  Pass
+Mar 13,2015 13:54:28 [info]  Open 'Calender' for admit date
+Mar 13,2015 13:54:30 [info]  Pass
+Mar 13,2015 13:54:33 [info]  Select Year
+Mar 13,2015 13:54:39 [info]  Pass
+Mar 13,2015 13:54:39 [info]  Select Month
+Mar 13,2015 13:54:40 [info]  Pass
+Mar 13,2015 13:54:40 [info]  Select date
+Mar 13,2015 13:54:42 [info]  Pass
+Mar 13,2015 13:54:42 [info]  Select Facality
+Mar 13,2015 13:54:43 [info]  Pass
+Mar 13,2015 13:54:46 [info]  Select Nurse
+Mar 13,2015 13:54:48 [info]  Pass
+Mar 13,2015 13:54:48 [info]  Enter level of care
+Mar 13,2015 13:54:51 [info]  Pass
+Mar 13,2015 13:54:51 [info]  Click on 'Save' button
+Mar 13,2015 13:54:55 [info]  Pass
+Mar 13,2015 13:54:55 [info]  Search Added resident
+Mar 13,2015 13:55:29 [info]  Mar 13,2015 13:55:29 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: Element Locator ://*[@id='DataTables_Table_0_filter']/label/input Not found expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.iCM.util.DriverHelper.sendKeys(DriverHelper.java:254)
+	at com.iCM.pagehelper.ResidentHelper.type(ResidentHelper.java:27)
+	at com.iCM.scripts.EMRAdminResidentHold.testEMRAdminResidentHold(EMRAdminResidentHold.java:161)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1220)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.TestNG.privateMain(TestNG.java:1364)
+	at org.testng.TestNG.main(TestNG.java:1333)
+Mar 13,2015 13:55:29 [info]  End Execution of Test Class com.iCM.scripts.EMRAdminResidentHold
+*****************************************************************************
+
+*****************************************************************************
+Mar 13,2015 13:55:41 [info]   Execution Started of Test Class com.iCM.scripts.EMRAdminResidentPhysically and Test method testEMRAdminResidentHold
+*****************************************************************************
+Mar 13,2015 13:55:41 [info]  Open application url
+Mar 13,2015 13:55:56 [info]  Pass
+Mar 13,2015 13:55:56 [info]  Verify Page title
+Mar 13,2015 13:56:01 [info]  Pass
+Mar 13,2015 13:56:01 [info]  Enter User name at login page.
+Mar 13,2015 13:56:02 [info]  Pass
+Mar 13,2015 13:56:02 [info]  Enter password at login page.
+Mar 13,2015 13:56:03 [info]  Pass
+Mar 13,2015 13:56:03 [info]  Click on Sign In button
+Mar 13,2015 13:56:21 [info]  Pass
+Mar 13,2015 13:56:21 [info]  Verify home page title
+Mar 13,2015 13:56:27 [info]  Pass
+Mar 13,2015 13:56:27 [info]  Open Add resident form via deep link
+Mar 13,2015 13:56:41 [info]  Pass
+Mar 13,2015 13:56:41 [info]  Enter Resident First Name
+Mar 13,2015 13:56:44 [info]  Pass
+Mar 13,2015 13:56:44 [info]  Enter Middle name
+Mar 13,2015 13:56:48 [info]  Pass
+Mar 13,2015 13:56:48 [info]  Enter last name
+Mar 13,2015 13:56:51 [info]  Pass
+Mar 13,2015 13:56:51 [info]  Open 'Calender'
+Mar 13,2015 13:56:53 [info]  Pass
+Mar 13,2015 13:56:58 [info]  Select Year
+Mar 13,2015 13:57:04 [info]  Pass
+Mar 13,2015 13:57:07 [info]  Select date
+Mar 13,2015 13:57:08 [info]  Pass
+Mar 13,2015 13:57:08 [info]  Select gender
+Mar 13,2015 13:57:10 [info]  Pass
+Mar 13,2015 13:57:10 [info]  Select Marital Status
+Mar 13,2015 13:57:11 [info]  Pass
+Mar 13,2015 13:57:11 [info]  Open 'Calender' for admit date
+Mar 13,2015 13:57:13 [info]  Pass
+Mar 13,2015 13:57:16 [info]  Select Year
+Mar 13,2015 13:57:22 [info]  Pass
+Mar 13,2015 13:57:22 [info]  Select Month
+Mar 13,2015 13:57:23 [info]  Pass
+Mar 13,2015 13:57:23 [info]  Select date
+Mar 13,2015 13:57:25 [info]  Pass
+Mar 13,2015 13:57:25 [info]  Select Facality
+Mar 13,2015 13:57:26 [info]  Pass
+Mar 13,2015 13:57:29 [info]  Select Nurse
+Mar 13,2015 13:57:30 [info]  Pass
+Mar 13,2015 13:57:30 [info]  Enter level of care
+Mar 13,2015 13:57:34 [info]  Pass
+Mar 13,2015 13:57:34 [info]  Click on 'Save' button
+Mar 13,2015 13:57:38 [info]  Pass
+Mar 13,2015 13:57:38 [info]  Search Added resident
+Mar 13,2015 13:58:12 [info]  Mar 13,2015 13:58:12 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: Element Locator ://*[@id='DataTables_Table_0_filter']/label/input Not found expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.iCM.util.DriverHelper.sendKeys(DriverHelper.java:254)
+	at com.iCM.pagehelper.ResidentHelper.type(ResidentHelper.java:27)
+	at com.iCM.scripts.EMRAdminResidentPhysically.testEMRAdminResidentHold(EMRAdminResidentPhysically.java:161)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1220)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.TestNG.privateMain(TestNG.java:1364)
+	at org.testng.TestNG.main(TestNG.java:1333)
+Mar 13,2015 13:58:12 [info]  End Execution of Test Class com.iCM.scripts.EMRAdminResidentPhysically
+*****************************************************************************
+
+*****************************************************************************
+Mar 13,2015 13:58:25 [info]   Execution Started of Test Class com.iCM.scripts.EMRAdminResidentRefused and Test method testEMRAdminResidentRefused
+*****************************************************************************
+Mar 13,2015 13:58:25 [info]  Open application url
+Mar 13,2015 13:58:38 [info]  Pass
+Mar 13,2015 13:58:38 [info]  Verify Page title
+Mar 13,2015 13:58:43 [info]  Pass
+Mar 13,2015 13:58:43 [info]  Enter User name at login page.
+Mar 13,2015 13:58:43 [info]  Pass
+Mar 13,2015 13:58:43 [info]  Enter password at login page.
+Mar 13,2015 13:58:44 [info]  Pass
+Mar 13,2015 13:58:44 [info]  Click on Sign In button
+Mar 13,2015 13:59:00 [info]  Pass
+Mar 13,2015 13:59:00 [info]  Verify home page title
+Mar 13,2015 13:59:06 [info]  Pass
+Mar 13,2015 13:59:06 [info]  Open Add resident form via deep link
+Mar 13,2015 13:59:16 [info]  Pass
+Mar 13,2015 13:59:16 [info]  Enter Resident First Name
+Mar 13,2015 13:59:19 [info]  Pass
+Mar 13,2015 13:59:19 [info]  Enter Middle name
+Mar 13,2015 13:59:23 [info]  Pass
+Mar 13,2015 13:59:23 [info]  Enter last name
+Mar 13,2015 13:59:26 [info]  Pass
+Mar 13,2015 13:59:26 [info]  Open 'Calender'
+Mar 13,2015 13:59:28 [info]  Pass
+Mar 13,2015 13:59:33 [info]  Select Year
+Mar 13,2015 13:59:39 [info]  Pass
+Mar 13,2015 13:59:42 [info]  Select date
+Mar 13,2015 13:59:43 [info]  Pass
+Mar 13,2015 13:59:43 [info]  Select gender
+Mar 13,2015 13:59:45 [info]  Pass
+Mar 13,2015 13:59:45 [info]  Select Marital Status
+Mar 13,2015 13:59:46 [info]  Pass
+Mar 13,2015 13:59:46 [info]  Open 'Calender' for admit date
+Mar 13,2015 13:59:48 [info]  Pass
+Mar 13,2015 13:59:51 [info]  Select Year
+Mar 13,2015 13:59:57 [info]  Pass
+Mar 13,2015 13:59:57 [info]  Select Month
+Mar 13,2015 13:59:58 [info]  Pass
+Mar 13,2015 13:59:58 [info]  Select date
+Mar 13,2015 13:59:59 [info]  Pass
+Mar 13,2015 13:59:59 [info]  Select Facality
+Mar 13,2015 14:00:01 [info]  Pass
+Mar 13,2015 14:00:04 [info]  Select Nurse
+Mar 13,2015 14:00:05 [info]  Pass
+Mar 13,2015 14:00:05 [info]  Enter level of care
+Mar 13,2015 14:00:09 [info]  Pass
+Mar 13,2015 14:00:09 [info]  Click on 'Save' button
+Mar 13,2015 14:00:12 [info]  Pass
+Mar 13,2015 14:00:12 [info]  Search Added resident
+Mar 13,2015 14:00:47 [info]  Mar 13,2015 14:00:47 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: Element Locator ://*[@id='DataTables_Table_0_filter']/label/input Not found expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.iCM.util.DriverHelper.sendKeys(DriverHelper.java:254)
+	at com.iCM.pagehelper.ResidentHelper.type(ResidentHelper.java:27)
+	at com.iCM.scripts.EMRAdminResidentRefused.testEMRAdminResidentRefused(EMRAdminResidentRefused.java:161)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1220)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.TestNG.privateMain(TestNG.java:1364)
+	at org.testng.TestNG.main(TestNG.java:1333)
+Mar 13,2015 14:00:47 [info]  End Execution of Test Class com.iCM.scripts.EMRAdminResidentRefused
+*****************************************************************************
+
+*****************************************************************************
+Mar 13,2015 14:00:59 [info]   Execution Started of Test Class com.iCM.scripts.EMRAdminUndo and Test method testEMRAdminUndo
+*****************************************************************************
+Mar 13,2015 14:00:59 [info]  Open application url
+Mar 13,2015 14:01:16 [info]  Pass
+Mar 13,2015 14:01:16 [info]  Verify Page title
+Mar 13,2015 14:01:21 [info]  Pass
+Mar 13,2015 14:01:21 [info]  Enter User name at login page.
+Mar 13,2015 14:01:22 [info]  Pass
+Mar 13,2015 14:01:22 [info]  Enter password at login page.
+Mar 13,2015 14:01:22 [info]  Pass
+Mar 13,2015 14:01:22 [info]  Click on Sign In button
+Mar 13,2015 14:01:41 [info]  Pass
+Mar 13,2015 14:01:41 [info]  Verify home page title
+Mar 13,2015 14:01:47 [info]  Pass
+Mar 13,2015 14:01:47 [info]  Open Add resident form via deep link
+Mar 13,2015 14:02:00 [info]  Pass
+Mar 13,2015 14:02:00 [info]  Enter Resident First Name
+Mar 13,2015 14:02:03 [info]  Pass
+Mar 13,2015 14:02:03 [info]  Enter Middle name
+Mar 13,2015 14:02:07 [info]  Pass
+Mar 13,2015 14:02:07 [info]  Enter last name
+Mar 13,2015 14:02:10 [info]  Pass
+Mar 13,2015 14:02:10 [info]  Open 'Calender'
+Mar 13,2015 14:02:12 [info]  Pass
+Mar 13,2015 14:02:17 [info]  Select Year
+Mar 13,2015 14:02:23 [info]  Pass
+Mar 13,2015 14:02:26 [info]  Select date
+Mar 13,2015 14:02:27 [info]  Pass
+Mar 13,2015 14:02:27 [info]  Select gender
+Mar 13,2015 14:02:29 [info]  Pass
+Mar 13,2015 14:02:29 [info]  Select Marital Status
+Mar 13,2015 14:02:30 [info]  Pass
+Mar 13,2015 14:02:30 [info]  Open 'Calender' for admit date
+Mar 13,2015 14:02:32 [info]  Pass
+Mar 13,2015 14:02:35 [info]  Select Year
+Mar 13,2015 14:02:41 [info]  Pass
+Mar 13,2015 14:02:41 [info]  Select Month
+Mar 13,2015 14:02:42 [info]  Pass
+Mar 13,2015 14:02:42 [info]  Select date
+Mar 13,2015 14:02:43 [info]  Pass
+Mar 13,2015 14:02:43 [info]  Select Facality
+Mar 13,2015 14:02:45 [info]  Pass
+Mar 13,2015 14:02:48 [info]  Select Nurse
+Mar 13,2015 14:02:49 [info]  Pass
+Mar 13,2015 14:02:49 [info]  Enter level of care
+Mar 13,2015 14:02:53 [info]  Pass
+Mar 13,2015 14:02:53 [info]  Click on 'Save' button
+Mar 13,2015 14:02:57 [info]  Pass
+Mar 13,2015 14:02:57 [info]  Search Added resident
+Mar 13,2015 14:03:31 [info]  Mar 13,2015 14:03:31 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: Element Locator ://*[@id='DataTables_Table_0_filter']/label/input Not found expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.iCM.util.DriverHelper.sendKeys(DriverHelper.java:254)
+	at com.iCM.pagehelper.ResidentHelper.type(ResidentHelper.java:27)
+	at com.iCM.scripts.EMRAdminUndo.testEMRAdminUndo(EMRAdminUndo.java:161)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1220)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.TestNG.privateMain(TestNG.java:1364)
+	at org.testng.TestNG.main(TestNG.java:1333)
+Mar 13,2015 14:03:31 [info]  End Execution of Test Class com.iCM.scripts.EMRAdminUndo
+*****************************************************************************
+
+*****************************************************************************
+Mar 13,2015 14:03:43 [info]   Execution Started of Test Class com.iCM.scripts.EMREChartMedication and Test method testEMREChartMedication
+*****************************************************************************
+Mar 13,2015 14:03:43 [info]  Open application url
+Mar 13,2015 14:03:56 [info]  Pass
+Mar 13,2015 14:03:56 [info]  Verify Page title
+Mar 13,2015 14:04:01 [info]  Pass
+Mar 13,2015 14:04:01 [info]  Enter User name at login page.
+Mar 13,2015 14:04:01 [info]  Pass
+Mar 13,2015 14:04:01 [info]  Enter password at login page.
+Mar 13,2015 14:04:02 [info]  Pass
+Mar 13,2015 14:04:02 [info]  Click on Sign In button
+Mar 13,2015 14:04:18 [info]  Pass
+Mar 13,2015 14:04:18 [info]  Verify home page title
+Mar 13,2015 14:04:23 [info]  Pass
+Mar 13,2015 14:04:23 [info]  Open resident list via deep link
+Mar 13,2015 14:04:33 [info]  Pass
+Mar 13,2015 14:04:33 [info]  Open resident Profile
+Mar 13,2015 14:04:36 [info]  Pass
+Mar 13,2015 14:04:36 [info]  Verify 'EChart' Page title
+Mar 13,2015 14:04:41 [info]  Pass
+Mar 13,2015 14:04:41 [info]  Click on Medication button
+Mar 13,2015 14:04:45 [info]  Pass
+Mar 13,2015 14:04:45 [info]  Verify 'Medication' Page title
+Mar 13,2015 14:04:59 [info]  Pass
+Mar 13,2015 14:04:59 [info]  Click on EMR Tab
+Mar 13,2015 14:05:02 [info]  Pass
+Mar 13,2015 14:05:02 [info]  Verify 'Administer Medication' Page title
+Mar 13,2015 14:05:17 [info]  Pass
+Mar 13,2015 14:05:17 [info]  Verify 'Medications'tab
+Mar 13,2015 14:05:22 [info]  Pass
+Mar 13,2015 14:05:22 [info]  End Execution of Test Class com.iCM.scripts.EMREChartMedication
+*****************************************************************************
+
+*****************************************************************************
+Mar 13,2015 14:05:35 [info]   Execution Started of Test Class com.iCM.scripts.EMROmissionUndo and Test method testEMROmissionUndo
+*****************************************************************************
+Mar 13,2015 14:05:35 [info]  Open application url
+Mar 13,2015 14:05:50 [info]  Pass
+Mar 13,2015 14:05:50 [info]  Verify Page title
+Mar 13,2015 14:05:55 [info]  Pass
+Mar 13,2015 14:05:55 [info]  Enter User name at login page.
+Mar 13,2015 14:05:56 [info]  Pass
+Mar 13,2015 14:05:56 [info]  Enter password at login page.
+Mar 13,2015 14:05:57 [info]  Pass
+Mar 13,2015 14:05:57 [info]  Click on Sign In button
+Mar 13,2015 14:06:15 [info]  Pass
+Mar 13,2015 14:06:15 [info]  Verify home page title
+Mar 13,2015 14:06:20 [info]  Pass
+Mar 13,2015 14:06:20 [info]  Open Add resident form via deep link
+Mar 13,2015 14:06:33 [info]  Pass
+Mar 13,2015 14:06:33 [info]  Enter Resident First Name
+Mar 13,2015 14:06:36 [info]  Pass
+Mar 13,2015 14:06:36 [info]  Enter Middle name
+Mar 13,2015 14:06:39 [info]  Pass
+Mar 13,2015 14:06:39 [info]  Enter last name
+Mar 13,2015 14:06:43 [info]  Pass
+Mar 13,2015 14:06:43 [info]  Open 'Calender'
+Mar 13,2015 14:06:44 [info]  Pass
+Mar 13,2015 14:06:49 [info]  Select Year
+Mar 13,2015 14:06:56 [info]  Pass
+Mar 13,2015 14:06:59 [info]  Select date
+Mar 13,2015 14:07:00 [info]  Pass
+Mar 13,2015 14:07:00 [info]  Select gender
+Mar 13,2015 14:07:01 [info]  Pass
+Mar 13,2015 14:07:01 [info]  Select Marital Status
+Mar 13,2015 14:07:03 [info]  Pass
+Mar 13,2015 14:07:03 [info]  Open 'Calender' for admit date
+Mar 13,2015 14:07:04 [info]  Pass
+Mar 13,2015 14:07:07 [info]  Select Year
+Mar 13,2015 14:07:14 [info]  Pass
+Mar 13,2015 14:07:14 [info]  Select Month
+Mar 13,2015 14:07:15 [info]  Pass
+Mar 13,2015 14:07:15 [info]  Select date
+Mar 13,2015 14:07:16 [info]  Pass
+Mar 13,2015 14:07:16 [info]  Select Facality
+Mar 13,2015 14:07:18 [info]  Pass
+Mar 13,2015 14:07:21 [info]  Select Nurse
+Mar 13,2015 14:07:22 [info]  Pass
+Mar 13,2015 14:07:22 [info]  Enter level of care
+Mar 13,2015 14:07:26 [info]  Pass
+Mar 13,2015 14:07:26 [info]  Click on 'Save' button
+Mar 13,2015 14:07:29 [info]  Pass
+Mar 13,2015 14:07:30 [info]  Search Added resident
+Mar 13,2015 14:08:04 [info]  Mar 13,2015 14:08:04 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: Element Locator ://*[@id='DataTables_Table_0_filter']/label/input Not found expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.iCM.util.DriverHelper.sendKeys(DriverHelper.java:254)
+	at com.iCM.pagehelper.ResidentHelper.type(ResidentHelper.java:27)
+	at com.iCM.scripts.EMROmissionUndo.testEMROmissionUndo(EMROmissionUndo.java:157)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1220)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.TestNG.privateMain(TestNG.java:1364)
+	at org.testng.TestNG.main(TestNG.java:1333)
+Mar 13,2015 14:08:04 [info]  End Execution of Test Class com.iCM.scripts.EMROmissionUndo
+*****************************************************************************
+
+*****************************************************************************
+Mar 13,2015 14:08:17 [info]   Execution Started of Test Class com.iCM.scripts.EMRWithoutError and Test method testEMRWithoutError
+*****************************************************************************
+Mar 13,2015 14:08:17 [info]  Open application url
+Mar 13,2015 14:08:30 [info]  Pass
+Mar 13,2015 14:08:30 [info]  Verify Page title
+Mar 13,2015 14:08:35 [info]  Pass
+Mar 13,2015 14:08:35 [info]  Enter User name at login page.
+Mar 13,2015 14:08:36 [info]  Pass
+Mar 13,2015 14:08:36 [info]  Enter password at login page.
+Mar 13,2015 14:08:37 [info]  Pass
+Mar 13,2015 14:08:37 [info]  Click on Sign In button
+Mar 13,2015 14:08:55 [info]  Pass
+Mar 13,2015 14:08:55 [info]  Verify home page title
+Mar 13,2015 14:09:00 [info]  Pass
+Mar 13,2015 14:09:00 [info]  Click on 'EMR'
+Mar 13,2015 14:09:04 [info]  Pass
+Mar 13,2015 14:09:04 [info]  Verify EMR title
+Mar 13,2015 14:09:09 [info]  Pass
+Mar 13,2015 14:09:09 [info]  Verify No 500 error page displayed
+Mar 13,2015 14:09:15 [info]  Pass
+Mar 13,2015 14:09:15 [info]  End Execution of Test Class com.iCM.scripts.EMRWithoutError
+*****************************************************************************
+
+*****************************************************************************
+Mar 13,2015 14:09:29 [info]   Execution Started of Test Class com.iCM.scripts.GenerateEMRReport and Test method testGenerateEMRReport
+*****************************************************************************
+Mar 13,2015 14:09:29 [info]  Open application url
+Mar 13,2015 14:09:44 [info]  Pass
+Mar 13,2015 14:09:44 [info]  Verify Page title
+Mar 13,2015 14:09:49 [info]  Pass
+Mar 13,2015 14:09:49 [info]  Enter User name at login page.
+Mar 13,2015 14:09:49 [info]  Pass
+Mar 13,2015 14:09:49 [info]  Enter password at login page.
+Mar 13,2015 14:09:50 [info]  Pass
+Mar 13,2015 14:09:50 [info]  Click on Sign In button
+Mar 13,2015 14:10:06 [info]  Pass
+Mar 13,2015 14:10:06 [info]  Verify home page title
+Mar 13,2015 14:10:11 [info]  Pass
+Mar 13,2015 14:10:11 [info]  Open resident list via deep link
+Mar 13,2015 14:10:22 [info]  Pass
+Mar 13,2015 14:10:22 [info]  Open resident Profile
+Mar 13,2015 14:10:26 [info]  Pass
+Mar 13,2015 14:10:26 [info]  Click on Medication button
+Mar 13,2015 14:10:29 [info]  Pass
+Mar 13,2015 14:10:29 [info]  Click on EMR Tab
+Mar 13,2015 14:10:43 [info]  Pass
+Mar 13,2015 14:10:43 [info]  Click on 'Generate MAR'
+Mar 13,2015 14:11:03 [info]  Pass
+Mar 13,2015 14:11:05 [info]  Select Month
+Mar 13,2015 14:11:07 [info]  Pass
+Mar 13,2015 14:11:07 [info]  Click on 'Generate Now'
+Mar 13,2015 14:11:13 [info]  Pass
+Mar 13,2015 14:11:13 [info]  End Execution of Test Class com.iCM.scripts.GenerateEMRReport
+*****************************************************************************
+
+*****************************************************************************
+Mar 13,2015 14:11:25 [info]   Execution Started of Test Class com.iCM.scripts.HoldMedicine and Test method testHoldMedicine
+*****************************************************************************
+Mar 13,2015 14:11:25 [info]  Open application url
+Mar 13,2015 14:11:46 [info]  Pass
+Mar 13,2015 14:11:46 [info]  Verify Page title
+Mar 13,2015 14:11:51 [info]  Pass
+Mar 13,2015 14:11:51 [info]  Enter User name at login page.
+Mar 13,2015 14:11:52 [info]  Pass
+Mar 13,2015 14:11:52 [info]  Enter password at login page.
+Mar 13,2015 14:11:53 [info]  Pass
+Mar 13,2015 14:11:53 [info]  Click on Sign In button
+Mar 13,2015 14:12:14 [info]  Pass
+Mar 13,2015 14:12:14 [info]  Verify home page title
+Mar 13,2015 14:12:20 [info]  Pass
+Mar 13,2015 14:12:20 [info]  Open Add resident form via deep link
+Mar 13,2015 14:12:35 [info]  Pass
+Mar 13,2015 14:12:35 [info]  Enter Resident First Name
+Mar 13,2015 14:12:38 [info]  Pass
+Mar 13,2015 14:12:38 [info]  Enter Middle name
+Mar 13,2015 14:12:42 [info]  Pass
+Mar 13,2015 14:12:42 [info]  Enter last name
+Mar 13,2015 14:12:45 [info]  Pass
+Mar 13,2015 14:12:45 [info]  Open 'Calender'
+Mar 13,2015 14:12:46 [info]  Pass
+Mar 13,2015 14:12:51 [info]  Select Year
+Mar 13,2015 14:12:58 [info]  Pass
+Mar 13,2015 14:13:01 [info]  Select date
+Mar 13,2015 14:13:02 [info]  Pass
+Mar 13,2015 14:13:02 [info]  Select gender
+Mar 13,2015 14:13:03 [info]  Pass
+Mar 13,2015 14:13:03 [info]  Select Marital Status
+Mar 13,2015 14:13:05 [info]  Pass
+Mar 13,2015 14:13:05 [info]  Open 'Calender' for admit date
+Mar 13,2015 14:13:06 [info]  Pass
+Mar 13,2015 14:13:09 [info]  Select Year
+Mar 13,2015 14:13:16 [info]  Pass
+Mar 13,2015 14:13:16 [info]  Select Month
+Mar 13,2015 14:13:17 [info]  Pass
+Mar 13,2015 14:13:17 [info]  Select date
+Mar 13,2015 14:13:18 [info]  Pass
+Mar 13,2015 14:13:18 [info]  Select Facality
+Mar 13,2015 14:13:20 [info]  Pass
+Mar 13,2015 14:13:23 [info]  Select Nurse
+Mar 13,2015 14:13:24 [info]  Pass
+Mar 13,2015 14:13:24 [info]  Enter level of care
+Mar 13,2015 14:13:27 [info]  Pass
+Mar 13,2015 14:13:27 [info]  Click on 'Save' button
+Mar 13,2015 14:13:31 [info]  Pass
+Mar 13,2015 14:13:31 [info]  Search Added resident
+Mar 13,2015 14:14:06 [info]  Mar 13,2015 14:14:06 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: Element Locator ://*[@id='DataTables_Table_0_filter']/label/input Not found expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.iCM.util.DriverHelper.sendKeys(DriverHelper.java:254)
+	at com.iCM.pagehelper.ResidentHelper.type(ResidentHelper.java:27)
+	at com.iCM.scripts.HoldMedicine.testHoldMedicine(HoldMedicine.java:160)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1220)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.TestNG.privateMain(TestNG.java:1364)
+	at org.testng.TestNG.main(TestNG.java:1333)
+Mar 13,2015 14:14:06 [info]  End Execution of Test Class com.iCM.scripts.HoldMedicine
+*****************************************************************************
+
+*****************************************************************************
+Mar 13,2015 14:14:17 [info]   Execution Started of Test Class com.iCM.scripts.Login and Test method testLogin
+*****************************************************************************
+Mar 13,2015 14:14:17 [info]  Open application url
+Mar 13,2015 14:14:30 [info]  Pass
+Mar 13,2015 14:14:30 [info]  Verify Page title
+Mar 13,2015 14:14:35 [info]  Pass
+Mar 13,2015 14:14:35 [info]  Enter User name at login page.
+Mar 13,2015 14:14:35 [info]  Pass
+Mar 13,2015 14:14:35 [info]  Enter password at login page.
+Mar 13,2015 14:14:36 [info]  Pass
+Mar 13,2015 14:14:36 [info]  Click on Sign In button
+Mar 13,2015 14:14:52 [info]  Pass
+Mar 13,2015 14:14:52 [info]  Verify home page title
+Mar 13,2015 14:14:57 [info]  Pass
+Mar 13,2015 14:14:57 [info]  End Execution of Test Class com.iCM.scripts.Login
+*****************************************************************************
+
+*****************************************************************************
+Mar 13,2015 14:15:09 [info]   Execution Started of Test Class com.iCM.scripts.NotesToMedicine and Test method testNotesToMedicine
+*****************************************************************************
+Mar 13,2015 14:15:09 [info]  Open application url
+Mar 13,2015 14:15:26 [info]  Pass
+Mar 13,2015 14:15:26 [info]  Verify Page title
+Mar 13,2015 14:15:31 [info]  Pass
+Mar 13,2015 14:15:31 [info]  Enter User name at login page.
+Mar 13,2015 14:15:32 [info]  Pass
+Mar 13,2015 14:15:32 [info]  Enter password at login page.
+Mar 13,2015 14:15:32 [info]  Pass
+Mar 13,2015 14:15:32 [info]  Click on Sign In button
+Mar 13,2015 14:15:49 [info]  Pass
+Mar 13,2015 14:15:49 [info]  Verify home page title
+Mar 13,2015 14:15:54 [info]  Pass
+Mar 13,2015 14:15:54 [info]  Open Add resident form via deep link
+Mar 13,2015 14:16:07 [info]  Pass
+Mar 13,2015 14:16:07 [info]  Enter Resident First Name
+Mar 13,2015 14:16:10 [info]  Pass
+Mar 13,2015 14:16:10 [info]  Enter Middle name
+Mar 13,2015 14:16:14 [info]  Pass
+Mar 13,2015 14:16:14 [info]  Enter last name
+Mar 13,2015 14:16:17 [info]  Pass
+Mar 13,2015 14:16:17 [info]  Open 'Calender'
+Mar 13,2015 14:16:19 [info]  Pass
+Mar 13,2015 14:16:24 [info]  Select Year
+Mar 13,2015 14:16:30 [info]  Pass
+Mar 13,2015 14:16:33 [info]  Select date
+Mar 13,2015 14:16:34 [info]  Pass
+Mar 13,2015 14:16:34 [info]  Select gender
+Mar 13,2015 14:16:35 [info]  Pass
+Mar 13,2015 14:16:35 [info]  Select Marital Status
+Mar 13,2015 14:16:37 [info]  Pass
+Mar 13,2015 14:16:37 [info]  Open 'Calender' for admit date
+Mar 13,2015 14:16:39 [info]  Pass
+Mar 13,2015 14:16:42 [info]  Select Year
+Mar 13,2015 14:16:48 [info]  Pass
+Mar 13,2015 14:16:48 [info]  Select Month
+Mar 13,2015 14:16:49 [info]  Pass
+Mar 13,2015 14:16:49 [info]  Select date
+Mar 13,2015 14:16:50 [info]  Pass
+Mar 13,2015 14:16:50 [info]  Select Facality
+Mar 13,2015 14:16:52 [info]  Pass
+Mar 13,2015 14:16:55 [info]  Select Nurse
+Mar 13,2015 14:16:56 [info]  Pass
+Mar 13,2015 14:16:56 [info]  Enter level of care
+Mar 13,2015 14:17:00 [info]  Pass
+Mar 13,2015 14:17:00 [info]  Click on 'Save' button
+Mar 13,2015 14:17:04 [info]  Pass
+Mar 13,2015 14:17:04 [info]  Search Added resident
+Mar 13,2015 14:17:38 [info]  Mar 13,2015 14:17:38 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: Element Locator ://*[@id='DataTables_Table_0_filter']/label/input Not found expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.iCM.util.DriverHelper.sendKeys(DriverHelper.java:254)
+	at com.iCM.pagehelper.ResidentHelper.type(ResidentHelper.java:27)
+	at com.iCM.scripts.NotesToMedicine.testNotesToMedicine(NotesToMedicine.java:160)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1220)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.TestNG.privateMain(TestNG.java:1364)
+	at org.testng.TestNG.main(TestNG.java:1333)
+Mar 13,2015 14:17:38 [info]  End Execution of Test Class com.iCM.scripts.NotesToMedicine
+*****************************************************************************
+
+*****************************************************************************
+Mar 13,2015 14:17:50 [info]   Execution Started of Test Class com.iCM.scripts.Omission and Test method testOmission
+*****************************************************************************
+Mar 13,2015 14:17:50 [info]  Open application url
+Mar 13,2015 14:18:04 [info]  Pass
+Mar 13,2015 14:18:04 [info]  Verify Page title
+Mar 13,2015 14:18:09 [info]  Pass
+Mar 13,2015 14:18:09 [info]  Enter User name at login page.
+Mar 13,2015 14:18:10 [info]  Pass
+Mar 13,2015 14:18:10 [info]  Enter password at login page.
+Mar 13,2015 14:18:11 [info]  Pass
+Mar 13,2015 14:18:11 [info]  Click on Sign In button
+Mar 13,2015 14:18:27 [info]  Pass
+Mar 13,2015 14:18:27 [info]  Verify home page title
+Mar 13,2015 14:18:33 [info]  Pass
+Mar 13,2015 14:18:33 [info]  Open Add resident form via deep link
+Mar 13,2015 14:18:45 [info]  Pass
+Mar 13,2015 14:18:45 [info]  Enter Resident First Name
+Mar 13,2015 14:18:48 [info]  Pass
+Mar 13,2015 14:18:48 [info]  Enter Middle name
+Mar 13,2015 14:18:52 [info]  Pass
+Mar 13,2015 14:18:52 [info]  Enter last name
+Mar 13,2015 14:18:55 [info]  Pass
+Mar 13,2015 14:18:55 [info]  Open 'Calender'
+Mar 13,2015 14:18:57 [info]  Pass
+Mar 13,2015 14:19:02 [info]  Select Year
+Mar 13,2015 14:19:08 [info]  Pass
+Mar 13,2015 14:19:11 [info]  Select date
+Mar 13,2015 14:19:12 [info]  Pass
+Mar 13,2015 14:19:12 [info]  Select gender
+Mar 13,2015 14:19:14 [info]  Pass
+Mar 13,2015 14:19:14 [info]  Select Marital Status
+Mar 13,2015 14:19:15 [info]  Pass
+Mar 13,2015 14:19:15 [info]  Open 'Calender' for admit date
+Mar 13,2015 14:19:16 [info]  Pass
+Mar 13,2015 14:19:19 [info]  Select Year
+Mar 13,2015 14:19:26 [info]  Pass
+Mar 13,2015 14:19:26 [info]  Select Month
+Mar 13,2015 14:19:27 [info]  Pass
+Mar 13,2015 14:19:27 [info]  Select date
+Mar 13,2015 14:19:28 [info]  Pass
+Mar 13,2015 14:19:28 [info]  Select Facality
+Mar 13,2015 14:19:30 [info]  Pass
+Mar 13,2015 14:19:33 [info]  Select Nurse
+Mar 13,2015 14:19:34 [info]  Pass
+Mar 13,2015 14:19:34 [info]  Enter level of care
+Mar 13,2015 14:19:37 [info]  Pass
+Mar 13,2015 14:19:37 [info]  Click on 'Save' button
+Mar 13,2015 14:19:41 [info]  Pass
+Mar 13,2015 14:19:41 [info]  Search Added resident
+Mar 13,2015 14:20:16 [info]  Mar 13,2015 14:20:16 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: Element Locator ://*[@id='DataTables_Table_0_filter']/label/input Not found expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.iCM.util.DriverHelper.sendKeys(DriverHelper.java:254)
+	at com.iCM.pagehelper.ResidentHelper.type(ResidentHelper.java:27)
+	at com.iCM.scripts.Omission.testOmission(Omission.java:160)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1220)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.TestNG.privateMain(TestNG.java:1364)
+	at org.testng.TestNG.main(TestNG.java:1333)
+Mar 13,2015 14:20:16 [info]  End Execution of Test Class com.iCM.scripts.Omission
+*****************************************************************************
+
+*****************************************************************************
+Mar 13,2015 14:20:28 [info]   Execution Started of Test Class com.iCM.scripts.ViewEChartMedication and Test method testViewEChartMedication
+*****************************************************************************
+Mar 13,2015 14:20:28 [info]  Open application url
+Mar 13,2015 14:20:56 [info]  Pass
+Mar 13,2015 14:20:56 [info]  Verify Page title
+Mar 13,2015 14:21:01 [info]  Pass
+Mar 13,2015 14:21:01 [info]  Enter User name at login page.
+Mar 13,2015 14:21:02 [info]  Pass
+Mar 13,2015 14:21:02 [info]  Enter password at login page.
+Mar 13,2015 14:21:03 [info]  Pass
+Mar 13,2015 14:21:03 [info]  Click on Sign In button
+Mar 13,2015 14:21:19 [info]  Pass
+Mar 13,2015 14:21:19 [info]  Verify home page title
+Mar 13,2015 14:21:24 [info]  Pass
+Mar 13,2015 14:21:24 [info]  Open resident list via deep link
+Mar 13,2015 14:21:37 [info]  Pass
+Mar 13,2015 14:21:37 [info]  Open resident Profile
+Mar 13,2015 14:21:40 [info]  Pass
+Mar 13,2015 14:21:40 [info]  Verify 'EChart' Page title
+Mar 13,2015 14:21:45 [info]  Pass
+Mar 13,2015 14:21:45 [info]  Click on Medication button
+Mar 13,2015 14:21:49 [info]  Pass
+Mar 13,2015 14:21:49 [info]  Verify 'Medication' Page title
+Mar 13,2015 14:22:08 [info]  Pass
+Mar 13,2015 14:22:08 [info]  Click on view button
+Mar 13,2015 14:22:12 [info]  Pass
+Mar 13,2015 14:22:12 [info]  Verify 'View Medication' Page title
+Mar 13,2015 14:22:23 [info]  Pass
+Mar 13,2015 14:22:23 [info]  End Execution of Test Class com.iCM.scripts.ViewEChartMedication
+*****************************************************************************

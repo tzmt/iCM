@@ -1,0 +1,1642 @@
+
+*****************************************************************************
+Mar 18,2015 20:55:49 [info]   Execution Started of Test Class com.iCM.scripts.AddEditMedicationSchedule and Test method testAddEditMedicationSchedule
+*****************************************************************************
+Mar 18,2015 20:55:49 [info]  Open application url
+Mar 18,2015 20:56:19 [info]  Pass
+Mar 18,2015 20:56:19 [info]  Verify Page title
+Mar 18,2015 20:56:24 [info]  Pass
+Mar 18,2015 20:56:24 [info]  Enter User name at login page.
+Mar 18,2015 20:56:25 [info]  Pass
+Mar 18,2015 20:56:25 [info]  Enter password at login page.
+Mar 18,2015 20:56:26 [info]  Pass
+Mar 18,2015 20:56:26 [info]  Click on Sign In button
+Mar 18,2015 20:56:49 [info]  Pass
+Mar 18,2015 20:56:49 [info]  Verify home page title
+Mar 18,2015 20:56:54 [info]  Pass
+Mar 18,2015 20:56:54 [info]  Open Add resident form via deep link
+Mar 18,2015 20:57:10 [info]  Pass
+Mar 18,2015 20:57:10 [info]  Enter Resident First Name
+Mar 18,2015 20:57:14 [info]  Pass
+Mar 18,2015 20:57:14 [info]  Enter Middle name
+Mar 18,2015 20:57:17 [info]  Pass
+Mar 18,2015 20:57:17 [info]  Enter last name
+Mar 18,2015 20:57:21 [info]  Pass
+Mar 18,2015 20:57:21 [info]  Open 'Calender'
+Mar 18,2015 20:57:23 [info]  Pass
+Mar 18,2015 20:57:28 [info]  Select Year
+Mar 18,2015 20:57:34 [info]  Pass
+Mar 18,2015 20:57:37 [info]  Select date
+Mar 18,2015 20:57:40 [info]  Pass
+Mar 18,2015 20:57:40 [info]  Select gender
+Mar 18,2015 20:57:42 [info]  Pass
+Mar 18,2015 20:57:42 [info]  Select Marital Status
+Mar 18,2015 20:57:44 [info]  Pass
+Mar 18,2015 20:57:44 [info]  Open 'Calender' for admit date
+Mar 18,2015 20:57:45 [info]  Pass
+Mar 18,2015 20:57:48 [info]  Select Year
+Mar 18,2015 20:57:55 [info]  Pass
+Mar 18,2015 20:57:55 [info]  Select Month
+Mar 18,2015 20:57:56 [info]  Pass
+Mar 18,2015 20:57:56 [info]  Select date
+Mar 18,2015 20:58:00 [info]  Pass
+Mar 18,2015 20:58:00 [info]  Select Facality
+Mar 18,2015 20:58:01 [info]  Pass
+Mar 18,2015 20:58:04 [info]  Select Nurse
+Mar 18,2015 20:58:06 [info]  Pass
+Mar 18,2015 20:58:06 [info]  Enter level of care
+Mar 18,2015 20:58:10 [info]  Pass
+Mar 18,2015 20:58:10 [info]  Click on 'Save' button
+Mar 18,2015 20:58:13 [info]  Pass
+Mar 18,2015 20:58:13 [info]  Search Added resident
+Mar 18,2015 20:58:24 [info]  Pass
+Mar 18,2015 20:58:24 [info]  Verify added resident
+Mar 18,2015 20:58:27 [info]  Pass
+Mar 18,2015 20:58:27 [info]  Open resident Profile
+Mar 18,2015 20:58:31 [info]  Pass
+Mar 18,2015 20:58:37 [info]  Click on Medication button
+Mar 18,2015 20:58:43 [info]  Pass
+Mar 18,2015 20:58:43 [info]  Click on Add Medication button
+Mar 18,2015 20:59:29 [info]  Mar 18,2015 20:59:29 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: Element Locator ://*[@class='btn btn-success'] Not found expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.iCM.util.DriverHelper.clickOn(DriverHelper.java:245)
+	at com.iCM.pagehelper.EChartHelper.click(EChartHelper.java:49)
+	at com.iCM.scripts.AddEditMedicationSchedule.testAddEditMedicationSchedule(AddEditMedicationSchedule.java:191)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Mar 18,2015 20:59:29 [info]  End Execution of Test Class com.iCM.scripts.AddEditMedicationSchedule
+*****************************************************************************
+
+*****************************************************************************
+Mar 18,2015 21:00:31 [info]   Execution Started of Test Class com.iCM.scripts.AddEditMedicationSchedule and Test method testAddEditMedicationSchedule
+*****************************************************************************
+Mar 18,2015 21:00:31 [info]  Open application url
+Mar 18,2015 21:01:01 [info]  Pass
+Mar 18,2015 21:01:01 [info]  Verify Page title
+Mar 18,2015 21:01:06 [info]  Pass
+Mar 18,2015 21:01:06 [info]  Enter User name at login page.
+Mar 18,2015 21:01:09 [info]  Pass
+Mar 18,2015 21:01:09 [info]  Enter password at login page.
+Mar 18,2015 21:01:11 [info]  Pass
+Mar 18,2015 21:01:11 [info]  Click on Sign In button
+Mar 18,2015 21:01:30 [info]  Pass
+Mar 18,2015 21:01:30 [info]  Verify home page title
+Mar 18,2015 21:01:36 [info]  Pass
+Mar 18,2015 21:01:36 [info]  Open Add resident form via deep link
+Mar 18,2015 21:01:51 [info]  Pass
+Mar 18,2015 21:01:51 [info]  Enter Resident First Name
+Mar 18,2015 21:01:55 [info]  Pass
+Mar 18,2015 21:01:55 [info]  Enter Middle name
+Mar 18,2015 21:01:58 [info]  Pass
+Mar 18,2015 21:01:58 [info]  Enter last name
+Mar 18,2015 21:02:02 [info]  Pass
+Mar 18,2015 21:02:02 [info]  Open 'Calender'
+Mar 18,2015 21:02:04 [info]  Pass
+Mar 18,2015 21:02:09 [info]  Select Year
+Mar 18,2015 21:02:15 [info]  Pass
+Mar 18,2015 21:02:18 [info]  Select date
+Mar 18,2015 21:02:22 [info]  Pass
+Mar 18,2015 21:02:22 [info]  Select gender
+Mar 18,2015 21:02:24 [info]  Pass
+Mar 18,2015 21:02:24 [info]  Select Marital Status
+Mar 18,2015 21:02:25 [info]  Pass
+Mar 18,2015 21:02:25 [info]  Open 'Calender' for admit date
+Mar 18,2015 21:02:27 [info]  Pass
+Mar 18,2015 21:02:30 [info]  Select Year
+Mar 18,2015 21:02:37 [info]  Pass
+Mar 18,2015 21:02:37 [info]  Select Month
+Mar 18,2015 21:02:38 [info]  Pass
+Mar 18,2015 21:02:38 [info]  Select date
+Mar 18,2015 21:02:42 [info]  Pass
+Mar 18,2015 21:02:42 [info]  Select Facality
+Mar 18,2015 21:02:44 [info]  Pass
+Mar 18,2015 21:02:47 [info]  Select Nurse
+Mar 18,2015 21:02:48 [info]  Pass
+Mar 18,2015 21:02:48 [info]  Enter level of care
+Mar 18,2015 21:02:52 [info]  Pass
+Mar 18,2015 21:02:52 [info]  Click on 'Save' button
+Mar 18,2015 21:02:55 [info]  Pass
+Mar 18,2015 21:02:55 [info]  Search Added resident
+Mar 18,2015 21:03:03 [info]  Pass
+Mar 18,2015 21:03:03 [info]  Verify added resident
+Mar 18,2015 21:03:06 [info]  Pass
+Mar 18,2015 21:03:06 [info]  Open resident Profile
+Mar 18,2015 21:03:10 [info]  Pass
+Mar 18,2015 21:03:17 [info]  Click on Medication button
+Mar 18,2015 21:03:21 [info]  Pass
+Mar 18,2015 21:03:21 [info]  Click on Add Medication button
+Mar 18,2015 21:03:36 [info]  Pass
+Mar 18,2015 21:03:36 [info]  Enter Medicine Name
+Mar 18,2015 21:03:50 [info]  Pass
+Mar 18,2015 21:03:50 [info]  Enter Dosage
+Mar 18,2015 21:03:53 [info]  Pass
+Mar 18,2015 21:03:53 [info]  Enter instruction
+Mar 18,2015 21:03:57 [info]  Pass
+Mar 18,2015 21:03:57 [info]  Open 'Calender'
+Mar 18,2015 21:04:01 [info]  Pass
+Mar 18,2015 21:04:04 [info]  Select date
+Mar 18,2015 21:04:08 [info]  Pass
+Mar 18,2015 21:04:08 [info]  Select time
+Mar 18,2015 21:04:10 [info]  Pass
+Mar 18,2015 21:04:10 [info]  Select AM/PM
+Mar 18,2015 21:04:11 [info]  Pass
+Mar 18,2015 21:04:11 [info]  Click on Add Schedule button
+Mar 18,2015 21:04:14 [info]  Pass
+Mar 18,2015 21:04:14 [info]  Verify Added Schedule
+Mar 18,2015 21:04:15 [info]  Pass
+Mar 18,2015 21:04:15 [info]  Select time
+Mar 18,2015 21:04:16 [info]  Pass
+Mar 18,2015 21:04:16 [info]  Select AM/PM
+Mar 18,2015 21:04:17 [info]  Pass
+Mar 18,2015 21:04:17 [info]  Click on Add Schedule button
+Mar 18,2015 21:04:21 [info]  Pass
+Mar 18,2015 21:04:21 [info]  Verify Added Schedule
+Mar 18,2015 21:04:21 [info]  Pass
+Mar 18,2015 21:04:21 [info]  Select time
+Mar 18,2015 21:04:23 [info]  Pass
+Mar 18,2015 21:04:23 [info]  Select AM/PM
+Mar 18,2015 21:04:23 [info]  Pass
+Mar 18,2015 21:04:23 [info]  Click on Add Schedule button
+Mar 18,2015 21:04:27 [info]  Pass
+Mar 18,2015 21:04:27 [info]  Verify Added Schedule
+Mar 18,2015 21:04:27 [info]  Pass
+Mar 18,2015 21:04:27 [info]  Click on Save button
+Mar 18,2015 21:04:48 [info]  Pass
+Mar 18,2015 21:05:03 [info]  Open Medication page
+Mar 18,2015 21:05:19 [info]  Pass
+Mar 18,2015 21:05:19 [info]  Click on EMR Tab
+Mar 18,2015 21:05:22 [info]  Pass
+Mar 18,2015 21:05:22 [info]  Click on 'Morning' tab
+Mar 18,2015 21:05:46 [info]  Pass
+Mar 18,2015 21:05:46 [info]  Click on 'Expend' button
+Mar 18,2015 21:05:50 [info]  Pass
+Mar 18,2015 21:05:50 [info]  Verify Added Schedule
+Mar 18,2015 21:05:51 [info]  Pass
+Mar 18,2015 21:05:51 [info]  Click on Expend button
+Mar 18,2015 21:05:55 [info]  Pass
+Mar 18,2015 21:05:55 [info]  Verify Starting Blackout
+Mar 18,2015 21:06:02 [info]  Pass
+Mar 18,2015 21:06:02 [info]  Click on 'Noon' tab
+Mar 18,2015 21:06:06 [info]  Pass
+Mar 18,2015 21:06:06 [info]  Verify Added Schedule
+Mar 18,2015 21:06:08 [info]  Pass
+Mar 18,2015 21:06:08 [info]  Click on Expend button
+Mar 18,2015 21:06:12 [info]  Pass
+Mar 18,2015 21:06:12 [info]  Verify Starting Blackout
+Mar 18,2015 21:06:19 [info]  Pass
+Mar 18,2015 21:06:19 [info]  Click on 'Evening' tab
+Mar 18,2015 21:06:23 [info]  Pass
+Mar 18,2015 21:06:23 [info]  Verify Added Schedule
+Mar 18,2015 21:06:25 [info]  Pass
+Mar 18,2015 21:06:25 [info]  Click on Expend button
+Mar 18,2015 21:06:29 [info]  Pass
+Mar 18,2015 21:06:29 [info]  Verify Starting Blackout
+Mar 18,2015 21:06:36 [info]  Pass
+Mar 18,2015 21:06:36 [info]  Open Medication page
+Mar 18,2015 21:06:52 [info]  Pass
+Mar 18,2015 21:06:52 [info]  Click on View button
+Mar 18,2015 21:06:55 [info]  Pass
+Mar 18,2015 21:06:55 [info]  Click on Edit button
+Mar 18,2015 21:07:14 [info]  Pass
+Mar 18,2015 21:07:19 [info]  Remove scheduled time
+Mar 18,2015 21:07:37 [info]  Pass
+Mar 18,2015 21:07:37 [info]  Uncheck Sunday
+Mar 18,2015 21:07:38 [info]  Pass
+Mar 18,2015 21:07:38 [info]  Uncheck Wednesday
+Mar 18,2015 21:07:38 [info]  Pass
+Mar 18,2015 21:07:38 [info]  Click on 'Scheduled Calender'
+Mar 18,2015 21:07:42 [info]  Pass
+Mar 18,2015 21:07:47 [info]  Select Date'
+Mar 18,2015 21:07:55 [info]  Pass
+Mar 18,2015 21:07:55 [info]  Select time
+Mar 18,2015 21:07:56 [info]  Pass
+Mar 18,2015 21:07:56 [info]  Select AM/PM
+Mar 18,2015 21:07:57 [info]  Pass
+Mar 18,2015 21:07:57 [info]  Click on Add Schedule button
+Mar 18,2015 21:08:01 [info]  Pass
+Mar 18,2015 21:08:01 [info]  Select time
+Mar 18,2015 21:08:03 [info]  Pass
+Mar 18,2015 21:08:03 [info]  Select AM/PM
+Mar 18,2015 21:08:04 [info]  Pass
+Mar 18,2015 21:08:04 [info]  Click on Add Schedule button
+Mar 18,2015 21:08:08 [info]  Pass
+Mar 18,2015 21:08:08 [info]  Select time
+Mar 18,2015 21:08:09 [info]  Pass
+Mar 18,2015 21:08:09 [info]  Select AM/PM
+Mar 18,2015 21:08:10 [info]  Pass
+Mar 18,2015 21:08:10 [info]  Click on Add Schedule button
+Mar 18,2015 21:08:14 [info]  Pass
+Mar 18,2015 21:08:14 [info]  Click on Save button
+Mar 18,2015 21:08:35 [info]  Pass
+Mar 18,2015 21:08:35 [info]  Open Medication page
+Mar 18,2015 21:08:50 [info]  Pass
+Mar 18,2015 21:08:52 [info]  Click on EMR Tab
+Mar 18,2015 21:08:56 [info]  Pass
+Mar 18,2015 21:08:56 [info]  Click on 'Morning' tab
+Mar 18,2015 21:09:14 [info]  Pass
+Mar 18,2015 21:09:14 [info]  Verify Added Schedule
+Mar 18,2015 21:09:14 [info]  Pass
+Mar 18,2015 21:09:14 [info]  Click on Expend button
+Mar 18,2015 21:09:18 [info]  Pass
+Mar 18,2015 21:09:18 [info]  Verify New Scheduled Blackout
+Mar 18,2015 21:09:51 [info]  Mar 18,2015 21:09:51 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: Element Locator ://*[@id='administeredlogtbl']/thead/tr[2]/td Not found expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.iCM.util.DriverHelper.getXpathCount(DriverHelper.java:392)
+	at com.iCM.pagehelper.EChartHelper.verifyBlackBlocks(EChartHelper.java:171)
+	at com.iCM.scripts.AddEditMedicationSchedule.testAddEditMedicationSchedule(AddEditMedicationSchedule.java:490)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Mar 18,2015 21:09:51 [info]  End Execution of Test Class com.iCM.scripts.AddEditMedicationSchedule
+*****************************************************************************
+
+*****************************************************************************
+Mar 18,2015 21:18:57 [info]   Execution Started of Test Class com.iCM.scripts.AddEditMedicationSchedule and Test method testAddEditMedicationSchedule
+*****************************************************************************
+Mar 18,2015 21:18:57 [info]  Open application url
+Mar 18,2015 21:19:20 [info]  Pass
+Mar 18,2015 21:19:20 [info]  Verify Page title
+Mar 18,2015 21:19:25 [info]  Pass
+Mar 18,2015 21:19:25 [info]  Enter User name at login page.
+Mar 18,2015 21:19:26 [info]  Pass
+Mar 18,2015 21:19:26 [info]  Enter password at login page.
+Mar 18,2015 21:19:28 [info]  Pass
+Mar 18,2015 21:19:28 [info]  Click on Sign In button
+Mar 18,2015 21:20:10 [info]  Pass
+Mar 18,2015 21:20:10 [info]  Verify home page title
+Mar 18,2015 21:20:16 [info]  Pass
+Mar 18,2015 21:20:16 [info]  Open Add resident form via deep link
+Mar 18,2015 21:20:44 [info]  Pass
+Mar 18,2015 21:20:44 [info]  Enter Resident First Name
+Mar 18,2015 21:20:47 [info]  Pass
+Mar 18,2015 21:20:47 [info]  Enter Middle name
+Mar 18,2015 21:20:51 [info]  Pass
+Mar 18,2015 21:20:51 [info]  Enter last name
+Mar 18,2015 21:20:55 [info]  Pass
+Mar 18,2015 21:20:55 [info]  Open 'Calender'
+Mar 18,2015 21:20:56 [info]  Pass
+Mar 18,2015 21:21:01 [info]  Select Year
+Mar 18,2015 21:21:08 [info]  Pass
+Mar 18,2015 21:21:11 [info]  Select date
+Mar 18,2015 21:21:14 [info]  Pass
+Mar 18,2015 21:21:14 [info]  Select gender
+Mar 18,2015 21:21:15 [info]  Pass
+Mar 18,2015 21:21:15 [info]  Select Marital Status
+Mar 18,2015 21:21:17 [info]  Pass
+Mar 18,2015 21:21:17 [info]  Open 'Calender' for admit date
+Mar 18,2015 21:21:18 [info]  Pass
+Mar 18,2015 21:21:21 [info]  Select Year
+Mar 18,2015 21:21:28 [info]  Pass
+Mar 18,2015 21:21:28 [info]  Select Month
+Mar 18,2015 21:21:29 [info]  Pass
+Mar 18,2015 21:21:29 [info]  Select date
+Mar 18,2015 21:21:32 [info]  Pass
+Mar 18,2015 21:21:32 [info]  Select Facality
+Mar 18,2015 21:21:34 [info]  Pass
+Mar 18,2015 21:21:37 [info]  Select Nurse
+Mar 18,2015 21:21:38 [info]  Pass
+Mar 18,2015 21:21:38 [info]  Enter level of care
+Mar 18,2015 21:21:42 [info]  Pass
+Mar 18,2015 21:21:42 [info]  Click on 'Save' button
+Mar 18,2015 21:21:45 [info]  Pass
+Mar 18,2015 21:21:45 [info]  Search Added resident
+Mar 18,2015 21:22:00 [info]  Pass
+Mar 18,2015 21:22:00 [info]  Verify added resident
+Mar 18,2015 21:22:03 [info]  Pass
+Mar 18,2015 21:22:03 [info]  Open resident Profile
+Mar 18,2015 21:22:07 [info]  Pass
+Mar 18,2015 21:22:21 [info]  Click on Medication button
+Mar 18,2015 21:22:56 [info]  Mar 18,2015 21:22:56 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: Element Locator ://*[@class='fa-icon-medkit'] Not found expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.iCM.util.DriverHelper.clickOn(DriverHelper.java:245)
+	at com.iCM.pagehelper.EChartHelper.click(EChartHelper.java:49)
+	at com.iCM.scripts.AddEditMedicationSchedule.testAddEditMedicationSchedule(AddEditMedicationSchedule.java:185)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Mar 18,2015 21:22:56 [info]  End Execution of Test Class com.iCM.scripts.AddEditMedicationSchedule
+*****************************************************************************
+
+*****************************************************************************
+Mar 18,2015 21:33:35 [info]   Execution Started of Test Class com.iCM.scripts.AddEditMedicationSchedule and Test method testAddEditMedicationSchedule
+*****************************************************************************
+Mar 18,2015 21:33:35 [info]  Open application url
+Mar 18,2015 21:33:36 [info]  Pass
+Mar 18,2015 21:33:36 [info]  Verify Page title
+Mar 18,2015 21:33:41 [info]  Mar 18,2015 21:33:41 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: Page title is: Problem loading page but expected is: iCM - Login expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.iCM.pagehelper.LoginHelper.verifyTitle(LoginHelper.java:23)
+	at com.iCM.scripts.AddEditMedicationSchedule.testAddEditMedicationSchedule(AddEditMedicationSchedule.java:39)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Mar 18,2015 21:33:41 [info]  End Execution of Test Class com.iCM.scripts.AddEditMedicationSchedule
+*****************************************************************************
+
+*****************************************************************************
+Mar 18,2015 21:34:31 [info]   Execution Started of Test Class com.iCM.scripts.AddEditMedicationSchedule and Test method testAddEditMedicationSchedule
+*****************************************************************************
+Mar 18,2015 21:34:31 [info]  Open application url
+Mar 18,2015 21:35:10 [info]  Pass
+Mar 18,2015 21:35:10 [info]  Verify Page title
+Mar 18,2015 21:35:15 [info]  Pass
+Mar 18,2015 21:35:15 [info]  Enter User name at login page.
+Mar 18,2015 21:35:16 [info]  Pass
+Mar 18,2015 21:35:16 [info]  Enter password at login page.
+Mar 18,2015 21:35:18 [info]  Pass
+Mar 18,2015 21:35:18 [info]  Click on Sign In button
+Mar 18,2015 21:36:08 [info]  Pass
+Mar 18,2015 21:36:08 [info]  Verify home page title
+Mar 18,2015 21:36:13 [info]  Pass
+Mar 18,2015 21:36:13 [info]  Open Add resident form via deep link
+Mar 18,2015 21:36:32 [info]  Pass
+Mar 18,2015 21:36:32 [info]  Enter Resident First Name
+Mar 18,2015 21:36:35 [info]  Pass
+Mar 18,2015 21:36:35 [info]  Enter Middle name
+Mar 18,2015 21:36:39 [info]  Pass
+Mar 18,2015 21:36:39 [info]  Enter last name
+Mar 18,2015 21:36:42 [info]  Pass
+Mar 18,2015 21:36:42 [info]  Open 'Calender'
+Mar 18,2015 21:36:44 [info]  Pass
+Mar 18,2015 21:36:49 [info]  Select Year
+Mar 18,2015 21:36:55 [info]  Pass
+Mar 18,2015 21:36:58 [info]  Select date
+Mar 18,2015 21:37:01 [info]  Pass
+Mar 18,2015 21:37:01 [info]  Select gender
+Mar 18,2015 21:37:05 [info]  Pass
+Mar 18,2015 21:37:05 [info]  Select Marital Status
+Mar 18,2015 21:37:06 [info]  Pass
+Mar 18,2015 21:37:06 [info]  Open 'Calender' for admit date
+Mar 18,2015 21:37:08 [info]  Pass
+Mar 18,2015 21:37:11 [info]  Select Year
+Mar 18,2015 21:37:17 [info]  Pass
+Mar 18,2015 21:37:17 [info]  Select Month
+Mar 18,2015 21:37:19 [info]  Pass
+Mar 18,2015 21:37:19 [info]  Select date
+Mar 18,2015 21:37:22 [info]  Pass
+Mar 18,2015 21:37:22 [info]  Select Facality
+Mar 18,2015 21:37:23 [info]  Pass
+Mar 18,2015 21:37:26 [info]  Select Nurse
+Mar 18,2015 21:37:28 [info]  Pass
+Mar 18,2015 21:37:28 [info]  Enter level of care
+Mar 18,2015 21:37:31 [info]  Pass
+Mar 18,2015 21:37:31 [info]  Click on 'Save' button
+Mar 18,2015 21:37:35 [info]  Pass
+Mar 18,2015 21:37:35 [info]  Search Added resident
+Mar 18,2015 21:38:10 [info]  Mar 18,2015 21:38:10 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: Element Locator ://*[@id='DataTables_Table_0_filter']/label/input Not found expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.iCM.util.DriverHelper.sendKeys(DriverHelper.java:254)
+	at com.iCM.pagehelper.ResidentHelper.type(ResidentHelper.java:27)
+	at com.iCM.scripts.AddEditMedicationSchedule.testAddEditMedicationSchedule(AddEditMedicationSchedule.java:160)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Mar 18,2015 21:38:10 [info]  End Execution of Test Class com.iCM.scripts.AddEditMedicationSchedule
+*****************************************************************************
+
+*****************************************************************************
+Mar 18,2015 21:39:47 [info]   Execution Started of Test Class com.iCM.scripts.AddEditMedicationSchedule and Test method testAddEditMedicationSchedule
+*****************************************************************************
+Mar 18,2015 21:39:47 [info]  Open application url
+Mar 18,2015 21:41:11 [info]  Pass
+Mar 18,2015 21:41:11 [info]  Verify Page title
+Mar 18,2015 21:41:16 [info]  Pass
+Mar 18,2015 21:41:16 [info]  Enter User name at login page.
+Mar 18,2015 21:41:17 [info]  Pass
+Mar 18,2015 21:41:17 [info]  Enter password at login page.
+Mar 18,2015 21:41:18 [info]  Pass
+Mar 18,2015 21:41:18 [info]  Click on Sign In button
+Mar 18,2015 21:41:45 [info]  Pass
+Mar 18,2015 21:41:45 [info]  Verify home page title
+Mar 18,2015 21:41:50 [info]  Pass
+Mar 18,2015 21:41:50 [info]  Open Add resident form via deep link
+Mar 18,2015 21:42:12 [info]  Pass
+Mar 18,2015 21:42:12 [info]  Enter Resident First Name
+Mar 18,2015 21:42:15 [info]  Pass
+Mar 18,2015 21:42:15 [info]  Enter Middle name
+Mar 18,2015 21:42:19 [info]  Pass
+Mar 18,2015 21:42:19 [info]  Enter last name
+Mar 18,2015 21:42:22 [info]  Pass
+Mar 18,2015 21:42:22 [info]  Open 'Calender'
+Mar 18,2015 21:42:24 [info]  Pass
+Mar 18,2015 21:42:29 [info]  Select Year
+Mar 18,2015 21:42:35 [info]  Pass
+Mar 18,2015 21:42:38 [info]  Select date
+Mar 18,2015 21:42:42 [info]  Pass
+Mar 18,2015 21:42:42 [info]  Select gender
+Mar 18,2015 21:42:43 [info]  Pass
+Mar 18,2015 21:42:43 [info]  Select Marital Status
+Mar 18,2015 21:42:44 [info]  Pass
+Mar 18,2015 21:42:44 [info]  Open 'Calender' for admit date
+Mar 18,2015 21:42:46 [info]  Pass
+Mar 18,2015 21:42:49 [info]  Select Year
+Mar 18,2015 21:42:55 [info]  Pass
+Mar 18,2015 21:42:55 [info]  Select Month
+Mar 18,2015 21:42:57 [info]  Pass
+Mar 18,2015 21:42:57 [info]  Select date
+Mar 18,2015 21:43:00 [info]  Pass
+Mar 18,2015 21:43:00 [info]  Select Facality
+Mar 18,2015 21:43:01 [info]  Pass
+Mar 18,2015 21:43:04 [info]  Select Nurse
+Mar 18,2015 21:43:06 [info]  Pass
+Mar 18,2015 21:43:06 [info]  Enter level of care
+Mar 18,2015 21:43:09 [info]  Pass
+Mar 18,2015 21:43:09 [info]  Click on 'Save' button
+Mar 18,2015 21:43:34 [info]  Pass
+Mar 18,2015 21:43:34 [info]  Search Added resident
+Mar 18,2015 21:43:59 [info]  Pass
+Mar 18,2015 21:43:59 [info]  Verify added resident
+Mar 18,2015 21:44:02 [info]  Pass
+Mar 18,2015 21:44:02 [info]  Open resident Profile
+Mar 18,2015 21:44:26 [info]  Pass
+Mar 18,2015 21:44:41 [info]  Click on Medication button
+Mar 18,2015 21:44:44 [info]  Pass
+Mar 18,2015 21:44:44 [info]  Click on Add Medication button
+Mar 18,2015 21:44:59 [info]  Pass
+Mar 18,2015 21:44:59 [info]  Enter Medicine Name
+Mar 18,2015 21:45:12 [info]  Pass
+Mar 18,2015 21:45:12 [info]  Enter Dosage
+Mar 18,2015 21:45:16 [info]  Pass
+Mar 18,2015 21:45:16 [info]  Enter instruction
+Mar 18,2015 21:45:19 [info]  Pass
+Mar 18,2015 21:45:19 [info]  Open 'Calender'
+Mar 18,2015 21:45:24 [info]  Pass
+Mar 18,2015 21:45:27 [info]  Select date
+Mar 18,2015 21:45:31 [info]  Pass
+Mar 18,2015 21:45:31 [info]  Select time
+Mar 18,2015 21:45:32 [info]  Pass
+Mar 18,2015 21:45:32 [info]  Select AM/PM
+Mar 18,2015 21:45:33 [info]  Pass
+Mar 18,2015 21:45:33 [info]  Click on Add Schedule button
+Mar 18,2015 21:45:37 [info]  Pass
+Mar 18,2015 21:45:37 [info]  Verify Added Schedule
+Mar 18,2015 21:45:37 [info]  Pass
+Mar 18,2015 21:45:37 [info]  Select time
+Mar 18,2015 21:45:38 [info]  Pass
+Mar 18,2015 21:45:38 [info]  Select AM/PM
+Mar 18,2015 21:45:39 [info]  Pass
+Mar 18,2015 21:45:39 [info]  Click on Add Schedule button
+Mar 18,2015 21:45:43 [info]  Pass
+Mar 18,2015 21:45:43 [info]  Verify Added Schedule
+Mar 18,2015 21:45:43 [info]  Pass
+Mar 18,2015 21:45:43 [info]  Select time
+Mar 18,2015 21:45:45 [info]  Pass
+Mar 18,2015 21:45:45 [info]  Select AM/PM
+Mar 18,2015 21:45:46 [info]  Pass
+Mar 18,2015 21:45:46 [info]  Click on Add Schedule button
+Mar 18,2015 21:45:49 [info]  Pass
+Mar 18,2015 21:45:49 [info]  Verify Added Schedule
+Mar 18,2015 21:45:50 [info]  Pass
+Mar 18,2015 21:45:50 [info]  Click on Save button
+Mar 18,2015 21:46:08 [info]  Pass
+Mar 18,2015 21:46:23 [info]  Open Medication page
+Mar 18,2015 21:46:36 [info]  Pass
+Mar 18,2015 21:46:36 [info]  Click on EMR Tab
+Mar 18,2015 21:46:40 [info]  Pass
+Mar 18,2015 21:46:40 [info]  Click on 'Morning' tab
+Mar 18,2015 21:46:56 [info]  Pass
+Mar 18,2015 21:46:56 [info]  Click on 'Expend' button
+Mar 18,2015 21:46:59 [info]  Pass
+Mar 18,2015 21:46:59 [info]  Verify Added Schedule
+Mar 18,2015 21:47:00 [info]  Pass
+Mar 18,2015 21:47:00 [info]  Click on Expend button
+Mar 18,2015 21:47:04 [info]  Pass
+Mar 18,2015 21:47:04 [info]  Verify Starting Blackout
+Mar 18,2015 21:47:11 [info]  Pass
+Mar 18,2015 21:47:11 [info]  Click on 'Noon' tab
+Mar 18,2015 21:47:15 [info]  Pass
+Mar 18,2015 21:47:15 [info]  Verify Added Schedule
+Mar 18,2015 21:47:15 [info]  Pass
+Mar 18,2015 21:47:15 [info]  Click on Expend button
+Mar 18,2015 21:47:18 [info]  Pass
+Mar 18,2015 21:47:18 [info]  Verify Starting Blackout
+Mar 18,2015 21:47:26 [info]  Pass
+Mar 18,2015 21:47:26 [info]  Click on 'Evening' tab
+Mar 18,2015 21:47:31 [info]  Pass
+Mar 18,2015 21:47:31 [info]  Verify Added Schedule
+Mar 18,2015 21:47:38 [info]  Pass
+Mar 18,2015 21:47:38 [info]  Click on Expend button
+Mar 18,2015 21:47:42 [info]  Pass
+Mar 18,2015 21:47:42 [info]  Verify Starting Blackout
+Mar 18,2015 21:47:49 [info]  Pass
+Mar 18,2015 21:47:49 [info]  Open Medication page
+Mar 18,2015 21:48:04 [info]  Pass
+Mar 18,2015 21:48:04 [info]  Click on View button
+Mar 18,2015 21:48:08 [info]  Pass
+Mar 18,2015 21:48:08 [info]  Click on Edit button
+Mar 18,2015 21:48:22 [info]  Pass
+Mar 18,2015 21:48:27 [info]  Remove scheduled time
+Mar 18,2015 21:48:43 [info]  Pass
+Mar 18,2015 21:48:43 [info]  Uncheck Sunday
+Mar 18,2015 21:48:44 [info]  Pass
+Mar 18,2015 21:48:44 [info]  Uncheck Wednesday
+Mar 18,2015 21:48:44 [info]  Pass
+Mar 18,2015 21:48:44 [info]  Click on 'Scheduled Calender'
+Mar 18,2015 21:48:48 [info]  Pass
+Mar 18,2015 21:48:53 [info]  Select Date'
+Mar 18,2015 21:49:00 [info]  Pass
+Mar 18,2015 21:49:00 [info]  Select time
+Mar 18,2015 21:49:01 [info]  Pass
+Mar 18,2015 21:49:01 [info]  Select AM/PM
+Mar 18,2015 21:49:02 [info]  Pass
+Mar 18,2015 21:49:02 [info]  Click on Add Schedule button
+Mar 18,2015 21:49:06 [info]  Pass
+Mar 18,2015 21:49:06 [info]  Select time
+Mar 18,2015 21:49:07 [info]  Pass
+Mar 18,2015 21:49:07 [info]  Select AM/PM
+Mar 18,2015 21:49:09 [info]  Pass
+Mar 18,2015 21:49:09 [info]  Click on Add Schedule button
+Mar 18,2015 21:49:12 [info]  Pass
+Mar 18,2015 21:49:12 [info]  Select time
+Mar 18,2015 21:49:14 [info]  Pass
+Mar 18,2015 21:49:14 [info]  Select AM/PM
+Mar 18,2015 21:49:15 [info]  Pass
+Mar 18,2015 21:49:15 [info]  Click on Add Schedule button
+Mar 18,2015 21:49:18 [info]  Pass
+Mar 18,2015 21:49:18 [info]  Click on Save button
+Mar 18,2015 21:49:37 [info]  Pass
+Mar 18,2015 21:49:37 [info]  Open Medication page
+Mar 18,2015 21:49:50 [info]  Pass
+Mar 18,2015 21:49:52 [info]  Click on EMR Tab
+Mar 18,2015 21:49:55 [info]  Pass
+Mar 18,2015 21:49:55 [info]  Click on 'Morning' tab
+Mar 18,2015 21:50:13 [info]  Pass
+Mar 18,2015 21:50:13 [info]  Verify Added Schedule
+Mar 18,2015 21:50:14 [info]  Pass
+Mar 18,2015 21:50:14 [info]  Click on Expend button
+Mar 18,2015 21:50:18 [info]  Pass
+Mar 18,2015 21:50:18 [info]  Verify New Scheduled Blackout
+Mar 18,2015 21:50:27 [info]  Pass
+Mar 18,2015 21:50:40 [info]  Open resident profile
+Mar 18,2015 21:51:18 [info]  Pass
+Mar 18,2015 21:51:18 [info]  End Execution of Test Class com.iCM.scripts.AddEditMedicationSchedule
+*****************************************************************************
+
+*****************************************************************************
+Mar 18,2015 21:53:35 [info]   Execution Started of Test Class com.iCM.scripts.AddMedicationDayOfMonth and Test method testAddMedicationDayOfMonth
+*****************************************************************************
+Mar 18,2015 21:53:35 [info]  Open application url
+Mar 18,2015 21:53:55 [info]  Pass
+Mar 18,2015 21:53:55 [info]  Verify Page title
+Mar 18,2015 21:54:00 [info]  Pass
+Mar 18,2015 21:54:00 [info]  Enter User name at login page.
+Mar 18,2015 21:54:00 [info]  Pass
+Mar 18,2015 21:54:00 [info]  Enter password at login page.
+Mar 18,2015 21:54:01 [info]  Pass
+Mar 18,2015 21:54:01 [info]  Click on Sign In button
+Mar 18,2015 21:54:20 [info]  Pass
+Mar 18,2015 21:54:20 [info]  Verify home page title
+Mar 18,2015 21:54:25 [info]  Pass
+Mar 18,2015 21:54:25 [info]  Open Add resident form via deep link
+Mar 18,2015 21:54:39 [info]  Pass
+Mar 18,2015 21:54:39 [info]  Enter Resident First Name
+Mar 18,2015 21:54:42 [info]  Pass
+Mar 18,2015 21:54:42 [info]  Enter Middle name
+Mar 18,2015 21:54:46 [info]  Pass
+Mar 18,2015 21:54:46 [info]  Enter last name
+Mar 18,2015 21:54:49 [info]  Pass
+Mar 18,2015 21:54:49 [info]  Open 'Calender'
+Mar 18,2015 21:54:51 [info]  Pass
+Mar 18,2015 21:54:56 [info]  Select Year
+Mar 18,2015 21:55:02 [info]  Pass
+Mar 18,2015 21:55:05 [info]  Select date
+Mar 18,2015 21:55:08 [info]  Pass
+Mar 18,2015 21:55:08 [info]  Select gender
+Mar 18,2015 21:55:10 [info]  Pass
+Mar 18,2015 21:55:10 [info]  Select Marital Status
+Mar 18,2015 21:55:11 [info]  Pass
+Mar 18,2015 21:55:11 [info]  Open 'Calender' for admit date
+Mar 18,2015 21:55:13 [info]  Pass
+Mar 18,2015 21:55:16 [info]  Select Year
+Mar 18,2015 21:55:22 [info]  Pass
+Mar 18,2015 21:55:22 [info]  Select Month
+Mar 18,2015 21:55:23 [info]  Pass
+Mar 18,2015 21:55:23 [info]  Select date
+Mar 18,2015 21:55:26 [info]  Pass
+Mar 18,2015 21:55:26 [info]  Select Facality
+Mar 18,2015 21:55:28 [info]  Pass
+Mar 18,2015 21:55:31 [info]  Select Nurse
+Mar 18,2015 21:55:32 [info]  Pass
+Mar 18,2015 21:55:32 [info]  Enter level of care
+Mar 18,2015 21:55:36 [info]  Pass
+Mar 18,2015 21:55:36 [info]  Click on 'Save' button
+Mar 18,2015 21:56:00 [info]  Pass
+Mar 18,2015 21:56:00 [info]  Search Added resident
+Mar 18,2015 21:56:12 [info]  Pass
+Mar 18,2015 21:56:12 [info]  Verify added resident
+Mar 18,2015 21:56:16 [info]  Pass
+Mar 18,2015 21:56:16 [info]  Open resident Profile
+Mar 18,2015 21:56:40 [info]  Pass
+Mar 18,2015 21:56:53 [info]  Click on Medication button
+Mar 18,2015 21:57:18 [info]  Pass
+Mar 18,2015 21:57:18 [info]  Click on Add Medication button
+Mar 18,2015 21:57:56 [info]  Pass
+Mar 18,2015 21:57:56 [info]  Enter Medicine Name
+Mar 18,2015 21:58:14 [info]  Pass
+Mar 18,2015 21:58:14 [info]  Enter Dosage
+Mar 18,2015 21:58:18 [info]  Pass
+Mar 18,2015 21:58:18 [info]  Enter instruction
+Mar 18,2015 21:58:21 [info]  Pass
+Mar 18,2015 21:58:21 [info]  Open 'Calender'
+Mar 18,2015 21:58:25 [info]  Pass
+Mar 18,2015 21:58:28 [info]  Select date
+Mar 18,2015 21:58:33 [info]  Pass
+Mar 18,2015 21:58:33 [info]  Select Frequency
+Mar 18,2015 21:58:58 [info]  Pass
+Mar 18,2015 21:58:58 [info]  Select Frequency
+Mar 18,2015 21:59:22 [info]  Pass
+Mar 18,2015 21:59:22 [info]  Select Days of month
+Mar 18,2015 21:59:25 [info]  Pass
+Mar 18,2015 21:59:25 [info]  Select time
+Mar 18,2015 21:59:26 [info]  Pass
+Mar 18,2015 21:59:26 [info]  Select AM/PM
+Mar 18,2015 21:59:27 [info]  Pass
+Mar 18,2015 21:59:27 [info]  Click on Add Schedule button
+Mar 18,2015 21:59:52 [info]  Pass
+Mar 18,2015 21:59:52 [info]  Verify Added Schedule
+Mar 18,2015 21:59:52 [info]  Pass
+Mar 18,2015 21:59:52 [info]  Click on Save button
+Mar 18,2015 22:00:32 [info]  Pass
+Mar 18,2015 22:00:47 [info]  Open Medication page
+Mar 18,2015 22:01:00 [info]  Pass
+Mar 18,2015 22:01:00 [info]  Click on EMR Tab
+Mar 18,2015 22:01:25 [info]  Pass
+Mar 18,2015 22:01:25 [info]  Click on 'Morning' tab
+Mar 18,2015 22:02:04 [info]  Pass
+Mar 18,2015 22:02:04 [info]  Verify Added Schedule
+Mar 18,2015 22:02:07 [info]  Pass
+Mar 18,2015 22:02:07 [info]  Click on Expend button
+Mar 18,2015 22:02:31 [info]  Pass
+Mar 18,2015 22:02:31 [info]  Verify Starting Blackout
+Mar 18,2015 22:07:07 [info]  Pass
+Mar 18,2015 22:07:17 [info]  Open resident profile
+Mar 18,2015 22:07:56 [info]  Pass
+Mar 18,2015 22:07:56 [info]  End Execution of Test Class com.iCM.scripts.AddMedicationDayOfMonth
+*****************************************************************************
+
+*****************************************************************************
+Mar 18,2015 22:10:31 [info]   Execution Started of Test Class com.iCM.scripts.DeleteResident and Test method testAddResident
+*****************************************************************************
+Mar 18,2015 22:10:31 [info]  Open application url
+Mar 18,2015 22:10:51 [info]  Pass
+Mar 18,2015 22:10:51 [info]  Verify Page title
+Mar 18,2015 22:10:56 [info]  Pass
+Mar 18,2015 22:10:56 [info]  Enter User name at login page.
+Mar 18,2015 22:10:56 [info]  Pass
+Mar 18,2015 22:10:56 [info]  Enter password at login page.
+Mar 18,2015 22:10:57 [info]  Pass
+Mar 18,2015 22:10:57 [info]  Click on Sign In button
+Mar 18,2015 22:11:18 [info]  Pass
+Mar 18,2015 22:11:18 [info]  Verify home page title
+Mar 18,2015 22:11:23 [info]  Pass
+Mar 18,2015 22:11:39 [info]  Search Added resident
+Mar 18,2015 22:11:43 [info]  Pass
+Mar 18,2015 22:11:46 [info]  Deleting resident
+Mar 18,2015 22:11:46 [info]  Open resident profile
+Mar 18,2015 22:11:48 [info]  Pass
+Mar 18,2015 22:11:48 [info]  Open resident profile
+Mar 18,2015 22:11:51 [info]  Pass
+Mar 18,2015 22:11:51 [info]  Open resident profile
+Mar 18,2015 22:12:16 [info]  Pass
+Mar 18,2015 22:12:16 [info]  Search deleted resident
+Mar 18,2015 22:12:20 [info]  Pass
+Mar 18,2015 22:12:36 [info]  Search Added resident
+Mar 18,2015 22:12:40 [info]  Pass
+Mar 18,2015 22:12:43 [info]  Deleting resident
+Mar 18,2015 22:12:43 [info]  Open resident profile
+Mar 18,2015 22:12:45 [info]  Pass
+Mar 18,2015 22:12:46 [info]  Open resident profile
+Mar 18,2015 22:12:48 [info]  Pass
+Mar 18,2015 22:12:48 [info]  Open resident profile
+Mar 18,2015 22:13:09 [info]  Pass
+Mar 18,2015 22:13:09 [info]  Search deleted resident
+Mar 18,2015 22:13:13 [info]  Pass
+Mar 18,2015 22:13:29 [info]  Search Added resident
+Mar 18,2015 22:13:33 [info]  Pass
+Mar 18,2015 22:13:36 [info]  Deleting resident
+Mar 18,2015 22:13:36 [info]  Open resident profile
+Mar 18,2015 22:13:39 [info]  Pass
+Mar 18,2015 22:13:39 [info]  Open resident profile
+Mar 18,2015 22:13:42 [info]  Pass
+Mar 18,2015 22:13:42 [info]  Open resident profile
+Mar 18,2015 22:14:03 [info]  Pass
+Mar 18,2015 22:14:03 [info]  Search deleted resident
+Mar 18,2015 22:14:07 [info]  Pass
+Mar 18,2015 22:14:23 [info]  Search Added resident
+Mar 18,2015 22:14:27 [info]  Pass
+Mar 18,2015 22:14:30 [info]  Deleting resident
+Mar 18,2015 22:14:30 [info]  Open resident profile
+Mar 18,2015 22:14:32 [info]  Pass
+Mar 18,2015 22:14:32 [info]  Open resident profile
+Mar 18,2015 22:14:35 [info]  Pass
+Mar 18,2015 22:14:35 [info]  Open resident profile
+Mar 18,2015 22:14:57 [info]  Pass
+Mar 18,2015 22:14:57 [info]  Search deleted resident
+Mar 18,2015 22:15:01 [info]  Pass
+Mar 18,2015 22:15:18 [info]  Search Added resident
+Mar 18,2015 22:15:21 [info]  Pass
+Mar 18,2015 22:15:24 [info]  Deleting resident
+Mar 18,2015 22:15:24 [info]  Open resident profile
+Mar 18,2015 22:15:27 [info]  Pass
+Mar 18,2015 22:15:27 [info]  Open resident profile
+Mar 18,2015 22:15:30 [info]  Pass
+Mar 18,2015 22:15:30 [info]  Open resident profile
+Mar 18,2015 22:15:51 [info]  Pass
+Mar 18,2015 22:15:51 [info]  Search deleted resident
+Mar 18,2015 22:15:55 [info]  Pass
+Mar 18,2015 22:16:12 [info]  Search Added resident
+Mar 18,2015 22:16:16 [info]  Pass
+Mar 18,2015 22:16:19 [info]  Deleting resident
+Mar 18,2015 22:16:19 [info]  Open resident profile
+Mar 18,2015 22:16:22 [info]  Pass
+Mar 18,2015 22:16:22 [info]  Open resident profile
+Mar 18,2015 22:16:25 [info]  Pass
+Mar 18,2015 22:16:25 [info]  Open resident profile
+Mar 18,2015 22:16:46 [info]  Pass
+Mar 18,2015 22:16:46 [info]  Search deleted resident
+Mar 18,2015 22:16:50 [info]  Pass
+Mar 18,2015 22:17:07 [info]  Search Added resident
+Mar 18,2015 22:17:10 [info]  Pass
+Mar 18,2015 22:17:13 [info]  Deleting resident
+Mar 18,2015 22:17:13 [info]  Open resident profile
+Mar 18,2015 22:17:16 [info]  Pass
+Mar 18,2015 22:17:16 [info]  Open resident profile
+Mar 18,2015 22:17:19 [info]  Pass
+Mar 18,2015 22:17:19 [info]  Open resident profile
+Mar 18,2015 22:17:40 [info]  Pass
+Mar 18,2015 22:17:40 [info]  Search deleted resident
+Mar 18,2015 22:17:44 [info]  Pass
+Mar 18,2015 22:18:00 [info]  Search Added resident
+Mar 18,2015 22:18:04 [info]  Pass
+Mar 18,2015 22:18:07 [info]  Deleting resident
+Mar 18,2015 22:18:07 [info]  Open resident profile
+Mar 18,2015 22:18:10 [info]  Pass
+Mar 18,2015 22:18:10 [info]  Open resident profile
+Mar 18,2015 22:18:12 [info]  Pass
+Mar 18,2015 22:18:12 [info]  Open resident profile
+Mar 18,2015 22:18:34 [info]  Pass
+Mar 18,2015 22:18:34 [info]  Search deleted resident
+Mar 18,2015 22:18:37 [info]  Pass
+Mar 18,2015 22:18:54 [info]  Search Added resident
+Mar 18,2015 22:18:58 [info]  Pass
+Mar 18,2015 22:19:01 [info]  Deleting resident
+Mar 18,2015 22:19:01 [info]  Open resident profile
+Mar 18,2015 22:19:03 [info]  Pass
+Mar 18,2015 22:19:03 [info]  Open resident profile
+Mar 18,2015 22:19:06 [info]  Pass
+Mar 18,2015 22:19:06 [info]  Open resident profile
+Mar 18,2015 22:19:27 [info]  Pass
+Mar 18,2015 22:19:27 [info]  Search deleted resident
+Mar 18,2015 22:19:31 [info]  Pass
+Mar 18,2015 22:19:47 [info]  Search Added resident
+Mar 18,2015 22:19:51 [info]  Pass
+Mar 18,2015 22:19:54 [info]  Deleting resident
+Mar 18,2015 22:19:54 [info]  Open resident profile
+Mar 18,2015 22:19:57 [info]  Pass
+Mar 18,2015 22:19:57 [info]  Open resident profile
+Mar 18,2015 22:19:59 [info]  Pass
+Mar 18,2015 22:19:59 [info]  Open resident profile
+Mar 18,2015 22:20:21 [info]  Pass
+Mar 18,2015 22:20:21 [info]  Search deleted resident
+Mar 18,2015 22:20:25 [info]  Pass
+Mar 18,2015 22:20:41 [info]  Search Added resident
+Mar 18,2015 22:20:45 [info]  Pass
+Mar 18,2015 22:20:48 [info]  Deleting resident
+Mar 18,2015 22:20:48 [info]  Open resident profile
+Mar 18,2015 22:20:51 [info]  Pass
+Mar 18,2015 22:20:51 [info]  Open resident profile
+Mar 18,2015 22:20:53 [info]  Pass
+Mar 18,2015 22:20:53 [info]  Open resident profile
+Mar 18,2015 22:21:15 [info]  Pass
+Mar 18,2015 22:21:15 [info]  Search deleted resident
+Mar 18,2015 22:21:18 [info]  Pass
+Mar 18,2015 22:21:35 [info]  Search Added resident
+Mar 18,2015 22:21:39 [info]  Pass
+Mar 18,2015 22:21:42 [info]  Deleting resident
+Mar 18,2015 22:21:42 [info]  Open resident profile
+Mar 18,2015 22:21:45 [info]  Pass
+Mar 18,2015 22:21:45 [info]  Open resident profile
+Mar 18,2015 22:21:47 [info]  Pass
+Mar 18,2015 22:21:47 [info]  Open resident profile
+Mar 18,2015 22:22:07 [info]  Pass
+Mar 18,2015 22:22:07 [info]  Search deleted resident
+Mar 18,2015 22:22:11 [info]  Pass
+Mar 18,2015 22:22:27 [info]  Search Added resident
+Mar 18,2015 22:22:31 [info]  Pass
+Mar 18,2015 22:22:34 [info]  Deleting resident
+Mar 18,2015 22:22:34 [info]  Open resident profile
+Mar 18,2015 22:22:37 [info]  Pass
+Mar 18,2015 22:22:37 [info]  Open resident profile
+Mar 18,2015 22:22:39 [info]  Pass
+Mar 18,2015 22:22:39 [info]  Open resident profile
+Mar 18,2015 22:23:01 [info]  Pass
+Mar 18,2015 22:23:01 [info]  Search deleted resident
+Mar 18,2015 22:23:05 [info]  Pass
+Mar 18,2015 22:23:21 [info]  Search Added resident
+Mar 18,2015 22:23:25 [info]  Pass
+Mar 18,2015 22:23:28 [info]  Deleting resident
+Mar 18,2015 22:23:28 [info]  Open resident profile
+Mar 18,2015 22:23:31 [info]  Pass
+Mar 18,2015 22:23:31 [info]  Open resident profile
+Mar 18,2015 22:23:33 [info]  Pass
+Mar 18,2015 22:23:33 [info]  Open resident profile
+Mar 18,2015 22:23:55 [info]  Pass
+Mar 18,2015 22:23:55 [info]  Search deleted resident
+Mar 18,2015 22:23:58 [info]  Pass
+Mar 18,2015 22:24:15 [info]  Search Added resident
+Mar 18,2015 22:24:19 [info]  Pass
+Mar 18,2015 22:24:22 [info]  Deleting resident
+Mar 18,2015 22:24:22 [info]  Open resident profile
+Mar 18,2015 22:24:24 [info]  Pass
+Mar 18,2015 22:24:24 [info]  Open resident profile
+Mar 18,2015 22:24:27 [info]  Pass
+Mar 18,2015 22:24:27 [info]  Open resident profile
+Mar 18,2015 22:24:48 [info]  Pass
+Mar 18,2015 22:24:48 [info]  Search deleted resident
+Mar 18,2015 22:24:52 [info]  Pass
+Mar 18,2015 22:25:09 [info]  Search Added resident
+Mar 18,2015 22:25:13 [info]  Pass
+Mar 18,2015 22:25:16 [info]  Deleting resident
+Mar 18,2015 22:25:16 [info]  Open resident profile
+Mar 18,2015 22:25:18 [info]  Pass
+Mar 18,2015 22:25:18 [info]  Open resident profile
+Mar 18,2015 22:25:22 [info]  Pass
+Mar 18,2015 22:25:22 [info]  Open resident profile
+Mar 18,2015 22:25:42 [info]  Pass
+Mar 18,2015 22:25:42 [info]  Search deleted resident
+Mar 18,2015 22:25:46 [info]  Pass
+Mar 18,2015 22:26:02 [info]  Search Added resident
+Mar 18,2015 22:26:05 [info]  Pass
+Mar 18,2015 22:26:08 [info]  Deleting resident
+Mar 18,2015 22:26:08 [info]  Open resident profile
+Mar 18,2015 22:26:11 [info]  Pass
+Mar 18,2015 22:26:11 [info]  Open resident profile
+Mar 18,2015 22:26:14 [info]  Pass
+Mar 18,2015 22:26:14 [info]  Open resident profile
+Mar 18,2015 22:26:36 [info]  Pass
+Mar 18,2015 22:26:36 [info]  Search deleted resident
+Mar 18,2015 22:26:39 [info]  Pass
+Mar 18,2015 22:26:56 [info]  Search Added resident
+Mar 18,2015 22:26:59 [info]  Pass
+Mar 18,2015 22:27:02 [info]  Deleting resident
+Mar 18,2015 22:27:02 [info]  Open resident profile
+Mar 18,2015 22:27:05 [info]  Pass
+Mar 18,2015 22:27:05 [info]  Open resident profile
+Mar 18,2015 22:27:08 [info]  Pass
+Mar 18,2015 22:27:08 [info]  Open resident profile
+Mar 18,2015 22:27:29 [info]  Pass
+Mar 18,2015 22:27:29 [info]  Search deleted resident
+Mar 18,2015 22:27:33 [info]  Pass
+Mar 18,2015 22:27:49 [info]  Search Added resident
+Mar 18,2015 22:27:53 [info]  Pass
+Mar 18,2015 22:27:56 [info]  Deleting resident
+Mar 18,2015 22:27:56 [info]  Open resident profile
+Mar 18,2015 22:27:58 [info]  Pass
+Mar 18,2015 22:27:58 [info]  Open resident profile
+Mar 18,2015 22:28:01 [info]  Pass
+Mar 18,2015 22:28:01 [info]  Open resident profile
+Mar 18,2015 22:28:23 [info]  Pass
+Mar 18,2015 22:28:23 [info]  Search deleted resident
+Mar 18,2015 22:28:27 [info]  Pass
+Mar 18,2015 22:28:43 [info]  Search Added resident
+Mar 18,2015 22:28:47 [info]  Pass
+Mar 18,2015 22:28:50 [info]  Deleting resident
+Mar 18,2015 22:28:50 [info]  Open resident profile
+Mar 18,2015 22:28:52 [info]  Pass
+Mar 18,2015 22:28:53 [info]  Open resident profile
+Mar 18,2015 22:28:55 [info]  Pass
+Mar 18,2015 22:28:55 [info]  Open resident profile
+Mar 18,2015 22:29:16 [info]  Pass
+Mar 18,2015 22:29:16 [info]  Search deleted resident
+Mar 18,2015 22:29:19 [info]  Pass
+Mar 18,2015 22:29:35 [info]  Search Added resident
+Mar 18,2015 22:29:38 [info]  Pass
+Mar 18,2015 22:29:41 [info]  Deleting resident
+Mar 18,2015 22:29:42 [info]  Open resident profile
+Mar 18,2015 22:29:44 [info]  Pass
+Mar 18,2015 22:29:44 [info]  Open resident profile
+Mar 18,2015 22:29:47 [info]  Pass
+Mar 18,2015 22:29:47 [info]  Open resident profile
+Mar 18,2015 22:30:08 [info]  Pass
+Mar 18,2015 22:30:08 [info]  Search deleted resident
+Mar 18,2015 22:30:12 [info]  Pass
+Mar 18,2015 22:30:28 [info]  Search Added resident
+Mar 18,2015 22:30:31 [info]  Pass
+Mar 18,2015 22:30:34 [info]  Deleting resident
+Mar 18,2015 22:30:35 [info]  Open resident profile
+Mar 18,2015 22:30:37 [info]  Pass
+Mar 18,2015 22:30:37 [info]  Open resident profile
+Mar 18,2015 22:30:40 [info]  Pass
+Mar 18,2015 22:30:40 [info]  Open resident profile
+Mar 18,2015 22:31:01 [info]  Pass
+Mar 18,2015 22:31:01 [info]  Search deleted resident
+Mar 18,2015 22:31:04 [info]  Pass
+Mar 18,2015 22:31:19 [info]  Search Added resident
+Mar 18,2015 22:31:23 [info]  Pass
+Mar 18,2015 22:31:26 [info]  Deleting resident
+Mar 18,2015 22:31:26 [info]  Open resident profile
+Mar 18,2015 22:31:29 [info]  Pass
+Mar 18,2015 22:31:29 [info]  Open resident profile
+Mar 18,2015 22:31:31 [info]  Pass
+Mar 18,2015 22:31:31 [info]  Open resident profile
+Mar 18,2015 22:31:52 [info]  Pass
+Mar 18,2015 22:31:52 [info]  Search deleted resident
+Mar 18,2015 22:31:56 [info]  Pass
+Mar 18,2015 22:32:12 [info]  Search Added resident
+Mar 18,2015 22:32:16 [info]  Pass
+Mar 18,2015 22:32:19 [info]  Deleting resident
+Mar 18,2015 22:32:19 [info]  Open resident profile
+Mar 18,2015 22:32:21 [info]  Pass
+Mar 18,2015 22:32:21 [info]  Open resident profile
+Mar 18,2015 22:32:24 [info]  Pass
+Mar 18,2015 22:32:24 [info]  Open resident profile
+Mar 18,2015 22:32:45 [info]  Pass
+Mar 18,2015 22:32:45 [info]  Search deleted resident
+Mar 18,2015 22:32:48 [info]  Pass
+Mar 18,2015 22:33:04 [info]  Search Added resident
+Mar 18,2015 22:33:08 [info]  Pass
+Mar 18,2015 22:33:11 [info]  Deleting resident
+Mar 18,2015 22:33:11 [info]  Open resident profile
+Mar 18,2015 22:33:13 [info]  Pass
+Mar 18,2015 22:33:13 [info]  Open resident profile
+Mar 18,2015 22:33:16 [info]  Pass
+Mar 18,2015 22:33:16 [info]  Open resident profile
+Mar 18,2015 22:33:37 [info]  Pass
+Mar 18,2015 22:33:37 [info]  Search deleted resident
+Mar 18,2015 22:33:41 [info]  Pass
+Mar 18,2015 22:33:56 [info]  Search Added resident
+Mar 18,2015 22:34:00 [info]  Pass
+Mar 18,2015 22:34:03 [info]  Deleting resident
+Mar 18,2015 22:34:03 [info]  Open resident profile
+Mar 18,2015 22:34:06 [info]  Pass
+Mar 18,2015 22:34:06 [info]  Open resident profile
+Mar 18,2015 22:34:08 [info]  Pass
+Mar 18,2015 22:34:08 [info]  Open resident profile
+Mar 18,2015 22:34:32 [info]  Pass
+Mar 18,2015 22:34:32 [info]  Search deleted resident
+Mar 18,2015 22:34:36 [info]  Pass
+Mar 18,2015 22:34:52 [info]  Search Added resident
+Mar 18,2015 22:34:55 [info]  Pass
+Mar 18,2015 22:34:58 [info]  Deleting resident
+Mar 18,2015 22:34:58 [info]  Open resident profile
+Mar 18,2015 22:35:01 [info]  Pass
+Mar 18,2015 22:35:01 [info]  Open resident profile
+Mar 18,2015 22:35:04 [info]  Pass
+Mar 18,2015 22:35:04 [info]  Open resident profile
+Mar 18,2015 22:35:26 [info]  Pass
+Mar 18,2015 22:35:26 [info]  Search deleted resident
+Mar 18,2015 22:35:29 [info]  Pass
+Mar 18,2015 22:35:45 [info]  Search Added resident
+Mar 18,2015 22:35:48 [info]  Pass
+Mar 18,2015 22:35:51 [info]  Deleting resident
+Mar 18,2015 22:35:51 [info]  Open resident profile
+Mar 18,2015 22:35:54 [info]  Pass
+Mar 18,2015 22:35:54 [info]  Open resident profile
+Mar 18,2015 22:35:56 [info]  Pass
+Mar 18,2015 22:35:56 [info]  Open resident profile
+Mar 18,2015 22:49:37 [info]  Pass
+Mar 18,2015 22:49:37 [info]  Search deleted resident
+Mar 18,2015 22:49:40 [info]  Pass
+Mar 18,2015 22:49:56 [info]  Search Added resident
+Mar 18,2015 22:50:00 [info]  Pass
+Mar 18,2015 22:50:03 [info]  Deleting resident
+Mar 18,2015 22:50:03 [info]  Open resident profile
+Mar 18,2015 22:50:06 [info]  Pass
+Mar 18,2015 22:50:06 [info]  Open resident profile
+Mar 18,2015 22:50:08 [info]  Pass
+Mar 18,2015 22:50:08 [info]  Open resident profile
+Mar 18,2015 22:50:28 [info]  Pass
+Mar 18,2015 22:50:28 [info]  Search deleted resident
+Mar 18,2015 22:50:32 [info]  Pass
+Mar 18,2015 22:50:48 [info]  Search Added resident
+Mar 18,2015 22:50:52 [info]  Pass
+Mar 18,2015 22:50:55 [info]  Deleting resident
+Mar 18,2015 22:50:55 [info]  Open resident profile
+Mar 18,2015 22:50:57 [info]  Pass
+Mar 18,2015 22:50:57 [info]  Open resident profile
+Mar 18,2015 22:51:00 [info]  Pass
+Mar 18,2015 22:51:00 [info]  Open resident profile
+Mar 18,2015 22:51:21 [info]  Pass
+Mar 18,2015 22:51:21 [info]  Search deleted resident
+Mar 18,2015 22:51:25 [info]  Pass
+Mar 18,2015 22:51:41 [info]  Search Added resident
+Mar 18,2015 22:51:45 [info]  Pass
+Mar 18,2015 22:51:48 [info]  Deleting resident
+Mar 18,2015 22:51:48 [info]  Open resident profile
+Mar 18,2015 22:51:51 [info]  Pass
+Mar 18,2015 22:51:51 [info]  Open resident profile
+Mar 18,2015 22:51:53 [info]  Pass
+Mar 18,2015 22:51:53 [info]  Open resident profile
+Mar 18,2015 22:52:15 [info]  Pass
+Mar 18,2015 22:52:15 [info]  Search deleted resident
+Mar 18,2015 22:52:18 [info]  Pass
+Mar 18,2015 22:52:34 [info]  Search Added resident
+Mar 18,2015 22:52:38 [info]  Pass
+Mar 18,2015 22:52:41 [info]  Deleting resident
+Mar 18,2015 22:52:41 [info]  Open resident profile
+Mar 18,2015 22:52:44 [info]  Pass
+Mar 18,2015 22:52:44 [info]  Open resident profile
+Mar 18,2015 22:52:46 [info]  Pass
+Mar 18,2015 22:52:46 [info]  Open resident profile
+Mar 18,2015 22:53:07 [info]  Pass
+Mar 18,2015 22:53:07 [info]  Search deleted resident
+Mar 18,2015 22:53:11 [info]  Pass
+Mar 18,2015 22:53:27 [info]  Search Added resident
+Mar 18,2015 22:53:30 [info]  Pass
+Mar 18,2015 22:53:33 [info]  Deleting resident
+Mar 18,2015 22:53:33 [info]  Open resident profile
+Mar 18,2015 22:53:36 [info]  Pass
+Mar 18,2015 22:53:36 [info]  Open resident profile
+Mar 18,2015 22:53:39 [info]  Pass
+Mar 18,2015 22:53:39 [info]  Open resident profile
+Mar 18,2015 22:53:59 [info]  Pass
+Mar 18,2015 22:53:59 [info]  Search deleted resident
+Mar 18,2015 22:54:03 [info]  Pass
+Mar 18,2015 22:54:18 [info]  Search Added resident
+Mar 18,2015 22:54:22 [info]  Pass
+Mar 18,2015 22:54:25 [info]  Deleting resident
+Mar 18,2015 22:54:25 [info]  Open resident profile
+Mar 18,2015 22:54:27 [info]  Pass
+Mar 18,2015 22:54:27 [info]  Open resident profile
+Mar 18,2015 22:54:30 [info]  Pass
+Mar 18,2015 22:54:30 [info]  Open resident profile
+Mar 18,2015 22:54:51 [info]  Pass
+Mar 18,2015 22:54:51 [info]  Search deleted resident
+Mar 18,2015 22:54:55 [info]  Pass
+Mar 18,2015 22:55:11 [info]  Search Added resident
+Mar 18,2015 22:55:14 [info]  Pass
+Mar 18,2015 22:55:17 [info]  Deleting resident
+Mar 18,2015 22:55:17 [info]  Open resident profile
+Mar 18,2015 22:55:20 [info]  Pass
+Mar 18,2015 22:55:20 [info]  Open resident profile
+Mar 18,2015 22:55:23 [info]  Pass
+Mar 18,2015 22:55:23 [info]  Open resident profile
+Mar 18,2015 22:55:43 [info]  Pass
+Mar 18,2015 22:55:43 [info]  Search deleted resident
+Mar 18,2015 22:55:47 [info]  Pass
+Mar 18,2015 22:56:02 [info]  Search Added resident
+Mar 18,2015 22:56:06 [info]  Pass
+Mar 18,2015 22:56:09 [info]  Deleting resident
+Mar 18,2015 22:56:09 [info]  Open resident profile
+Mar 18,2015 22:56:11 [info]  Pass
+Mar 18,2015 22:56:11 [info]  Open resident profile
+Mar 18,2015 22:56:14 [info]  Pass
+Mar 18,2015 22:56:14 [info]  Open resident profile
+Mar 18,2015 22:56:35 [info]  Pass
+Mar 18,2015 22:56:35 [info]  Search deleted resident
+Mar 18,2015 22:56:39 [info]  Pass
+Mar 18,2015 22:56:55 [info]  Search Added resident
+Mar 18,2015 22:56:58 [info]  Pass
+Mar 18,2015 22:57:01 [info]  Deleting resident
+Mar 18,2015 22:57:01 [info]  Open resident profile
+Mar 18,2015 22:57:04 [info]  Pass
+Mar 18,2015 22:57:04 [info]  Open resident profile
+Mar 18,2015 22:57:07 [info]  Pass
+Mar 18,2015 22:57:07 [info]  Open resident profile
+Mar 18,2015 22:57:28 [info]  Pass
+Mar 18,2015 22:57:28 [info]  Search deleted resident
+Mar 18,2015 22:57:31 [info]  Pass
+Mar 18,2015 22:57:47 [info]  Search Added resident
+Mar 18,2015 22:57:51 [info]  Pass
+Mar 18,2015 22:57:54 [info]  Deleting resident
+Mar 18,2015 22:57:54 [info]  Open resident profile
+Mar 18,2015 22:57:56 [info]  Pass
+Mar 18,2015 22:57:56 [info]  Open resident profile
+Mar 18,2015 22:58:00 [info]  Pass
+Mar 18,2015 22:58:00 [info]  Open resident profile
+Mar 18,2015 22:58:20 [info]  Pass
+Mar 18,2015 22:58:20 [info]  Search deleted resident
+Mar 18,2015 22:58:24 [info]  Pass
+Mar 18,2015 22:58:39 [info]  Search Added resident
+Mar 18,2015 22:58:43 [info]  Pass
+Mar 18,2015 22:58:46 [info]  Deleting resident
+Mar 18,2015 22:58:46 [info]  Open resident profile
+Mar 18,2015 22:58:49 [info]  Pass
+Mar 18,2015 22:58:49 [info]  Open resident profile
+Mar 18,2015 22:58:52 [info]  Pass
+Mar 18,2015 22:58:52 [info]  Open resident profile
+Mar 18,2015 22:59:13 [info]  Pass
+Mar 18,2015 22:59:13 [info]  Search deleted resident
+Mar 18,2015 22:59:16 [info]  Pass
+Mar 18,2015 22:59:33 [info]  Search Added resident
+Mar 18,2015 22:59:36 [info]  Pass
+Mar 18,2015 22:59:39 [info]  Deleting resident
+Mar 18,2015 22:59:39 [info]  Open resident profile
+Mar 18,2015 22:59:42 [info]  Pass
+Mar 18,2015 22:59:42 [info]  Open resident profile
+Mar 18,2015 22:59:44 [info]  Pass
+Mar 18,2015 22:59:44 [info]  Open resident profile
+Mar 18,2015 23:00:06 [info]  Pass
+Mar 18,2015 23:00:06 [info]  Search deleted resident
+Mar 18,2015 23:00:09 [info]  Pass
+Mar 18,2015 23:00:25 [info]  Search Added resident
+Mar 18,2015 23:00:29 [info]  Pass
+Mar 18,2015 23:00:32 [info]  Deleting resident
+Mar 18,2015 23:00:32 [info]  Open resident profile
+Mar 18,2015 23:00:34 [info]  Pass
+Mar 18,2015 23:00:34 [info]  Open resident profile
+Mar 18,2015 23:00:38 [info]  Pass
+Mar 18,2015 23:00:38 [info]  Open resident profile
+Mar 18,2015 23:00:59 [info]  Pass
+Mar 18,2015 23:00:59 [info]  Search deleted resident
+Mar 18,2015 23:01:03 [info]  Pass
+Mar 18,2015 23:01:19 [info]  Search Added resident
+Mar 18,2015 23:01:23 [info]  Pass
+Mar 18,2015 23:01:26 [info]  Deleting resident
+Mar 18,2015 23:01:26 [info]  Open resident profile
+Mar 18,2015 23:01:28 [info]  Pass
+Mar 18,2015 23:01:28 [info]  Open resident profile
+Mar 18,2015 23:01:31 [info]  Pass
+Mar 18,2015 23:01:31 [info]  Open resident profile
+Mar 18,2015 23:01:52 [info]  Pass
+Mar 18,2015 23:01:52 [info]  Search deleted resident
+Mar 18,2015 23:01:55 [info]  Pass
+Mar 18,2015 23:02:11 [info]  Search Added resident
+Mar 18,2015 23:02:15 [info]  Pass
+Mar 18,2015 23:02:18 [info]  Deleting resident
+Mar 18,2015 23:02:18 [info]  Open resident profile
+Mar 18,2015 23:02:21 [info]  Pass
+Mar 18,2015 23:02:21 [info]  Open resident profile
+Mar 18,2015 23:02:23 [info]  Pass
+Mar 18,2015 23:02:23 [info]  Open resident profile
+Mar 18,2015 23:02:44 [info]  Pass
+Mar 18,2015 23:02:44 [info]  Search deleted resident
+Mar 18,2015 23:02:48 [info]  Pass
+Mar 18,2015 23:03:04 [info]  Search Added resident
+Mar 18,2015 23:03:07 [info]  Pass
+Mar 18,2015 23:03:10 [info]  Deleting resident
+Mar 18,2015 23:03:10 [info]  Open resident profile
+Mar 18,2015 23:03:13 [info]  Pass
+Mar 18,2015 23:03:13 [info]  Open resident profile
+Mar 18,2015 23:03:16 [info]  Pass
+Mar 18,2015 23:03:16 [info]  Open resident profile
+Mar 18,2015 23:03:36 [info]  Pass
+Mar 18,2015 23:03:36 [info]  Search deleted resident
+Mar 18,2015 23:03:40 [info]  Pass
+Mar 18,2015 23:03:57 [info]  Search Added resident
+Mar 18,2015 23:04:00 [info]  Pass
+Mar 18,2015 23:04:03 [info]  Deleting resident
+Mar 18,2015 23:04:03 [info]  Open resident profile
+Mar 18,2015 23:04:06 [info]  Pass
+Mar 18,2015 23:04:06 [info]  Open resident profile
+Mar 18,2015 23:04:08 [info]  Pass
+Mar 18,2015 23:04:08 [info]  Open resident profile
+Mar 18,2015 23:04:29 [info]  Pass
+Mar 18,2015 23:04:29 [info]  Search deleted resident
+Mar 18,2015 23:04:32 [info]  Pass
+Mar 18,2015 23:04:49 [info]  Search Added resident
+Mar 18,2015 23:04:52 [info]  Pass
+Mar 18,2015 23:04:55 [info]  Deleting resident
+Mar 18,2015 23:04:55 [info]  Open resident profile
+Mar 18,2015 23:04:58 [info]  Pass
+Mar 18,2015 23:04:58 [info]  Open resident profile
+Mar 18,2015 23:05:00 [info]  Pass
+Mar 18,2015 23:05:01 [info]  Open resident profile
+Mar 18,2015 23:05:21 [info]  Pass
+Mar 18,2015 23:05:21 [info]  Search deleted resident
+Mar 18,2015 23:05:25 [info]  Pass
+Mar 18,2015 23:05:41 [info]  Search Added resident
+Mar 18,2015 23:05:45 [info]  Pass
+Mar 18,2015 23:05:48 [info]  Deleting resident
+Mar 18,2015 23:05:48 [info]  Open resident profile
+Mar 18,2015 23:05:50 [info]  Pass
+Mar 18,2015 23:05:50 [info]  Open resident profile
+Mar 18,2015 23:05:53 [info]  Pass
+Mar 18,2015 23:05:53 [info]  Open resident profile
+Mar 18,2015 23:06:14 [info]  Pass
+Mar 18,2015 23:06:14 [info]  Search deleted resident
+Mar 18,2015 23:06:17 [info]  Pass
+Mar 18,2015 23:06:34 [info]  Search Added resident
+Mar 18,2015 23:06:37 [info]  Pass
+Mar 18,2015 23:06:40 [info]  Deleting resident
+Mar 18,2015 23:06:40 [info]  Open resident profile
+Mar 18,2015 23:06:43 [info]  Pass
+Mar 18,2015 23:06:43 [info]  Open resident profile
+Mar 18,2015 23:06:47 [info]  Pass
+Mar 18,2015 23:06:47 [info]  Open resident profile
+Mar 18,2015 23:07:08 [info]  Pass
+Mar 18,2015 23:07:08 [info]  Search deleted resident
+Mar 18,2015 23:07:11 [info]  Pass
+Mar 18,2015 23:07:27 [info]  Search Added resident
+Mar 18,2015 23:07:31 [info]  Pass
+Mar 18,2015 23:07:34 [info]  Deleting resident
+Mar 18,2015 23:07:34 [info]  Open resident profile
+Mar 18,2015 23:07:36 [info]  Pass
+Mar 18,2015 23:07:36 [info]  Open resident profile
+Mar 18,2015 23:07:40 [info]  Pass
+Mar 18,2015 23:07:40 [info]  Open resident profile
+Mar 18,2015 23:08:00 [info]  Pass
+Mar 18,2015 23:08:00 [info]  Search deleted resident
+Mar 18,2015 23:08:04 [info]  Pass
+Mar 18,2015 23:08:20 [info]  Search Added resident
+Mar 18,2015 23:08:23 [info]  Pass
+Mar 18,2015 23:08:26 [info]  Deleting resident
+Mar 18,2015 23:08:26 [info]  Open resident profile
+Mar 18,2015 23:08:29 [info]  Pass
+Mar 18,2015 23:08:29 [info]  Open resident profile
+Mar 18,2015 23:08:32 [info]  Pass
+Mar 18,2015 23:08:32 [info]  Open resident profile
+Mar 18,2015 23:08:51 [info]  Pass
+Mar 18,2015 23:08:51 [info]  Search deleted resident
+Mar 18,2015 23:08:55 [info]  Pass
+Mar 18,2015 23:09:11 [info]  Search Added resident
+Mar 18,2015 23:09:15 [info]  Pass
+Mar 18,2015 23:09:18 [info]  Deleting resident
+Mar 18,2015 23:09:18 [info]  Open resident profile
+Mar 18,2015 23:09:20 [info]  Pass
+Mar 18,2015 23:09:20 [info]  Open resident profile
+Mar 18,2015 23:09:23 [info]  Pass
+Mar 18,2015 23:09:23 [info]  Open resident profile
+Mar 18,2015 23:09:44 [info]  Pass
+Mar 18,2015 23:09:44 [info]  Search deleted resident
+Mar 18,2015 23:09:48 [info]  Pass
+Mar 18,2015 23:10:00 [info]  Search Added resident
+Mar 18,2015 23:10:19 [info]  Pass
+Mar 18,2015 23:10:22 [info]  Deleting resident
+Mar 18,2015 23:10:22 [info]  Open resident profile
+Mar 18,2015 23:10:25 [info]  Pass
+Mar 18,2015 23:10:25 [info]  Open resident profile
+Mar 18,2015 23:10:28 [info]  Pass
+Mar 18,2015 23:10:28 [info]  Open resident profile
+Mar 18,2015 23:10:48 [info]  Pass
+Mar 18,2015 23:10:48 [info]  Search deleted resident
+Mar 18,2015 23:10:52 [info]  Pass
+Mar 18,2015 23:11:08 [info]  Search Added resident
+Mar 18,2015 23:11:12 [info]  Pass
+Mar 18,2015 23:11:15 [info]  Deleting resident
+Mar 18,2015 23:11:15 [info]  Open resident profile
+Mar 18,2015 23:11:17 [info]  Pass
+Mar 18,2015 23:11:17 [info]  Open resident profile
+Mar 18,2015 23:11:20 [info]  Pass
+Mar 18,2015 23:11:20 [info]  Open resident profile
+Mar 18,2015 23:11:41 [info]  Pass
+Mar 18,2015 23:11:41 [info]  Search deleted resident
+Mar 18,2015 23:11:44 [info]  Pass
+Mar 18,2015 23:12:00 [info]  Search Added resident
+Mar 18,2015 23:12:04 [info]  Pass
+Mar 18,2015 23:12:07 [info]  Deleting resident
+Mar 18,2015 23:12:07 [info]  Open resident profile
+Mar 18,2015 23:12:09 [info]  Pass
+Mar 18,2015 23:12:09 [info]  Open resident profile
+Mar 18,2015 23:12:12 [info]  Pass
+Mar 18,2015 23:12:12 [info]  Open resident profile
+Mar 18,2015 23:12:33 [info]  Pass
+Mar 18,2015 23:12:33 [info]  Search deleted resident
+Mar 18,2015 23:12:37 [info]  Pass
+Mar 18,2015 23:12:53 [info]  Search Added resident
+Mar 18,2015 23:12:57 [info]  Pass
+Mar 18,2015 23:13:00 [info]  Deleting resident
+Mar 18,2015 23:13:00 [info]  Open resident profile
+Mar 18,2015 23:13:02 [info]  Pass
+Mar 18,2015 23:13:02 [info]  Open resident profile
+Mar 18,2015 23:13:05 [info]  Pass
+Mar 18,2015 23:13:05 [info]  Open resident profile
+Mar 18,2015 23:13:27 [info]  Pass
+Mar 18,2015 23:13:27 [info]  Search deleted resident
+Mar 18,2015 23:13:30 [info]  Pass
+Mar 18,2015 23:13:46 [info]  Search Added resident
+Mar 18,2015 23:13:50 [info]  Pass
+Mar 18,2015 23:13:53 [info]  Deleting resident
+Mar 18,2015 23:13:53 [info]  Open resident profile
+Mar 18,2015 23:13:56 [info]  Pass
+Mar 18,2015 23:13:56 [info]  Open resident profile
+Mar 18,2015 23:13:58 [info]  Pass
+Mar 18,2015 23:13:58 [info]  Open resident profile
+Mar 18,2015 23:14:20 [info]  Pass
+Mar 18,2015 23:14:20 [info]  Search deleted resident
+Mar 18,2015 23:14:23 [info]  Pass
+Mar 18,2015 23:14:39 [info]  Search Added resident
+Mar 18,2015 23:14:43 [info]  Pass
+Mar 18,2015 23:14:46 [info]  Deleting resident
+Mar 18,2015 23:14:46 [info]  Open resident profile
+Mar 18,2015 23:14:48 [info]  Pass
+Mar 18,2015 23:14:48 [info]  Open resident profile
+Mar 18,2015 23:14:51 [info]  Pass
+Mar 18,2015 23:14:51 [info]  Open resident profile
+Mar 18,2015 23:15:11 [info]  Pass
+Mar 18,2015 23:15:11 [info]  Search deleted resident
+Mar 18,2015 23:15:15 [info]  Pass
+Mar 18,2015 23:15:31 [info]  Search Added resident
+Mar 18,2015 23:15:35 [info]  Pass
+Mar 18,2015 23:15:38 [info]  Deleting resident
+Mar 18,2015 23:15:38 [info]  Open resident profile
+Mar 18,2015 23:15:40 [info]  Pass
+Mar 18,2015 23:15:40 [info]  Open resident profile
+Mar 18,2015 23:15:43 [info]  Pass
+Mar 18,2015 23:15:43 [info]  Open resident profile
+Mar 18,2015 23:16:04 [info]  Pass
+Mar 18,2015 23:16:04 [info]  Search deleted resident
+Mar 18,2015 23:16:07 [info]  Pass
+Mar 18,2015 23:16:22 [info]  Search Added resident
+Mar 18,2015 23:16:26 [info]  Pass
+Mar 18,2015 23:16:29 [info]  Deleting resident
+Mar 18,2015 23:16:29 [info]  Open resident profile
+Mar 18,2015 23:16:32 [info]  Pass
+Mar 18,2015 23:16:32 [info]  Open resident profile
+Mar 18,2015 23:16:34 [info]  Pass
+Mar 18,2015 23:16:34 [info]  Open resident profile
+Mar 18,2015 23:16:54 [info]  Pass
+Mar 18,2015 23:16:54 [info]  Search deleted resident
+Mar 18,2015 23:16:58 [info]  Pass
+Mar 18,2015 23:17:14 [info]  Search Added resident
+Mar 18,2015 23:17:17 [info]  Pass
+Mar 18,2015 23:17:20 [info]  Deleting resident
+Mar 18,2015 23:17:20 [info]  Open resident profile
+Mar 18,2015 23:17:23 [info]  Pass
+Mar 18,2015 23:17:23 [info]  Open resident profile
+Mar 18,2015 23:17:26 [info]  Pass
+Mar 18,2015 23:17:26 [info]  Open resident profile
+Mar 18,2015 23:17:46 [info]  Pass
+Mar 18,2015 23:17:46 [info]  Search deleted resident
+Mar 18,2015 23:17:50 [info]  Pass
+Mar 18,2015 23:18:06 [info]  Search Added resident
+Mar 18,2015 23:18:09 [info]  Pass
+Mar 18,2015 23:18:12 [info]  Deleting resident
+Mar 18,2015 23:18:12 [info]  Open resident profile
+Mar 18,2015 23:18:15 [info]  Pass
+Mar 18,2015 23:18:15 [info]  Open resident profile
+Mar 18,2015 23:18:18 [info]  Pass
+Mar 18,2015 23:18:18 [info]  Open resident profile
+Mar 18,2015 23:18:38 [info]  Pass
+Mar 18,2015 23:18:38 [info]  Search deleted resident
+Mar 18,2015 23:18:42 [info]  Pass
+Mar 18,2015 23:18:57 [info]  Search Added resident
+Mar 18,2015 23:19:01 [info]  Pass
+Mar 18,2015 23:19:04 [info]  Deleting resident
+Mar 18,2015 23:19:04 [info]  Open resident profile
+Mar 18,2015 23:19:07 [info]  Pass
+Mar 18,2015 23:19:07 [info]  Open resident profile
+Mar 18,2015 23:19:09 [info]  Pass
+Mar 18,2015 23:19:09 [info]  Open resident profile
+Mar 18,2015 23:19:30 [info]  Pass
+Mar 18,2015 23:19:30 [info]  Search deleted resident
+Mar 18,2015 23:19:34 [info]  Pass
+Mar 18,2015 23:19:49 [info]  Search Added resident
+Mar 18,2015 23:19:52 [info]  Pass
+Mar 18,2015 23:19:55 [info]  Deleting resident
+Mar 18,2015 23:19:55 [info]  Open resident profile
+Mar 18,2015 23:19:58 [info]  Pass
+Mar 18,2015 23:19:58 [info]  Open resident profile
+Mar 18,2015 23:20:01 [info]  Pass
+Mar 18,2015 23:20:01 [info]  Open resident profile
+Mar 18,2015 23:20:22 [info]  Pass
+Mar 18,2015 23:20:22 [info]  Search deleted resident
+Mar 18,2015 23:20:26 [info]  Pass
+Mar 18,2015 23:20:42 [info]  Search Added resident
+Mar 18,2015 23:20:46 [info]  Pass
+Mar 18,2015 23:20:49 [info]  Deleting resident
+Mar 18,2015 23:20:49 [info]  Open resident profile
+Mar 18,2015 23:20:51 [info]  Pass
+Mar 18,2015 23:20:51 [info]  Open resident profile
+Mar 18,2015 23:20:54 [info]  Pass
+Mar 18,2015 23:20:54 [info]  Open resident profile
+Mar 18,2015 23:21:15 [info]  Pass
+Mar 18,2015 23:21:15 [info]  Search deleted resident
+Mar 18,2015 23:21:18 [info]  Pass
+Mar 18,2015 23:21:34 [info]  Search Added resident
+Mar 18,2015 23:21:38 [info]  Pass
+Mar 18,2015 23:21:41 [info]  Deleting resident
+Mar 18,2015 23:21:41 [info]  Open resident profile
+Mar 18,2015 23:21:43 [info]  Pass
+Mar 18,2015 23:21:43 [info]  Open resident profile
+Mar 18,2015 23:21:46 [info]  Pass
+Mar 18,2015 23:21:46 [info]  Open resident profile
+Mar 18,2015 23:22:06 [info]  Pass
+Mar 18,2015 23:22:06 [info]  Search deleted resident
+Mar 18,2015 23:22:10 [info]  Pass
+Mar 18,2015 23:22:26 [info]  Search Added resident
+Mar 18,2015 23:22:30 [info]  Pass
+Mar 18,2015 23:22:33 [info]  Deleting resident
+Mar 18,2015 23:22:33 [info]  Open resident profile
+Mar 18,2015 23:22:35 [info]  Pass
+Mar 18,2015 23:22:35 [info]  Open resident profile
+Mar 18,2015 23:22:38 [info]  Pass
+Mar 18,2015 23:22:38 [info]  Open resident profile
+Mar 18,2015 23:22:59 [info]  Pass
+Mar 18,2015 23:22:59 [info]  Search deleted resident
+Mar 18,2015 23:23:03 [info]  Pass
+Mar 18,2015 23:23:18 [info]  Search Added resident
+Mar 18,2015 23:23:21 [info]  Pass
+Mar 18,2015 23:23:24 [info]  Deleting resident
+Mar 18,2015 23:23:24 [info]  Open resident profile
+Mar 18,2015 23:23:27 [info]  Pass
+Mar 18,2015 23:23:27 [info]  Open resident profile
+Mar 18,2015 23:23:30 [info]  Pass
+Mar 18,2015 23:23:30 [info]  Open resident profile
+Mar 18,2015 23:23:51 [info]  Pass
+Mar 18,2015 23:23:51 [info]  Search deleted resident
+Mar 18,2015 23:23:55 [info]  Pass
+Mar 18,2015 23:24:11 [info]  Search Added resident
+Mar 18,2015 23:24:14 [info]  Pass
+Mar 18,2015 23:24:17 [info]  Deleting resident
+Mar 18,2015 23:24:17 [info]  Open resident profile
+Mar 18,2015 23:24:20 [info]  Pass
+Mar 18,2015 23:24:20 [info]  Open resident profile
+Mar 18,2015 23:24:26 [info]  Pass
+Mar 18,2015 23:24:26 [info]  Open resident profile
+Mar 18,2015 23:24:48 [info]  Pass
+Mar 18,2015 23:24:48 [info]  Search deleted resident
+Mar 18,2015 23:24:52 [info]  Pass
+Mar 18,2015 23:25:08 [info]  Search Added resident
+Mar 18,2015 23:25:11 [info]  Pass
+Mar 18,2015 23:25:14 [info]  Deleting resident
+Mar 18,2015 23:25:14 [info]  Open resident profile
+Mar 18,2015 23:25:17 [info]  Pass
+Mar 18,2015 23:25:17 [info]  Open resident profile
+Mar 18,2015 23:25:20 [info]  Pass
+Mar 18,2015 23:25:20 [info]  Open resident profile
+Mar 18,2015 23:25:39 [info]  Pass
+Mar 18,2015 23:25:39 [info]  Search deleted resident
+Mar 18,2015 23:25:43 [info]  Pass
+Mar 18,2015 23:25:56 [info]  Search Added resident
+Mar 18,2015 23:25:59 [info]  Pass
+Mar 18,2015 23:26:02 [info]  Deleting resident
+Mar 18,2015 23:26:02 [info]  Open resident profile
+Mar 18,2015 23:26:05 [info]  Pass
+Mar 18,2015 23:26:05 [info]  Open resident profile
+Mar 18,2015 23:26:08 [info]  Pass
+Mar 18,2015 23:26:08 [info]  Open resident profile
+Mar 18,2015 23:26:29 [info]  Pass
+Mar 18,2015 23:26:29 [info]  Search deleted resident
+Mar 18,2015 23:26:33 [info]  Pass
+Mar 18,2015 23:26:48 [info]  Search Added resident
+Mar 18,2015 23:26:52 [info]  Pass
+Mar 18,2015 23:26:55 [info]  Deleting resident
+Mar 18,2015 23:26:55 [info]  Open resident profile
+Mar 18,2015 23:26:57 [info]  Pass
+Mar 18,2015 23:26:57 [info]  Open resident profile
+Mar 18,2015 23:27:00 [info]  Pass
+Mar 18,2015 23:27:00 [info]  Open resident profile
+Mar 18,2015 23:27:23 [info]  Pass
+Mar 18,2015 23:27:23 [info]  Search deleted resident
+Mar 18,2015 23:27:27 [info]  Pass
+Mar 18,2015 23:27:42 [info]  Search Added resident
+Mar 18,2015 23:27:46 [info]  Pass
+Mar 18,2015 23:27:49 [info]  Deleting resident
+Mar 18,2015 23:27:49 [info]  Open resident profile
+Mar 18,2015 23:27:51 [info]  Pass
+Mar 18,2015 23:27:52 [info]  Open resident profile
+Mar 18,2015 23:27:54 [info]  Pass
+Mar 18,2015 23:27:54 [info]  Open resident profile
+Mar 18,2015 23:28:15 [info]  Pass
+Mar 18,2015 23:28:15 [info]  Search deleted resident
+Mar 18,2015 23:28:19 [info]  Pass
+Mar 18,2015 23:28:35 [info]  Search Added resident
+Mar 18,2015 23:28:38 [info]  Pass
+Mar 18,2015 23:28:41 [info]  Deleting resident
+Mar 18,2015 23:28:41 [info]  Open resident profile
+Mar 18,2015 23:29:15 [info]  Mar 18,2015 23:29:15 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: Element Locator ://*[@class='Title']/strong Not found expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.iCM.util.DriverHelper.clickOn(DriverHelper.java:245)
+	at com.iCM.pagehelper.DeleteHelper.click(DeleteHelper.java:23)
+	at com.iCM.scripts.DeleteResident.testAddResident(DeleteResident.java:76)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Mar 18,2015 23:29:15 [info]  End Execution of Test Class com.iCM.scripts.DeleteResident
+*****************************************************************************

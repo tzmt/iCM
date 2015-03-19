@@ -43,5 +43,15 @@ public class LoginHelper extends DriverHelper
 		String locator = loginLocator.getLocator("Login.LoginBtn");
 		clickOn(locator);
 	}
+
+	public void closePopup() 
+	{
+		String locator = "//*[@id='ReviewFootr']/a[2]";
+		if(isElementPresent(locator))
+		{
+			clickOn(locator);
+		}
+		
+	}
 	
 }

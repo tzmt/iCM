@@ -107,20 +107,21 @@ public class EMRHelper extends DriverHelper
 			}
 			else
 			{
-				newMin=String.valueOf(c.get(Calendar.MINUTE));
+				newMin = String.valueOf(c.get(Calendar.MINUTE));
 			}
-			if(c.get(Calendar.MINUTE+1)<10)
+			if(c.get(Calendar.MINUTE)+1<10)
 			{
-				newMin1 = "0"+c.get(Calendar.MINUTE+1);
+				newMin1 = "0"+c.get(Calendar.MINUTE)+1;
 			}
 			else
 			{
-				newMin1=String.valueOf(c.get(Calendar.MINUTE+1));
+				newMin1 = String.valueOf(c.get(Calendar.MINUTE)+1);
 			}
+		
 			value = c.get(Calendar.HOUR)+":"+newMin+AMPM;
 			value1 = c.get(Calendar.HOUR)+":"+newMin1+AMPM;
-			System.out.println("Time in Field : "+getAttribute(locator, "value"));
-			System.out.println("Time BY CODE : "+value);
+			System.out.println(value);
+			System.out.println(value1);
 			Assert.assertTrue(getAttribute(locator, "value").contains(value)||getAttribute(locator, "value").contains(value1));
 		}
 	}

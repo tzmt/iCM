@@ -52,6 +52,9 @@ public class EMRAdministerMAR extends DriverTestCase
 			loginHelper.verifyTitle("iCM - Home");
 			ExecutionLog.Log("Pass");
 			
+			//Close notification popup
+			loginHelper.closePopup();
+			
 			//Click on 'EMR'
 			ExecutionLog.Log("Click on 'EMR'");
 			eMRHelper.click("Admin.EMRLeft");

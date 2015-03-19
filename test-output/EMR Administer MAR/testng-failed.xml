@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [EMR Administer MAR]">
+  <test name="EMRAdministerMAR(failed)">
+    <classes>
+      <class name="com.iCM.scripts.EMRAdministerMAR">
+        <methods>
+          <include name="afterMainMethod"/>
+          <include name="testEMRAdministerMAR"/>
+          <include name="endMethods"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.iCM.scripts.EMRAdministerMAR -->
+    </classes>
+  </test> <!-- EMRAdministerMAR(failed) -->
+</suite> <!-- Failed suite [EMR Administer MAR] -->

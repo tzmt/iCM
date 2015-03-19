@@ -1,0 +1,26 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="5" verbose="1" name="Functional Automation"
+	annotations="JDK">
+	<suite-files>
+		<suite-file path="DCMedication.xml"></suite-file>
+		<suite-file path="EChart.xml"></suite-file>
+		<suite-file path="EChartAddMedication.xml"></suite-file>
+		<suite-file path="EChartMedication.xml"></suite-file>
+		<suite-file path="EditTask.xml"></suite-file>
+		<suite-file path="EMRAdministerMAR.xml"></suite-file>
+		<suite-file path="EMRAdministerMonthlyViewGreen.xml"></suite-file>
+		<suite-file path="EMRAdministerMonthlyViewOrange.xml"></suite-file>
+		<suite-file path="EMRAdministerNotAbleNegaiveValue.xml"></suite-file>
+		<suite-file path="EMRAdministerUndo.xml"></suite-file>
+		<suite-file path="EMRAdminLate.xml"></suite-file>
+		<suite-file path="EMRAdminLateReading.xml"></suite-file>
+		<suite-file path="EMRAdminResidentHold.xml"></suite-file>
+		<suite-file path="EMRAdminResidentPhysically.xml"></suite-file>
+		<suite-file path="EMRAdminResidentRefused.xml"></suite-file>
+		<suite-file path="EMRAdminUndo.xml"></suite-file>
+		<suite-file path="EMREChartMedication.xml"></suite-file>
+		<suite-file path="EMROmissionUndo.xml"></suite-file>
+		<suite-file path="EMRWithoutError.xml"></suite-file>
+		<suite-file path="GenerateEMRReport.xml"></suite-file>
+	</suite-files>
+</suite> 

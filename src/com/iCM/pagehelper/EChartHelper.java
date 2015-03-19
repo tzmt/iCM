@@ -37,6 +37,7 @@ public class EChartHelper extends DriverHelper
 	public void type(String value, String locatorNode)
 	{
 		String locator = echartLocator.getLocator(locatorNode);
+		WaitForElementPresent(locator, 20);
 		waitForWorkAroundTime(3000);
 		sendKeys(locator, value);
 	}
@@ -45,6 +46,7 @@ public class EChartHelper extends DriverHelper
 	public void click(String locator)
 	{
 		String obj = echartLocator.getLocator(locator);
+		WaitForElementPresent(locator, 20);
 		waitForWorkAroundTime(3000);
 		clickOn(obj);
 	}
@@ -147,11 +149,16 @@ public class EChartHelper extends DriverHelper
 	
 	public String getID()
 	{
-		waitForWorkAroundTime(3000);
+		waitForWorkAroundTime(10000);
 		String St1 = getWebDriver().getCurrentUrl();
 		int last = St1.lastIndexOf('/');
 		String id = St1.substring(last+1, St1.length());
 		System.out.println(id);
+		if(id =="List#")
+		{
+			waitForWorkAroundTime(2000);
+			getID();
+		}
 		return id;
 	}
 
@@ -164,10 +171,12 @@ public class EChartHelper extends DriverHelper
 	
 	public void verifyBlackBlocks(String day1, String day2)
 	{
+		waitForWorkAroundTime(5000);
 		boolean flag = false;
 		Calendar cal = Calendar.getInstance();
 		int date = cal.get(Calendar.DAY_OF_MONTH);
 		String locator = "//*[@id='administeredlogtbl']/thead/tr[2]/td";
+		WaitForElementPresent(locator, 20);
 		int count = getXpathCount(locator);
 		for(int i=date;i<=count;i++)
 		{
@@ -187,7 +196,7 @@ public class EChartHelper extends DriverHelper
 	
 	public void verifyBlackOutFromStart(int st)
 	{
-		waitForWorkAroundTime(3000);
+		waitForWorkAroundTime(4000);
 		Calendar cal = Calendar.getInstance();
 		int date = cal.get(Calendar.DAY_OF_MONTH);
 		boolean flag = false;

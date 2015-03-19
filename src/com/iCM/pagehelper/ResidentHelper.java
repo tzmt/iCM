@@ -23,6 +23,7 @@ public class ResidentHelper extends DriverHelper
 	public void type(String value, String locatorNode)
 	{
 		String locator = residentLocator.getLocator(locatorNode);
+		WaitForElementPresent(locator, 20);
 		waitForWorkAroundTime(3000);
 		sendKeys(locator, value);
 	}
@@ -31,6 +32,7 @@ public class ResidentHelper extends DriverHelper
 	public void click(String locator)
 	{
 		String obj = residentLocator.getLocator(locator);
+		WaitForElementPresent(locator, 20);
 		waitForWorkAroundTime(3000);
 		clickOn(obj);
 	}
