@@ -16,6 +16,7 @@
 		<suite-file path="AddTaskWithComplete.xml"></suite-file>
 		<suite-file path="AddTaskWithInProgress.xml"></suite-file>
 		<suite-file path="AdministrationSchedule.xml"></suite-file>
+		<suite-file path="ControlledMedication.xml"></suite-file>
 		<suite-file path="DCMedication.xml"></suite-file>
 		<suite-file path="EChart.xml"></suite-file>
 		<suite-file path="EChartAddMedication.xml"></suite-file>
@@ -35,11 +36,15 @@
 		<suite-file path="EMREChartMedication.xml"></suite-file>
 		<suite-file path="EMROmissionUndo.xml"></suite-file>
 		<suite-file path="EMRWithoutError.xml"></suite-file>
+		<suite-file path="FieldsMandatoryAddMedication.xml"></suite-file>
+		<suite-file path="FieldsAvailableAddEditMedication.xml"></suite-file>
 		<suite-file path="GenerateEMRReport.xml"></suite-file>
 		<suite-file path="HoldMedicine.xml"></suite-file>
 		<suite-file path="Login.xml"></suite-file>
 		<suite-file path="NotesToMedicine.xml"></suite-file>
 		<suite-file path="Omission.xml"></suite-file>
+		<suite-file path="RoutineMedication.xml"></suite-file>
 		<suite-file path="ViewEChartMedication.xml"></suite-file>
+		
 	</suite-files>
 </suite> 

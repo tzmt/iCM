@@ -19,6 +19,7 @@ import java.util.Set;
 
 
 
+
 import javax.activation.DataHandler;
 import javax.activation.DataSource;
 import javax.activation.FileDataSource;
@@ -76,6 +77,7 @@ public abstract class DriverTestCase
 	protected String pswd = propertyReader.readApplicationFile("pswd");
 	protected String username = propertyReader.readApplicationFile("username");
 	protected String baseUrl = propertyReader.readApplicationFile("base_url");
+	
 
 	@BeforeSuite
 	public void setUp() 
@@ -236,8 +238,37 @@ public abstract class DriverTestCase
 		return fileName;
 	}
 	
-
 	
+	//Login into application PROD
+	public void LoginLive()
+	{
+		loginHelper = new LoginHelper(getWebDriver());
+		
+		//Verify page title
+		ExecutionLog.Log("Verify Page title");
+		loginHelper.verifyTitle("iCM - Login");
+		ExecutionLog.Log("Pass");
+		
+		//Enter User name
+		ExecutionLog.Log("Enter User name at login page.");
+		loginHelper.enterUserID(username);
+		ExecutionLog.Log("Pass");
+		
+		//Enter password
+		ExecutionLog.Log("Enter password at login page.");
+		loginHelper.enterPassword(pswd);
+		ExecutionLog.Log("Pass");
+		
+		//Click on Sign In
+		ExecutionLog.Log("Click on Sign In button");
+		loginHelper.clickLogin();
+		ExecutionLog.Log("Pass");
+		
+		//Verify User redirect at home page
+		ExecutionLog.Log("Verify home page title");
+		loginHelper.verifyTitle("iCM - Home");
+		ExecutionLog.Log("Pass");
+	}
 	
 	//Send Email through email
 	public void SendGmail()

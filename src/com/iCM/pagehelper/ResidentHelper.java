@@ -24,7 +24,6 @@ public class ResidentHelper extends DriverHelper
 	{
 		String locator = residentLocator.getLocator(locatorNode);
 		WaitForElementPresent(locator, 20);
-		waitForWorkAroundTime(3000);
 		sendKeys(locator, value);
 	}
 	
@@ -33,7 +32,6 @@ public class ResidentHelper extends DriverHelper
 	{
 		String obj = residentLocator.getLocator(locator);
 		WaitForElementPresent(locator, 20);
-		waitForWorkAroundTime(3000);
 		clickOn(obj);
 	}
 

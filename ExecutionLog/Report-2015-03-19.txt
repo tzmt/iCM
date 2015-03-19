@@ -1,0 +1,952 @@
+
+*****************************************************************************
+Mar 19,2015 15:13:01 [info]   Execution Started of Test Class com.iCM.scripts.Login and Test method testLogin
+*****************************************************************************
+Mar 19,2015 15:13:01 [info]  Open application url
+Mar 19,2015 15:13:30 [info]  Pass
+Mar 19,2015 15:13:30 [info]  Verify Page title
+Mar 19,2015 15:13:35 [info]  Pass
+Mar 19,2015 15:13:35 [info]  Enter User name at login page.
+Mar 19,2015 15:13:35 [info]  Pass
+Mar 19,2015 15:13:35 [info]  Enter password at login page.
+Mar 19,2015 15:13:37 [info]  Pass
+Mar 19,2015 15:13:37 [info]  Click on Sign In button
+Mar 19,2015 15:14:03 [info]  Pass
+Mar 19,2015 15:14:03 [info]  Verify home page title
+Mar 19,2015 15:14:09 [info]  Pass
+Mar 19,2015 15:14:09 [info]  End Execution of Test Class com.iCM.scripts.Login
+*****************************************************************************
+
+*****************************************************************************
+Mar 19,2015 15:24:56 [info]   Execution Started of Test Class com.iCM.scripts.AddResident and Test method testAddResident
+*****************************************************************************
+Mar 19,2015 15:24:56 [info]  Open application url
+Mar 19,2015 15:24:57 [info]  Pass
+Mar 19,2015 15:24:57 [info]  Verify Page title
+Mar 19,2015 15:25:02 [info]  Mar 19,2015 15:25:02 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: Page title is: Problem loading page but expected is: iCM - Login expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.iCM.pagehelper.LoginHelper.verifyTitle(LoginHelper.java:23)
+	at com.iCM.util.DriverTestCase.LoginLive(DriverTestCase.java:249)
+	at com.iCM.scripts.AddResident.testAddResident(AddResident.java:31)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Mar 19,2015 15:25:02 [info]  End Execution of Test Class com.iCM.scripts.AddResident
+*****************************************************************************
+
+*****************************************************************************
+Mar 19,2015 15:26:06 [info]   Execution Started of Test Class com.iCM.scripts.AddResident and Test method testAddResident
+*****************************************************************************
+Mar 19,2015 15:26:06 [info]  Open application url
+Mar 19,2015 15:26:06 [info]  Pass
+Mar 19,2015 15:26:06 [info]  Verify Page title
+Mar 19,2015 15:26:12 [info]  Mar 19,2015 15:26:12 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: Page title is: Problem loading page but expected is: iCM - Login expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.iCM.pagehelper.LoginHelper.verifyTitle(LoginHelper.java:23)
+	at com.iCM.util.DriverTestCase.LoginLive(DriverTestCase.java:249)
+	at com.iCM.scripts.AddResident.testAddResident(AddResident.java:31)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Mar 19,2015 15:26:12 [info]  End Execution of Test Class com.iCM.scripts.AddResident
+*****************************************************************************
+
+*****************************************************************************
+Mar 19,2015 15:26:37 [info]   Execution Started of Test Class com.iCM.scripts.AddResident and Test method testAddResident
+*****************************************************************************
+Mar 19,2015 15:26:37 [info]  Open application url
+Mar 19,2015 15:27:23 [info]  Pass
+Mar 19,2015 15:27:23 [info]  Verify Page title
+Mar 19,2015 15:27:28 [info]  Pass
+Mar 19,2015 15:27:28 [info]  Enter User name at login page.
+Mar 19,2015 15:27:28 [info]  Pass
+Mar 19,2015 15:27:28 [info]  Enter password at login page.
+Mar 19,2015 15:27:29 [info]  Pass
+Mar 19,2015 15:27:29 [info]  Click on Sign In button
+Mar 19,2015 15:27:40 [info]  Pass
+Mar 19,2015 15:27:40 [info]  Verify home page title
+Mar 19,2015 15:27:45 [info]  Mar 19,2015 15:27:45 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: Page title is: iCM - Login but expected is: iCM - Home expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.iCM.pagehelper.LoginHelper.verifyTitle(LoginHelper.java:23)
+	at com.iCM.util.DriverTestCase.LoginLive(DriverTestCase.java:269)
+	at com.iCM.scripts.AddResident.testAddResident(AddResident.java:31)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Mar 19,2015 15:27:45 [info]  End Execution of Test Class com.iCM.scripts.AddResident
+*****************************************************************************
+
+*****************************************************************************
+Mar 19,2015 15:28:56 [info]   Execution Started of Test Class com.iCM.scripts.AddResident and Test method testAddResident
+*****************************************************************************
+Mar 19,2015 15:28:56 [info]  Open application url
+Mar 19,2015 15:29:44 [info]  Pass
+Mar 19,2015 15:29:44 [info]  Verify Page title
+Mar 19,2015 15:29:49 [info]  Pass
+Mar 19,2015 15:29:49 [info]  Enter User name at login page.
+Mar 19,2015 15:29:49 [info]  Pass
+Mar 19,2015 15:29:49 [info]  Enter password at login page.
+Mar 19,2015 15:29:51 [info]  Pass
+Mar 19,2015 15:29:51 [info]  Click on Sign In button
+Mar 19,2015 15:29:59 [info]  Pass
+Mar 19,2015 15:29:59 [info]  Verify home page title
+Mar 19,2015 15:30:04 [info]  Mar 19,2015 15:30:04 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: Page title is: iCM - Login but expected is: iCM - Home expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.iCM.pagehelper.LoginHelper.verifyTitle(LoginHelper.java:23)
+	at com.iCM.util.DriverTestCase.LoginLive(DriverTestCase.java:269)
+	at com.iCM.scripts.AddResident.testAddResident(AddResident.java:31)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Mar 19,2015 15:30:04 [info]  End Execution of Test Class com.iCM.scripts.AddResident
+*****************************************************************************
+
+*****************************************************************************
+Mar 19,2015 15:30:32 [info]   Execution Started of Test Class com.iCM.scripts.AddResident and Test method testAddResident
+*****************************************************************************
+Mar 19,2015 15:30:32 [info]  Open application url
+Mar 19,2015 15:31:24 [info]  Pass
+Mar 19,2015 15:31:24 [info]  Verify Page title
+Mar 19,2015 15:31:29 [info]  Pass
+Mar 19,2015 15:31:29 [info]  Enter User name at login page.
+Mar 19,2015 15:31:30 [info]  Pass
+Mar 19,2015 15:31:30 [info]  Enter password at login page.
+Mar 19,2015 15:31:31 [info]  Pass
+Mar 19,2015 15:31:31 [info]  Click on Sign In button
+Mar 19,2015 15:32:13 [info]  Pass
+Mar 19,2015 15:32:13 [info]  Verify home page title
+Mar 19,2015 15:32:18 [info]  Pass
+Mar 19,2015 15:32:18 [info]  Open Add resident form via deep link
+Mar 19,2015 15:32:31 [info]  Pass
+Mar 19,2015 15:32:31 [info]  Enter Resident First Name
+Mar 19,2015 15:32:35 [info]  Pass
+Mar 19,2015 15:32:35 [info]  Enter Middle name
+Mar 19,2015 15:32:38 [info]  Pass
+Mar 19,2015 15:32:38 [info]  Enter last name
+Mar 19,2015 15:32:42 [info]  Pass
+Mar 19,2015 15:32:42 [info]  Open 'Calender'
+Mar 19,2015 15:32:43 [info]  Pass
+Mar 19,2015 15:32:43 [info]  Select Year
+Mar 19,2015 15:32:50 [info]  Pass
+Mar 19,2015 15:32:50 [info]  Select date
+Mar 19,2015 15:32:52 [info]  Pass
+Mar 19,2015 15:32:52 [info]  Select gender
+Mar 19,2015 15:32:54 [info]  Pass
+Mar 19,2015 15:32:54 [info]  Select Marital Status
+Mar 19,2015 15:32:55 [info]  Pass
+Mar 19,2015 15:32:55 [info]  Open 'Calender' for admit date
+Mar 19,2015 15:32:57 [info]  Pass
+Mar 19,2015 15:32:57 [info]  Select Year
+Mar 19,2015 15:33:03 [info]  Pass
+Mar 19,2015 15:33:03 [info]  Select Month
+Mar 19,2015 15:33:04 [info]  Pass
+Mar 19,2015 15:33:04 [info]  Select date
+Mar 19,2015 15:33:07 [info]  Pass
+Mar 19,2015 15:33:07 [info]  Select Facality
+Mar 19,2015 15:33:09 [info]  Pass
+Mar 19,2015 15:33:09 [info]  Select Nurse
+Mar 19,2015 15:33:10 [info]  Pass
+Mar 19,2015 15:33:10 [info]  Enter level of care
+Mar 19,2015 15:33:14 [info]  Pass
+Mar 19,2015 15:33:14 [info]  Click on 'Save' button
+Mar 19,2015 15:33:38 [info]  Pass
+Mar 19,2015 15:33:38 [info]  Search Added resident
+Mar 19,2015 15:34:02 [info]  Pass
+Mar 19,2015 15:34:02 [info]  Verify added resident
+Mar 19,2015 15:34:05 [info]  Pass
+Mar 19,2015 15:34:05 [info]  Deleting resident
+Mar 19,2015 15:34:05 [info]  Open resident profile
+Mar 19,2015 15:34:29 [info]  Pass
+Mar 19,2015 15:34:29 [info]  Open resident profile
+Mar 19,2015 15:35:00 [info]  Pass
+Mar 19,2015 15:35:00 [info]  Open resident profile
+Mar 19,2015 15:36:00 [info]  Pass
+Mar 19,2015 15:36:00 [info]  Open resident profile
+Mar 19,2015 15:36:04 [info]  Pass
+Mar 19,2015 15:36:04 [info]  Open resident profile
+Mar 19,2015 15:36:42 [info]  Pass
+Mar 19,2015 15:36:42 [info]  Search deleted resident
+Mar 19,2015 15:36:46 [info]  Pass
+Mar 19,2015 15:36:46 [info]  Verify added resident
+Mar 19,2015 15:36:49 [info]  Pass
+Mar 19,2015 15:36:49 [info]  End Execution of Test Class com.iCM.scripts.AddResident
+*****************************************************************************
+
+*****************************************************************************
+Mar 19,2015 16:12:43 [info]   Execution Started of Test Class com.iCM.scripts.FieldsAvailableAddEditMedication and Test method testFieldsAvailableAddEditMedication
+*****************************************************************************
+Mar 19,2015 16:12:43 [info]  Open application url
+Mar 19,2015 16:13:05 [info]  Pass
+Mar 19,2015 16:13:05 [info]  Verify Page title
+Mar 19,2015 16:13:10 [info]  Pass
+Mar 19,2015 16:13:10 [info]  Enter User name at login page.
+Mar 19,2015 16:13:10 [info]  Pass
+Mar 19,2015 16:13:10 [info]  Enter password at login page.
+Mar 19,2015 16:13:12 [info]  Pass
+Mar 19,2015 16:13:12 [info]  Click on Sign In button
+Mar 19,2015 16:13:57 [info]  Pass
+Mar 19,2015 16:13:57 [info]  Verify home page title
+Mar 19,2015 16:14:02 [info]  Pass
+Mar 19,2015 16:14:02 [info]  Go to Resident list
+Mar 19,2015 16:14:18 [info]  Pass
+Mar 19,2015 16:14:18 [info]  Search Added resident
+Mar 19,2015 16:14:21 [info]  Pass
+Mar 19,2015 16:14:22 [info]  Verify searched resident
+Mar 19,2015 16:14:25 [info]  Pass
+Mar 19,2015 16:14:25 [info]  Open resident Profile
+Mar 19,2015 16:14:49 [info]  Pass
+Mar 19,2015 16:14:52 [info]  Mar 19,2015 16:14:52 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.NullPointerException
+	at com.iCM.scripts.FieldsAvailableAddEditMedication.testFieldsAvailableAddEditMedication(FieldsAvailableAddEditMedication.java:58)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Mar 19,2015 16:14:52 [info]  End Execution of Test Class com.iCM.scripts.FieldsAvailableAddEditMedication
+*****************************************************************************
+
+*****************************************************************************
+Mar 19,2015 16:15:49 [info]   Execution Started of Test Class com.iCM.scripts.FieldsAvailableAddEditMedication and Test method testFieldsAvailableAddEditMedication
+*****************************************************************************
+Mar 19,2015 16:15:49 [info]  Open application url
+Mar 19,2015 16:16:17 [info]  Pass
+Mar 19,2015 16:16:17 [info]  Verify Page title
+Mar 19,2015 16:16:22 [info]  Pass
+Mar 19,2015 16:16:22 [info]  Enter User name at login page.
+Mar 19,2015 16:16:23 [info]  Pass
+Mar 19,2015 16:16:23 [info]  Enter password at login page.
+Mar 19,2015 16:16:24 [info]  Pass
+Mar 19,2015 16:16:24 [info]  Click on Sign In button
+Mar 19,2015 16:16:53 [info]  Pass
+Mar 19,2015 16:16:53 [info]  Verify home page title
+Mar 19,2015 16:16:58 [info]  Pass
+Mar 19,2015 16:16:58 [info]  Go to Resident list
+Mar 19,2015 16:17:15 [info]  Pass
+Mar 19,2015 16:17:15 [info]  Search Added resident
+Mar 19,2015 16:17:18 [info]  Pass
+Mar 19,2015 16:17:18 [info]  Verify searched resident
+Mar 19,2015 16:17:22 [info]  Pass
+Mar 19,2015 16:17:22 [info]  Open resident Profile
+Mar 19,2015 16:17:46 [info]  Pass
+Mar 19,2015 16:17:59 [info]  Click on Medication button
+Mar 19,2015 16:18:23 [info]  Pass
+Mar 19,2015 16:18:23 [info]  Click on Add Medication button
+Mar 19,2015 16:19:02 [info]  Pass
+Mar 19,2015 16:19:02 [info]  Verify Quantity Field at add medication screen
+Mar 19,2015 16:19:18 [info]  Pass
+Mar 19,2015 16:19:18 [info]  Verify add phycisian field at Add Medication screen
+Mar 19,2015 16:19:18 [info]  Pass
+Mar 19,2015 16:19:18 [info]  Enter Medicine Name
+Mar 19,2015 16:19:21 [info]  Pass
+Mar 19,2015 16:19:21 [info]  Enter Dosage
+Mar 19,2015 16:19:25 [info]  Pass
+Mar 19,2015 16:19:25 [info]  Enter instruction
+Mar 19,2015 16:19:29 [info]  Pass
+Mar 19,2015 16:19:29 [info]  Open 'Calender'
+Mar 19,2015 16:19:33 [info]  Pass
+Mar 19,2015 16:19:36 [info]  Select date
+Mar 19,2015 16:19:39 [info]  Pass
+Mar 19,2015 16:19:39 [info]  Select time
+Mar 19,2015 16:19:40 [info]  Pass
+Mar 19,2015 16:19:40 [info]  Select AM/PM
+Mar 19,2015 16:19:41 [info]  Pass
+Mar 19,2015 16:19:41 [info]  Click on Add Schedule button
+Mar 19,2015 16:20:06 [info]  Pass
+Mar 19,2015 16:20:06 [info]  Verify Added Schedule
+Mar 19,2015 16:20:06 [info]  Pass
+Mar 19,2015 16:20:06 [info]  Click on Save button
+Mar 19,2015 16:20:51 [info]  Pass
+Mar 19,2015 16:20:54 [info]  Click on Edit button
+Mar 19,2015 16:21:19 [info]  Pass
+Mar 19,2015 16:21:19 [info]  Verify Quantity Field at add medication screen
+Mar 19,2015 16:21:36 [info]  Pass
+Mar 19,2015 16:21:36 [info]  Verify add phycisian field at Add Medication screen
+Mar 19,2015 16:21:36 [info]  Pass
+Mar 19,2015 16:21:36 [info]  End Execution of Test Class com.iCM.scripts.FieldsAvailableAddEditMedication
+*****************************************************************************
+
+*****************************************************************************
+Mar 19,2015 16:36:14 [info]   Execution Started of Test Class com.iCM.scripts.FieldsMandatoryAddMedication and Test method testFieldsMandatoryAddMedication
+*****************************************************************************
+Mar 19,2015 16:36:14 [info]  Open application url
+Mar 19,2015 16:36:45 [info]  Pass
+Mar 19,2015 16:36:45 [info]  Verify Page title
+Mar 19,2015 16:36:51 [info]  Pass
+Mar 19,2015 16:36:51 [info]  Enter User name at login page.
+Mar 19,2015 16:36:51 [info]  Pass
+Mar 19,2015 16:36:51 [info]  Enter password at login page.
+Mar 19,2015 16:36:53 [info]  Pass
+Mar 19,2015 16:36:53 [info]  Click on Sign In button
+Mar 19,2015 16:37:32 [info]  Pass
+Mar 19,2015 16:37:32 [info]  Verify home page title
+Mar 19,2015 16:37:37 [info]  Pass
+Mar 19,2015 16:37:37 [info]  Go to Resident list
+Mar 19,2015 16:37:51 [info]  Pass
+Mar 19,2015 16:37:51 [info]  Search Added resident
+Mar 19,2015 16:37:54 [info]  Pass
+Mar 19,2015 16:37:54 [info]  Verify searched resident
+Mar 19,2015 16:37:57 [info]  Pass
+Mar 19,2015 16:37:57 [info]  Open resident Profile
+Mar 19,2015 16:38:22 [info]  Pass
+Mar 19,2015 16:38:35 [info]  Click on Medication button
+Mar 19,2015 16:38:59 [info]  Pass
+Mar 19,2015 16:38:59 [info]  Click on Add Medication button
+Mar 19,2015 16:39:37 [info]  Pass
+Mar 19,2015 16:39:37 [info]  Verify Quantity Field at add medication screen
+Mar 19,2015 16:39:49 [info]  Pass
+Mar 19,2015 16:39:49 [info]  Verify add phycisian field at Add Medication screen
+Mar 19,2015 16:39:49 [info]  Pass
+Mar 19,2015 16:39:49 [info]  Open 'Calender'
+Mar 19,2015 16:39:54 [info]  Pass
+Mar 19,2015 16:39:57 [info]  Select date
+Mar 19,2015 16:40:00 [info]  Pass
+Mar 19,2015 16:40:00 [info]  Select time
+Mar 19,2015 16:40:02 [info]  Pass
+Mar 19,2015 16:40:02 [info]  Select AM/PM
+Mar 19,2015 16:40:02 [info]  Pass
+Mar 19,2015 16:40:02 [info]  Click on Add Schedule button
+Mar 19,2015 16:40:27 [info]  Pass
+Mar 19,2015 16:40:27 [info]  Click on Save button
+Mar 19,2015 16:40:52 [info]  Pass
+Mar 19,2015 16:40:52 [info]  Verify Quantity field is not mandatory.
+Mar 19,2015 16:41:13 [info]  Pass
+Mar 19,2015 16:41:13 [info]  Verify Quantity field is not mandatory.
+Mar 19,2015 16:41:34 [info]  Pass
+Mar 19,2015 16:41:34 [info]  Verify Quantity field is not mandatory.
+Mar 19,2015 16:42:00 [info]  Pass
+Mar 19,2015 16:42:00 [info]  Click on Save button
+Mar 19,2015 16:42:25 [info]  Pass
+Mar 19,2015 16:42:25 [info]  Verify Quantity field is mandatory.
+Mar 19,2015 16:42:25 [info]  Pass
+Mar 19,2015 16:42:25 [info]  Verify Quantity field is mandatory.
+Mar 19,2015 16:42:25 [info]  Pass
+Mar 19,2015 16:42:25 [info]  End Execution of Test Class com.iCM.scripts.FieldsMandatoryAddMedication
+*****************************************************************************
+
+*****************************************************************************
+Mar 19,2015 16:51:31 [info]   Execution Started of Test Class com.iCM.scripts.RoutineMedication and Test method testRoutineMedication
+*****************************************************************************
+Mar 19,2015 16:51:31 [info]  Open application url
+Mar 19,2015 16:52:08 [info]  Pass
+Mar 19,2015 16:52:08 [info]  Verify Page title
+Mar 19,2015 16:52:13 [info]  Pass
+Mar 19,2015 16:52:13 [info]  Enter User name at login page.
+Mar 19,2015 16:52:14 [info]  Pass
+Mar 19,2015 16:52:14 [info]  Enter password at login page.
+Mar 19,2015 16:52:15 [info]  Pass
+Mar 19,2015 16:52:15 [info]  Click on Sign In button
+Mar 19,2015 16:53:16 [info]  Pass
+Mar 19,2015 16:53:16 [info]  Verify home page title
+Mar 19,2015 16:53:21 [info]  Pass
+Mar 19,2015 16:53:21 [info]  Go to Resident list
+Mar 19,2015 16:53:45 [info]  Pass
+Mar 19,2015 16:53:45 [info]  Search Added resident
+Mar 19,2015 16:53:49 [info]  Pass
+Mar 19,2015 16:53:49 [info]  Verify searched resident
+Mar 19,2015 16:53:52 [info]  Pass
+Mar 19,2015 16:53:53 [info]  Open resident Profile
+Mar 19,2015 16:54:17 [info]  Pass
+Mar 19,2015 16:54:30 [info]  Click on Medication button
+Mar 19,2015 16:54:54 [info]  Pass
+Mar 19,2015 16:54:54 [info]  Click on Add Medication button
+Mar 19,2015 16:55:35 [info]  Pass
+Mar 19,2015 16:55:35 [info]  Verify Quantity Field at add medication screen
+Mar 19,2015 16:55:46 [info]  Pass
+Mar 19,2015 16:55:46 [info]  Verify add phycisian field at Add Medication screen
+Mar 19,2015 16:55:46 [info]  Pass
+Mar 19,2015 16:55:46 [info]  Enter Medicine Name
+Mar 19,2015 16:55:50 [info]  Pass
+Mar 19,2015 16:55:50 [info]  Enter Dosage
+Mar 19,2015 16:55:53 [info]  Pass
+Mar 19,2015 16:55:53 [info]  Enter instruction
+Mar 19,2015 16:55:57 [info]  Pass
+Mar 19,2015 16:55:57 [info]  Open 'Calender'
+Mar 19,2015 16:56:01 [info]  Pass
+Mar 19,2015 16:56:04 [info]  Select date
+Mar 19,2015 16:56:08 [info]  Pass
+Mar 19,2015 16:56:08 [info]  Select time
+Mar 19,2015 16:56:09 [info]  Pass
+Mar 19,2015 16:56:09 [info]  Select AM/PM
+Mar 19,2015 16:56:10 [info]  Pass
+Mar 19,2015 16:56:10 [info]  Click on Add Schedule button
+Mar 19,2015 16:56:35 [info]  Pass
+Mar 19,2015 16:56:35 [info]  Verify Added Schedule
+Mar 19,2015 16:56:35 [info]  Pass
+Mar 19,2015 16:56:35 [info]  Click on Save button
+Mar 19,2015 16:57:11 [info]  Pass
+Mar 19,2015 16:57:14 [info]  Verify Medication type
+Mar 19,2015 16:57:14 [info]  Pass
+Mar 19,2015 16:57:14 [info]  Verify add phycisian field at Add Medication screen
+Mar 19,2015 16:57:14 [info]  Pass
+Mar 19,2015 16:57:14 [info]  End Execution of Test Class com.iCM.scripts.RoutineMedication
+*****************************************************************************
+
+*****************************************************************************
+Mar 19,2015 17:27:25 [info]   Execution Started of Test Class com.iCM.scripts.ControlledMedication and Test method testControlledMedication
+*****************************************************************************
+Mar 19,2015 17:27:25 [info]  Open application url
+Mar 19,2015 17:27:54 [info]  Pass
+Mar 19,2015 17:27:54 [info]  Verify Page title
+Mar 19,2015 17:27:59 [info]  Pass
+Mar 19,2015 17:27:59 [info]  Enter User name at login page.
+Mar 19,2015 17:28:00 [info]  Pass
+Mar 19,2015 17:28:00 [info]  Enter password at login page.
+Mar 19,2015 17:28:01 [info]  Pass
+Mar 19,2015 17:28:01 [info]  Click on Sign In button
+Mar 19,2015 17:28:32 [info]  Pass
+Mar 19,2015 17:28:32 [info]  Verify home page title
+Mar 19,2015 17:28:37 [info]  Pass
+Mar 19,2015 17:28:37 [info]  Go to Resident list
+Mar 19,2015 17:28:57 [info]  Pass
+Mar 19,2015 17:28:57 [info]  Search Added resident
+Mar 19,2015 17:29:01 [info]  Pass
+Mar 19,2015 17:29:01 [info]  Verify searched resident
+Mar 19,2015 17:29:04 [info]  Pass
+Mar 19,2015 17:29:04 [info]  Open resident Profile
+Mar 19,2015 17:29:29 [info]  Pass
+Mar 19,2015 17:29:42 [info]  Click on Medication button
+Mar 19,2015 17:30:06 [info]  Pass
+Mar 19,2015 17:30:06 [info]  Click on Add Medication button
+Mar 19,2015 17:30:45 [info]  Pass
+Mar 19,2015 17:30:45 [info]  Verify Quantity Field at add medication screen
+Mar 19,2015 17:30:58 [info]  Pass
+Mar 19,2015 17:30:58 [info]  Verify add phycisian field at Add Medication screen
+Mar 19,2015 17:30:59 [info]  Pass
+Mar 19,2015 17:30:59 [info]  Enter Medicine Name
+Mar 19,2015 17:31:02 [info]  Pass
+Mar 19,2015 17:31:02 [info]  Enter Dosage
+Mar 19,2015 17:31:06 [info]  Pass
+Mar 19,2015 17:31:06 [info]  Checked the 'Is controlled' checkbox
+Mar 19,2015 17:31:30 [info]  Pass
+Mar 19,2015 17:31:30 [info]  Enter Quantity
+Mar 19,2015 17:31:33 [info]  Pass
+Mar 19,2015 17:31:33 [info]  Open physician dropdown
+Mar 19,2015 17:31:58 [info]  Pass
+Mar 19,2015 17:31:58 [info]  Open physician dropdown
+Mar 19,2015 17:32:22 [info]  Pass
+Mar 19,2015 17:32:22 [info]  Enter instruction
+Mar 19,2015 17:32:26 [info]  Pass
+Mar 19,2015 17:32:26 [info]  Open 'Calender'
+Mar 19,2015 17:32:30 [info]  Pass
+Mar 19,2015 17:32:33 [info]  Select date
+Mar 19,2015 17:32:37 [info]  Pass
+Mar 19,2015 17:32:37 [info]  Select time
+Mar 19,2015 17:32:38 [info]  Pass
+Mar 19,2015 17:32:38 [info]  Select AM/PM
+Mar 19,2015 17:32:39 [info]  Pass
+Mar 19,2015 17:32:39 [info]  Click on Add Schedule button
+Mar 19,2015 17:33:04 [info]  Pass
+Mar 19,2015 17:33:04 [info]  Verify Added Schedule
+Mar 19,2015 17:33:04 [info]  Pass
+Mar 19,2015 17:33:04 [info]  Click on Save button
+Mar 19,2015 17:33:43 [info]  Pass
+Mar 19,2015 17:33:46 [info]  Verify Medication type
+Mar 19,2015 17:33:46 [info]  Pass
+Mar 19,2015 17:33:46 [info]  Verify Quanity
+Mar 19,2015 17:33:46 [info]  Pass
+Mar 19,2015 17:33:46 [info]  Verify Physician
+Mar 19,2015 17:33:47 [info]  Mar 19,2015 17:33:47 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at com.iCM.pagehelper.EChartHelper.verifyItemText(EChartHelper.java:169)
+	at com.iCM.scripts.ControlledMedication.testControlledMedication(ControlledMedication.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Mar 19,2015 17:33:47 [info]  End Execution of Test Class com.iCM.scripts.ControlledMedication
+*****************************************************************************
+
+*****************************************************************************
+Mar 19,2015 17:37:06 [info]   Execution Started of Test Class com.iCM.scripts.ControlledMedication and Test method testControlledMedication
+*****************************************************************************
+Mar 19,2015 17:37:06 [info]  Open application url
+Mar 19,2015 17:37:35 [info]  Pass
+Mar 19,2015 17:37:35 [info]  Verify Page title
+Mar 19,2015 17:37:40 [info]  Pass
+Mar 19,2015 17:37:40 [info]  Enter User name at login page.
+Mar 19,2015 17:37:40 [info]  Pass
+Mar 19,2015 17:37:40 [info]  Enter password at login page.
+Mar 19,2015 17:37:42 [info]  Pass
+Mar 19,2015 17:37:42 [info]  Click on Sign In button
+Mar 19,2015 17:38:17 [info]  Pass
+Mar 19,2015 17:38:17 [info]  Verify home page title
+Mar 19,2015 17:38:23 [info]  Pass
+Mar 19,2015 17:38:23 [info]  Go to Resident list
+Mar 19,2015 17:38:35 [info]  Pass
+Mar 19,2015 17:38:35 [info]  Search Added resident
+Mar 19,2015 17:38:39 [info]  Pass
+Mar 19,2015 17:38:39 [info]  Verify searched resident
+Mar 19,2015 17:38:42 [info]  Pass
+Mar 19,2015 17:38:42 [info]  Open resident Profile
+Mar 19,2015 17:39:06 [info]  Pass
+Mar 19,2015 17:39:19 [info]  Click on Medication button
+Mar 19,2015 17:39:44 [info]  Pass
+Mar 19,2015 17:39:44 [info]  Click on Add Medication button
+Mar 19,2015 17:40:23 [info]  Pass
+Mar 19,2015 17:40:23 [info]  Verify Quantity Field at add medication screen
+Mar 19,2015 17:40:36 [info]  Pass
+Mar 19,2015 17:40:36 [info]  Verify add phycisian field at Add Medication screen
+Mar 19,2015 17:40:36 [info]  Pass
+Mar 19,2015 17:40:36 [info]  Enter Medicine Name
+Mar 19,2015 17:40:40 [info]  Pass
+Mar 19,2015 17:40:40 [info]  Enter Dosage
+Mar 19,2015 17:40:43 [info]  Pass
+Mar 19,2015 17:40:43 [info]  Checked the 'Is controlled' checkbox
+Mar 19,2015 17:41:08 [info]  Pass
+Mar 19,2015 17:41:08 [info]  Enter Quantity
+Mar 19,2015 17:41:11 [info]  Pass
+Mar 19,2015 17:41:11 [info]  Open physician dropdown
+Mar 19,2015 17:41:36 [info]  Pass
+Mar 19,2015 17:41:36 [info]  Open physician dropdown
+Mar 19,2015 17:42:00 [info]  Pass
+Mar 19,2015 17:42:00 [info]  Enter instruction
+Mar 19,2015 17:42:04 [info]  Pass
+Mar 19,2015 17:42:04 [info]  Open 'Calender'
+Mar 19,2015 17:42:08 [info]  Pass
+Mar 19,2015 17:42:11 [info]  Select date
+Mar 19,2015 17:42:15 [info]  Pass
+Mar 19,2015 17:42:15 [info]  Select time
+Mar 19,2015 17:42:16 [info]  Pass
+Mar 19,2015 17:42:16 [info]  Select AM/PM
+Mar 19,2015 17:42:17 [info]  Pass
+Mar 19,2015 17:42:17 [info]  Click on Add Schedule button
+Mar 19,2015 17:42:42 [info]  Pass
+Mar 19,2015 17:42:42 [info]  Verify Added Schedule
+Mar 19,2015 17:42:42 [info]  Pass
+Mar 19,2015 17:42:42 [info]  Click on Save button
+Mar 19,2015 17:43:21 [info]  Pass
+Mar 19,2015 17:43:24 [info]  Verify Medication type
+Mar 19,2015 17:43:24 [info]  Pass
+Mar 19,2015 17:43:24 [info]  Verify Quanity
+Mar 19,2015 17:43:25 [info]  Pass
+Mar 19,2015 17:43:25 [info]  Verify Physician
+Mar 19,2015 17:43:25 [info]  Pass
+Mar 19,2015 17:43:25 [info]  End Execution of Test Class com.iCM.scripts.ControlledMedication
+*****************************************************************************
+
+*****************************************************************************
+Mar 19,2015 17:51:42 [info]   Execution Started of Test Class com.iCM.scripts.ControlledMedication and Test method testControlledMedication
+*****************************************************************************
+Mar 19,2015 17:51:42 [info]  Open application url
+Mar 19,2015 17:51:43 [info]  Pass
+Mar 19,2015 17:51:43 [info]  Verify Page title
+Mar 19,2015 17:51:48 [info]  Mar 19,2015 17:51:48 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: Page title is: Problem loading page but expected is: iCM - Login expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.iCM.pagehelper.LoginHelper.verifyTitle(LoginHelper.java:23)
+	at com.iCM.util.DriverTestCase.LoginLive(DriverTestCase.java:249)
+	at com.iCM.scripts.ControlledMedication.testControlledMedication(ControlledMedication.java:34)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1220)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.TestNG.privateMain(TestNG.java:1364)
+	at org.testng.TestNG.main(TestNG.java:1333)
+Mar 19,2015 17:51:48 [info]  End Execution of Test Class com.iCM.scripts.ControlledMedication
+*****************************************************************************
+
+*****************************************************************************
+Mar 19,2015 17:52:33 [info]   Execution Started of Test Class com.iCM.scripts.ControlledMedication and Test method testControlledMedication
+*****************************************************************************
+Mar 19,2015 17:52:33 [info]  Open application url
+Mar 19,2015 17:52:50 [info]  Pass
+Mar 19,2015 17:52:50 [info]  Verify Page title
+Mar 19,2015 17:52:55 [info]  Pass
+Mar 19,2015 17:52:55 [info]  Enter User name at login page.
+Mar 19,2015 17:52:55 [info]  Pass
+Mar 19,2015 17:52:55 [info]  Enter password at login page.
+Mar 19,2015 17:52:56 [info]  Pass
+Mar 19,2015 17:52:56 [info]  Click on Sign In button
+Mar 19,2015 17:53:21 [info]  Pass
+Mar 19,2015 17:53:21 [info]  Verify home page title
+Mar 19,2015 17:53:26 [info]  Pass
+Mar 19,2015 17:53:26 [info]  Go to Resident list
+Mar 19,2015 17:53:40 [info]  Pass
+Mar 19,2015 17:53:40 [info]  Search Added resident
+Mar 19,2015 17:53:43 [info]  Pass
+Mar 19,2015 17:53:43 [info]  Verify searched resident
+Mar 19,2015 17:53:47 [info]  Pass
+Mar 19,2015 17:53:47 [info]  Open resident Profile
+Mar 19,2015 17:54:11 [info]  Pass
+Mar 19,2015 17:54:24 [info]  Click on Medication button
+Mar 19,2015 17:54:49 [info]  Pass
+Mar 19,2015 17:54:49 [info]  Click on Add Medication button
+Mar 19,2015 17:55:28 [info]  Pass
+Mar 19,2015 17:55:28 [info]  Verify Quantity Field at add medication screen
+Mar 19,2015 17:55:39 [info]  Pass
+Mar 19,2015 17:55:39 [info]  Verify add phycisian field at Add Medication screen
+Mar 19,2015 17:55:39 [info]  Pass
+Mar 19,2015 17:55:39 [info]  Enter Medicine Name
+Mar 19,2015 17:55:42 [info]  Pass
+Mar 19,2015 17:55:42 [info]  Enter Dosage
+Mar 19,2015 17:55:46 [info]  Pass
+Mar 19,2015 17:55:46 [info]  Checked the 'Is controlled' checkbox
+Mar 19,2015 17:56:10 [info]  Pass
+Mar 19,2015 17:56:10 [info]  Enter Quantity
+Mar 19,2015 17:56:14 [info]  Pass
+Mar 19,2015 17:56:14 [info]  Open physician dropdown
+Mar 19,2015 17:56:38 [info]  Pass
+Mar 19,2015 17:56:38 [info]  Open physician dropdown
+Mar 19,2015 17:57:03 [info]  Pass
+Mar 19,2015 17:57:03 [info]  Enter instruction
+Mar 19,2015 17:57:06 [info]  Pass
+Mar 19,2015 17:57:06 [info]  Open 'Calender'
+Mar 19,2015 17:57:10 [info]  Pass
+Mar 19,2015 17:57:13 [info]  Select date
+Mar 19,2015 17:57:44 [info]  Pass
+Mar 19,2015 17:57:44 [info]  Select time
+Mar 19,2015 17:57:45 [info]  Pass
+Mar 19,2015 17:57:45 [info]  Select AM/PM
+Mar 19,2015 17:57:46 [info]  Pass
+Mar 19,2015 17:57:46 [info]  Click on Add Schedule button
+Mar 19,2015 17:58:11 [info]  Pass
+Mar 19,2015 17:58:11 [info]  Verify Added Schedule
+Mar 19,2015 17:58:11 [info]  Pass
+Mar 19,2015 17:58:11 [info]  Click on Save button
+Mar 19,2015 17:58:51 [info]  Pass
+Mar 19,2015 17:58:54 [info]  Verify Medication type
+Mar 19,2015 17:58:54 [info]  Pass
+Mar 19,2015 17:58:54 [info]  Verify Quanity
+Mar 19,2015 17:58:55 [info]  Pass
+Mar 19,2015 17:58:55 [info]  Verify Physician
+Mar 19,2015 17:58:55 [info]  Pass
+Mar 19,2015 17:58:55 [info]  End Execution of Test Class com.iCM.scripts.ControlledMedication
+*****************************************************************************
+
+*****************************************************************************
+Mar 19,2015 17:59:08 [info]   Execution Started of Test Class com.iCM.scripts.RoutineMedication and Test method testRoutineMedication
+*****************************************************************************
+Mar 19,2015 17:59:08 [info]  Open application url
+Mar 19,2015 17:59:29 [info]  Pass
+Mar 19,2015 17:59:29 [info]  Verify Page title
+Mar 19,2015 17:59:34 [info]  Pass
+Mar 19,2015 17:59:34 [info]  Enter User name at login page.
+Mar 19,2015 17:59:34 [info]  Pass
+Mar 19,2015 17:59:34 [info]  Enter password at login page.
+Mar 19,2015 17:59:35 [info]  Pass
+Mar 19,2015 17:59:35 [info]  Click on Sign In button
+Mar 19,2015 17:59:56 [info]  Pass
+Mar 19,2015 17:59:56 [info]  Verify home page title
+Mar 19,2015 18:00:01 [info]  Pass
+Mar 19,2015 18:00:01 [info]  Go to Resident list
+Mar 19,2015 18:00:17 [info]  Pass
+Mar 19,2015 18:00:17 [info]  Search Added resident
+Mar 19,2015 18:00:20 [info]  Pass
+Mar 19,2015 18:00:20 [info]  Verify searched resident
+Mar 19,2015 18:00:23 [info]  Pass
+Mar 19,2015 18:00:23 [info]  Open resident Profile
+Mar 19,2015 18:00:48 [info]  Pass
+Mar 19,2015 18:01:01 [info]  Click on Medication button
+Mar 19,2015 18:01:25 [info]  Pass
+Mar 19,2015 18:01:25 [info]  Click on Add Medication button
+Mar 19,2015 18:02:03 [info]  Pass
+Mar 19,2015 18:02:03 [info]  Verify Quantity Field at add medication screen
+Mar 19,2015 18:02:14 [info]  Pass
+Mar 19,2015 18:02:14 [info]  Verify add phycisian field at Add Medication screen
+Mar 19,2015 18:02:14 [info]  Pass
+Mar 19,2015 18:02:14 [info]  Enter Medicine Name
+Mar 19,2015 18:02:18 [info]  Pass
+Mar 19,2015 18:02:18 [info]  Enter Dosage
+Mar 19,2015 18:02:21 [info]  Pass
+Mar 19,2015 18:02:21 [info]  Enter instruction
+Mar 19,2015 18:02:25 [info]  Pass
+Mar 19,2015 18:02:25 [info]  Open 'Calender'
+Mar 19,2015 18:02:29 [info]  Pass
+Mar 19,2015 18:02:32 [info]  Select date
+Mar 19,2015 18:02:36 [info]  Pass
+Mar 19,2015 18:02:36 [info]  Select time
+Mar 19,2015 18:02:37 [info]  Pass
+Mar 19,2015 18:02:37 [info]  Select AM/PM
+Mar 19,2015 18:02:38 [info]  Pass
+Mar 19,2015 18:02:38 [info]  Click on Add Schedule button
+Mar 19,2015 18:03:03 [info]  Pass
+Mar 19,2015 18:03:03 [info]  Verify Added Schedule
+Mar 19,2015 18:03:03 [info]  Pass
+Mar 19,2015 18:03:03 [info]  Click on Save button
+Mar 19,2015 18:03:42 [info]  Pass
+Mar 19,2015 18:03:45 [info]  Verify Medication type
+Mar 19,2015 18:03:46 [info]  Pass
+Mar 19,2015 18:03:46 [info]  End Execution of Test Class com.iCM.scripts.RoutineMedication
+*****************************************************************************
+
+*****************************************************************************
+Mar 19,2015 18:03:59 [info]   Execution Started of Test Class com.iCM.scripts.FieldsMandatoryAddMedication and Test method testFieldsMandatoryAddMedication
+*****************************************************************************
+Mar 19,2015 18:03:59 [info]  Open application url
+Mar 19,2015 18:04:23 [info]  Pass
+Mar 19,2015 18:04:23 [info]  Verify Page title
+Mar 19,2015 18:04:28 [info]  Pass
+Mar 19,2015 18:04:28 [info]  Enter User name at login page.
+Mar 19,2015 18:04:29 [info]  Pass
+Mar 19,2015 18:04:29 [info]  Enter password at login page.
+Mar 19,2015 18:04:30 [info]  Pass
+Mar 19,2015 18:04:30 [info]  Click on Sign In button
+Mar 19,2015 18:04:59 [info]  Pass
+Mar 19,2015 18:04:59 [info]  Verify home page title
+Mar 19,2015 18:05:04 [info]  Pass
+Mar 19,2015 18:05:04 [info]  Go to Resident list
+Mar 19,2015 18:05:16 [info]  Pass
+Mar 19,2015 18:05:16 [info]  Search Added resident
+Mar 19,2015 18:05:20 [info]  Pass
+Mar 19,2015 18:05:20 [info]  Verify searched resident
+Mar 19,2015 18:05:23 [info]  Pass
+Mar 19,2015 18:05:23 [info]  Open resident Profile
+Mar 19,2015 18:05:47 [info]  Pass
+Mar 19,2015 18:06:00 [info]  Click on Medication button
+Mar 19,2015 18:06:25 [info]  Pass
+Mar 19,2015 18:06:25 [info]  Click on Add Medication button
+Mar 19,2015 18:07:03 [info]  Pass
+Mar 19,2015 18:07:03 [info]  Verify Quantity Field at add medication screen
+Mar 19,2015 18:07:14 [info]  Pass
+Mar 19,2015 18:07:15 [info]  Verify add phycisian field at Add Medication screen
+Mar 19,2015 18:07:15 [info]  Pass
+Mar 19,2015 18:07:15 [info]  Open 'Calender'
+Mar 19,2015 18:07:19 [info]  Pass
+Mar 19,2015 18:07:22 [info]  Select date
+Mar 19,2015 18:07:25 [info]  Pass
+Mar 19,2015 18:07:25 [info]  Select time
+Mar 19,2015 18:07:27 [info]  Pass
+Mar 19,2015 18:07:27 [info]  Select AM/PM
+Mar 19,2015 18:07:28 [info]  Pass
+Mar 19,2015 18:07:28 [info]  Click on Add Schedule button
+Mar 19,2015 18:07:52 [info]  Pass
+Mar 19,2015 18:07:52 [info]  Click on Save button
+Mar 19,2015 18:08:17 [info]  Pass
+Mar 19,2015 18:08:17 [info]  Verify Quantity field is not mandatory.
+Mar 19,2015 18:08:38 [info]  Pass
+Mar 19,2015 18:08:38 [info]  Enter Medicine Name
+Mar 19,2015 18:08:41 [info]  Pass
+Mar 19,2015 18:08:41 [info]  Verify Quantity field is not mandatory.
+Mar 19,2015 18:09:03 [info]  Pass
+Mar 19,2015 18:09:03 [info]  Enter Dosage
+Mar 19,2015 18:09:06 [info]  Pass
+Mar 19,2015 18:09:06 [info]  Verify Quantity field is not mandatory.
+Mar 19,2015 18:09:31 [info]  Pass
+Mar 19,2015 18:09:31 [info]  Click on Save button
+Mar 19,2015 18:09:56 [info]  Pass
+Mar 19,2015 18:09:56 [info]  Verify Quantity field is mandatory.
+Mar 19,2015 18:09:56 [info]  Pass
+Mar 19,2015 18:09:56 [info]  Verify Quantity field is mandatory.
+Mar 19,2015 18:09:56 [info]  Pass
+Mar 19,2015 18:09:59 [info]  End Execution of Test Class com.iCM.scripts.FieldsMandatoryAddMedication
+*****************************************************************************
+
+*****************************************************************************
+Mar 19,2015 18:10:12 [info]   Execution Started of Test Class com.iCM.scripts.FieldsAvailableAddEditMedication and Test method testFieldsAvailableAddEditMedication
+*****************************************************************************
+Mar 19,2015 18:10:12 [info]  Open application url
+Mar 19,2015 18:10:38 [info]  Pass
+Mar 19,2015 18:10:39 [info]  Verify Page title
+Mar 19,2015 18:10:44 [info]  Pass
+Mar 19,2015 18:10:44 [info]  Enter User name at login page.
+Mar 19,2015 18:10:44 [info]  Pass
+Mar 19,2015 18:10:44 [info]  Enter password at login page.
+Mar 19,2015 18:10:45 [info]  Pass
+Mar 19,2015 18:10:45 [info]  Click on Sign In button
+Mar 19,2015 18:11:20 [info]  Pass
+Mar 19,2015 18:11:20 [info]  Verify home page title
+Mar 19,2015 18:11:25 [info]  Pass
+Mar 19,2015 18:11:25 [info]  Go to Resident list
+Mar 19,2015 18:11:38 [info]  Pass
+Mar 19,2015 18:11:38 [info]  Search Added resident
+Mar 19,2015 18:11:41 [info]  Pass
+Mar 19,2015 18:11:41 [info]  Verify searched resident
+Mar 19,2015 18:11:44 [info]  Pass
+Mar 19,2015 18:11:44 [info]  Open resident Profile
+Mar 19,2015 18:12:09 [info]  Pass
+Mar 19,2015 18:12:22 [info]  Click on Medication button
+Mar 19,2015 18:12:47 [info]  Pass
+Mar 19,2015 18:12:47 [info]  Click on Add Medication button
+Mar 19,2015 18:13:27 [info]  Pass
+Mar 19,2015 18:13:27 [info]  Verify Quantity Field at add medication screen
+Mar 19,2015 18:13:39 [info]  Pass
+Mar 19,2015 18:13:39 [info]  Verify add phycisian field at Add Medication screen
+Mar 19,2015 18:13:39 [info]  Pass
+Mar 19,2015 18:13:39 [info]  Enter Medicine Name
+Mar 19,2015 18:13:43 [info]  Pass
+Mar 19,2015 18:13:43 [info]  Enter Dosage
+Mar 19,2015 18:13:46 [info]  Pass
+Mar 19,2015 18:13:46 [info]  Enter instruction
+Mar 19,2015 18:13:50 [info]  Pass
+Mar 19,2015 18:13:50 [info]  Open 'Calender'
+Mar 19,2015 18:13:54 [info]  Pass
+Mar 19,2015 18:13:57 [info]  Select date
+Mar 19,2015 18:14:01 [info]  Pass
+Mar 19,2015 18:14:01 [info]  Select time
+Mar 19,2015 18:14:02 [info]  Pass
+Mar 19,2015 18:14:02 [info]  Select AM/PM
+Mar 19,2015 18:14:03 [info]  Pass
+Mar 19,2015 18:14:03 [info]  Click on Add Schedule button
+Mar 19,2015 18:14:28 [info]  Pass
+Mar 19,2015 18:14:28 [info]  Verify Added Schedule
+Mar 19,2015 18:14:28 [info]  Pass
+Mar 19,2015 18:14:28 [info]  Click on Save button
+Mar 19,2015 18:15:07 [info]  Pass
+Mar 19,2015 18:15:10 [info]  Click on Edit button
+Mar 19,2015 18:15:34 [info]  Pass
+Mar 19,2015 18:15:34 [info]  Verify Quantity Field at add medication screen
+Mar 19,2015 18:15:48 [info]  Pass
+Mar 19,2015 18:15:48 [info]  Verify add phycisian field at Add Medication screen
+Mar 19,2015 18:15:48 [info]  Pass
+Mar 19,2015 18:15:48 [info]  End Execution of Test Class com.iCM.scripts.FieldsAvailableAddEditMedication
+*****************************************************************************

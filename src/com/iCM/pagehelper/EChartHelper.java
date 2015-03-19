@@ -38,7 +38,6 @@ public class EChartHelper extends DriverHelper
 	{
 		String locator = echartLocator.getLocator(locatorNode);
 		WaitForElementPresent(locator, 20);
-		waitForWorkAroundTime(3000);
 		sendKeys(locator, value);
 	}
 	
@@ -47,7 +46,6 @@ public class EChartHelper extends DriverHelper
 	{
 		String obj = echartLocator.getLocator(locator);
 		WaitForElementPresent(locator, 20);
-		waitForWorkAroundTime(3000);
 		clickOn(obj);
 	}
 	

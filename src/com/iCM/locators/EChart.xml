@@ -72,6 +72,16 @@
   	<FrequencyDrpdwn><![CDATA[//*[@id='ddlOtherDay']]]></FrequencyDrpdwn>
   	
   	<DayOfMonth><![CDATA[//*[@id='uniform-ChkMonthDays']/span]]></DayOfMonth>
+  	
+  	<IsControlled><![CDATA[//*[@id='IsControlledMed']]]></IsControlled>
+	<Quantity><![CDATA[//*[@id='Quantity']]]></Quantity>
+	<Physician><![CDATA[//*[@id='PhysicianId_chzn']/a/div/b]]></Physician>
+	<PhysicianValue><![CDATA[//*[@id='PhysicianId_chzn_o_1']]]></PhysicianValue>
+	<MediType><![CDATA[//*[@id='ViewMed']/div/div[3]/div[2]/div/span]]></MediType>
+	<QunatityValue><![CDATA[//*[@id='ViewMed']/div/div[4]/div[2]/div/span[1]]]></QunatityValue>
+	<PhysicianView><![CDATA[//*[@id='ViewMed']/div/div[11]/div[2]/div/span]]></PhysicianView>
+	<QuantityVali><![CDATA[//*[@id='AmountAndQty']/div[1]/div/span]]></QuantityVali>
+	<PhysicianVali><![CDATA[//*[@id='AmountAndQty']/div[4]/div/span]]></PhysicianVali>
   </AddMedication>
   
   <Admin>

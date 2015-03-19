@@ -34,31 +34,8 @@ public class AddMedicationEveryOtherDay extends DriverTestCase
 				openUrl(application_url);
 				ExecutionLog.Log("Pass");
 				
-				//Verify page title
-				ExecutionLog.Log("Verify Page title");
-				loginHelper.verifyTitle("iCM - Login");
-				ExecutionLog.Log("Pass");
+				LoginLive();
 				
-				//Enter User name
-				ExecutionLog.Log("Enter User name at login page.");
-				loginHelper.enterUserID(username);
-				ExecutionLog.Log("Pass");
-				
-				//Enter password
-				ExecutionLog.Log("Enter password at login page.");
-				loginHelper.enterPassword(pswd);
-				ExecutionLog.Log("Pass");
-				
-				//Click on Sign In
-				ExecutionLog.Log("Click on Sign In button");
-				loginHelper.clickLogin();
-				ExecutionLog.Log("Pass");
-				
-				//Verify User redirect at home page
-				ExecutionLog.Log("Verify home page title");
-				loginHelper.verifyTitle("iCM - Home");
-				ExecutionLog.Log("Pass");
-
 				//Open the add Resident screen
 				ExecutionLog.Log("Open Add resident form via deep link");
 				visit("ALM/addResident");
