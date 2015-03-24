@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Locators>
+<PRNCheck><![CDATA[//*[@id='RoutinePRN']/div/div/span/input]]></PRNCheck>
+<PRNView><![CDATA[//div[@class='controls']/span/em]]></PRNView>
+<PRNTab><![CDATA[//div[@class='tabbable']/ul/li[5]/a]]></PRNTab>
+<EditMed><![CDATA[//*[@id='ViewMed']/div/div[17]/a[1]]]></EditMed>
+<PRNMMedical><![CDATA[//div[@id='morning']/table/tbody/tr]]></PRNMMedical>
+<PRNNMedical><![CDATA[//div[@id='afternn']/table/tbody/tr]]></PRNNMedical>
+<PRNEMedical><![CDATA[//div[@id='evng']/table/tbody/tr]]></PRNEMedical>
+<PRNPMedical><![CDATA[//div[@id='pnr']/table/tbody/tr]]></PRNPMedical>
+<PRNExpend><![CDATA[//table[@class='table']/tbody/tr[1]/td[3]/div/a]]></PRNExpend>
+<PRNMedical><![CDATA[//*[@id='administeredlogtbl']/tbody/tr[1]/td[25]]]></PRNMedical>
+<PRNReason><![CDATA[//*[@id='PRNForm']/div[2]/div[1]/div[6]/div/textarea]]></PRNReason>
+<PRNSubmit><![CDATA[//div[@id='PRNAdministerFootr']/button[2]]]></PRNSubmit>
+<PRNOk><![CDATA[//div[@id='PRNOKFootr']/div[3]/button[1]]]></PRNOk>
+</Locators>

@@ -1,0 +1,578 @@
+
+*****************************************************************************
+Mar 23,2015 22:13:21 [info]   Execution Started of Test Class com.iCM.scripts.NonPRNMedNotTab and Test method testNonPRNMedNotTab
+*****************************************************************************
+Mar 23,2015 22:13:21 [info]  Open application url
+Mar 23,2015 22:13:41 [info]  Pass
+Mar 23,2015 22:13:41 [info]  Verify Page title
+Mar 23,2015 22:13:46 [info]  Pass
+Mar 23,2015 22:13:46 [info]  Enter User name at login page.
+Mar 23,2015 22:13:48 [info]  Pass
+Mar 23,2015 22:13:48 [info]  Enter password at login page.
+Mar 23,2015 22:13:49 [info]  Pass
+Mar 23,2015 22:13:49 [info]  Click on Sign In button
+Mar 23,2015 22:14:15 [info]  Pass
+Mar 23,2015 22:14:15 [info]  Verify home page title
+Mar 23,2015 22:14:20 [info]  Pass
+Mar 23,2015 22:14:20 [info]  Go to Resident list
+Mar 23,2015 22:14:39 [info]  Pass
+Mar 23,2015 22:14:39 [info]  Search Added resident
+Mar 23,2015 22:14:39 [info]  Pass
+Mar 23,2015 22:14:39 [info]  Verify searched resident
+Mar 23,2015 22:14:42 [info]  Pass
+Mar 23,2015 22:14:42 [info]  Open resident Profile
+Mar 23,2015 22:15:04 [info]  Pass
+Mar 23,2015 22:15:17 [info]  Click on Medication button
+Mar 23,2015 22:15:39 [info]  Pass
+Mar 23,2015 22:15:39 [info]  Click on Add Medication button
+Mar 23,2015 22:16:18 [info]  Pass
+Mar 23,2015 22:16:18 [info]  Verify PRN Checkbox available
+Mar 23,2015 22:16:34 [info]  Pass
+Mar 23,2015 22:16:34 [info]  Enter Medicine Name
+Mar 23,2015 22:16:34 [info]  Pass
+Mar 23,2015 22:16:34 [info]  Enter Dosage
+Mar 23,2015 22:16:35 [info]  Pass
+Mar 23,2015 22:16:35 [info]  Enter instruction
+Mar 23,2015 22:16:35 [info]  Pass
+Mar 23,2015 22:16:35 [info]  Open 'Calender'
+Mar 23,2015 22:16:40 [info]  Pass
+Mar 23,2015 22:16:43 [info]  Select date
+Mar 23,2015 22:16:48 [info]  Pass
+Mar 23,2015 22:16:48 [info]  Select time
+Mar 23,2015 22:16:49 [info]  Pass
+Mar 23,2015 22:16:49 [info]  Select AM/PM
+Mar 23,2015 22:16:50 [info]  Pass
+Mar 23,2015 22:16:50 [info]  Click on Add Schedule button
+Mar 23,2015 22:17:12 [info]  Pass
+Mar 23,2015 22:17:12 [info]  Select time
+Mar 23,2015 22:17:13 [info]  Pass
+Mar 23,2015 22:17:13 [info]  Select AM/PM
+Mar 23,2015 22:17:15 [info]  Pass
+Mar 23,2015 22:17:15 [info]  Click on Add Schedule button
+Mar 23,2015 22:17:36 [info]  Pass
+Mar 23,2015 22:17:36 [info]  Select time
+Mar 23,2015 22:17:38 [info]  Pass
+Mar 23,2015 22:17:38 [info]  Select AM/PM
+Mar 23,2015 22:17:39 [info]  Pass
+Mar 23,2015 22:17:39 [info]  Click on Add Schedule button
+Mar 23,2015 22:18:01 [info]  Pass
+Mar 23,2015 22:18:01 [info]  Click on Save button
+Mar 23,2015 22:18:40 [info]  Pass
+Mar 23,2015 22:18:55 [info]  Open Medication page
+Mar 23,2015 22:19:12 [info]  Pass
+Mar 23,2015 22:19:12 [info]  Click on EMR Tab
+Mar 23,2015 22:19:35 [info]  Pass
+Mar 23,2015 22:19:35 [info]  Click on PRN Tab
+Mar 23,2015 22:19:35 [info]  Mar 23,2015 22:19:35 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.NullPointerException
+	at com.iCM.locators.LocatorReader.getLocator(LocatorReader.java:32)
+	at com.iCM.pagehelper.EChartHelper.click(EChartHelper.java:47)
+	at com.iCM.scripts.NonPRNMedNotTab.testNonPRNMedNotTab(NonPRNMedNotTab.java:178)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Mar 23,2015 22:19:35 [info]  End Execution of Test Class com.iCM.scripts.NonPRNMedNotTab
+*****************************************************************************
+
+*****************************************************************************
+Mar 23,2015 22:37:44 [info]   Execution Started of Test Class com.iCM.scripts.NonPRNMedNotTab and Test method testNonPRNMedNotTab
+*****************************************************************************
+Mar 23,2015 22:37:44 [info]  Open application url
+Mar 23,2015 22:38:03 [info]  Pass
+Mar 23,2015 22:38:03 [info]  Verify Page title
+Mar 23,2015 22:38:08 [info]  Pass
+Mar 23,2015 22:38:08 [info]  Enter User name at login page.
+Mar 23,2015 22:38:09 [info]  Pass
+Mar 23,2015 22:38:09 [info]  Enter password at login page.
+Mar 23,2015 22:38:11 [info]  Pass
+Mar 23,2015 22:38:11 [info]  Click on Sign In button
+Mar 23,2015 22:38:32 [info]  Pass
+Mar 23,2015 22:38:32 [info]  Verify home page title
+Mar 23,2015 22:38:37 [info]  Pass
+Mar 23,2015 22:38:37 [info]  Go to Resident list
+Mar 23,2015 22:38:53 [info]  Pass
+Mar 23,2015 22:38:53 [info]  Search Added resident
+Mar 23,2015 22:38:54 [info]  Pass
+Mar 23,2015 22:38:54 [info]  Verify searched resident
+Mar 23,2015 22:38:57 [info]  Pass
+Mar 23,2015 22:38:57 [info]  Open resident Profile
+Mar 23,2015 22:39:18 [info]  Pass
+Mar 23,2015 22:39:31 [info]  Click on Medication button
+Mar 23,2015 22:39:53 [info]  Pass
+Mar 23,2015 22:39:53 [info]  Click on Add Medication button
+Mar 23,2015 22:40:30 [info]  Pass
+Mar 23,2015 22:40:30 [info]  Verify PRN Checkbox available
+Mar 23,2015 22:40:43 [info]  Pass
+Mar 23,2015 22:40:43 [info]  Enter Medicine Name
+Mar 23,2015 22:40:43 [info]  Pass
+Mar 23,2015 22:40:43 [info]  Enter Dosage
+Mar 23,2015 22:40:43 [info]  Pass
+Mar 23,2015 22:40:43 [info]  Enter instruction
+Mar 23,2015 22:40:44 [info]  Pass
+Mar 23,2015 22:40:44 [info]  Open 'Calender'
+Mar 23,2015 22:40:48 [info]  Pass
+Mar 23,2015 22:40:51 [info]  Select date
+Mar 23,2015 22:40:55 [info]  Pass
+Mar 23,2015 22:40:55 [info]  Select time
+Mar 23,2015 22:40:57 [info]  Pass
+Mar 23,2015 22:40:57 [info]  Select AM/PM
+Mar 23,2015 22:40:58 [info]  Pass
+Mar 23,2015 22:40:58 [info]  Click on Add Schedule button
+Mar 23,2015 22:41:19 [info]  Pass
+Mar 23,2015 22:41:19 [info]  Select time
+Mar 23,2015 22:41:21 [info]  Pass
+Mar 23,2015 22:41:21 [info]  Select AM/PM
+Mar 23,2015 22:41:22 [info]  Pass
+Mar 23,2015 22:41:22 [info]  Click on Add Schedule button
+Mar 23,2015 22:41:44 [info]  Pass
+Mar 23,2015 22:41:44 [info]  Select time
+Mar 23,2015 22:41:45 [info]  Pass
+Mar 23,2015 22:41:45 [info]  Select AM/PM
+Mar 23,2015 22:41:46 [info]  Pass
+Mar 23,2015 22:41:46 [info]  Click on Add Schedule button
+Mar 23,2015 22:42:07 [info]  Pass
+Mar 23,2015 22:42:07 [info]  Click on Save button
+Mar 23,2015 22:42:43 [info]  Pass
+Mar 23,2015 22:42:58 [info]  Open Medication page
+Mar 23,2015 22:43:12 [info]  Pass
+Mar 23,2015 22:43:12 [info]  Click on EMR Tab
+Mar 23,2015 22:43:34 [info]  Pass
+Mar 23,2015 22:43:34 [info]  Click on 'Morning' tab
+Mar 23,2015 22:44:11 [info]  Pass
+Mar 23,2015 22:44:11 [info]  Verify Medication in the tab
+Mar 23,2015 22:44:54 [info]  Mar 23,2015 22:44:54 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: Element Locator ://table[@class='table']/tbody/tr[8]/td/strong Not found expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.iCM.util.DriverHelper.getText(DriverHelper.java:294)
+	at com.iCM.pagehelper.PRNHelper.verifyPRNMed(PRNHelper.java:60)
+	at com.iCM.scripts.NonPRNMedNotTab.testNonPRNMedNotTab(NonPRNMedNotTab.java:183)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Mar 23,2015 22:44:54 [info]  End Execution of Test Class com.iCM.scripts.NonPRNMedNotTab
+*****************************************************************************
+
+*****************************************************************************
+Mar 23,2015 22:47:59 [info]   Execution Started of Test Class com.iCM.scripts.NonPRNMedNotTab and Test method testNonPRNMedNotTab
+*****************************************************************************
+Mar 23,2015 22:47:59 [info]  Open application url
+Mar 23,2015 22:48:16 [info]  Pass
+Mar 23,2015 22:48:16 [info]  Verify Page title
+Mar 23,2015 22:48:21 [info]  Pass
+Mar 23,2015 22:48:21 [info]  Enter User name at login page.
+Mar 23,2015 22:48:22 [info]  Pass
+Mar 23,2015 22:48:22 [info]  Enter password at login page.
+Mar 23,2015 22:48:23 [info]  Pass
+Mar 23,2015 22:48:23 [info]  Click on Sign In button
+Mar 23,2015 22:48:43 [info]  Pass
+Mar 23,2015 22:48:43 [info]  Verify home page title
+Mar 23,2015 22:48:49 [info]  Pass
+Mar 23,2015 22:49:06 [info]  Click on EMR Tab
+Mar 23,2015 22:49:28 [info]  Pass
+Mar 23,2015 22:49:28 [info]  Click on 'Morning' tab
+Mar 23,2015 22:50:17 [info]  Pass
+Mar 23,2015 22:50:17 [info]  Verify Medication in the tab
+Mar 23,2015 22:51:00 [info]  Mar 23,2015 22:51:00 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: Element Locator ://table[@class='table']/tbody/tr[15]/td/strong Not found expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.iCM.util.DriverHelper.getText(DriverHelper.java:294)
+	at com.iCM.pagehelper.PRNHelper.verifyPRNMed(PRNHelper.java:62)
+	at com.iCM.scripts.NonPRNMedNotTab.testNonPRNMedNotTab(NonPRNMedNotTab.java:186)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Mar 23,2015 22:51:00 [info]  End Execution of Test Class com.iCM.scripts.NonPRNMedNotTab
+*****************************************************************************
+
+*****************************************************************************
+Mar 23,2015 22:52:05 [info]   Execution Started of Test Class com.iCM.scripts.NonPRNMedNotTab and Test method testNonPRNMedNotTab
+*****************************************************************************
+Mar 23,2015 22:52:05 [info]  Open application url
+Mar 23,2015 22:52:19 [info]  Pass
+Mar 23,2015 22:52:19 [info]  Verify Page title
+Mar 23,2015 22:52:24 [info]  Pass
+Mar 23,2015 22:52:24 [info]  Enter User name at login page.
+Mar 23,2015 22:52:25 [info]  Pass
+Mar 23,2015 22:52:25 [info]  Enter password at login page.
+Mar 23,2015 22:52:25 [info]  Pass
+Mar 23,2015 22:52:25 [info]  Click on Sign In button
+Mar 23,2015 22:52:44 [info]  Pass
+Mar 23,2015 22:52:44 [info]  Verify home page title
+Mar 23,2015 22:52:50 [info]  Pass
+Mar 23,2015 22:53:07 [info]  Click on 'Morning' tab
+Mar 23,2015 22:53:30 [info]  Pass
+Mar 23,2015 22:53:30 [info]  Verify Medication in the tab
+Mar 23,2015 22:53:30 [info]  Mar 23,2015 22:53:30 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at com.iCM.pagehelper.PRNHelper.verifyPRNMed(PRNHelper.java:63)
+	at com.iCM.scripts.NonPRNMedNotTab.testNonPRNMedNotTab(NonPRNMedNotTab.java:186)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Mar 23,2015 22:53:30 [info]  End Execution of Test Class com.iCM.scripts.NonPRNMedNotTab
+*****************************************************************************
+
+*****************************************************************************
+Mar 23,2015 22:54:08 [info]   Execution Started of Test Class com.iCM.scripts.NonPRNMedNotTab and Test method testNonPRNMedNotTab
+*****************************************************************************
+Mar 23,2015 22:54:08 [info]  Open application url
+Mar 23,2015 22:54:23 [info]  Pass
+Mar 23,2015 22:54:23 [info]  Verify Page title
+Mar 23,2015 22:54:28 [info]  Pass
+Mar 23,2015 22:54:28 [info]  Enter User name at login page.
+Mar 23,2015 22:54:28 [info]  Pass
+Mar 23,2015 22:54:28 [info]  Enter password at login page.
+Mar 23,2015 22:54:30 [info]  Pass
+Mar 23,2015 22:54:30 [info]  Click on Sign In button
+Mar 23,2015 22:54:47 [info]  Pass
+Mar 23,2015 22:54:47 [info]  Verify home page title
+Mar 23,2015 22:54:52 [info]  Pass
+Mar 23,2015 22:55:09 [info]  Click on 'Morning' tab
+Mar 23,2015 22:55:31 [info]  Pass
+Mar 23,2015 22:55:31 [info]  Verify Medication in the tab
+Mar 23,2015 22:55:31 [info]  Mar 23,2015 22:55:31 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at com.iCM.pagehelper.PRNHelper.verifyPRNMed(PRNHelper.java:63)
+	at com.iCM.scripts.NonPRNMedNotTab.testNonPRNMedNotTab(NonPRNMedNotTab.java:186)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Mar 23,2015 22:55:31 [info]  End Execution of Test Class com.iCM.scripts.NonPRNMedNotTab
+*****************************************************************************
+
+*****************************************************************************
+Mar 23,2015 22:58:37 [info]   Execution Started of Test Class com.iCM.scripts.NonPRNMedNotTab and Test method testNonPRNMedNotTab
+*****************************************************************************
+Mar 23,2015 22:58:37 [info]  Open application url
+Mar 23,2015 22:58:54 [info]  Pass
+Mar 23,2015 22:58:54 [info]  Verify Page title
+Mar 23,2015 22:58:59 [info]  Pass
+Mar 23,2015 22:58:59 [info]  Enter User name at login page.
+Mar 23,2015 22:59:00 [info]  Pass
+Mar 23,2015 22:59:00 [info]  Enter password at login page.
+Mar 23,2015 22:59:01 [info]  Pass
+Mar 23,2015 22:59:01 [info]  Click on Sign In button
+Mar 23,2015 22:59:18 [info]  Pass
+Mar 23,2015 22:59:18 [info]  Verify home page title
+Mar 23,2015 22:59:23 [info]  Pass
+Mar 23,2015 22:59:43 [info]  Click on 'Morning' tab
+Mar 23,2015 23:00:04 [info]  Pass
+Mar 23,2015 23:00:07 [info]  Verify Medication in the tab
+Mar 23,2015 23:00:52 [info]  Mar 23,2015 23:00:52 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: Element Locator ://table[@class='table']/tbody/tr[15]/td/strong Not found expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.iCM.util.DriverHelper.getText(DriverHelper.java:294)
+	at com.iCM.pagehelper.PRNHelper.verifyPRNMed(PRNHelper.java:62)
+	at com.iCM.scripts.NonPRNMedNotTab.testNonPRNMedNotTab(NonPRNMedNotTab.java:188)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Mar 23,2015 23:00:52 [info]  End Execution of Test Class com.iCM.scripts.NonPRNMedNotTab
+*****************************************************************************
+
+*****************************************************************************
+Mar 23,2015 23:14:36 [info]   Execution Started of Test Class com.iCM.scripts.NonPRNMedNotTab and Test method testNonPRNMedNotTab
+*****************************************************************************
+Mar 23,2015 23:14:36 [info]  Open application url
+Mar 23,2015 23:14:52 [info]  Pass
+Mar 23,2015 23:14:52 [info]  Verify Page title
+Mar 23,2015 23:14:57 [info]  Pass
+Mar 23,2015 23:14:57 [info]  Enter User name at login page.
+Mar 23,2015 23:14:57 [info]  Pass
+Mar 23,2015 23:14:57 [info]  Enter password at login page.
+Mar 23,2015 23:14:58 [info]  Pass
+Mar 23,2015 23:14:58 [info]  Click on Sign In button
+Mar 23,2015 23:15:16 [info]  Pass
+Mar 23,2015 23:15:16 [info]  Verify home page title
+Mar 23,2015 23:15:22 [info]  Pass
+Mar 23,2015 23:15:39 [info]  Click on 'Morning' tab
+Mar 23,2015 23:16:01 [info]  Pass
+Mar 23,2015 23:16:04 [info]  Verify Medication in the tab
+Mar 23,2015 23:16:49 [info]  Mar 23,2015 23:16:49 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: Element Locator ://table[@class='table']/tbody/tr[15]/td/strong Not found expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.iCM.util.DriverHelper.getText(DriverHelper.java:294)
+	at com.iCM.pagehelper.PRNHelper.verifyPRNMed(PRNHelper.java:62)
+	at com.iCM.scripts.NonPRNMedNotTab.testNonPRNMedNotTab(NonPRNMedNotTab.java:188)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Mar 23,2015 23:16:49 [info]  End Execution of Test Class com.iCM.scripts.NonPRNMedNotTab
+*****************************************************************************
+
+*****************************************************************************
+Mar 23,2015 23:30:43 [info]   Execution Started of Test Class com.iCM.scripts.NonPRNMedNotTab and Test method testNonPRNMedNotTab
+*****************************************************************************
+Mar 23,2015 23:30:43 [info]  Open application url
+Mar 23,2015 23:31:00 [info]  Pass
+Mar 23,2015 23:31:00 [info]  Verify Page title
+Mar 23,2015 23:31:05 [info]  Pass
+Mar 23,2015 23:31:05 [info]  Enter User name at login page.
+Mar 23,2015 23:31:06 [info]  Pass
+Mar 23,2015 23:31:06 [info]  Enter password at login page.
+Mar 23,2015 23:31:07 [info]  Pass
+Mar 23,2015 23:31:07 [info]  Click on Sign In button
+Mar 23,2015 23:31:26 [info]  Pass
+Mar 23,2015 23:31:26 [info]  Verify home page title
+Mar 23,2015 23:31:32 [info]  Pass
+Mar 23,2015 23:31:50 [info]  Click on 'Morning' tab
+Mar 23,2015 23:32:11 [info]  Pass
+Mar 23,2015 23:32:14 [info]  Verify Medication in the tab
+Mar 23,2015 23:32:37 [info]  Pass
+Mar 23,2015 23:32:37 [info]  Click on 'Noon' tab
+Mar 23,2015 23:32:59 [info]  Pass
+Mar 23,2015 23:32:59 [info]  Verify Medication in the tab
+Mar 23,2015 23:33:22 [info]  Pass
+Mar 23,2015 23:33:22 [info]  Click on 'Evening' tab
+Mar 23,2015 23:33:44 [info]  Pass
+Mar 23,2015 23:33:44 [info]  Verify Medication in the tab
+Mar 23,2015 23:33:46 [info]  Mar 23,2015 23:33:46 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at com.iCM.pagehelper.PRNHelper.verifyPRNMed(PRNHelper.java:65)
+	at com.iCM.scripts.NonPRNMedNotTab.testNonPRNMedNotTab(NonPRNMedNotTab.java:208)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Mar 23,2015 23:33:47 [info]  End Execution of Test Class com.iCM.scripts.NonPRNMedNotTab
+*****************************************************************************
+
+*****************************************************************************
+Mar 23,2015 23:35:42 [info]   Execution Started of Test Class com.iCM.scripts.NonPRNMedNotTab and Test method testNonPRNMedNotTab
+*****************************************************************************
+Mar 23,2015 23:35:42 [info]  Open application url
+Mar 23,2015 23:35:59 [info]  Pass
+Mar 23,2015 23:35:59 [info]  Verify Page title
+Mar 23,2015 23:36:04 [info]  Pass
+Mar 23,2015 23:36:04 [info]  Enter User name at login page.
+Mar 23,2015 23:36:05 [info]  Pass
+Mar 23,2015 23:36:05 [info]  Enter password at login page.
+Mar 23,2015 23:36:06 [info]  Pass
+Mar 23,2015 23:36:06 [info]  Click on Sign In button
+Mar 23,2015 23:36:23 [info]  Pass
+Mar 23,2015 23:36:23 [info]  Verify home page title
+Mar 23,2015 23:36:28 [info]  Pass
+Mar 23,2015 23:36:43 [info]  Click on 'Morning' tab
+Mar 23,2015 23:37:04 [info]  Pass
+Mar 23,2015 23:37:07 [info]  Verify Medication in the tab
+Mar 23,2015 23:37:08 [info]  Mar 23,2015 23:37:08 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at com.iCM.pagehelper.PRNHelper.verifyPRNMed(PRNHelper.java:65)
+	at com.iCM.scripts.NonPRNMedNotTab.testNonPRNMedNotTab(NonPRNMedNotTab.java:188)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Mar 23,2015 23:37:08 [info]  End Execution of Test Class com.iCM.scripts.NonPRNMedNotTab
+*****************************************************************************

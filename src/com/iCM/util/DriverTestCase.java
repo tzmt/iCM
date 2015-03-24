@@ -20,6 +20,7 @@ import java.util.Set;
 
 
 
+
 import javax.activation.DataHandler;
 import javax.activation.DataSource;
 import javax.activation.FileDataSource;
@@ -50,6 +51,7 @@ import org.testng.annotations.BeforeSuite;
 import com.iCM.pagehelper.EChartHelper;
 import com.iCM.pagehelper.EMRHelper;
 import com.iCM.pagehelper.LoginHelper;
+import com.iCM.pagehelper.PRNHelper;
 import com.iCM.pagehelper.ResidentHelper;
 import com.iCM.pagehelper.TaskHelper;
 
@@ -67,6 +69,7 @@ public abstract class DriverTestCase
 	protected EChartHelper echartHelper;
 	protected EMRHelper eMRHelper;
 	protected TaskHelper taskHelper;
+	protected PRNHelper prnHelper;
     
 
 	//Initialize objects

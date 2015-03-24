@@ -15,85 +15,80 @@ import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
 
 
-public abstract class DriverHelper {
+public abstract class DriverHelper 
+{
 	// Define objects
 	protected WebDriver driver;
-	//private Object a;
-	protected String entrRate = "";
-	protected String entrNam = "";
-	protected String entrChkInDat = "";
-	protected String entrChkOutDat = "";
-	protected String entrRoomNo = "";
-	protected String CITName= "";
-	protected String CITChkInDat = "";
-	protected String CITChkOutDat = "";
-	protected String CITRoomNo = "";
-	protected String InvoiceNam = "";
-	protected String InvoiceRoomNo = "";
-	protected String InvoiceRate = "";
-	protected String RatePlanBaseRate = "";
-	protected String RatePlanChildRate = "";
-	protected String RatePlanAdultRate = "";
-	protected String ModifyDateBaseRate = "";
-	protected String ModifyDateChildRate = "";
-	protected String ModifyDateAdultRate = "";
-    protected String RatePlanBaseRateDB = "";
-    protected String RatePlanAdultRateDB = "";
-    protected String RatePlanChildRateDB = "";
-    protected String Booking = "";
-    protected String Money = "";
-    protected String creditedMoney = "";
-    
 	// Declare objects
-	public DriverHelper(WebDriver webdriver) {
+	public DriverHelper(WebDriver webdriver) 
+	{
 		driver = webdriver;
 		// selenium = new WebDriverBackedSelenium(driver, "");
 	}
 
 	// Return web driver object
-	public WebDriver getWebDriver() {
+	public WebDriver getWebDriver() 
+	{
 		return driver;
 	}
 
 
 	// Print message on screen
-	public void Log(String logMsg) {
+	public void Log(String logMsg) 
+	{
 		System.out.println(logMsg);
 	}
 
 	// Handle locator type
-	public By ByLocator(String locator) {
+	public By ByLocator(String locator) 
+	{
 		By result = null;
 
-		if (locator.startsWith("//")) {
+		if (locator.startsWith("//")) 
+		{
 			result = By.xpath(locator);
-		} else if (locator.startsWith("css=")) {
+		} 
+		else if (locator.startsWith("css="))
+		{
 			result = By.cssSelector(locator.replace("css=", ""));
-		} else if (locator.startsWith("#")) {
+		}
+		else if (locator.startsWith("#")) 
+		{
 			result = By.name(locator.replace("#", ""));
-		} else if (locator.startsWith("link=")) {
+		}
+		else if (locator.startsWith("link=")) 
+		{
 			result = By.linkText(locator.replace("link=", ""));
-		} else {
+		}
+		else 
+		{
 			result = By.id(locator.replace("id=", ""));
 		}
 		return result;
 	}
 
 	// Assert element present
-	public Boolean isElementPresent(String locator) {
+	public Boolean isElementPresent(String locator) 
+	{
 		Boolean result = false;
-		try {
+		try 
+		{
 			getWebDriver().findElement(ByLocator(locator));
 			result = true;
-		} catch (Exception ex) {
+		}
+		catch (Exception ex) 
+		{
 		}
 		return result;
 	}
 
 	// Wait for element present
-	public void WaitForElementPresent(String locator, int timeout) {
-		for (int i = 0; i < timeout; i++) {
-			if (isElementPresent(locator)) {
+	public void WaitForElementPresent(String locator, int timeout) 
+	{
+		for (int i = 0; i < timeout; i++) 
+		{
+			if (isElementPresent(locator)) 
+			{
 				break;
 			}
 
@@ -432,6 +427,12 @@ public abstract class DriverHelper {
 		el.get(index).sendKeys(text);
 	}
 
-
-
+	public void sendKeysInEditor(String locator,String Text ) 
+	 {
+	  WebElement iframeWindow = getWebDriver().findElement(ByLocator(locator));
+	  getWebDriver().switchTo().frame(iframeWindow);
+	  waitForWorkAroundTime(3000); 
+	  WebElement editor_body = getWebDriver().findElement(By.tagName("body"));
+	  editor_body.sendKeys(Text);
+	 }
 }

@@ -293,7 +293,6 @@ public class AddMedicationEvery14thDay extends DriverTestCase
 			throw e;
 		}		
 	}
-
 	@AfterMethod
 	public void endMethods() throws Exception
 	{		

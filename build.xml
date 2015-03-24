@@ -51,12 +51,6 @@
 				<xmlfileset dir="config" includes="All.xml" />
 			</testng>
 	</target>
-		
-	<target name="NvdAll" depends="compile" >
-			<testng classpathref="test.classpath" suitename="ApplicationLogin" haltonfailure="true">
-				<xmlfileset dir="config" includes="NvdAll.xml" />
-			</testng>
-	</target>
 	
 	<!--Run Mail-->
 	<target name="sendemail" depends="All">  
