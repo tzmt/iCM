@@ -22,7 +22,7 @@ public class GenerateEMRReport extends DriverTestCase
 
 			//Open application
 			ExecutionLog.Log("Open application url");
-			getWebDriver().navigate().to(application_url);
+			getWebDriver().navigate().to(QA_application_url);
 			ExecutionLog.Log("Pass");
 			
 			LoginLive();

@@ -21,6 +21,8 @@ import java.util.Set;
 
 
 
+
+
 import javax.activation.DataHandler;
 import javax.activation.DataSource;
 import javax.activation.FileDataSource;
@@ -51,8 +53,10 @@ import org.testng.annotations.BeforeSuite;
 import com.iCM.pagehelper.EChartHelper;
 import com.iCM.pagehelper.EMRHelper;
 import com.iCM.pagehelper.LoginHelper;
+import com.iCM.pagehelper.NotificationHelper;
 import com.iCM.pagehelper.PRNHelper;
 import com.iCM.pagehelper.ResidentHelper;
+import com.iCM.pagehelper.StaffHelper;
 import com.iCM.pagehelper.TaskHelper;
 
 
@@ -70,16 +74,29 @@ public abstract class DriverTestCase
 	protected EMRHelper eMRHelper;
 	protected TaskHelper taskHelper;
 	protected PRNHelper prnHelper;
+	protected NotificationHelper notificationHelper;
+	protected StaffHelper staffHelper;
     
 
 	//Initialize objects
 	protected PropertyReader propertyReader = new PropertyReader();
 
 	//Define variables
-	protected String application_url = propertyReader.readApplicationFile("URL");
-	protected String pswd = propertyReader.readApplicationFile("pswd");
-	protected String username = propertyReader.readApplicationFile("username");
+	//DEV
+	protected String application_url = propertyReader.readApplicationFile("DEVURL");
 	protected String baseUrl = propertyReader.readApplicationFile("base_url");
+	protected String username = propertyReader.readApplicationFile("username");
+	
+	//QA
+	protected String QA_application_url = propertyReader.readApplicationFile("QAURL");
+	protected String QAbaseUrl = propertyReader.readApplicationFile("QA_base_url");
+	protected String QAusername = propertyReader.readApplicationFile("QAusername");
+	
+	
+	//Demo Staff
+	public String Demo_URL = propertyReader.readApplicationFile("DemoURL");
+	public String DemoUserName = propertyReader.readApplicationFile("DemoUserName");
+	protected String pswd = propertyReader.readApplicationFile("pswd");
 	
 
 	@BeforeSuite
@@ -130,16 +147,10 @@ public abstract class DriverTestCase
 		driver.quit();
 	}
 
-	
-	
-	
-	
-
 	public WebDriver getWebDriver()
 	{
 		return driver;
 	}
-
 
 	//Open application URL
 	public void openUrl(String url){
@@ -242,35 +253,56 @@ public abstract class DriverTestCase
 	}
 	
 	
-	//Login into application PROD
+	//Login into application
 	public void LoginLive()
 	{
 		loginHelper = new LoginHelper(getWebDriver());
+		String name ="";
 		
 		//Verify page title
 		ExecutionLog.Log("Verify Page title");
 		loginHelper.verifyTitle("iCM - Login");
 		ExecutionLog.Log("Pass");
 		
-		//Enter User name
-		ExecutionLog.Log("Enter User name at login page.");
-		loginHelper.enterUserID(username);
-		ExecutionLog.Log("Pass");
+		if(getWebDriver().getCurrentUrl().contains(baseUrl))
+		{
+			//Enter User name
+				ExecutionLog.Log("Enter User name at login page.");
+				loginHelper.enterUserID(username);
+				ExecutionLog.Log("Pass");
+		}
+		else if(getWebDriver().getCurrentUrl().contains(QAbaseUrl))
+		{
+			//Enter User name
+				ExecutionLog.Log("Enter User name at login page.");
+				name = DemoUserName;
+				loginHelper.enterUserID(DemoUserName);
+				ExecutionLog.Log("Pass");
+				
+				baseUrl = QAbaseUrl;
+		}
 		
 		//Enter password
-		ExecutionLog.Log("Enter password at login page.");
-		loginHelper.enterPassword(pswd);
-		ExecutionLog.Log("Pass");
+			ExecutionLog.Log("Enter password at login page.");
+			loginHelper.enterPassword(pswd);
+			ExecutionLog.Log("Pass");
 		
 		//Click on Sign In
-		ExecutionLog.Log("Click on Sign In button");
-		loginHelper.clickLogin();
-		ExecutionLog.Log("Pass");
-		
+			ExecutionLog.Log("Click on Sign In button");
+			loginHelper.clickLogin();
+			ExecutionLog.Log("Pass");
+			
 		//Verify User redirect at home page
-		ExecutionLog.Log("Verify home page title");
-		loginHelper.verifyTitle("iCM - Home");
-		ExecutionLog.Log("Pass");
+			ExecutionLog.Log("Verify home page title");
+			if(name == DemoUserName )
+			{
+				loginHelper.verifyTitle("iCM - Punch In");	
+			}
+			else
+			{
+				loginHelper.verifyTitle("iCM - Home");
+			}
+			ExecutionLog.Log("Pass");
 	}
 	
 	//Send Email through email

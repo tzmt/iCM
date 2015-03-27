@@ -31,7 +31,7 @@ public class AddEditMedicationSchedule extends DriverTestCase
 
 				//Open application
 				ExecutionLog.Log("Open application url");
-				openUrl(application_url);
+				openUrl(QA_application_url);
 				ExecutionLog.Log("Pass");
 				
 				LoginLive();
@@ -260,6 +260,8 @@ public class AddEditMedicationSchedule extends DriverTestCase
 				ExecutionLog.Log("Click on Save button");
 				echartHelper.click("AddMedication.SaveMedi");
 				ExecutionLog.Log("Pass");
+				
+				echartHelper.waitForWorkAroundTime(10000);
 
 				loginHelper.verifyTitle("View Medication");
 				//Wait

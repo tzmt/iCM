@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Locators>
+	<NotificationIcon><![CDATA[//li[@class='dropdown']/a[1]/span[1]]]></NotificationIcon>
+	<ViewAll><![CDATA[link=View all Notifications]]></ViewAll>
+	<AlertList><![CDATA[//*[@id='ul_alerts']/li]]></AlertList>
+	<AlertCheckBox><![CDATA[//*[@id='alert]]></AlertCheckBox>
+	<Alert1><![CDATA[//*[@id='alert0']]]></Alert1>
+	<Notification1><![CDATA[//*[@id='ul_alerts']/li[1]/span[1]]]></Notification1>
+	<NotificationView><![CDATA[//*[@id='divMessageDetail']/div[2]/div/div[1]/div[1]/div[1]]]></NotificationView>
+	<CloseNotification><![CDATA[//*[@id='divMessageDetail']/div[1]/span/a[2]/i]]></CloseNotification>
+	<Dismiss><![CDATA[//*[@id='btn_dismissSelectedTop']]]></Dismiss>
+	<DismissAll><![CDATA[//*[@id='btn_dismissAllTop']]]></DismissAll>
+	<OkB><![CDATA[//*[@id='dataConfirmOK']]]></OkB>
+</Locators>

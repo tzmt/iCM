@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Locators>
+	<UserDropdown><![CDATA[//*[@id='userinfo']/i]]></UserDropdown>
+	<ProfileLink><![CDATA[//ul[@class='dropdown-menu']/li[1]/a]]></ProfileLink>
+	<BasicInfo><![CDATA[//*[@id='BasicInformation']/a]]></BasicInfo>
+	<Permissions><![CDATA[//*[@id='Permissions']/a]]></Permissions>
+	<Trainings><![CDATA[//*[@id='Trainings']/a]]></Trainings>
+	<Contacts><![CDATA[//*[@id='EmergencyContact']/a]]></Contacts>
+	<Esignature><![CDATA[//*[@id='eSignature']/a]]></Esignature>
+	<Doc><![CDATA[//*[text(),'Documents']]]></Doc>
+	<ChangePassword><![CDATA[//div[@class='pull-left']/div/a]]></ChangePassword>
+	<Overlay><![CDATA[//*[@id='frmChangePassword']/div[1]/h3]]></Overlay>
+	<Password><![CDATA[//*[@id='Password']]]></Password>
+	<ConfirmPassword><![CDATA[//*[@id='ConfirmPassword']]]></ConfirmPassword>
+	<Save><![CDATA[//*[@id='btn_ChangePassword']]]></Save>
+	<VerifyChange><![CDATA[//*[@id='success']]]></VerifyChange>
+</Locators>

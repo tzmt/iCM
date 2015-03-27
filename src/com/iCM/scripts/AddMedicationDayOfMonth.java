@@ -32,7 +32,7 @@ public class AddMedicationDayOfMonth extends DriverTestCase
 
 				//Open application
 				ExecutionLog.Log("Open application url");
-				openUrl(application_url);
+				openUrl(QA_application_url);
 				ExecutionLog.Log("Pass");
 				
 				LoginLive();

@@ -23,7 +23,7 @@ public class AddTask extends DriverTestCase
 
 			//Open application
 			ExecutionLog.Log("Open application url");
-			getWebDriver().navigate().to(application_url);
+			getWebDriver().navigate().to(QA_application_url);
 			ExecutionLog.Log("Pass");
 			
 			LoginLive();
@@ -70,7 +70,7 @@ public class AddTask extends DriverTestCase
 			
 			//Search Staff
 			ExecutionLog.Log("Search Staff");
-			taskHelper.type("StaffField", "Jo");
+			taskHelper.click("StaffField");
 			ExecutionLog.Log("Pass");
 			
 			//Select Staff
